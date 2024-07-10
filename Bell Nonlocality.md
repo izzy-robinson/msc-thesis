@@ -94,37 +94,9 @@ At this point, with much of the formalism under our belt, it is best to jump str
 
 ### The $(2,2,2,2)$ Scenario: CHSH
 
-- **Question selection:** Alice and Bob each receive a binary question corresponding to the measurement settings $x∈{0,1}$ for Alice and $y∈{0,1}$ for Bob. These are distributed randomly such that $P(x,y) = \frac{1}{4}$.
-
-- **Answer generation:** Based on their received questions, Alice and Bob provide binary answers $a∈{0,1}$ and $b∈{0,1}$ respectively.
-
-- **Winning condition:** The players win the game if their answers satisfy the condition 
-    $$ a \oplus b = x \cdot y $$
-    where $\oplus$ denotes addition modulo $2$.
-
-#### Local hidden variable (LHV) strategies
-
-With a classical, or LHV, strategy the maximum probability of winning the game is $\frac{3}{4}$ or $75\%$. We will prove this by exhaustion. There are $4$ possible deterministic processes which might be followed by Alice, namely
-
-1. The result is always $a = 0$, regardless of the choice for x.
-2. The result is always $a = 1$, regardless of the choice for x.
-3. The result is always identical to the choice (i.e. $a = x$).
-4. The result always differs from the choice (i.e. $a \neq x$).
-
-
-Likewise, there are $4$ possible deterministic processes which might be followed by Bob. This means a total of $4 × 4 = 16$ combinations of processes for both Alice and Bob. All of these are listed in the table below, where it can be seen that none win more than $3$ times out of $4$.
-
-```{figure} chsh-scores.JPG
-:name: chsh-scores-figure
-```
-
-Allowing probabilistic strategies simply enables the mixing of multiple deterministic strategies; given that no local deterministic strategy wins more than $3$ times out of $4$, neither can any local probabilistic strategy. Physicists like to express this result in the form of an inequality,
-
-$$P (a = b|0, 0) + P (a = b|0, 1) + P (a = b|1, 0) + P (a \neq b|1, 1) ≤ 3.$$
 
 #### A quantum strategy
 
-With a quantum strategy, the maximum probability of winning is $85\%$
 
 ### The $(2,2,d,d)$ Scenario: CGLMP
 

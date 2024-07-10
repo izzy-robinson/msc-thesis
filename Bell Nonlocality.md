@@ -24,14 +24,14 @@ A Bell scenario consists of multiple players in space-like separation who share 
 
 Bell nonlocality can be explored in multiple ways; specifically, we can think of either the experimental setups found in physics laboratories (see [](#bell-test-figure)) or the cooperative games known by computer scientists as 'interactive proof systems' (see [](#bell-game-figure)). Whilst the convention of nonlocal games most clearly reveals the crucial nature of nonlocality, it is the inequality format which will help with the results section of this thesis; therefore we will, for the most part, stick to this notation. It is also within the laboratory framework that we can examine the experimental evidence which transforms nonlocality from a theoretical possibility to a proven fact.
 
-```{figure} bell-test.png
+```{figure} bell-test.PNG
 :name: bell-test-figure
 :align: center
 :width: 400px
 **Schematic of a laboratory based Bell test.** A shared quantum state $\rho_{AB}$ is prepared and a list of measurements ${M^x},{M^y}$ are chosen. Which of these measurements is performed in a given round depends on the settings $x,y$. The data for multiple rounds are sorted to establish correlations between the measurement settings $x,y$ and the measurement outcomes $a,b$.
 ```
 
-```{figure} bell-game-figure.png
+```{figure} bell-game-figure.PNG
 :name: bell-game-figure
 :align: center
 **Schematic of a Bell game.** A referee (Raya) distributes inputs to and collects outputs from the players (Alice and Bob). The data for multiple rounds are sorted to establish correlations between the inputs $x,y$ and the outputs $a,b$.

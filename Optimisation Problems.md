@@ -219,7 +219,7 @@ We can depict this LP graphically in the following way.
 :align: center
 ```
 
-Notice that within the feasible set (opaque purple region) the value of the objective function (dashed black line) can continue increasing to infinity without ever hitting a constraint (solid purple line). This means the LP is \textit{unbounded} so no optimal solution can be found.[^5]
+Notice that within the feasible set (opaque purple region) the value of the objective function (dashed black line) can continue increasing to infinity without ever hitting a constraint (solid purple line). This means the LP is *unbounded* so no optimal solution can be found.[^5]
 
 [^5]: Had our task been to *minimise* the objective function, we would have succeeded.
 

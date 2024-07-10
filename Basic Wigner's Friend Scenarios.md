@@ -17,7 +17,7 @@ Perhaps the oldest and thorniest issue faced by the quantum foundations communit
 
 Suppose a cat is placed inside a box along with a mechanism whereby the cat will be killed if a certain quantum event occurs (for instance, if a radioactive atom decays causing a vial of poison gas to shatter). Prior to the box being opened, the fate of this cat is unknown - assuming the atom has a 50% chance of decaying, it could be either alive or dead with equal probability; in other words, the cat is in a superposition of both states (as depicted in [](#schrodingers-cat-figure)). It is only upon opening the box that we find out whether the cat has survived its ordeal (i.e. no superposition is observed).
 
-```{figure} schrodingers-cat-figure.png
+```{figure} schrodingers-cat-figure.PNG
 :name: schrodingers-cat-figure
 :align: center
 **Schrodinger's cat pictorial equation.** The cat has equal probability of being found alive or dead.

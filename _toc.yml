@@ -1,0 +1,53 @@
+# Table of Contents
+#
+# Myst will respect:
+# 1. New pages
+#      - file: relative/path/to/page
+# 2. New sections without an associated page
+#      - title: Folder Title
+#        sections: ...
+# 3. New sections with an associated page
+#      - file: relative/path/to/page
+#        sections: ...
+#
+# Note: Titles defined on pages here are not recognized.
+#
+# This spec is based on the JupyterBook table of contents.
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: Index
+parts:
+  - caption: Frontmatter
+    chapters:
+      - file: Declaration of Authorship
+      - file: Acknowledgements
+      - file: Abstract
+  - caption: Introduction
+    chapters: 
+      - file: A Guide for the Reader
+      - file: Cast of Characters
+      - file: A Note on Terminology
+    
+  - caption: Mathematical Preliminaries
+    chapters:
+      - file: Geometric Concepts
+      - file: Optimisation Problems
+  - caption: Conceptual Background
+    chapters:
+      - file: Basic Wigner's Friend Scenarios
+      - file: Bell Nonlocality
+      - file: Extended Wigner's Friend Scenarios
+  - caption: Results and Discussion
+    chapters:
+      - file: A Fresh Perspective on Local Friendliness Inequalities
+      - file: The First Quantum Local Friendliness Inequality
+      - file: Constructing New Local Friendliness Inequalities
+  - caption: Conclusions and Outlook
+  - caption: Appendices
+    chapters:
+      - file: Correlators to Probabilities
+      - file: MATLAB Code
+
+      
+

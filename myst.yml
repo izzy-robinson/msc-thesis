@@ -1,0 +1,36 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: MScR Thesis
+  # description:
+  keywords: []
+  authors: 
+  - name: Izzy Robinson
+    affiliations: 
+      - institution: School of Physics, University of Bristol
+  numbering:
+   figure: true
+   equation: true
+   code: true
+   table: true
+   heading_1: true
+   heading_2: true
+   heading_3: true
+   heading_4: false
+   heading_5: false
+   heading_6: false
+  # github:
+  bibliography: C:\Users\entan\mystmd-quickstart\bibliography.bib
+
+site:
+  template: book-theme
+  title:  Extending the Power of Extended Wigner's Friend Scenarios
+  options:
+    logo: C:\Users\entan\mystmd-quickstart\logo.png
+    logo_text: Extending the Power of Extended Wigner's Friend Scenarios
+
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://mystmd.org/guide
+  domains: []

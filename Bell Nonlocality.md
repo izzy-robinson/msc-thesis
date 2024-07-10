@@ -94,6 +94,7 @@ At this point, with much of the formalism under our belt, it is best to jump str
 
 ### The $(2,2,2,2)$ Scenario: CHSH
 
+#### Local hidden variable (LHV) strategies
 
 #### A quantum strategy
 
@@ -117,7 +118,7 @@ Due to the revolutionary nature of their results, Bell tests have been subjected
 
 In real life photonic experiments (as opposed to the theoretical games we discussed earlier) it is common for detectors to have poor efficiency; in other words, photons can go missing. If enough of these lost photons correspond to cases which pull the value of $S$ in the wrong direction then it is possible to fake a Bell inequality violation. 
 
-```{figure} photon-missing-poster.png
+```{figure} photon-missing-poster.PNG
 :name: photon-missing-poster-figure
 :width: 500px
 :align: center

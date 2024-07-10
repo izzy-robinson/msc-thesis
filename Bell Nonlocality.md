@@ -22,7 +22,7 @@ A Bell scenario consists of multiple players in space-like separation who share 
 
 ### Laboratories and Games
 
-Bell nonlocality can be explored in multiple ways; specifically, we can think of either the experimental setups found in physics laboratories (see [](#bell-test-figure)) or the cooperative games known by computer scientists as 'interactive proof systems' (see [](#bell-game-figure)). For the most part, we will follow the convention of nonlocal games as this most clearly reveals the crucial features of nonlocality; however there will come a time when it becomes necessary to return to the laboratory so we can examine the experimental evidence which transforms nonlocality from a theoretical possibility to a proven fact.
+Bell nonlocality can be explored in multiple ways; specifically, we can think of either the experimental setups found in physics laboratories (see [](#bell-test-figure)) or the cooperative games known by computer scientists as 'interactive proof systems' (see [](#bell-game-figure)). Whilst the convention of nonlocal games most clearly reveals the crucial nature of nonlocality, it is the inequality format which will help with the results section of this thesis; therefore we will, for the most part, stick to this notation. It is also within the laboratory framework that we can examine the experimental evidence which transforms nonlocality from a theoretical possibility to a proven fact.
 
 ```{figure} bell-test.png
 :name: bell-test-figure

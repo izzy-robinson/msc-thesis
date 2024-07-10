@@ -35,7 +35,7 @@ Recall Deutsch's query regarding whether Wigner and his friend's contradictory a
 Brukner proceeded to analyse a novel scenario, inspired by both the set-up of Deutsch's simple Wigner's Friend Scenario and the protocol of a standard Bell test, according to these assumptions.
 A contradiction arose, indicating that the conjunction of assumptions $1-4$ is untenable and prompting to proposal of a no-go theorem: at least one of assumptions $1-4$ must be rejected as false. This no-go theorem is technically neutral in the sense that it does not dictate which particular assumption should be denied. However assumptions $2-4$ are extremely well motivated. Rejecting the NC assumption would render most forms of scientific research impracticable; if one cannot examine a system without changing its preparation, one cannot hope to find information about its true state. To permit action at a distance is to deny a key premise of Einstein's theory of special relativity. And quantum theory's domain of validity is widely believed to be unlimited due to its extraordinary success in accurately predicting the results of experiments. In summary, dismissing any of assumptions $2-4$ entails straying from the well-worn path and risking far reaching unattractive consequences. Therefore, quite naturally, Brukner took his theorem to disprove the existence of assumption $1$ i.e. OIF.
 
-```{figure} brukner-figure.jpg
+```{figure} brukner-figure.JPG
 :name: brukner-figure
 :align: center
 **Schematic of Brukner's EWFS.** Observers ($A_1$ and $B_1$) perform **fixed** measurements, the results of which remain inside their respective laboratories. Superobservers ($A_2$ and $B_2$) choose between **binary** measurement options and their results are knowable outside of the laboratories.
@@ -84,7 +84,7 @@ Notice that the outcomes $c,d$ play the same role as the hidden variables $\lamb
 
 ## Frauchiger and Renner's Argument
 
-```{figure} pusey-masanes-frauchiger-renner-figure.jpg
+```{figure} pusey-masanes-frauchiger-renner-figure.JPG
 :name: pusey-masanes-frauchiger-renner-figure
 :align: center
 **Schematic of Frauchiger and Renner's EWFS.** All observers ($A_1$ and $B_1$) and superobservers ($A_2$ and $B_2$) perform **fixed** measurements. Results found by observers remain inside their respective laboratories whereas results found by superobservers are knowable outside of the laboratories.
@@ -92,7 +92,7 @@ Notice that the outcomes $c,d$ play the same role as the hidden variables $\lamb
 
 ## Pusey and Masanes' Argument
 
-```{figure} pusey-masanes-frauchiger-renner-figure.jpg
+```{figure} pusey-masanes-frauchiger-renner-figure.JPG
 :name: pusey-masanes-frauchiger-renner-figure
 :align: center
 **Schematic of Pusey and Masanes' EWFS.** All observers ($A_1$ and $B_1$) and superobservers ($A_2$ and $B_2$) perform **fixed** measurements. Results found by observers remain inside their respective laboratories whereas results found by superobservers are knowable outside of the laboratories.

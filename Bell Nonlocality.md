@@ -94,6 +94,10 @@ At this point, with much of the formalism under our belt, it is best to jump str
 
 ### The $(2,2,2,2)$ Scenario: CHSH
 
+\begin{equation}
+\frac{1}{4} \big( P(a=b|0,0) + P(a=b|0,1) + P(a=b|1,0) + P(a \neq b|1,1) \big) \leq \frac{3}{4}
+\end{equation}
+
 #### Local hidden variable (LHV) strategies
 
 With a classical, or LHV, strategy the maximum probability of winning the game is $\frac{3}{4}$ 0r $75\%$. We will prove this by exhaustion. There are $4$ possible deterministic processes which might be followed by Alice, namely

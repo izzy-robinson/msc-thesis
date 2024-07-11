@@ -144,7 +144,7 @@ Bell inequality violations are only interesting if the players are unable to com
 P(a|x,y,b,\lambda) = P(a|x,\lambda) \hspace{3mm} , \hspace{3mm} P(b|x,y,a,\lambda) = P(b|y,\lambda).
 \end{equation}
 
-```{figure} locality-loophole.png
+```{figure} locality-loophole.PNG
 :name: locality-loophole-figure
 :align: center
 Space-time diagram showing a regime in which the locality loophole (and the meaurement independence loophole) is closed.

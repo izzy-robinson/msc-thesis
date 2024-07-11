@@ -96,12 +96,12 @@ At this point, with much of the formalism under our belt, it is best to jump str
 
 #### Local hidden variable (LHV) strategies
 
-With a classical, or LHV, strategu the maximum probability of winning the game is $\frac{3}{4}$ 0r $75\%$. We will prove this by exhaustion. There are $4$ possible deterministic processes which might be followed by Alice, namely
+With a classical, or LHV, strategy the maximum probability of winning the game is $\frac{3}{4}$ 0r $75\%$. We will prove this by exhaustion. There are $4$ possible deterministic processes which might be followed by Alice, namely
 
 1. The result is always $a=0$, regardless of the choice for $x$.
 2. The result is always $a=1$, regardless of the choice for $x$.
 3. The result is always identical to the choice for $x$ (i.e. $a=x$).
-4. The result is always different from the choice for $x$ (i.e. a \neq x).
+4. The result is always different from the choice for $x$ (i.e. $a \neq x$).
 
 Likewise, there are $4$ deterministic processes which might be followed by Bob. This means a total of $4 \times 4 = 16$ combinations of processes for both Alice and Bob.
 

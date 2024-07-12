@@ -95,7 +95,7 @@ At this point, with much of the formalism under our belt, it is best to jump str
 ### The $(2,2,2,2)$ Scenario: CHSH
 
 \begin{equation}
-\frac{1}{4} \big( P(a=b|0,0) + P(a=b|0,1) + P(a=b|1,0) + P(a \neq b|1,1) \big) \leq \frac{3}{4}
+ P(a=b|0,0) + P(a=b|0,1) + P(a=b|1,0) + P(a \neq b|1,1) \leq 3
 \end{equation}
 
 #### Local hidden variable (LHV) strategies
@@ -107,7 +107,12 @@ With a classical, or LHV, strategy the maximum probability of winning the game i
 3. The result is always identical to the choice for $x$ (i.e. $a=x$).
 4. The result is always different from the choice for $x$ (i.e. $a \neq x$).
 
-Likewise, there are $4$ deterministic processes which might be followed by Bob. This means a total of $4 \times 4 = 16$ combinations of processes for both Alice and Bob.
+Likewise, there are $4$ deterministic processes which might be followed by Bob. This means a total of $4 \times 4 = 16$ combinations of processes for both Alice and Bob. All of these are listed in the table below, where it can be seen that none score more than $3$.
+
+```{figure} chsh-scores.JPG
+:name: chsh-scores-figure
+:align: center
+```
 
 #### A quantum strategy
 

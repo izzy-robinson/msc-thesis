@@ -95,19 +95,19 @@ At this point, with much of the formalism under our belt, it is best to jump str
 ### The $(2,2,2,2)$ Scenario: CHSH
 
 \begin{equation}
-| \langle A_0B_0 \rangle + \langle A_0B_1 \rangle + \langle A_1B_0 \rangle - \langle A_1B_1 \rangle| \leq 2
+| \langle A_1B_1 \rangle + \langle A_1B_2 \rangle + \langle A_2B_1 \rangle - \langle A_2B_2 \rangle| \leq 2
 \end{equation}
 
 \begin{equation}
- P(a=b|0,0) + P(a=b|0,1) + P(a=b|1,0) + P(a \neq b|1,1) \leq 3
+ P(a=b|1,1) + P(a=b|1,2) + P(a=b|2,1) + P(a \neq b|2,2) \leq 3
 \end{equation}
 
 #### Local hidden variable (LHV) strategies
 
 With a classical, or LHV, strategy the maximum probability of winning the game is $\frac{3}{4}$ 0r $75\%$. We will prove this by exhaustion. There are $4$ possible deterministic processes which might be followed by Alice, namely
 
-1. The result is always $a=0$, regardless of the choice for $x$.
-2. The result is always $a=1$, regardless of the choice for $x$.
+1. The result is always $a=1$, regardless of the choice for $x$.
+2. The result is always $a=2$, regardless of the choice for $x$.
 3. The result is always identical to the choice for $x$ (i.e. $a=x$).
 4. The result is always different from the choice for $x$ (i.e. $a \neq x$).
 

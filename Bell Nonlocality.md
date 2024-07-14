@@ -95,6 +95,10 @@ At this point, with much of the formalism under our belt, it is best to jump str
 ### The $(2,2,2,2)$ Scenario: CHSH
 
 \begin{equation}
+| \langle A_0B_0 \rangle + \langle A_0B_1 \rangle + \langle A_1B_0 \rangle - \langle A_1B_1 \rangle| \leq 2
+\end{equation}
+
+\begin{equation}
  P(a=b|0,0) + P(a=b|0,1) + P(a=b|1,0) + P(a \neq b|1,1) \leq 3
 \end{equation}
 

@@ -122,6 +122,7 @@ Likewise, there are $4$ deterministic processes which might be followed by Bob. 
 
 ```{figure} chsh-quantum-strategy.JPG
 :name: chsh-quantum-strategy-figure
+:width: 350 px
 :align: center
 ```
 

@@ -88,6 +88,8 @@ M_{b|y} \geq 0 \\
 \sum_b M_b|y = \mathbf{1}.
 \end{equation}
 
+Quantum correlations can be stronger than those allowed by local hidden variable (LHV) theories, leading to the violation of Bell inequalities. These violations are a key feature that distinguishes quantum mechanics from classical physics.
+
 ## Examples
 
 At this point, with much of the formalism under our belt, it is best to jump straight into some example Bell scenarios.
@@ -102,7 +104,7 @@ At this point, with much of the formalism under our belt, it is best to jump str
  P(a=b|1,1) + P(a=b|1,2) + P(a=b|2,1) + P(a \neq b|2,2) \leq 3
 \end{equation}
 
-#### Local hidden variable (LHV) strategies
+#### LHV strategies
 
 With a classical, or LHV, strategy the maximum probability of winning the game is $\frac{3}{4}$ 0r $75\%$. We will prove this by exhaustion. There are $4$ possible deterministic processes which might be followed by Alice, namely
 
@@ -120,15 +122,24 @@ Likewise, there are $4$ deterministic processes which might be followed by Bob. 
 
 #### A quantum strategy
 
+A typical choice of measurement angles that leads to a maximum violation of the CHSH inequality is
+
+- $A_1 = 0\degrees = \hat{X}$
+- $A_2 = 90\degrees = \hat{Z}$ 
+- $B_1 = 45\degrees = \frac{\hat{X}+\hat{Z}}{\sqrt{2}}$
+- $B_2 = -45\degrees = \frac{\hat{X}-\hat{Z}}{\sqrt{2}}$
+
+
 ```{figure} chsh-quantum-strategy.JPG
 :name: chsh-quantum-strategy-figure
 :width: 350 px
 :align: center
+The measurement directions used by Alice and Bob in a winning quantum strategy for Bell's game.
 ```
 
 ### The $(2,2,d,d)$ Scenario: CGLMP
 
-#### Local hidden variable (LHV) strategies
+#### LHV strategies
 
 #### A quantum strategy
 

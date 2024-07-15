@@ -120,6 +120,10 @@ Likewise, there are $4$ deterministic processes which might be followed by Bob. 
 
 #### A quantum strategy
 
+```{figure} chsh-quantum-strategy.JPG
+:name: chsh-quantum-strategy-figure
+:align: center
+```
 
 ### The $(2,2,d,d)$ Scenario: CGLMP
 

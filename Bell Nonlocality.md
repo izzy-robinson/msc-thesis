@@ -124,10 +124,10 @@ Likewise, there are $4$ deterministic processes which might be followed by Bob. 
 
 A typical choice of measurement angles that leads to a maximum violation of the CHSH inequality is
 
-- $A_1 = 0\degrees = \hat{X}$
-- $A_2 = 90\degrees = \hat{Z}$ 
-- $B_1 = 45\degrees = \frac{\hat{X}+\hat{Z}}{\sqrt{2}}$
-- $B_2 = -45\degrees = \frac{\hat{X}-\hat{Z}}{\sqrt{2}}$
+- $$A_1 = 0\degrees = \hat{X}$$
+- $$A_2 = 90\degrees = \hat{Z}$$
+- $$B_1 = 45\degrees = \frac{\hat{X}+\hat{Z}}{\sqrt{2}}$$
+- $$B_2 = -45\degrees = \frac{\hat{X}-\hat{Z}}{\sqrt{2}}$$
 
 
 ```{figure} chsh-quantum-strategy.JPG

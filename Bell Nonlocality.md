@@ -96,12 +96,16 @@ At this point, with much of the formalism under our belt, it is best to jump str
 
 ### The $(2,2,2,2)$ Scenario: CHSH
 
-\begin{equation}
-| \langle A_1B_1 \rangle + \langle A_1B_2 \rangle + \langle A_2B_1 \rangle - \langle A_2B_2 \rangle| \leq 2
-\end{equation}
+In correlator form, the CHSH inequality is given by
 
 \begin{equation}
- P(a=b|1,1) + P(a=b|1,2) + P(a=b|2,1) + P(a \neq b|2,2) \leq 3
+| \langle A_1B_1 \rangle + \langle A_1B_2 \rangle + \langle A_2B_1 \rangle - \langle A_2B_2 \rangle| \leq 2.
+\end{equation}
+
+In probability form this becomes
+
+\begin{equation}
+ P(a=b|1,1) + P(a=b|1,2) + P(a=b|2,1) + P(a \neq b|2,2) \leq 3.
 \end{equation}
 
 #### LHV strategies
@@ -122,20 +126,20 @@ Likewise, there are $4$ deterministic processes which might be followed by Bob. 
 
 #### A quantum strategy
 
-With a quantum strategy, the maximum probablility of winning the game is $\frac{2+\sqrt{2}}{4}$ or $85.4\%$. A typical choice of measurement angles that leads to a maximum violation of the CHSH inequality is
+With a quantum strategy, the maximum probablility of winning the game is $\frac{2+\sqrt{2}}{4}$ or $85.4\%$. A typical choice of measurement angles that leads to maximum violation of the CHSH inequality is
 
-\begin{equation}
-A_1 = 0\degrees = \hat{X} \\
-A_2 = 90\degrees = \hat{Z} \\
-B_1 = 45\degrees = \frac{\hat{X}+\hat{Z}}{\sqrt{2}} \\
-B_2 = -45\degrees = \frac{\hat{X}-\hat{Z}}{\sqrt{2}}
-\end{equation}
+
+- $A_1 = 0^\circ = \hat{X}$ 
+- $A_2 = 90^\circ = \hat{Z}$ 
+- $B_1 = 45^\circ = \frac{\hat{X}+\hat{Z}}{\sqrt{2}}$ 
+- $B_2 = -45^\circ = \frac{\hat{X}-\hat{Z}}{\sqrt{2}}$
+
 
 ```{figure} chsh-quantum-strategy.JPG
 :name: chsh-quantum-strategy-figure
 :width: 350 px
 :align: center
-The measurement directions used by Alice and Bob in a winning quantum strategy for Bell's game.
+The measurement directions used by Alice (x) and Bob (y) in a winning quantum strategy for Bell's game.
 ```
 
 ### The $(2,2,d,d)$ Scenario: CGLMP

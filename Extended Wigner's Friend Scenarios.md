@@ -76,7 +76,7 @@ P(a|c,d,x,y)=P(a|c,d,x).
 
 Notice that the outcomes $c,d$ play the same role as the hidden variables $\lambda$ that go into the assumptions for Bell's theorem.
 
-```{figure} bong-cavalcanti-figure.jpg
+```{figure} bong-cavalcanti-figure.JPG
 :name: bong-cavalcanti-figure
 :align: center
 **Schematic of Bong and Cavalcanti et al.'s EWFS.** Observers ($A_1$ and $B_1$) perform **fixed** measurements, the results of which remain inside their respective laboratories. Superobservers ($A_2$ and $B_2$) choose between **three** different measurement options and their results are knowable outside of the laboratories.

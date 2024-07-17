@@ -187,6 +187,7 @@ Space-time diagram showing a regime in which the locality loophole (and the meau
 ```{figure} spaceships.jpg
 :name: spaceships-figure
 :align: center
+An illustration showing two space-like separated parties in laymans terms.
 ```
 
 There are, of course, technical difficulties associated with generating and maintaining entangled pairs across large distances. However, as theoreticians, we need not concern ourselves with such intricacies; suffice it to say that this is possible.
@@ -205,9 +206,9 @@ q(\lambda|x,y) = q(\lambda).
 
 ### Loophole-free Bell Tests
 
-- three loophole-free Bell tests in 2015 
+- Three loophole-free Bell tests in 2015 
     - TU Delft
     - IQOQI Vienna 
     - NIST Boulder 
-- further progress since
+- Further progress since
     - Big Bell Test

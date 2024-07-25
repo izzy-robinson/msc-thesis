@@ -44,21 +44,21 @@ Caption
 
 Notice that this immedately admits a decomposition
 
-```{figure} original-decomposition.svg
-:name: original-decomposition-figure
+```{figure} decompositions-original.JPG
+:name: decompositions-original-figure
 :align: center
 Caption
 ```
 
 But we can simplify and make pattern more obvious by taking advantage freedom due to no-signalling.
 
-```{figure} LF-inequality-transformation.svg
-:name: QLF-graph-figure
+```{figure} decompositions-shifting.JPG
+:name: decompositions-shifting-figure
 :align: center
 Caption
 ```
 
-```{figure} decompositions-shifted.pdf
+```{figure} decompositions-shifted.JPG
 :name: decompositions-shifted-figure
 :align: center
 Caption

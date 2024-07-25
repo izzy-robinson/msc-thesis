@@ -89,13 +89,13 @@ Plotting in our new parameter space
 Caption
 ```
 
-```{figure} saturating-ld-strategies.svg
+```{figure} saturating-ld-strategies.JPG
 :name: saturating-ld-strategies-figure
 :align: center
 Caption
 ```
 
-```{figure} saturating-pr-strategies.svg
+```{figure} saturating-pr-strategies.JPG
 :name: saturating-pr-strategies-figure
 :align: center
 Caption

@@ -26,7 +26,7 @@ This can be translated into probability form using the standard relations
 \begin{equation}
 \begin{aligned}
     \langle{A_x}\rangle &= \sum_{a,\hspace{0.25mm}b}a{P(a,b{|}x,y)}\\
-    \langle{B_y}\rangle &= \sum_{a,\hspace{0.25mm}b}\beta{P(a,b{|}x,y)}\\
+    \langle{B_y}\rangle &= \sum_{a,\hspace{0.25mm}b}b{P(a,b{|}x,y)}\\
     \langle{A_xB_y}\rangle &= \sum_{a,\hspace{0.25mm}b}a\hspace{0.5mm}b{P(a,b{|}x,y)}
 \end{aligned}
 \end{equation}

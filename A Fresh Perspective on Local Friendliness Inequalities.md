@@ -33,7 +33,7 @@ This can be translated into probability form using the standard relations
 
 where $x,y\in\set{1,2,3}$ denote the measurement settings chosen by Alice and Bob, and $a,b\in\set{+1,-1}$ denote the measurement outcomes obtained by Alice and Bob (see Appendix A for details). The resulting grid is
 
-```{figure} LF-grid-original.svg
+```{figure} LF-grid-original.jpg
 :name: original-decomposition-figure
 :width: 275px
 :align: center
@@ -101,13 +101,13 @@ Caption
 Caption
 ```
 
-```{figure} saturating-ld-boxes.svg
+```{figure} saturating-ld-boxes.JPG
 :name: saturating-ld-boxes-figure
 :align: center
 Caption
 ```
 
-```{figure} saturating-pr-boxes.svg
+```{figure} saturating-pr-boxes.JPG
 :name: saturating-pr-boxes-figure
 :align: center
 Caption

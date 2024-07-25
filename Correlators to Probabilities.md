@@ -10,7 +10,7 @@ numbering:
 # Correlators to Probabilities
 
 
-```{figure} correlators-to-probabilities.svg
+```{figure} correlators-to-probabilities.JPG
 :name: correlators-to-probabilities-figure
 :align: center
 Caption

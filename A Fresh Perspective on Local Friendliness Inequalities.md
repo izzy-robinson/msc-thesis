@@ -25,13 +25,13 @@ This can be translated into probability form using the standard relations
 
 \begin{equation}
 \begin{aligned}
-    \langle{A_x}\rangle &= \sum_{\alpha,\hspace{0.25mm}\beta}\alpha{P(\alpha,\beta{|}x,y)}\\
-    \langle{B_y}\rangle &= \sum_{\alpha,\hspace{0.25mm}\beta}\beta{P(\alpha,\beta{|}x,y)}\\
-    \langle{A_xB_y}\rangle &= \sum_{\alpha,\hspace{0.25mm}\beta}\alpha\hspace{0.5mm}\beta{P(\alpha,\beta{|}x,y)}
+    \langle{A_x}\rangle &= \sum_{a,\hspace{0.25mm}b}a{P(a,b{|}x,y)}\\
+    \langle{B_y}\rangle &= \sum_{a,\hspace{0.25mm}b}\beta{P(a,b{|}x,y)}\\
+    \langle{A_xB_y}\rangle &= \sum_{a,\hspace{0.25mm}b}a\hspace{0.5mm}b{P(a,b{|}x,y)}
 \end{aligned}
 \end{equation}
 
-where $x,y\in\set{1,2,3}$ denote the measurement settings chosen by Alice and Bob, and $\alpha,\beta\in\set{+1,-1}$ denote the measurement outcomes obtained by Alice and Bob (see Appendix A for details). The resulting grid is
+where $x,y\in\set{1,2,3}$ denote the measurement settings chosen by Alice and Bob, and $a,b\in\set{+1,-1}$ denote the measurement outcomes obtained by Alice and Bob (see Appendix A for details). The resulting grid is
 
 ```{figure} LF-grid-original.svg
 :name: original-decomposition-figure
@@ -58,8 +58,8 @@ But we can simplify and make pattern more obvious by taking advantage freedom du
 Caption
 ```
 
-```{figure} transformed-decomposition.svg
-:name: transformed-decomposition-figure
+```{figure} decompositions-shifted.pdf
+:name: decompositions-shifted-figure
 :align: center
 Caption
 ```

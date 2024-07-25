@@ -45,7 +45,6 @@ Caption
 Caption
 ```
 
-
 ```{figure} QLF-order-of-operators-2.JPG
 :name: QLF-order-of-operators-2-figure
 :width: 900px
@@ -59,6 +58,12 @@ Caption
 :width: 900px
 :align: center
 Caption
+```
+
+```{figure} QLF-order-of-operators-3.JPG
+:name: QLF-order-of-operators-3-figure
+:width: 900px
+:align: center
 ```
 
 

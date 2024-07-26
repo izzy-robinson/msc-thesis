@@ -87,26 +87,30 @@ Plotting in our new parameter space we get a graph of $\epsilon$' against CHSH'.
 Caption
 ```
 
+The saturating local deterministic strategies, and their scores for each part of the decomposition, are shown in the table below.
+
 ```{figure} saturating-ld-strategies.JPG
 :name: saturating-ld-strategies-figure
 :align: center
-Caption
 ```
+
+Likewise, the saturating PR strategies along with their scores for each part of the decomposition are shown in the following table.
 
 ```{figure} saturating-pr-strategies.JPG
 :name: saturating-pr-strategies-figure
 :align: center
-Caption
 ```
+
+The specific saturating local deterministic boxes are given by
 
 ```{figure} saturating-ld-boxes.JPG
 :name: saturating-ld-boxes-figure
 :align: center
-Caption
 ```
+
+The specific saturating PR boxes are given by
 
 ```{figure} saturating-pr-boxes.JPG
 :name: saturating-pr-boxes-figure
 :align: center
-Caption
 ```

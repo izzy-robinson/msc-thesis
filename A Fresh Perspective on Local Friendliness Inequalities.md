@@ -33,7 +33,7 @@ This can be translated into probability form using the standard relations
 
 where $x,y\in\set{1,2,3}$ denote the measurement settings chosen by Alice and Bob, and $a,b\in\set{+1,-1}$ denote the measurement outcomes obtained by Alice and Bob (see Appendix A for details). The resulting grid is
 
-```{figure} LF-grid-original.jpg
+```{figure} LF-grid-original.JPG
 :name: original-decomposition-figure
 :width: 275px
 :align: center
@@ -82,7 +82,7 @@ $ \textrm{LF} = 4\textrm{LF'} - 6 $
 
 Plotting in our new parameter space
 
-```{figure} LFgraph.svg
+```{figure} LFgraph.JPG
 :name: LF-graph-figure
 :width: 400px
 :align: center

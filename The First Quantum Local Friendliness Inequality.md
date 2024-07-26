@@ -11,7 +11,7 @@ numbering:
 > The purpose of visualisation is insight, not pictures.
 > - Ben Shneiderman
 
-```{figure} QLFgraph.svg
+```{figure} QLFgraph.JPG
 :name: QLF-graph-figure
 :width: 400px
 :align: center
@@ -20,7 +20,7 @@ Caption
 
 ## Proving the Bound is Tight
 
-```{figure} key.svg
+```{figure} key.JPG
 :name: key-figure
 :width: 200px
 :align: center
@@ -29,7 +29,7 @@ Caption
 
 ### Order of Operators 1
 
-```{figure} order-of-operators-1.svg
+```{figure} order-of-operators-1.JPG
 :name: order-of-operators-1-figure
 :width: 900px
 :align: center
@@ -38,7 +38,7 @@ Caption
 
 ### Order of Operators 2
 
-```{figure} order-of-operators-2.svg
+```{figure} order-of-operators-2.JPG
 :name: order-of-operators-2-figure
 :width: 900px
 :align: center
@@ -53,7 +53,7 @@ Caption
 
 ### Order of Operators 3
 
-```{figure} order-of-operators-3.svg
+```{figure} order-of-operators-3.JPG
 :name: order-of-operators-3-figure
 :width: 900px
 :align: center
@@ -69,7 +69,7 @@ Caption
 
 ### Order of Operators 4
 
-```{figure} order-of-operators-4.svg
+```{figure} order-of-operators-4.JPG
 :name: order-of-operators-4-figure
 :width: 900px
 :align: center
@@ -78,7 +78,7 @@ Caption
 
 ### Order of Operators 5
 
-```{figure} order-of-operators-5.svg
+```{figure} order-of-operators-5.JPG
 :name: order-of-operators-5-figure
 :width: 900px
 :align: center

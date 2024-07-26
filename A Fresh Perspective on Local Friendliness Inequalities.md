@@ -37,17 +37,15 @@ where $x,y\in\set{1,2,3}$ denote the measurement settings chosen by Alice and Bo
 :name: original-decomposition-figure
 :width: 275px
 :align: center
-Caption
 ```
 
 ## Decomposition of the LF Inequality
 
-Notice that this immedately admits a decomposition
+Notice that this immedately admits the following decomposition.
 
 ```{figure} decompositions-original.JPG
 :name: decompositions-original-figure
 :align: center
-Caption
 ```
 
 But we can simplify and make pattern more obvious by taking advantage freedom due to no-signalling.
@@ -55,15 +53,15 @@ But we can simplify and make pattern more obvious by taking advantage freedom du
 ```{figure} decompositions-shifting.JPG
 :name: decompositions-shifting-figure
 :align: center
-Caption
 ```
+
+This admits the following decomposition, which is completely analagous to the original decomposition.
 
 ```{figure} decompositions-shifted.JPG
 :name: decompositions-shifted-figure
 :align: center
-Caption
 ```
-
+The bounds are shifted according to the equations below.
 
 $ \textrm{CHSH} = 4 \textrm{CHSH'} + 2 $
 

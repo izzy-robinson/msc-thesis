@@ -48,7 +48,7 @@ Notice that this immedately admits the following decomposition.
 :align: center
 ```
 
-But we can simplify and make pattern more obvious by taking advantage freedom due to no-signalling.
+However we need not stop there; we can simplify and make pattern more obvious by taking advantage freedom due to no-signalling.
 
 ```{figure} decompositions-shifting.JPG
 :name: decompositions-shifting-figure
@@ -78,7 +78,7 @@ $ \gamma = 4\gamma\textrm{'} - 1 $
 $ \textrm{LF} = 4\textrm{LF'} - 6 $
 
 
-Plotting in our new parameter space
+Plotting in our new parameter space we get a graph of $\epsilon$' against CHSH'.
 
 ```{figure} LFgraph.JPG
 :name: LF-graph-figure

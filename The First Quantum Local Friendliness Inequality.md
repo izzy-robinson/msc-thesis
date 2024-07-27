@@ -35,8 +35,8 @@ Caption
 :align: center
 ```
 
-```{figure} QLF-order-of-operators-2.JPG
-:name: QLF-order-of-operators-2-figure
+```{figure} QLF-order-of-operators-1.JPG
+:name: QLF-order-of-operators-1-figure
 :width: 900px
 :align: center
 ```
@@ -73,6 +73,12 @@ Caption
 
 ```{figure} order-of-operators-4.JPG
 :name: order-of-operators-4-figure
+:width: 900px
+:align: center
+```
+
+```{figure} QLF-order-of-operators-4.JPG
+:name: QLF-order-of-operators-4-figure
 :width: 900px
 :align: center
 ```

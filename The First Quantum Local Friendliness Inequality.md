@@ -33,7 +33,12 @@ Caption
 :name: order-of-operators-1-figure
 :width: 900px
 :align: center
-Caption
+```
+
+```{figure} QLF-order-of-operators-2.JPG
+:name: QLF-order-of-operators-2-figure
+:width: 900px
+:align: center
 ```
 
 ### Order of Operators 2
@@ -42,7 +47,6 @@ Caption
 :name: order-of-operators-2-figure
 :width: 900px
 :align: center
-Caption
 ```
 
 ```{figure} QLF-order-of-operators-2.JPG
@@ -57,7 +61,6 @@ Caption
 :name: order-of-operators-3-figure
 :width: 900px
 :align: center
-Caption
 ```
 
 ```{figure} QLF-order-of-operators-3.JPG
@@ -66,14 +69,12 @@ Caption
 :align: center
 ```
 
-
 ### Order of Operators 4
 
 ```{figure} order-of-operators-4.JPG
 :name: order-of-operators-4-figure
 :width: 900px
 :align: center
-Caption
 ```
 
 ### Order of Operators 5
@@ -82,5 +83,4 @@ Caption
 :name: order-of-operators-5-figure
 :width: 900px
 :align: center
-Caption
 ```

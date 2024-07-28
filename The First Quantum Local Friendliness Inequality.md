@@ -35,7 +35,14 @@ Caption
 :align: center
 ```
 
-
+\begin{equation}
+chol(Q) = \begin{pmatrix}
+1 & \frac{1}{2} & \frac{1}{2} & 0 & \frac{1}{2} & \frac{1}{2} & 0 \\
+0 & \frac{1}{2} & -\frac{1}{2} & 0 & -\frac{1}{2} & \frac{1}{2} & 0 \\
+0 & 0 & \frac{2^{3/4}}{2} & 0 & 0 & -\frac{1}{2^{3/4}} & \frac{1}{2^{3/4}} \\
+0 & 0 & 0 & \frac{2^{3/4}}{2} & 0 & 0 & \frac{1}{2^{3/4}} & \frac{1}{2^{3/4}} \\
+\end{pmatrix}
+\end{equation}
 
 ### Order of Operators 2
 

@@ -93,8 +93,8 @@ Caption
 \begin{equation}
 chol(Q) = \begin{pmatrix}
 \frac{2^{3/4}}{2} & 0 & \frac{1}{2^{3/4}} & 0 & 0 & 0 & \frac{1}{2^{3/4}} \\
-0 & \frac{1}{sqrt2} & \frac{1}{sqrt2} & 0 & \frac{1}{sqrt2} & 0 & 0 \\
+0 & \frac{1}{\sqrt2} & \frac{1}{\sqrt2} & 0 & \frac{1}{\sqrt2} & 0 & 0 \\
 0 & 0 & \frac{1}{2^{3/4}} & 0 & 0 & -\frac{2^{3/4}}{2} & -\frac{1}{2^{3/4}} \\
-0 & 0 & 0 & \frac{1}{sqrt2} & \frac{1}{sqrt2} & \frac{1}{sqrt2} & 0
+0 & 0 & 0 & \frac{1}{\sqrt2} & \frac{1}{\sqrt2} & \frac{1}{\sqrt2} & 0
 \end{pmatrix}
 \end{equation}

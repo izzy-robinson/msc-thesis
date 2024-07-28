@@ -83,6 +83,15 @@ Caption
 :align: center
 ```
 
+\begin{equation}
+chol(Q) = \begin{pmatrix}
+\frac{1}{\sqrt2} & 0 & 0 & \frac{1}{\sqrt2} & 0 & 0 & \frac{1}{\sqrt2} \\
+0 & \frac{1}{\sqrt2} & \frac{1}{\sqrt2} & 0 & & 0 & 0 & \frac{1}{\sqrt2} \\
+0 & 0 & \frac{2^{3/4}}{2} & -\frac{1}{2^{3/4}} & 0 & \frac{1}{2^{3/4}} & 0 \\
+0 & 0 & 0 & \frac{1}{2^{3/4}} & \frac{2^{3/4}}{2} & \frac{1}{2^{3/4}} & 0
+\end{pmatrix}
+\end{equation}
+
 ### Order of Operators 5
 
 ```{figure} order-of-operators-5.JPG

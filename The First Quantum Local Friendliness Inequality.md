@@ -35,11 +35,7 @@ Caption
 :align: center
 ```
 
-```{figure} QLF-order-of-operators-1.JPG
-:name: QLF-order-of-operators-1-figure
-:width: 900px
-:align: center
-```
+
 
 ### Order of Operators 2
 
@@ -49,11 +45,7 @@ Caption
 :align: center
 ```
 
-```{figure} QLF-order-of-operators-2.JPG
-:name: QLF-order-of-operators-2-figure
-:width: 900px
-:align: center
-```
+
 
 ### Order of Operators 3
 
@@ -63,11 +55,14 @@ Caption
 :align: center
 ```
 
-```{figure} QLF-order-of-operators-3.JPG
-:name: QLF-order-of-operators-3-figure
-:width: 900px
-:align: center
-```
+\begin{equation}
+chol(Q) = \begin{pmatrix}
+\frac{1}{\sqrt2} & 0 & 0 & \frac{1}{\sqrt2} & 0 & 0 & \frac{1}{\sqrt2} \\
+0 & \frac{1}{\sqrt2} & \frac{1}{\sqrt2} & 0 & 0 & 0 & \frac{1}{\sqrt2} \\
+0 & 0 & \frac{2^{3/4}}{2} & -\frac{1}{2^{3/4}} & 0 & \frac{1}{2^{3/4}} & 0 \\
+0 & 0 & 0 & \frac{1}{2^{3/4}} & \frac{2^{3/4}}{2} & \frac{1}{2^{3/4}} & 0
+\end{pmatrix}
+\end{equation}
 
 ### Order of Operators 4
 
@@ -77,18 +72,13 @@ Caption
 :align: center
 ```
 
-```{figure} QLF-order-of-operators-4.JPG
-:name: QLF-order-of-operators-4-figure
-:width: 900px
-:align: center
-```
-
 \begin{equation}
 chol(Q) = \begin{pmatrix}
-\frac{1}{\sqrt2} & 0 & 0 & \frac{1}{\sqrt2} & 0 & 0 & \frac{1}{\sqrt2} \\
-0 & \frac{1}{\sqrt2} & \frac{1}{\sqrt2} & 0 & & 0 & 0 & \frac{1}{\sqrt2} \\
-0 & 0 & \frac{2^{3/4}}{2} & -\frac{1}{2^{3/4}} & 0 & \frac{1}{2^{3/4}} & 0 \\
-0 & 0 & 0 & \frac{1}{2^{3/4}} & \frac{2^{3/4}}{2} & \frac{1}{2^{3/4}} & 0
+1 & \frac{1}{2} & \frac{1}{2} & \frac{1}{2} & \frac{1}{2} & 0 & 0 \\
+0 & \frac{1}{2} & -\frac{1}{2} & -\frac{1}{2} & \frac{1}{2} & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & \frac{2^{3/4}}{2} & -\frac{1}{2^{3/4}} & 0 & \frac{1}{2^{3/4}} \\
+0 & 0 & 0 & 0 & \frac{1}{2^{3/4}} & \frac{2^{3/4}}{2} & \frac{1}{2^{3/4}}
 \end{pmatrix}
 \end{equation}
 

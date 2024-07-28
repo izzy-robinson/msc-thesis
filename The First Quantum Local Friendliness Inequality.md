@@ -55,7 +55,7 @@ chol(Q) = \begin{pmatrix}
 \begin{equation}
 chol(Q) = \begin{pmatrix}
 \frac{1}{\sqrt2} & 0 & 0 & 0 & \frac{1}{\sqrt2} & 0 & \frac{1}{\sqrt2} \\
-0 & \sqrt{\frac{1+\sqrt2}{2}} & 0 & \sqrt{\frac{sqrt{2}-1}}{2} & -\sqrt{\frac{sqrt{2}-1}}{2} & \sqrt{\frac{sqrt{2}-1}}{2} & \sqrt{\frac{sqrt{2}-1}}{2} \\
+0 & \sqrt{\frac{1+\sqrt2}{2}} & 0 & \sqrt{\frac{sqrt{2}-1}{2}} & -\sqrt{\frac{sqrt{2}-1}{2}} & \sqrt{\frac{sqrt{2}-1}{2}} & \sqrt{\frac{sqrt{2}-1}{2}} \\
 0 & 0 & \frac{2^{3/4}}{2} & 0 & \frac{1}{2^{3/4}} & \frac{1}{2^{3/4}} & 0 \\
 0 & 0 & 0 & \frac{1}{\sqrt{2+\sqrt2}} & \frac{\sqrt{2-\sqrt2}}{2} & -\frac{\sqrt{2-\sqrt2}}{2} & \frac{1}{\sqrt{2+\sqrt2}}
 \end{pmatrix}

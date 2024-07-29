@@ -76,6 +76,14 @@ chol(Q) = \begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
+\begin{equation}
+&|| (A_1 \hspace{2mm} A_2 \hspace{2mm} A_3 \hspace{2mm} B_1 \hspace{2mm} B_2 \hspace{2mm} B_3 \hspace{2mm} \mathbf{1}) \cdot chol(Q)^T ||^2 \\
+&= (\frac{1}{\sqrt2}A_1 + \frac{1}{\sqrt2}B_2 + \frac{1}{\sqrt2}\mathbf{1})^2 \\
+&+ ()^2 \\
+&+ ()^2 \\
+&+ ()^2 
+\end{equation}
+
 ### Order of Operators 3
 
 ```{figure} order-of-operators-3.JPG

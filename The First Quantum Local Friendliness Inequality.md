@@ -34,7 +34,8 @@ Caption
 :width: 900px
 :align: center
 ```
-The cholesky decomposition is given by 
+
+
 \begin{equation}
 chol(Q) = \begin{pmatrix}
 1 & \frac{1}{2} & \frac{1}{2} & 0 & \frac{1}{2} & \frac{1}{2} & 0 \\
@@ -45,6 +46,10 @@ chol(Q) = \begin{pmatrix}
 \\
 0 & 0 & 0 & \frac{2^{3/4}}{2} & 0 & \frac{1}{2^{3/4}} & \frac{1}{2^{3/4}} \\
 \end{pmatrix}
+\end{equation}
+
+\begin{equation}
+|| (\mathbf{1} + \frac{1}{2}A_1 + \frac{1}{2}A_2 + \frac{1}{2}B_1 + \frac{1}{2}B_2) \cdot chol(Q)^T ||^2
 \end{equation}
 
 ### Order of Operators 2

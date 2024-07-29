@@ -35,6 +35,7 @@ Caption
 :align: center
 ```
 
+The cholesky decomposition of the matrix is given by
 
 \begin{equation}
 chol(Q) = \begin{pmatrix}
@@ -47,6 +48,8 @@ chol(Q) = \begin{pmatrix}
 0 & 0 & 0 & \frac{2^{3/4}}{2} & 0 & \frac{1}{2^{3/4}} & \frac{1}{2^{3/4}} \\
 \end{pmatrix}
 \end{equation}
+
+We perform the sum of squares calculation as follows
 
 \begin{equation}
 &|| (\mathbf{1} \hspace{2mm} A_1 \hspace{2mm} A_2 \hspace{2mm} A_3 \hspace{2mm} B_1 \hspace{2mm} B_2 \hspace{2mm} B_3) \cdot chol(Q)^T ||^2 \\
@@ -71,6 +74,8 @@ Expanding the brackets and combining all terms gives
 :align: center
 ```
 
+The cholesky decomposition of the matrix is given by
+
 \begin{equation}
 chol(Q) = \begin{pmatrix}
 \frac{1}{\sqrt2} & 0 & 0 & 0 & \frac{1}{\sqrt2} & 0 & \frac{1}{\sqrt2} \\
@@ -82,6 +87,8 @@ chol(Q) = \begin{pmatrix}
 0 & 0 & 0 & \frac{1}{\sqrt{2+\sqrt2}} & \frac{\sqrt{2-\sqrt2}}{2} & -\frac{\sqrt{2-\sqrt2}}{2} & \frac{1}{\sqrt{2+\sqrt2}}
 \end{pmatrix}
 \end{equation}
+
+We perform the sum of squares calculation as follows
 
 \begin{equation}
 &|| (A_1 \hspace{2mm} A_2 \hspace{2mm} A_3 \hspace{2mm} B_1 \hspace{2mm} B_2 \hspace{2mm} B_3 \hspace{2mm} \mathbf{1}) \cdot chol(Q)^T ||^2 \\
@@ -108,6 +115,8 @@ as before.
 :align: center
 ```
 
+The cholesky decomposition of the matrix is given by
+
 \begin{equation}
 chol(Q) = \begin{pmatrix}
 \frac{1}{\sqrt2} & 0 & 0 & \frac{1}{\sqrt2} & 0 & 0 & \frac{1}{\sqrt2} \\
@@ -119,6 +128,8 @@ chol(Q) = \begin{pmatrix}
 0 & 0 & 0 & \frac{1}{2^{3/4}} & \frac{2^{3/4}}{2} & \frac{1}{2^{3/4}} & 0
 \end{pmatrix}
 \end{equation}
+
+We perform the sum of squares calculation as follows
 
 \begin{equation}
 &|| (\mathbf{1} \hspace{2mm} A_1 \hspace{2mm} B_1 \hspace{2mm} A_2 \hspace{2mm} B_2 \hspace{2mm} A_3 \hspace{2mm} B_3) \cdot chol(Q)^T ||^2 \\
@@ -145,6 +156,8 @@ as before.
 :align: center
 ```
 
+The cholesky decomposition of the matrix is given by
+
 \begin{equation}
 chol(Q) = \begin{pmatrix}
 1 & \frac{1}{2} & \frac{1}{2} & \frac{1}{2} & \frac{1}{2} & 0 & 0 \\
@@ -158,6 +171,8 @@ chol(Q) = \begin{pmatrix}
 0 & 0 & 0 & 0 & \frac{1}{2^{3/4}} & \frac{2^{3/4}}{2} & \frac{1}{2^{3/4}}
 \end{pmatrix}
 \end{equation}
+
+We perform the sum of squares calculation as follows
 
 \begin{equation}
 &|| (A_1 \hspace{2mm} B_1 \hspace{2mm} A_2 \hspace{2mm} B_2 \hspace{2mm} A_3 \hspace{2mm} B_3 \hspace{2mm} \mathbf{1}) \cdot chol(Q)^T ||^2 \\
@@ -183,6 +198,9 @@ as before.
 :width: 900px
 :align: center
 ```
+
+The cholesky decomposition of the matrix is given by
+
 \begin{equation}
 chol(Q) = \begin{pmatrix}
 \frac{2^{3/4}}{2} & 0 & \frac{1}{2^{3/4}} & 0 & 0 & 0 & \frac{1}{2^{3/4}} \\
@@ -194,6 +212,8 @@ chol(Q) = \begin{pmatrix}
 0 & 0 & 0 & \frac{1}{\sqrt2} & \frac{1}{\sqrt2} & \frac{1}{\sqrt2} & 0
 \end{pmatrix}
 \end{equation}
+
+We perform the sum of squares calculation as follows
 
 \begin{equation}
 &|| (B_3 \hspace{2mm} B_1 \hspace{2mm} A_2 \hspace{2mm} A_1 \hspace{2mm} \mathbf{1} \hspace{2mm} B_2 \hspace{2mm} A_3) \cdot chol(Q)^T ||^2 \\

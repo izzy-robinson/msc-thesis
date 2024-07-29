@@ -56,6 +56,12 @@ chol(Q) = \begin{pmatrix}
 &+ (\frac{2^{3/4}}{2}A_3 + \frac{1}{2^{3/4}}B_2 + \frac{1}{2^{3/4}}B_3)^2
 \end{equation}
 
+Expanding the brackets and combining all terms gives
+
+\begin{equation}
+(3+2\sqrt2)\mathbf{1} + A_1 + A_2 + B_1 + B_2 + A_1B_2 + A_2B_1 - A_2B_2 + A_2B_3 + A_3B_2 + A_3B_3.
+\end{equation}
+
 ### Order of Operators 2
 
 ```{figure} order-of-operators-2.JPG
@@ -84,6 +90,14 @@ chol(Q) = \begin{pmatrix}
 &+ (\frac{1}{\sqrt{2+\sqrt2}}B_1 + \frac{\sqrt{2-\sqrt2}}{2}B_2 - \frac{\sqrt{2-\sqrt2}}{2}B_3 + \frac{1}{\sqrt{2+\sqrt2}}\mathbf{1})^2 
 \end{equation}
 
+Expanding the brackets and combining all terms gives
+
+\begin{equation}
+(3+2\sqrt2)\mathbf{1} + A_1 + A_2 + B_1 + B_2 + A_1B_2 + A_2B_1 - A_2B_2 + A_2B_3 + A_3B_2 + A_3B_3
+\end{equation}
+
+as before.
+
 ### Order of Operators 3
 
 ```{figure} order-of-operators-3.JPG
@@ -111,6 +125,14 @@ chol(Q) = \begin{pmatrix}
 &+ (\frac{2^{3/4}}{2}A_2 - \frac{1}{2^{3/4}}B_2 + \frac{1}{2^{3/4}}B_3)^2 \\
 &+ (\frac{1}{2^{3/4}}B_2 + \frac{2^{3/4}}{2}A_3 + \frac{1}{2^{3/4}}B_3)^2
 \end{equation}
+
+Expanding the brackets and combining all terms gives
+
+\begin{equation}
+(3+2\sqrt2)\mathbf{1} + A_1 + A_2 + B_1 + B_2 + A_1B_2 + A_2B_1 - A_2B_2 + A_2B_3 + A_3B_2 + A_3B_3
+\end{equation}
+
+as before.
 
 ### Order of Operators 4
 
@@ -142,6 +164,14 @@ chol(Q) = \begin{pmatrix}
 &+ (\frac{1}{2^{3/4}}B_2 + \frac{2^{3/4}}{2}A_3 + \frac{1}{2^{3/4}}B_3)^2
 \end{equation}
 
+Expanding the brackets and combining all terms gives
+
+\begin{equation}
+(3+2\sqrt2)\mathbf{1} + A_1 + A_2 + B_1 + B_2 + A_1B_2 + A_2B_1 - A_2B_2 + A_2B_3 + A_3B_2 + A_3B_3
+\end{equation}
+
+as before.
+
 ### Order of Operators 5
 
 ```{figure} order-of-operators-5.JPG
@@ -168,3 +198,11 @@ chol(Q) = \begin{pmatrix}
 &+ (\frac{1}{2^{3/4}}A_2 - \frac{2^{3/4}}{2}B_2 -  + \frac{1}{2^{3/4}}A_3)^2 \\
 &+ (\frac{1}{\sqrt2}A_1 - \frac{1}{\sqrt2}\mathbf{1} - \frac{1}{\sqrt2}B_2 )^2
 \end{equation}
+
+Expanding the brackets and combining all terms gives
+
+\begin{equation}
+(3+2\sqrt2)\mathbf{1} + A_1 + A_2 + B_1 + B_2 + A_1B_2 + A_2B_1 - A_2B_2 + A_2B_3 + A_3B_2 + A_3B_3
+\end{equation}
+
+as before.

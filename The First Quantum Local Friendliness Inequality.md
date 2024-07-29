@@ -80,8 +80,8 @@ chol(Q) = \begin{pmatrix}
 &|| (A_1 \hspace{2mm} A_2 \hspace{2mm} A_3 \hspace{2mm} B_1 \hspace{2mm} B_2 \hspace{2mm} B_3 \hspace{2mm} \mathbf{1}) \cdot chol(Q)^T ||^2 \\
 &= (\frac{1}{\sqrt2}A_1 + \frac{1}{\sqrt2}B_2 + \frac{1}{\sqrt2}\mathbf{1})^2 \\
 &+ (\sqrt{\frac{1+\sqrt2}{2}}A_2 + \sqrt{\frac{\sqrt2-1}{2}}B_1 - \sqrt{\frac{\sqrt2-1}{2}}B_2 + \sqrt{\frac{\sqrt2-1}{2}}B_3 + \sqrt{\frac{\sqrt2-1}{2}}\mathbf{1})^2 \\
-&+ (\frac{2^{3/4}}{2}A_3 + \frac{1}{2^{3/4}}B_2 \frac{1}{2^{3/4}}B_3)^2 \\
-&+ ()^2 
+&+ (\frac{2^{3/4}}{2}A_3 + \frac{1}{2^{3/4}}B_2 + \frac{1}{2^{3/4}}B_3)^2 \\
+&+ (\frac{1}{\sqrt{2+\sqrt2}}B_1 + \frac{\sqrt{2-\sqrt2}}{2}B_2 - \frac{\sqrt{2-\sqrt2}}{2}B_3 + \frac{1}{\sqrt{2+\sqrt2}}\mathbf{1})^2 
 \end{equation}
 
 ### Order of Operators 3
@@ -102,6 +102,14 @@ chol(Q) = \begin{pmatrix}
 \\
 0 & 0 & 0 & \frac{1}{2^{3/4}} & \frac{2^{3/4}}{2} & \frac{1}{2^{3/4}} & 0
 \end{pmatrix}
+\end{equation}
+
+\begin{equation}
+&|| (\mathbf{1} \hspace{2mm} A_1 \hspace{2mm} B_1 \hspace{2mm} A_2 \hspace{2mm} B_2 \hspace{2mm} A_3 \hspace{2mm} B_3) \cdot chol(Q)^T ||^2 \\
+&= (\mathbf{1} + \frac{1}{2}A_1 + \frac{1}{2}B_1 + \frac{1}{2}A_2 + \frac{1}{2}B_2)^2 \\
+&+ (\frac{1}{2}A_1 - \frac{1}{2}B_1 - \frac{1}{2}A_2 + \frac{1}{2}B_2)^2 \\
+&+ (\frac{2^{3/4}}{2}A_2 - \frac{1}{2^{3/4}}B_2 + \frac{1}{2^{3/4}}B_3)^2 \\
+&+ (\frac{1}{2^{3/4}}B_2 + \frac{2^{3/4}}{2}A_3 + \frac{1}{2^{3/4}}B_3)^2
 \end{equation}
 
 ### Order of Operators 4

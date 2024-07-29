@@ -202,7 +202,8 @@ chol(Q) = \begin{pmatrix}
 Expanding the brackets and combining all terms gives
 
 \begin{equation}
-(3+2\sqrt2)\mathbf{1} + A_1 + A_2 + B_1 + B_2 + A_1B_2 + A_2B_1 - A_2B_2 + A_2B_3 + A_3B_2 + A_3B_3
+&(3+2\sqrt2)\mathbf{1} + A_1 + A_2 + B_1 + B_2 \\
+&+ A_1B_2 + A_2B_1 - A_2B_2 + A_2B_3 + A_3B_2 + A_3B_3
 \end{equation}
 
 as before.

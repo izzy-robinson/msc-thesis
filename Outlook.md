@@ -6,4 +6,8 @@ numbering:
     enumerator: 13.%s
 ---
 
-Over the course of discovering the results conveyed within this thesis, several loose-ends were left untied. This prompts multiple open questions, of which a non-exhaustive list is now supplied.
+# Outlook 
+
+Over the course of discovering the results conveyed within this thesis, several loose-ends were left untied. These promptt multiple open questions, of which a non-exhaustive list is now supplied.
+
+Given time, we hope to engage in these future directions.

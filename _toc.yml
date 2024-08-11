@@ -28,7 +28,6 @@ parts:
       - file: A Guide for the Reader
       - file: Cast of Characters
       - file: A Note on Terminology
-    
   - caption: Mathematical Preliminaries
     chapters:
       - file: Geometric Concepts
@@ -44,8 +43,6 @@ parts:
       - file: The First Quantum Local Friendliness Inequality
       - file: Constructing New Local Friendliness Inequalities
   - caption: Conclusions and Outlook
-      - file: Conclusions
-      - file: Outlook
   - caption: Appendices
     chapters:
       - file: Correlators to Probabilities

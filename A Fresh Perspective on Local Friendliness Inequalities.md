@@ -48,35 +48,30 @@ Notice that this immedately admits the following decomposition.
 :align: center
 ```
 
-However we need not stop there; we can simplify and make pattern more obvious by taking advantage freedom due to no-signalling.
+However we need not stop there; we can simplify and make the pattern more obvious by taking advantage of freedom due to no-signalling.
 
 ```{figure} decompositions-shifting.JPG
 :name: decompositions-shifting-figure
 :align: center
 ```
 
-This admits the following decomposition, which is completely analagous to the original decomposition.
+This new grid admits the following decomposition. 
 
 ```{figure} decompositions-shifted.JPG
 :name: decompositions-shifted-figure
 :align: center
 ```
-The bounds are shifted according to the equations below.
+Although it superficially looks completely different, this is fully analagous to the original decomposition. The bounds of each component are simply shifted according to the equations below.
 
-$ \textrm{CHSH} = 4 \textrm{CHSH'} + 2 $
+- $ \textrm{CHSH} = 4 \textrm{CHSH'} + 2 $
 
+- $ \delta = 4\delta\textrm{'} - 1 $
 
-$ \delta = 4\delta\textrm{'} - 1 $
+- $ \epsilon = 4\epsilon\textrm{'} - 2 $
 
+- $ \gamma = 4\gamma\textrm{'} - 1 $
 
-$ \epsilon = 4\epsilon\textrm{'} - 2 $
-
-
-$ \gamma = 4\gamma\textrm{'} - 1 $
-
-
-$ \textrm{LF} = 4\textrm{LF'} - 6 $
-
+- $ \textrm{LF} = 4\textrm{LF'} - 6 $
 
 Plotting in our new parameter space we get a graph of $\epsilon$' against CHSH'.
 

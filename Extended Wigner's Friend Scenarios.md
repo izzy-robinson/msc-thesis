@@ -18,7 +18,7 @@ abbreviations:
 > What you see and what you hear depends a great deal on where you are standing.
 > - C.S. Lewis
 
-Section 8 is dedicated to a systematic examination of the most relevant Extended Wigner's Friend Scenario (EWFS) - namely, the formulation by Bong and Cavalcanti et al. - which involves a fusion of elements from both simple Wigner's Friend scenarios and Bell Test set ups. There do exist multiple other EWFS's - specifically those of Brukner, Frauchiger and Renner, Pusey and Masanes, and Żukowski and Markiewicz - however these are not directly relevant to this thesis so we guide the interested reader towards these individual papers for more details.
+Section 8 is dedicated to a systematic examination of the most relevant Extended Wigner's Friend Scenario (EWFS) - namely, the formulation by Bong and Cavalcanti et al. [@Bong2020] - which involves a fusion of elements from both simple Wigner's Friend scenarios and Bell Test set ups. There do exist multiple other EWFS's - specifically those of Brukner [@Brukner2018], Frauchiger and Renner [@Frauchiger2018], Pusey and Masanes, and Żukowski and Markiewicz [@Zukowski2021] - however these are not directly relevant to this thesis so we guide the interested reader towards these individual papers for more details.
 
 ## Brukner's Argument
 

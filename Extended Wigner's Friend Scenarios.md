@@ -18,7 +18,9 @@ abbreviations:
 > What you see and what you hear depends a great deal on where you are standing.
 > - C.S. Lewis
 
-Section 8 is dedicated to a systematic examination of the most relevant Extended Wigner's Friend Scenario (EWFS) - namely, the formulation by Bong and Cavalcanti et al. [@Bong2020] - which involves a fusion of elements from both simple Wigner's Friend scenarios and Bell Test set ups. There do exist multiple other EWFS's - specifically those of Brukner [@Brukner2018], Frauchiger and Renner [@Frauchiger2018], Pusey and Masanes, and Żukowski and Markiewicz [@Zukowski2021] - however these are not directly relevant to this thesis so we guide the interested reader towards these individual papers for more details.
+Section 8 is dedicated to a systematic examination of the most relevant Extended Wigner's Friend Scenario (EWFS) - namely, the formulation by Bong and Cavalcanti et al. [@Bong2020] - which involves a fusion of elements from both simple Wigner's Friend scenarios and Bell Test set ups. There do exist multiple other EWFS's - specifically those of Brukner [@Brukner2018], Frauchiger and Renner [@Frauchiger2018], Pusey and Masanes, Żukowski and Markiewicz [@Zukowski2021], and Guerin et al. [@Guerin2021] - however these are not directly relevant to our results and are therefore beyond the scope of this thesis.
+
+
 
 ## Brukner's Argument
 
@@ -82,25 +84,6 @@ Notice that the outcomes $c,d$ play the same role as the hidden variables $\lamb
 **Schematic of Bong and Cavalcanti et al.'s EWFS.** Observers ($A_1$ and $B_1$) perform **fixed** measurements, the results of which remain inside their respective laboratories. Superobservers ($A_2$ and $B_2$) choose between **three** different measurement options and their results are knowable outside of the laboratories.
 ```
 
-## Frauchiger and Renner's Argument
-
-```{figure} pusey-masanes-frauchiger-renner-figure.JPG
-:name: pusey-masanes-frauchiger-renner-figure
-:align: center
-**Schematic of Frauchiger and Renner's EWFS.** All observers ($A_1$ and $B_1$) and superobservers ($A_2$ and $B_2$) perform **fixed** measurements. Results found by observers remain inside their respective laboratories whereas results found by superobservers are knowable outside of the laboratories.
-```
-
-## Pusey and Masanes' Argument
-
-```{figure} pusey-masanes-frauchiger-renner-figure.JPG
-:name: pusey-masanes-frauchiger-renner-figure
-:align: center
-**Schematic of Pusey and Masanes' EWFS.** All observers ($A_1$ and $B_1$) and superobservers ($A_2$ and $B_2$) perform **fixed** measurements. Results found by observers remain inside their respective laboratories whereas results found by superobservers are knowable outside of the laboratories.
-```
-
-## Żukowski and Markiewicz' Argument
-
-For completeness, it is worth mentioning that there exist extended Wigner's Friend arguments which do not rely on any Bell Test elements, for example @Guerin et al.; however such work is irrelevant to our results and therefore beyond the scope of this thesis.
 
 
 [^1]: A sufficient distance is defined as one which demands that a signal from one laboratory must travel faster than the speed of light in order to reach the other laboratory in time to affect any results.

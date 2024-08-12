@@ -18,7 +18,7 @@ abbreviations:
 > What you see and what you hear depends a great deal on where you are standing.
 > - C.S. Lewis
 
-Section 8 is dedicated to a systematic examination of all relevant Extended Wigner's Friend Scenarios (EWFS) - namely, the formulations by Brukner, Bong and Cavalcanti et al., Frauchiger and Renner, Pusey and Masanes, and Żukowski and Markiewicz. Each of these involve a fusion of elements from both simple Wigner's Friend scenarios and Bell Test set ups.
+Section 8 is dedicated to a systematic examination of the most relevant Extended Wigner's Friend Scenario (EWFS) - namely, the formulation by Bong and Cavalcanti et al. - which involves a fusion of elements from both simple Wigner's Friend scenarios and Bell Test set ups. There do exist multiple other EWFS's - specifically those of Brukner, Frauchiger and Renner, Pusey and Masanes, and Żukowski and Markiewicz - however these are not directly relevant to this thesis so we guide the interested reader towards these individual papers for more details.
 
 ## Brukner's Argument
 
@@ -54,10 +54,10 @@ In the context of this EWFS, the AOE assumption entails that there exists a theo
 
 Furthermore, AOE ensures consistency is maintained between observers and superobservers when $x,y=1$: 
 
-\begin{align}
+\begin{equation}
 P(a|c,d,x=1,y)&=\delta_{a,c} \\
- P(b|c,d,x,y=1)&=\delta_{b,d}.
-\end{align}
+P(b|c,d,x,y=1)&=\delta_{b,d}.
+\end{equation}
 
 2. **No Conspiracy (NC):** *The choice of measurement settings is statistically independent from the preparation of the system being measured.* In the context of this EWFS, the NC assumption enforces that the observers' measurement outcomes be uncorrelated with the superobservers' measurement settings:
 

@@ -18,9 +18,9 @@ abbreviations:
 > What you see and what you hear depends a great deal on where you are standing.
 > - C.S. Lewis
 
-Section 8 is dedicated to a systematic examination of the most relevant Extended Wigner's Friend Scenario (EWFS) - namely, the formulation by Bong and Cavalcanti et al. [@Bong2020] - which involves a fusion of elements from both simple Wigner's Friend scenarios and Bell Test set ups. There do exist multiple other EWFS's - specifically those of Brukner [@Brukner2018], Frauchiger and Renner [@Frauchiger2018], Pusey and Masanes, Żukowski and Markiewicz [@Zukowski2021], and Guerin et al. [@Guerin2021] - however these are not directly relevant to our results and are therefore beyond the scope of this thesis.
+Section 8 is dedicated to a systematic examination of the most relevant Extended Wigner's Friend Scenario (EWFS) - namely, the formulation by Bong et al. [@Bong2020] - which involves a fusion of elements from both simple Wigner's Friend scenarios and Bell Test set ups. There do exist multiple other EWFS's - specifically those of Brukner [@Brukner2018], Frauchiger and Renner [@Frauchiger2018], Pusey and Masanes, Żukowski and Markiewicz [@Zukowski2021], and Guerin et al. [@Guerin2021] - however these are not directly relevant to our results and are therefore beyond the scope of this thesis.
 
-## Bong and Cavalcanti et al.'s Argument
+## Bong et al.'s Argument
 
 Recall Deutsch's query regarding whether Wigner and his friend's contradictory accounts of the same situation are reconcilable. Bong et al. [@Bong2020] sought to explore a generalisation of this - specifically, whether it is possible to assign a joint probability distribution to statements made by different agents about their own independent measurement outcomes. To this end, Bong et al. proceeded to analyse an EWFS, adapted from that considered by Brukner [@Brukner2018], which was in turn inspired by both the set-up of Deutsch's simple Wigner's Friend Scenario and the protocol of a standard Bell test.
 

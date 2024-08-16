@@ -22,11 +22,19 @@ Section 8 is dedicated to a systematic examination of the most relevant Extended
 
 ## Bong and Cavalcanti et al.'s Argument
 
-Recall Deutsch's query regarding whether Wigner and his friend's contradictory accounts of the same situation are reconcilable. Bong et al. [@Brukner2018] sought to explore a generalisation of this - specifically, whether it is possible to assign a joint probability distribution to statements made by different agents about their own independent measurement outcomes. 
+Recall Deutsch's query regarding whether Wigner and his friend's contradictory accounts of the same situation are reconcilable. Bong et al. [@Bong2020] sought to explore a generalisation of this - specifically, whether it is possible to assign a joint probability distribution to statements made by different agents about their own independent measurement outcomes. To this end, Bong et al. proceeded to analyse an EWFS, adapted from that considered by Brukner [@Brukner2018], which was in turn inspired by both the set-up of Deutsch's simple Wigner's Friend Scenario and the protocol of a standard Bell test.
 
-## Local Friendliness Assumptions
+### The Specific EWFS
 
-To this end, Bong et al. listed the following four assumptions which one might reasonably expect a physical theory to obey.
+```{figure} bong-cavalcanti-figure.JPG
+:name: bong-cavalcanti-figure
+:align: center
+**Schematic of Bong and Cavalcanti et al.'s EWFS.** Observers ($A_1$ and $B_1$) perform **fixed** measurements, the results of which remain inside their respective laboratories. Superobservers ($A_2$ and $B_2$) choose between **three** different measurement options and their results are knowable outside of the laboratories.
+```
+
+### Local Friendliness Assumptions
+
+Bong et al. listed the following four assumptions which one might reasonably expect a physical theory to obey.
 
 1. **Absoluteness of Observed Events (AOE):** *Observed events are real (i.e. not relative to anything or anyone). Therefore one can jointly assign truth values to propositions regarding the measurement outcomes of different (super)observers.* 
 
@@ -60,17 +68,9 @@ P(a|c,d,x,y)=P(a|c,d,x).
 
 Notice that the outcomes $c,d$ play the same role as the hidden variables $\lambda$ that go into the assumptions for Bell's theorem.
 
-Bong et al. proceeded to analyse a scenario, adapted from that considered by Brukner [@Brukner2018] - which was in turn inspired by both the set-up of Deutsch's simple Wigner's Friend Scenario and the protocol of a standard Bell test - according to these assumptions. A contradiction arose, indicating that the conjunction of assumptions $1-4$ is untenable and prompting to proposal of a no-go theorem: at least one of assumptions $1-4$ must be rejected as false. This no-go theorem is technically neutral in the sense that it does not dictate which particular assumption should be denied. However assumptions $2-4$ are extremely well motivated. Rejecting the NC assumption would render most forms of scientific research impracticable; if one cannot examine a system without changing its preparation, one cannot hope to find information about its true state. To permit action at a distance is to deny a key premise of Einstein's theory of special relativity. And quantum theory's domain of validity is widely believed to be unlimited due to its extraordinary success in accurately predicting the results of experiments. In summary, dismissing any of assumptions $2-4$ entails straying from the well-worn path and risking far reaching unattractive consequences. Therefore, quite naturally, Bong, et al. took their theorem to disprove the existence of assumption $1$ i.e. AOE.
+Bong et al. then analysed the EWFS according to these assumptions. A contradiction arose, indicating that the conjunction of assumptions $1-4$ is untenable and prompting to proposal of a no-go theorem: at least one of assumptions $1-4$ must be rejected as false. This no-go theorem is technically neutral in the sense that it does not dictate which particular assumption should be denied. However assumptions $2-4$ are extremely well motivated. Rejecting the NC assumption would render most forms of scientific research impracticable; if one cannot examine a system without changing its preparation, one cannot hope to find information about its true state. To permit action at a distance is to deny a key premise of Einstein's theory of special relativity. And quantum theory's domain of validity is widely believed to be unlimited due to its extraordinary success in accurately predicting the results of experiments. In summary, dismissing any of assumptions $2-4$ entails straying from the well-worn path and risking far reaching unattractive consequences. Therefore, quite naturally, Bong, et al. took their theorem to disprove the existence of assumption $1$ i.e. AOE.
 
-## The Specific EWFS
-
-```{figure} bong-cavalcanti-figure.JPG
-:name: bong-cavalcanti-figure
-:align: center
-**Schematic of Bong and Cavalcanti et al.'s EWFS.** Observers ($A_1$ and $B_1$) perform **fixed** measurements, the results of which remain inside their respective laboratories. Superobservers ($A_2$ and $B_2$) choose between **three** different measurement options and their results are knowable outside of the laboratories.
-```
-
-## Local Friendliness Inequalities
+### Local Friendliness Inequalities
 
 [^1]: A sufficient distance is defined as one which demands that a signal from one laboratory must travel faster than the speed of light in order to reach the other laboratory in time to affect any results.
 

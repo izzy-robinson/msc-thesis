@@ -52,7 +52,7 @@ P(b|c,d,x,y)=P(b|c,d,y) \\
 P(a|c,d,x,y)=P(a|c,d,x).
 \end{equation}
 
-4. **Universal Validity of Quantum Theory (UVQT):** *Quantum predictions hold true at any scale, regardless of the complexity of the system under consideration.*
+4. **Universal Validity of Quantum Theory (UVQT):** *Quantum predictions hold true at any scale, regardless of the complexity of the system under consideration.[^2]*
 
 Notice that the outcomes $c,d$ play the same role as the hidden variables $\lambda$ that go into the assumptions for Bell's theorem.
 

@@ -62,9 +62,7 @@ A more restrictive condition is locality. Formally, the set of local behaviours 
 P(a,b|x,y) = \int d\lambda Q(\lambda) P(a|x,\lambda) P(b|y,\lambda)
 \end{equation}
 
-where $Q(\lambda)$ is a probability distribution describing the strategy (i.e. how frequently a particular process $\lambda$ is used).[^3] If a behaviour cannot be written in this form it is referred to as nonlocal.
-
-[^3]: Each process could be anything (e.g. casting dice, tossing coins, computing functions etc.); we treat them as 'black boxes' described only in terms of how the outputs relate to the inputs.
+where $Q(\lambda)$ is a probability distribution describing the strategy (i.e. how frequently a particular process $\lambda$ is used). If a behaviour cannot be written in this form it is referred to as nonlocal.
 
 #### Quantum correlations
 
@@ -206,9 +204,8 @@ q(\lambda|x,y) = q(\lambda).
 
 ### Loophole-free Bell Tests
 
-- Three loophole-free Bell tests in 2015 
+- Three loophole-free Bell tests were performed in 2015 by the following groups:
     - TU Delft
     - IQOQI Vienna 
     - NIST Boulder 
-- Further progress since
-    - Big Bell Test
+- Further progress since has included the Big Bell Test at ICFO.

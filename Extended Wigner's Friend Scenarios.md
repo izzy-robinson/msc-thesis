@@ -104,9 +104,9 @@ Bong et al. then analysed the EWFS according to these assumptions. Subsequent ge
 
 \begin{equation}
 \begin{aligned}
-    &-\langle{A_1}\rangle-\langle{A_2}\rangle+\langle{B_1}\rangle-\langle{B_2}\rangle \\
-    &+\langle{A_1B_1}\rangle-\langle{A_1B_2}\rangle-\langle{A_1B_3}\rangle\overset{\phantom{LF}}-\langle{A_2B_1}\rangle \\
-    &+\langle{A_2B_2}\rangle-\langle{A_2B_3}\rangle-\langle{A_3B_1}\rangle-\langle{A_3B_2}\rangle\overset{LF}{\leq}{4}.
+    &-\langle{A_2}\rangle-\langle{A_3}\rangle+\langle{B_2}\rangle-\langle{B_3}\rangle \\
+    &-\langle{A_1B_2}\rangle-\langle{A_1B_3}\rangle-\langle{A_2B_1}\rangle\overset{\phantom{LF}}-\langle{A_2B_2}\rangle \\
+    &-\langle{A_2B_3}\rangle+\langle{A_3B_1}\rangle-\langle{A_3B_2}\rangle-\langle{A_3B_3}\rangle\overset{LF}{\leq}{4}.
 \end{aligned}
 \end{equation}
 

@@ -33,7 +33,8 @@ Consider a bipartite Wigner's friend scenario involving two superobservers (Alic
 :align: center
 **Schematic of Bong and Cavalcanti et al.'s EWFS.** Observers (Charlie and Dani) perform **fixed** measurements, the results of which remain inside their respective laboratories. Superobservers (Alice and Bob) choose between **three** different measurement options and their results are knowable outside of the laboratories.
 ```
-The observers both measure their half of the entangled pair along a single direction (i.e. there is no choice of measurement settings). Then the superobservers come into play. They each choose between three different measurement settings. If $x=1$ ($y=1$), Alice (Bob) simply opens Charlie's (Dani's) laboratory and directly asks them for their outcome $c$ ($d$) then assigns their own outcome $a=c$ ($b=d$). If $x\in\set{2,3}$ ($y\in\set{2,3}$) the superobservers restore their respective observers' laboratories to their previous state and proceed to measure the particle directly along a particular direction. 
+
+The observers both measure their half of the entangled pair along a single direction (i.e. there is no choice of measurement settings). Then the superobservers come into play. They each choose between three different measurement settings. If $x=1$ ($y=1$), Alice (Bob) simply opens Charlie's (Dani's) laboratory and directly asks them for their outcome $c$ ($d$), assigning its value to their own outcome $a=c$ ($b=d$). If $x\in\set{2,3}$ ($y\in\set{2,3}$) the superobservers restore their respective observers' laboratories to their previous state and proceed to measure the particle directly along an arbitrary direction. 
 
 What statistics are empircally accessible at the end of this process? Unless $x=1$ ($y=1$), the value for $c$ ($d$) is erased when Alice (Bob) performs their measurement, so in general this information is not available. Ultimately, the available values are $a$, $b$, $x$ and $y$; we can therefore measure (as frequencies) the empirical probabilities $\mathcal{P}(a,b|x,y)$.
 
@@ -76,6 +77,24 @@ Notice that the outcomes $c,d$ play the same role as the hidden variables $\lamb
 Bong et al. then analysed the EWFS according to these assumptions. Subsequent generation of local friendliness inequalities violable by quantum theory indicates that the conjunction of assumptions $1-4$ is untenable and prompts the proposal of a no-go theorem: at least one of assumptions $1-4$ must be rejected as false. This no-go theorem is technically neutral in the sense that it does not dictate which particular assumption should be denied. However assumptions $2-4$ are extremely well motivated. Rejecting the NC assumption would render most forms of scientific research impracticable; if one cannot examine a system without changing its preparation, one cannot hope to find information about its true state. To permit action at a distance is to deny a key premise of Einstein's theory of special relativity. And quantum theory's domain of validity is widely believed to be unlimited due to its extraordinary success in accurately predicting the results of experiments. In summary, dismissing any of assumptions $2-4$ entails straying from the well-worn path and risking far reaching unattractive consequences. Therefore, quite naturally, Bong, et al. took their theorem to disprove the existence of assumption $1$ i.e. AOE.
 
 ### Local Friendliness Inequalities
+
+\begin{equation}
+\begin{aligned}
+    &-\langle{A_1}\rangle-\langle{A_2}\rangle-\langle{B_1}\rangle-\langle{B_2}\rangle \\
+    &-\langle{A_1B_1}\rangle-2\langle{A_1B_2}\rangle-2\langle{A_2B_1}\rangle\overset{\phantom{LF}}+2\langle{A_2B_2}\rangle \\
+    &-\langle{A_2B_3}\rangle-\langle{A_3B_2}\rangle-\langle{A_3B_3}\rangle\overset{LF}{\leq}{6}.
+\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}
+    &-\langle{A_1}\rangle-\langle{A_2}\rangle-\langle{A_3}\rangle-\langle{B_1}\rangle \\
+    &-\langle{A_1B_1}\rangle-2\langle{A_2B_1}\rangle-2\langle{A_3B_1}\rangle\overset{\phantom{LF}}-2\langle{A_1B_2}\rangle \\
+    &-\langle{A_2B_2}\rangle-\langle{A_3B_2}\rangle-\langle{A_2B_3}\rangle+\langle{A_3B_3}\rangle\overset{LF}{\leq}{6}.
+\end{aligned}
+\end{equation}
+
 
 [^1]: A sufficient distance is defined as one which demands that a signal from one laboratory must travel faster than the speed of light in order to reach the other laboratory in time to affect any results.
 

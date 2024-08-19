@@ -100,7 +100,7 @@ Genuine LF facet $2$ (appearing $256$ times amongst the $932$ facets):
 \end{aligned}
 \end{equation}
 
-Bell-I_{3322} with marginals over inputs $1$ and $2$ (appearing $256$ times amongst the $932$ facets):
+Bell-$I_{3322}$ with marginals over inputs $1$ and $2$ (appearing $256$ times amongst the $932$ facets):
 
 \begin{equation}
 \begin{aligned}
@@ -110,7 +110,7 @@ Bell-I_{3322} with marginals over inputs $1$ and $2$ (appearing $256$ times amon
 \end{aligned}
 \end{equation}
 
-Bell-I_{3322} with marginals over inputs $2$ and $3$ (appearing $64$ times amongst the $932$ facets):
+Bell-$I_{3322}$ with marginals over inputs $2$ and $3$ (appearing $64$ times amongst the $932$ facets):
 
 \begin{equation}
 \begin{aligned}

@@ -24,13 +24,18 @@ Section 8 is dedicated to a systematic examination of the most relevant Extended
 
 Recall Deutsch's query regarding whether Wigner and his friend's contradictory accounts of the same situation are reconcilable. Bong et al. [@Bong2020] sought to explore a generalisation of this - specifically, whether it is possible to assign a joint probability distribution to statements made by different agents about their own independent measurement outcomes. To this end, Bong et al. proceeded to analyse an EWFS, adapted from that considered by Brukner [@Brukner2018], which was in turn inspired by both the set-up of Deutsch's simple Wigner's Friend Scenario and the protocol of a standard Bell test.
 
-### The Specific EWFS
+### The set-up
+
+Consider a bipartite Wigner's friend scenario involving two superobservers (Alice and Bob) alongside their respective observers (Charlie and Dani).  The observer's are located inside sealed laboratories, each of which contains one particle from an entangled pair. The superobservers are located outside of these laboratories.
 
 ```{figure} bong-cavalcanti-figure.JPG
 :name: bong-cavalcanti-figure
 :align: center
 **Schematic of Bong and Cavalcanti et al.'s EWFS.** Observers ($A_1$ and $B_1$) perform **fixed** measurements, the results of which remain inside their respective laboratories. Superobservers ($A_2$ and $B_2$) choose between **three** different measurement options and their results are knowable outside of the laboratories.
 ```
+The observers both measure their half of the entangled pair along a single direction (i.e. there is no choice of measurement settings). Then the superobservers come into play. They each have three different measurement settings. If $x=1$ ($y=1$), Alice (Bob) simply opens Charlie's (Dani's) laboratory and directly asks them for their outcome $c$ ($d$) then assigns their own outcome $a=c$ ($b=d$). If $x\in\set{2,3}$ ($y\in\set{2,3}$) the superobservers restore their respective observers' laboratories to their previous state and proceed to measure the particle directly. 
+
+What statistics are empircally accessible at the end of this process? Unless $x=1$ ($y=1$), the value for $c$ ($d$) is erased when Alice (Bob) performs their measurement, so in general this information is not available. Ultimately, the available values are $a$, $b$, $x$ and $y$; we can therefore measure (as frequencies) the empirical probabilities $\mathcal{P}(a,b|x,y)$.
 
 ### Local Friendliness Assumptions
 

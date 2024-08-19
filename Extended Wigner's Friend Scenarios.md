@@ -123,13 +123,13 @@ Bell-$I_{3322}$ with marginals over inputs $2$ and $3$ (appearing $64$ times amo
 Bell-CHSH for inputs $1,2$ of Alice and $1,3$ of Bob (appearing $32$ times amongst the $932$ facets):
 
 \begin{equation}
-langle{A_1B_1}\rangle - \langle{A_1B_3}\rangle - \langle{A_2B_1}\rangle - \langle{A_2B_3}\rangle \overset{LF}{\leq}{2}.
+\langle{A_1B_1}\rangle - \langle{A_1B_3}\rangle - \langle{A_2B_1}\rangle - \langle{A_2B_3}\rangle \overset{LF}{\leq}{2}.
 \end{equation}
 
 Bell-CHSH for inputs $1,3$ of Alice and $2,3$ of Bob (appearing $32$ times amongst the $932$ facets):
 
 \begin{equation}
--langle{A_1B_2}\rangle - \langle{A_1B_3}\rangle - \langle{A_3B_2}\rangle - \langle{A_3B_3}\rangle \overset{LF}{\leq}{2}.
+-\langle{A_1B_2}\rangle - \langle{A_1B_3}\rangle - \langle{A_3B_2}\rangle - \langle{A_3B_3}\rangle \overset{LF}{\leq}{2}.
 \end{equation}
 
 Positivity for inputs $1$ of Alice and $1$ of Bob (appearing $4$ times amongst the $932$ facets):

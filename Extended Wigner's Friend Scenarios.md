@@ -78,6 +78,10 @@ Bong et al. then analysed the EWFS according to these assumptions. Subsequent ge
 
 ### Local Friendliness Inequalities
 
+The 9 equivalence classes of inequalities can be described as follows.
+
+Genuine LF facet $1$ (appearing $256$ times amongst the $932$ facets):
+
 \begin{equation}
 \begin{aligned}
     &-\langle{A_1}\rangle-\langle{A_2}\rangle-\langle{B_1}\rangle-\langle{B_2}\rangle \\
@@ -85,6 +89,8 @@ Bong et al. then analysed the EWFS according to these assumptions. Subsequent ge
     &-\langle{A_2B_3}\rangle-\langle{A_3B_2}\rangle-\langle{A_3B_3}\rangle\overset{LF}{\leq}{6}.
 \end{aligned}
 \end{equation}
+
+Genuine LF facet $2$ (appearing $256$ times amongst the $932$ facets):
 
 \begin{equation}
 \begin{aligned}
@@ -94,6 +100,8 @@ Bong et al. then analysed the EWFS according to these assumptions. Subsequent ge
 \end{aligned}
 \end{equation}
 
+Bell-I_{3322} with marginals over inputs $1$ and $2$ (appearing $256$ times amongst the $932$ facets):
+
 \begin{equation}
 \begin{aligned}
     &-\langle{A_1}\rangle-\langle{A_2}\rangle+\langle{B_1}\rangle-\langle{B_2}\rangle \\
@@ -101,6 +109,8 @@ Bong et al. then analysed the EWFS according to these assumptions. Subsequent ge
     &+\langle{A_2B_2}\rangle-\langle{A_2B_3}\rangle-\langle{A_3B_1}\rangle-\langle{A_3B_2}\rangle\overset{LF}{\leq}{4}.
 \end{aligned}
 \end{equation}
+
+Bell-I_{3322} with marginals over inputs $2$ and $3$ (appearing $64$ times amongst the $932$ facets):
 
 \begin{equation}
 \begin{aligned}
@@ -110,7 +120,7 @@ Bong et al. then analysed the EWFS according to these assumptions. Subsequent ge
 \end{aligned}
 \end{equation}
 
-[^1]: The main difference between the set-ups of Brukner and Bon et al. is that Brukner allows the superobservers a choice between only two measurements, whereas Bong et al. allow the superobservers a choice between three measurements. This slight generalisation allows for the generation of new inequalities whereas Brukner, despite considering a novel scenario, simply recovered the CHSH inequality.
+[^1]: The main difference between the set-ups of Brukner and Bong et al. is that Brukner allows the superobservers a choice between only two measurements, whereas Bong et al. allow the superobservers a choice between three measurements. This slight generalisation allows for the generation of new inequalities whereas Brukner, despite considering a novel scenario, simply recovered the CHSH inequality.
 
 [^2]: A sufficient distance is defined as one which demands that a signal from one laboratory must travel faster than the speed of light in order to reach the other laboratory in time to affect any results.
 

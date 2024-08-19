@@ -150,6 +150,8 @@ Positivity for inputs $2$ of Alice and $2$ of Bob (appearing $16$ times amongst 
 1 + \langle{A_2}\rangle+ \langle{B_2}\rangle+ \langle{A_2B_2}\rangle \geq 0.
 \end{equation}
 
+The positivity facets simply reflect that all probability values must be between 0 and 1 and are thus trivial.
+
 [^1]: The main difference between the set-ups of Brukner and Bong et al. is that Brukner allows the superobservers a choice between only two measurements, whereas Bong et al. allow the superobservers a choice between three measurements. This slight generalisation allows for the generation of new inequalities whereas Brukner, despite considering a novel scenario, simply recovered the CHSH inequality.
 
 [^2]: A sufficient distance is defined as one which demands that a signal from one laboratory must travel faster than the speed of light in order to reach the other laboratory in time to affect any results.

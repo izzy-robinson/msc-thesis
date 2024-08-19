@@ -22,7 +22,7 @@ Section 8 is dedicated to a systematic examination of the most relevant Extended
 
 ## Bong et al.'s Argument
 
-Recall Deutsch's query regarding whether Wigner and his friend's contradictory accounts of the same situation are reconcilable. Bong et al. [@Bong2020] sought to explore a generalisation of this - specifically, whether it is possible to assign a joint probability distribution to statements made by different agents about their own independent measurement outcomes. To this end, Bong et al. proceeded to analyse an EWFS, adapted from that considered by Brukner [@Brukner2018], which was in turn inspired by both the set-up of Deutsch's simple Wigner's Friend Scenario and the protocol of a standard Bell test.
+Recall Deutsch's query regarding whether Wigner and his friend's contradictory accounts of the same situation are reconcilable. Bong et al. [@Bong2020] sought to explore a generalisation of this - specifically, whether it is possible to assign a joint probability distribution to statements made by different agents about their own independent measurement outcomes. To this end, Bong et al. proceeded to analyse an EWFS, adapted from that considered by Brukner [@Brukner2018], which was in turn inspired by both the set-up of Deutsch's simple Wigner's Friend Scenario and the protocol of a standard Bell test.[^1]
 
 ### The set-up
 
@@ -63,14 +63,14 @@ P(b|c,d,x,y=1)&=\delta_{b,d}.
 P(c,d|x,y)=P(cd).
 \end{equation}
 
-3. **No Action at a Distance (NAD):** *Provided the agents are sufficiently space-like separated,[^1] the measurement settings used by one (super)observer do not influence the measurement outcomes obtained by another (super)observer.* In the context of this EWFS, the NAD assumption dictates that the local settings $x$ and $y$ are uncorrelated with the distant outcomes $b$ and $a$ (respectively):
+3. **No Action at a Distance (NAD):** *Provided the agents are sufficiently space-like separated,[^2] the measurement settings used by one (super)observer do not influence the measurement outcomes obtained by another (super)observer.* In the context of this EWFS, the NAD assumption dictates that the local settings $x$ and $y$ are uncorrelated with the distant outcomes $b$ and $a$ (respectively):
 
 \begin{equation}
 P(b|c,d,x,y)=P(b|c,d,y) \\
 P(a|c,d,x,y)=P(a|c,d,x).
 \end{equation}
 
-4. **Universal Validity of Quantum Theory (UVQT):** *Quantum predictions hold true at any scale, regardless of the complexity of the system under consideration (i.e. quantum theory applies to observers).[^2]*
+4. **Universal Validity of Quantum Theory (UVQT):** *Quantum predictions hold true at any scale, regardless of the complexity of the system under consideration (i.e. quantum theory applies to observers).[^3]*
 
 Notice that the outcomes $c,d$ play the same role as the hidden variables $\lambda$ that go into the assumptions for Bell's theorem.
 
@@ -86,16 +86,32 @@ Bong et al. then analysed the EWFS according to these assumptions. Subsequent ge
 \end{aligned}
 \end{equation}
 
-
 \begin{equation}
 \begin{aligned}
     &-\langle{A_1}\rangle-\langle{A_2}\rangle-\langle{A_3}\rangle-\langle{B_1}\rangle \\
-    &-\langle{A_1B_1}\rangle-2\langle{A_2B_1}\rangle-2\langle{A_3B_1}\rangle\overset{\phantom{LF}}-2\langle{A_1B_2}\rangle \\
-    &-\langle{A_2B_2}\rangle-\langle{A_3B_2}\rangle-\langle{A_2B_3}\rangle+\langle{A_3B_3}\rangle\overset{LF}{\leq}{6}.
+    &-\langle{A_1B_1}\rangle-\langle{A_2B_1}\rangle-\langle{A_3B_1}\rangle\overset{\phantom{LF}}-2\langle{A_1B_2}\rangle \\
+    &+\langle{A_2B_2}\rangle+\langle{A_3B_2}\rangle-\langle{A_2B_3}\rangle+\langle{A_3B_3}\rangle\overset{LF}{\leq}{5}.
 \end{aligned}
 \end{equation}
 
+\begin{equation}
+\begin{aligned}
+    &-\langle{A_1}\rangle-\langle{A_2}\rangle+\langle{B_1}\rangle-\langle{B_2}\rangle \\
+    &+\langle{A_1B_1}\rangle-\langle{A_1B_2}\rangle-\langle{A_1B_3}\rangle\overset{\phantom{LF}}-\langle{A_2B_1}\rangle \\
+    &+\langle{A_2B_2}\rangle-\langle{A_2B_3}\rangle-\langle{A_3B_1}\rangle-\langle{A_3B_2}\rangle\overset{LF}{\leq}{4}.
+\end{aligned}
+\end{equation}
 
-[^1]: A sufficient distance is defined as one which demands that a signal from one laboratory must travel faster than the speed of light in order to reach the other laboratory in time to affect any results.
+\begin{equation}
+\begin{aligned}
+    &-\langle{A_1}\rangle-\langle{A_2}\rangle+\langle{B_1}\rangle-\langle{B_2}\rangle \\
+    &+\langle{A_1B_1}\rangle-\langle{A_1B_2}\rangle-\langle{A_1B_3}\rangle\overset{\phantom{LF}}-\langle{A_2B_1}\rangle \\
+    &+\langle{A_2B_2}\rangle-\langle{A_2B_3}\rangle-\langle{A_3B_1}\rangle-\langle{A_3B_2}\rangle\overset{LF}{\leq}{4}.
+\end{aligned}
+\end{equation}
 
-[^2]: This is simply a statement that '[t]here is nothing in quantum theory making it applicable to three atoms and inapplicable to $10^{23}$'. It is recognised that '[w]hile quantum theory can in principle describe anything, a quantum description cannot include everything'. However it is emphasized that this is not a flaw specific to quantum theory but rather a logical necessity required of any physical theory (classical or quantum) which hopes to avoid problems related to self-reference.
+[^1]: The main difference between the set-ups of Brukner and Bon et al. is that Brukner allows the superobservers a choice between only two measurements, whereas Bong et al. allow the superobservers a choice between three measurements. This slight generalisation allows for the generation of new inequalities whereas Brukner, despite considering a novel scenario, simply recovered the CHSH inequality.
+
+[^2]: A sufficient distance is defined as one which demands that a signal from one laboratory must travel faster than the speed of light in order to reach the other laboratory in time to affect any results.
+
+[^3]: This is simply a statement that '[t]here is nothing in quantum theory making it applicable to three atoms and inapplicable to $10^{23}$'. It is recognised that '[w]hile quantum theory can in principle describe anything, a quantum description cannot include everything'. However it is emphasized that this is not a flaw specific to quantum theory but rather a logical necessity required of any physical theory (classical or quantum) which hopes to avoid problems related to self-reference.

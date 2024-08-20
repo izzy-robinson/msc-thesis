@@ -87,7 +87,7 @@ of either its extreme points or its facets, it is possible to obtain the inequal
 - Alice's outputs for a particular $x$
 - Bob's outputs for a particular $y$
 
-The $9$ equivalence classes of inequalities can be described as follows.
+The resultant $9$ equivalence classes of inequalities can be described as follows.
 
 Genuine LF facet $1$ (appearing $256$ times amongst the $932$ facets):
 
@@ -160,6 +160,12 @@ Positivity for inputs $2$ of Alice and $2$ of Bob (appearing $16$ times amongst 
 \end{equation}
 
 The positivity facets simply reflect that all probability values must be between 0 and 1 and are thus trivial.
+
+```{figure} LF-polytope.png
+:name: LF-polytope-figure
+:align: center
+**Caption
+```
 
 [^1]: The main difference between the set-ups of Brukner and Bong et al. is that Brukner allows the superobservers a choice between only two measurements, whereas Bong et al. allow the superobservers a choice between three measurements. This slight generalisation allows for the generation of new inequalities whereas Brukner, despite considering a novel scenario, simply recovered the CHSH inequality.
 

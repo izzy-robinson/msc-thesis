@@ -78,7 +78,16 @@ Bong et al. then analysed the EWFS according to these assumptions. Subsequent ge
 
 ### Local Friendliness Inequalities
 
-The 9 equivalence classes of inequalities can be described as follows.
+Using the $96$ extreme points of the LF polytope and the software PANDA, which specialises in characterizing a convex polytope in terms
+of either its extreme points or its facets, it is possible to obtain the inequalities defining the $932$ facets of the LF polytope. These $932$ inequalities can be categorized into equivalence classes based on any combination of the below relabellings:
+
+- Parties Alice and Bob
+- Alice's inputs $2$ and $3$
+- Bob's inputs $2$ and $3$
+- Alice's outputs for a particular $x$
+- Bob's outputs for a particular $y$
+
+The $9$ equivalence classes of inequalities can be described as follows.
 
 Genuine LF facet $1$ (appearing $256$ times amongst the $932$ facets):
 

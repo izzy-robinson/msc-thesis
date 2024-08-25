@@ -79,22 +79,34 @@ Bong et al. then analysed the EWFS according to these assumptions. Subsequent ge
 ### Describing Correlations as Polytopes
 
 \begin{equation}
-P(a,b|x,y) \overset{AOE}&= \sum_{c,d} P(a,b|c,d,x,y) \\
+\mathcal{P}(a,b|x,y) \overset{AOE}=& \sum_{c,d} P(a,b|c,d,x,y) \\
 
- \overset{Bayes'}&= \sum_{c,d} P(a,b|c,d,x,y) P(c,d|x,y) \\
+ \overset{Bayes'}=& \sum_{c,d} P(a,b|c,d,x,y) P(c,d|x,y) \\
 
- \overset{NC}&= \sum_{c,d} P(a,b|c,d,x,y) P(c,d)
+ \overset{NC} =& \sum_{c,d} P(a,b|c,d,x,y) P(c,d)
 \end{equation}
 
-Using Bayes' rule again, we can decompose $P(a,b|c,d,x,y)$ in two different ways. Adopting one approach, we find the following:
+Using Bayes' rule again, we can decompose $P(a,b|c,d,x,y)$ in two different ways. Adopting one decomposition approach, we find the following:
 
 \begin{equation}
-P(a,b|x,y) \overset{Bayes'}&= \sum_{c,d} P(a|b,c,d,x,y) P(b|c,d,x,y) P(c,d) \\
-\overset{NS}&= \sum_{c,d} P(a|b,c,d,x,y) P(b|c,d,x,y) P(c,d) \\
-&= \sum_{c,d} \delta_{a,c} P(B|c,d,y) P(c,d) \textrm{if x=1.}
+\mathcal{P}(a,b|x,y) \overset{Bayes'} =& \sum_{c,d} P(a|b,c,d,x,y) P(b|c,d,x,y) P(c,d) \\
+\overset{NS}=& \sum_{c,d} P(a|b,c,d,x,y) P(b|c,d,x,y) P(c,d) \\
+=& \sum_{c,d} \delta_{a,c} P(B|c,d,y) P(c,d) \textrm{if x=1.}
 \end{equation}
 
-Adopting the other approach, we find the following:
+Adopting the other decomposition approach, we find the following:
+
+\begin{equation}
+\mathcal{P}(a,b|x,y)\overset{Bayes'} =&\sum_{c,d} P(b|a,c,d,x,y) P(a|c,d,x,y) P(c,d) \\
+\overset{NS}=& \sum_{c,d}P(b|a,c,d,y)P(a|c,d,x) P(c,d) \\
+=& \sum_{c,d} \delta_b,d P(a|c,d,x) P(c,d) \textrm{if y=1.}
+\end{equation}
+
+Combining all we have learnt, we obtain the following:
+
+\begin{equation}
+
+\end{equation}
 
 ```{figure} LF-polytope.png
 :name: LF-polytope-figure

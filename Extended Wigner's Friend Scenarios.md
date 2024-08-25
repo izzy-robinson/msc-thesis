@@ -79,18 +79,20 @@ Bong et al. then analysed the EWFS according to these assumptions. Subsequent ge
 ### Describing Correlations as Polytopes
 
 \begin{equation}
-P(a,b|x,y) &\overset{AOE}= \sum_{c,d} P(a,b|c,d,x,y) \\
+P(a,b|x,y) \overset{AOE}&= \sum_{c,d} P(a,b|c,d,x,y) \\
 
-& \overset{Bayes'}= \sum_{c,d} P(a,b|c,d,x,y) P(c,d|x,y) \\
+ \overset{Bayes'}&= \sum_{c,d} P(a,b|c,d,x,y) P(c,d|x,y) \\
 
-& \overset{NC}= \sum_{c,d} P(a,b|c,d,x,y) P(c,d)
+ \overset{NC}&= \sum_{c,d} P(a,b|c,d,x,y) P(c,d)
 \end{equation}
 
 Using Bayes' rule again, we can decompose $P(a,b|c,d,x,y)$ in two different ways. Adopting one approach, we find the following:
 
 \begin{equation}
-P(a,b|x,y) &\overset{Bayes'}= \sum_{c,d} P(a|b,c,d,x,y) P(b|c,d,x,y) P(c,d) \\
-&= 
+P(a,b|x,y) \overset{Bayes'}&= \sum_{c,d} P(a|b,c,d,x,y) P(b|c,d,x,y) P(c,d) \\
+\overset{NS}&= \sum_{c,d} P(a|b,c,d,x,y) P(b|c,d,x,y) P(c,d) \\
+&= \sum_{c,d} \delta_{a,c} P(B|c,d,y) P(c,d) \textrm{if x=1.}
+\end{equation}
 
 Adopting the other approach, we find the following:
 

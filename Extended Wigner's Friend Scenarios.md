@@ -78,6 +78,8 @@ Bong et al. then analysed the EWFS according to these assumptions. Subsequent ge
 
 ### Describing Correlations as Polytopes
 
+We now derive the general form for an LF probability distribution.
+
 \begin{equation}
 \mathcal{P}(a,b|x,y) \overset{AOE}=& \sum_{c,d} P(a,b|c,d,x,y) \\
 

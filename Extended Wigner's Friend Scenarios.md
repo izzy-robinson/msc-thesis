@@ -76,6 +76,14 @@ Notice that the outcomes $c,d$ play the same role as the hidden variables $\lamb
 
 Bong et al. then analysed the EWFS according to these assumptions. Subsequent generation of local friendliness inequalities violable by quantum theory indicates that the conjunction of assumptions $1-4$ is untenable and prompts the proposal of a no-go theorem: at least one of assumptions $1-4$ must be rejected as false. This no-go theorem is technically neutral in the sense that it does not dictate which particular assumption should be denied. However assumptions $2-4$ are extremely well motivated. Rejecting the NC assumption would render most forms of scientific research impracticable; if one cannot examine a system without changing its preparation, one cannot hope to find information about its true state. To permit action at a distance is to deny a key premise of Einstein's theory of special relativity. And quantum theory's domain of validity is widely believed to be unlimited due to its extraordinary success in accurately predicting the results of experiments. In summary, dismissing any of assumptions $2-4$ entails straying from the well-worn path and risking far reaching unattractive consequences. Therefore, quite naturally, Bong, et al. took their theorem to disprove the existence of assumption $1$ i.e. AOE.
 
+### Polytope Description
+
+```{figure} LF-polytope.png
+:name: LF-polytope-figure
+:align: center
+**Two-dimensional slice of the space of correlations.** The solid areas represent different polytopes of correlations. The local deterministic set (green) is a subset of the extended Wigner's friend scenario polytope (orange) which in turn is a subset of the no signalling polytope (purple). The red line represents the boundary of the quantum set which contains the local deterministic polytope and is contained within the no signalling polytope but neither contains nor is contained by the extended Wigner's friend scenario polytope.
+```
+
 ### Local Friendliness Inequalities
 
 Using the $96$ extreme points of the LF polytope and the software PANDA, which specialises in characterizing a convex polytope in terms
@@ -161,11 +169,6 @@ Positivity for inputs $2$ of Alice and $2$ of Bob (appearing $16$ times amongst 
 
 The positivity facets simply reflect that all probability values must be between 0 and 1 and are thus trivial.
 
-```{figure} LF-polytope.png
-:name: LF-polytope-figure
-:align: center
-**Caption
-```
 
 [^1]: The main difference between the set-ups of Brukner and Bong et al. is that Brukner allows the superobservers a choice between only two measurements, whereas Bong et al. allow the superobservers a choice between three measurements. This slight generalisation allows for the generation of new inequalities whereas Brukner, despite considering a novel scenario, simply recovered the CHSH inequality.
 

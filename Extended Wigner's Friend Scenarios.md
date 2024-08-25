@@ -81,7 +81,7 @@ Bong et al. then analysed the EWFS according to these assumptions. Subsequent ge
 ```{figure} LF-polytope.png
 :name: LF-polytope-figure
 :align: center
-**Two-dimensional slice of the space of correlations.** The solid areas represent different polytopes of correlations. The local deterministic set (green) is a subset of the extended Wigner's friend scenario polytope (orange) which in turn is a subset of the no signalling polytope (purple). The red line represents the boundary of the quantum set which contains the local deterministic polytope and is contained within the no signalling polytope but neither contains nor is contained by the extended Wigner's friend scenario polytope.
+**Reproduced from [@Bong2020].** Two-dimensional slice of the space of correlations. The solid areas represent different polytopes of correlations. The local deterministic set (green) is a subset of the extended Wigner's friend scenario polytope (orange) which in turn is a subset of the no signalling polytope (purple). The red line represents the boundary of the quantum set which contains the local deterministic polytope and is contained within the no signalling polytope but neither contains nor is contained by the extended Wigner's friend scenario polytope.
 ```
 
 ### Local Friendliness Inequalities

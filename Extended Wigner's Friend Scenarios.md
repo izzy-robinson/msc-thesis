@@ -76,7 +76,7 @@ Notice that the outcomes $c,d$ play the same role as the hidden variables $\lamb
 
 Bong et al. then analysed the EWFS according to these assumptions. Subsequent generation of local friendliness inequalities violable by quantum theory indicates that the conjunction of assumptions $1-4$ is untenable and prompts the proposal of a no-go theorem: at least one of assumptions $1-4$ must be rejected as false. This no-go theorem is technically neutral in the sense that it does not dictate which particular assumption should be denied. However assumptions $2-4$ are extremely well motivated. Rejecting the NC assumption would render most forms of scientific research impracticable; if one cannot examine a system without changing its preparation, one cannot hope to find information about its true state. To permit action at a distance is to deny a key premise of Einstein's theory of special relativity. And quantum theory's domain of validity is widely believed to be unlimited due to its extraordinary success in accurately predicting the results of experiments. In summary, dismissing any of assumptions $2-4$ entails straying from the well-worn path and risking far reaching unattractive consequences. Therefore, quite naturally, Bong, et al. took their theorem to disprove the existence of assumption $1$ i.e. AOE.
 
-### Describing Correlations as Polytopes
+### Describing Correlations
 
 We now derive the general form for an LF probability distribution.
 
@@ -88,7 +88,7 @@ We now derive the general form for an LF probability distribution.
  \overset{NC} =& \sum_{c,d} P(a,b|c,d,x,y) P(c,d)
 \end{equation}
 
-Using Bayes' rule again, we can decompose $P(a,b|c,d,x,y)$ in two different ways. Adopting one decomposition approach, we find the following:
+Using Bayes' rule again, we can decompose $P(a,b|c,d,x,y)$ in two different ways. Adopting one decomposition approach for the final line of Equation $8.5$, we find the following:
 
 \begin{equation}
 \mathcal{P}(a,b|x,y) \overset{Bayes'} =& \sum_{c,d} P(a|b,c,d,x,y) P(b|c,d,x,y) P(c,d) \\
@@ -96,7 +96,7 @@ Using Bayes' rule again, we can decompose $P(a,b|c,d,x,y)$ in two different ways
 =& \sum_{c,d} \delta_{a,c} P(B|c,d,y) P(c,d) \textrm{ if x=1.}
 \end{equation}
 
-Adopting the other decomposition approach, we find the following:
+Adopting the other decomposition approach for the final line of Equation $8.5$, we find the following:
 
 \begin{equation}
 \mathcal{P}(a,b|x,y)\overset{Bayes'} =&\sum_{c,d} P(b|a,c,d,x,y) P(a|c,d,x,y) P(c,d) \\

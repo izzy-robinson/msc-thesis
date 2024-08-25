@@ -99,7 +99,7 @@ Adopting the other decomposition approach, we find the following:
 \begin{equation}
 \mathcal{P}(a,b|x,y)\overset{Bayes'} =&\sum_{c,d} P(b|a,c,d,x,y) P(a|c,d,x,y) P(c,d) \\
 \overset{NS}=& \sum_{c,d}P(b|a,c,d,y)P(a|c,d,x) P(c,d) \\
-=& \sum_{c,d} \delta_b,d P(a|c,d,x) P(c,d) \textrm{ if y=1.}
+=& \sum_{c,d} \delta_{b,d} P(a|c,d,x) P(c,d) \textrm{ if y=1.}
 \end{equation}
 
 Combining all we have learnt, we obtain the following:
@@ -107,9 +107,9 @@ Combining all we have learnt, we obtain the following:
 \begin{equation}
 \mathcal{P}(a,b|x,y) = 
 \begin{cases}
-   \sum_{c,d} P(a,b|c,d,x,y) P(c,d)\textrm{ if x,y\neq1.} \\
+   \sum_{c,d} P(a,b|c,d,x,y) P(c,d)\textrm{ if x,y} \neq \textrm{1.} \\
    \sum_{c,d} \delta_{a,c} P(B|c,d,y) P(c,d) \textrm{ if x=1.} \\
-   \sum_{c,d} \delta_b,d P(a|c,d,x) P(c,d) \textrm{ if y=1.}
+   \sum_{c,d} \delta_{b,d} P(a|c,d,x) P(c,d) \textrm{ if y=1.}
 \end{cases}
 \end{equation}
 

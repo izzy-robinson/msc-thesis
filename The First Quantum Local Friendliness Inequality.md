@@ -17,7 +17,7 @@ It can be noticed from figure 9.5 that, within the region identified as 'of inte
 :name: QLF-graph-figure
 :width: 400px
 :align: center
-**A reproduction of figure 9.5 with additional information.**In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality).
+**A reproduction of figure 9.5 with additional information.** In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality).
 ```
 
 ## Proving the Bound is Tight

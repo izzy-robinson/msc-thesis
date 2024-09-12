@@ -147,8 +147,10 @@ In probability form, the CGLMP inequality is given by
 \begin{equation}
     P(a-b-0|1,1) + P(a-b=o|1,2) + P(a-b=0|2,1) \\
     + P(a-b=1|2,2) - P(a-b=2|1,1) - P(a-b=1|1,2) \\
-    - P(a-b=1|2,1) - P(a-b=0|2,2) \leq 2.
+    - P(a-b=1|2,1) - P(a-b=0|2,2) \leq 2
 \end{equation}
+
+where all subtractions are modulo $3$.
 
 #### LHV strategies
 

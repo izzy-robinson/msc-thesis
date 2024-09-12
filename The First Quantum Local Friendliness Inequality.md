@@ -11,11 +11,13 @@ numbering:
 > The purpose of visualisation is insight, not pictures.
 > - Ben Shneiderman
 
+It can be noticed from figure 9.5 that, within the region identified as 'of interest', the quantum boundary falls along a straight line. This is therefore a quantum LF inequality.
+
 ```{figure} QLFgraph.JPG
 :name: QLF-graph-figure
 :width: 400px
 :align: center
-Caption
+**A reproduction of figure 9.5 with additional information.**In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality).
 ```
 
 ## Proving the Bound is Tight

@@ -96,7 +96,7 @@ The specific saturating local deterministic boxes are numbered as follows.
 :align: center
 ```
 
-Likewise, the saturating PR strategies along with their scores for each part of the decomposition are shown in the following table.
+Each of these corresponds to a vertex of the LF polytope in figure 9.5. Likewise, the saturating PR strategies along with their scores for each part of the decomposition are shown in the following table.
 
 ```{figure} saturating-pr-strategies.JPG
 :name: saturating-pr-strategies-figure
@@ -109,3 +109,5 @@ The specific saturating PR boxes are numbered as follows.
 :name: saturating-pr-boxes-figure
 :align: center
 ```
+
+As before, each of these corresponds to a vertex of the LF polytope in figure 9.5.

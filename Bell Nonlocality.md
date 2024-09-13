@@ -184,7 +184,7 @@ where $\ket{0},\ket{1},\ket{2}$ are the standard orthonormal basis states for $\
 p(a,b|x,y) = \frac{1}{54\sin^2[\pi(a-b+\gamma_x+\delta_y)\pi/3]}
 \end{equation}
 
-where $\gamma_0=0$, $\gamma_1=-1/2$, $\delta_0=1/4$ and $\delta_1=-1/4$.
+where $\gamma_0=0$, $\gamma_1=-1/2$, $\delta_0=1/4$ and $\delta_1=-1/4$. Note that starting with this quantum state surprisingly does not produce the maximal quantum violation of the CGLMP inequality, which is anomalous given that most other tasks are performed optimally using the maximally mixed state.
 
 ## Experimental Considerations
 

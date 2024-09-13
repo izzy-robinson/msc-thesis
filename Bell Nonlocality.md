@@ -124,7 +124,7 @@ Likewise, there are $4$ deterministic processes which might be followed by Bob. 
 
 #### A quantum strategy
 
-With a quantum strategy, the maximum probablility of winning the game is $\frac{2+\sqrt{2}}{4}$ or $85.4\%$. A typical choice of measurement angles that leads to maximum violation of the CHSH inequality is
+With a quantum strategy, the maximum probablility of winning the game is $\frac{2+\sqrt{2}}{4}$ or $85.4\%$. Violation of the CHSH inequality is achieved through a combination of a maximally entangled quantum state and carefully chosen measurement settings. A typical choice of measurement angles that leads to maximum violation of the CHSH inequality is
 
 
 - $A_1 = 0^\circ = \hat{X}$ 
@@ -150,9 +150,25 @@ In probability form, the CGLMP inequality is given by
     - P(a-b=1|2,1) - P(a-b=0|2,2) \leq 2
 \end{equation}
 
-where all subtractions are modulo $3$.
+where all subtractions are modulo $3$.[^3]
+
+[^3]: Here and hereafter we use the phrase 'modulo $3$' in the natural (rather than strictly mathematical) sense of circulating through the values $1,2,3$; $3$ modulo $3$ is taken to be $1$ rather than $0$.
 
 #### LHV strategies
+
+There are $9$ possible deterministic processes which might be followed by Alice, namely
+
+1. The result is always $a=1$, regardless of the choice for $x$.
+2. The result is always $a=2$, regardless of the choice for $x$.
+3. The result is always $a=3$, regardless of the choice for $x$.
+4. The result is always identical to the choice for $x$ (i.e. $a=x$).
+5. The result is always different from the choice for $x$ such that $a=x+1$.
+6. The result is always different from the choice for $x$ such that $a=x+2$.
+7. The result is always different from the choice for $x$ such that $a=-x$.
+8. The result is always given by $a=-(x+2)$.
+9. The result is always given by $a=-(x+1)$.
+
+Likewise, there are $9$ possible deterministic processes which might be followed by Bob. This means a total of $9 \times 9 = 81$ combinations of processes for both Alice and Bob. It would of course be possible to create a table of tables as we did in the CHSH case, however this would be a little unwieldy to actually produce given its $81$ elements; so we won't show it explicitlty.
 
 #### A quantum strategy
 

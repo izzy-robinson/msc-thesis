@@ -175,10 +175,10 @@ Likewise, there are $9$ possible deterministic processes which might be followed
 Consider the two-qutrit state
 
 \begin{equation}
-\ket{\psi} = \frac{1}{\sqrt{3}}(\ket{0}\ket{0}+\ket{1}\ket{1}+\ket{2}{2})
+\ket{\psi} = \frac{1}{\sqrt{3}}(\ket{0}\ket{0}+\ket{1}\ket{1}+\ket{2}\ket{2})
 \end{equation}
 
-where $\ket{0},\ket{1},\ket{2}$ are the standard orthonormal basis states for $\mathbb{C}^3$. On this maximally mixed state, a series of operations are performed. First Alice and Bob given each of the basis states a variable phase dependent on the measurement they want to carry out. Then each party carries out a discrete Fourier transform. Finally, Alice and Bob measure their respective bases. As a result, the joint probabilities are given by 
+where $\ket{0},\ket{1},\ket{2}$ are the standard orthonormal basis states for $\mathbb{C}^3$. On this maximally mixed state, a series of operations are performed. First, Alice and Bob given each of the basis states a variable phase dependent on the measurement they want to carry out. Then, each party carries out a discrete Fourier transform. Finally, Alice and Bob measure their respective bases. As a result, the joint probabilities are given by 
 
 \begin{equation}
 p(a,b|x,y) = \frac{1}{54\sin^2[\pi(a-b+\gamma_x+\delta_y)\pi/3]}

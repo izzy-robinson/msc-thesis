@@ -142,7 +142,7 @@ The measurement directions used by Alice (x) and Bob (y) in a winning quantum st
 
 ### The $(2,2,d,d)$ Scenario: CGLMP
 
-In probability form, the CGLMP inequality @Collins2002 is given by
+In probability form, the CGLMP inequality (@Collins2002) is given by
 
 \begin{equation}
     P(a-b=0|1,1) + P(a-b=0|1,2) + P(a-b=0|2,1) \\
@@ -242,7 +242,7 @@ q(\lambda|x,y) = q(\lambda).
 ### Loophole-free Bell Tests
 
 - Three loophole-free Bell tests were performed in 2015 by the following groups:
-    - TU Delft @Hensen2015
-    - IQOQI Vienna @Giustina2015
-    - NIST Boulder @Shalm2015
-- Further progress since has included the Big Bell Test at ICFO @Abellan2018.
+    - TU Delft (@Hensen2015).
+    - IQOQI Vienna (@Giustina2015).
+    - NIST Boulder (@Shalm2015).
+- Further progress since has included the Big Bell Test at ICFO (@Abellan2018).

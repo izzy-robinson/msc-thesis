@@ -79,7 +79,7 @@ Plotting in our new parameter space we get a graph of $\epsilon$' against CHSH'.
 :name: LF-graph-figure
 :width: 400px
 :align: center
-**A graph of the LF inequality on axes of $\epsilon$' against $CHSH$'.** The line AE denotes the LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set). The hollow pink point represents the maximal quantum violation of LF (as found in the supplemental material of @Bong2020). The filled pink point represents the maximal quantum violation of LF which is not simply a hidden violation of the CHSH inequality (i.e. its nonlocality stems from seomewhere else more interesting); we propose this as a new point of interest. Indeed, the entire opaque orange region is of note as this is the area which lies outside of the LF set but inside the quantum set.
+**A graph of the LF inequality on axes of $\epsilon$' against $CHSH$'.** The line AE denotes the LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set). The hollow pink point represents the maximal quantum violation of LF (as found in the supplemental material of @Bong2020). The filled pink point represents the maximal quantum violation of LF which is not simply a hidden violation of the CHSH inequality between settings $1$ and $2$ (i.e. its nonlocality stems from violating other symmetries of CHSH); we propose this as a new point of interest due to its neat and symmetric nature. Indeed, the entire opaque orange region is of note as this is the area which lies outside of the LF set but inside the quantum set.
 ```
 
 The saturating local deterministic strategies, and their scores for each part of the decomposition, are shown in the table below.

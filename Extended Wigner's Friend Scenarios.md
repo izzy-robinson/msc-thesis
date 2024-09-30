@@ -50,7 +50,7 @@ In the context of this EWFS, the AOE assumption entails that there exists a theo
 \mathcal{P}(a,b|x,y)=\sum_{c,d}P(a,b,c,d|x,y).
 \end{equation} 
 
-Furthermore, AOE ensures consistency is maintained between observers and superobservers when $x,y=1 (i.e. when the superobserver simply opens the observer's laboratory, asks what their outcome was and sets their own result to be equal): 
+Furthermore, AOE ensures consistency is maintained between observers and superobservers when $x,y=1$ (i.e. when the superobserver simply opens the observer's laboratory, asks what their outcome was and sets their own result to be equal): 
 
 \begin{equation}
 P(a|c,d,x=1,y)&=\delta_{a,c} \\

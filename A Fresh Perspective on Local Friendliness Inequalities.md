@@ -111,3 +111,18 @@ The specific saturating PR boxes are numbered as follows.
 ```
 
 As before, each of these corresponds to a vertex of the LF polytope in [](#LF-graph-figure).
+
+```{figure} their_point.JPG
+:name: their_point-figure
+:align: center
+```
+
+```{figure} our_point.JPG
+:name: our_point-figure
+:align: center
+```
+
+```{figure} L_NL_LF_graph.JPG
+:name: L_NL_LF_graph-figure
+:align: center
+```

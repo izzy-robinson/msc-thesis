@@ -122,6 +122,8 @@ As before, each of these corresponds to a vertex of the LF polytope in [](#LF-gr
 :align: center
 ```
 
+where $c=\frac{1}{2}cos^2(\frac{\pi}{8})$ and $s=\frac{1}{2}sin^2(\frac{\pi}{8})$.
+
 ```{figure} L_NL_LF_graph.JPG
 :name: L_NL_LF_graph-figure
 :align: center

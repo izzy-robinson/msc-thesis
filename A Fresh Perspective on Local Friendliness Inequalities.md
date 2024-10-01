@@ -79,7 +79,7 @@ Plotting in our new parameter space we get a graph of $\epsilon$' against CHSH'.
 :name: LF-graph-figure
 :width: 400px
 :align: center
-**A graph of the LF inequality on axes of $\epsilon$' against $CHSH$'.** The line AE denotes the LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set). The hollow pink point represents the maximal quantum violation of LF (as found in the supplemental material of @Bong2020). The filled pink point represents the maximal quantum violation of LF which is not simply a hidden violation of the CHSH inequality between settings $1$ and $2$ (i.e. its nonlocality stems from violating other symmetries of CHSH); we propose this as a new point of interest due to its neat and symmetric nature. Indeed, the entire opaque orange region is of note as this is the area which lies outside of the LF set but inside the quantum set.
+**A graph of the LF inequality on axes of $\epsilon$' against $CHSH$'.** The line AE denotes the LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set). The hollow pink point represents the maximal quantum violation of LF (as found in the supplemental material of @Bong2020). The filled pink point represents the maximal quantum violation of LF which is not simply a hidden violation of the CHSH inequality between settings $1$ and $2$ (i.e. its nonlocality stems from violating other symmetries of CHSH); we propose this as a new point of interest due to its neat closed form nature. Indeed, the entire opaque orange region is of note as this is the area which lies outside of the LF set but inside the quantum set.
 ```
 
 For future reference, we preserve the vertices of the LF polytope from [](#LF-graph-figure). The saturating local deterministic strategies, and their scores for each part of the decomposition, are shown in the table below.
@@ -112,11 +112,15 @@ The specific saturating PR boxes are numbered as follows.
 
 As before, each of these corresponds to a vertex of the LF polytope in [](#LF-graph-figure).
 
+As noted in @Bong2018, the maximal quantum violation of the LF inequality (denoted in [](#LF-graph-figure) by a hollow pink point) is given by the following point:
+
 ```{figure} their_point.JPG
 :name: their_point-figure
 :width: 275px
 :align: center
 ```
+
+The point we identified as potentially of interest (denoted in [](#LF-graph-figure) by a filled pink point) is given by
 
 ```{figure} our_point.JPG
 :name: our_point-figure
@@ -124,10 +128,11 @@ As before, each of these corresponds to a vertex of the LF polytope in [](#LF-gr
 :align: center
 ```
 
-where $c=\frac{1}{2}cos^2(\frac{\pi}{8})$ and $s=\frac{1}{2}sin^2(\frac{\pi}{8})$.
+where $c=\frac{1}{2}cos^2(\frac{\pi}{8})$ and $s=\frac{1}{2}sin^2(\frac{\pi}{8})$. Notice that our point is much cleaner, with each value taking a closed form as opposed to a decimal. A further comparison of these two points is offered in the table below, which links nonlocality with local friendliness.
 
 ```{figure} L_NL_LF_graph.JPG
 :name: L_NL_LF_graph-figure
 :width: 375px
 :align: center
 ```
+

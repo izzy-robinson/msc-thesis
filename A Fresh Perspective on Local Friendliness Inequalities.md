@@ -79,17 +79,17 @@ One immediate benefit of decomposing our LF inequality as above is that we have 
 :name: LF-graph-figure
 :width: 400px
 :align: center
-**A graph of the LF inequality on axes of $\epsilon$' against $CHSH$'.** The line AE denotes the LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set). The hollow pink point represents the maximal quantum violation of LF (as found in the supplemental material of @Bong2020). The filled pink point represents the maximal quantum violation of LF which is not simply a hidden violation of the CHSH inequality between settings $1$ and $2$ (i.e. its nonlocality stems from violating other symmetries of CHSH); we propose this as a new point of interest due to its neat closed form nature. Indeed, the entire opaque orange region is of note as this is the area which lies outside of the LF set but inside the quantum set.
+**A graph of the LF inequality on axes of $\epsilon$' against $CHSH$'.** The line AE denotes the LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set). The hollow pink point represents the maximal quantum violation of LF (as found in the supplemental material of @Bong2020). The filled pink point represents the maximal quantum violation of LF which is not simply a hidden violation of the CHSH inequality between settings $1$ and $2$ (i.e. its nonlocality stems from violating other symmetries of CHSH); we propose this as a new point of interest due to its neat closed form nature. Indeed, the entire opaque orange triangle is of note as this is the area which lies outside of the LF set but inside the quantum set without violating CHSH between settings $1$ and $2$.
 ```
 
-For future reference, we preserve the vertices of the LF polytope from [](#LF-graph-figure). The saturating local deterministic strategies, and their scores for each part of the decomposition, are shown in the table below. They all map to point E.
+For future reference, we preserve the vertices of the LF polytope from [](#LF-graph-figure) along the LF inequality. The saturating local deterministic strategies, and their scores for each part of the decomposition, are shown in the table below. They all map to point E.
 
 ```{figure} saturating-ld-strategies.JPG
 :name: saturating-ld-strategies-figure
 :align: center
 ```
 
-The specific saturating local deterministic boxes are numbered as follows. 
+The specific saturating local deterministic boxes referred to in the table above are numbered as follows. 
 
 ```{figure} saturating-ld-boxes.JPG
 :name: saturating-ld-boxes-figure
@@ -103,14 +103,14 @@ Each of these corresponds to a vertex of the LF polytope in [](#LF-graph-figure)
 :align: center
 ```
 
-The specific saturating PR boxes are numbered as follows.
+The specific saturating PR boxes referred to in the table above are numbered as follows.
 
 ```{figure} saturating-pr-boxes.JPG
 :name: saturating-pr-boxes-figure
 :align: center
 ```
 
-As before, each of these corresponds to a vertex of the LF polytope in [](#LF-graph-figure).
+As before, each of these corresponds to a vertex of the LF polytope in [](#LF-graph-figure) along the LF inequality.
 
 As noted in @Bong2018, the maximal quantum violation of the LF inequality (denoted in [](#LF-graph-figure) by a hollow pink point) is given by the following point:
 

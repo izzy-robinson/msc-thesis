@@ -128,7 +128,7 @@ The point we identified as potentially of interest (denoted in [](#LF-graph-figu
 :align: center
 ```
 
-where $c=\frac{1}{2}cos^2(\frac{\pi}{8})$ and $s=\frac{1}{2}sin^2(\frac{\pi}{8})$. Notice that our point is much cleaner, with each value taking a closed form as opposed to a decimal. This may render it worthy of exploration. A further comparison of these two points is offered in the table below, which links nonlocality with local friendliness.
+where $c=\frac{1}{2}cos^2(\frac{\pi}{8})$ and $s=\frac{1}{2}sin^2(\frac{\pi}{8})$.  Having found our new point, we are able to compare it with the maximal quantum violation of LF in the table below, which links nonlocality with local friendliness.
 
 ```{figure} L_NL_LF_graph.JPG
 :name: L_NL_LF_graph-figure
@@ -136,4 +136,7 @@ where $c=\frac{1}{2}cos^2(\frac{\pi}{8})$ and $s=\frac{1}{2}sin^2(\frac{\pi}{8})
 :align: center
 ```
 
-It can be seen that, whereas our point is by construction local in the setting [(1,2),(1,2)] and also in the setting [(1,3),(1,3)], their point is local in the settings [(1,3),(1,3)], [(1,2),(1,3)] and [(1,3),(1,2)]. It is reasonable to expect locality in the settings where both parties use a $1$ as this corresponds to both parties opening the box and asking its occupant for their result. An interesting question would be whether it is possible to find a point which is local in all four such setting combinations, as both our point and their point fail in this task. It is obviously an option to numerically check this, however it may also be the case that a careful examination of our point allows us to analytically prove whether or not this is possible.
+It can be seen that, whereas our point is by construction local in the setting [(1,2),(1,2)] and also in the setting [(1,3),(1,3)], their point is local in the settings [(1,3),(1,3)], [(1,2),(1,3)] and [(1,3),(1,2)]. It is reasonable to expect locality in the settings where both parties use a $1$ as this corresponds to both parties opening the box and asking its occupant for their result. Whilst their point may be viewed as superior in the sense that its nonlocality is concentrated only in the [(1,2),(1,2)] setting as opposed to being split between the settings [(1,2),(1,3)] and [(1,3),(1,2)] as is the case for our point, ours is much cleaner with each value taking a closed form as opposed to a decimal. This may render it worthy of further exploration. An interesting question would be whether it is possible to find a point which is local in all four such setting combinations, as both our point and their point fail in this task. It is obviously an option to numerically check this, however it may also be the case that a careful examination of our point allows us to analytically prove whether or not this is achieveable.
+
+
+

@@ -128,7 +128,7 @@ The point we identified as potentially of interest (denoted in [](#LF-graph-figu
 :align: center
 ```
 
-where $c=\frac{1}{2}cos^2(\frac{\pi}{8})$ and $s=\frac{1}{2}sin^2(\frac{\pi}{8})$. Notice that our point is much cleaner, with each value taking a closed form as opposed to a decimal. A further comparison of these two points is offered in the table below, which links nonlocality with local friendliness.
+where $c=\frac{1}{2}cos^2(\frac{\pi}{8})$ and $s=\frac{1}{2}sin^2(\frac{\pi}{8})$. Notice that our point is much cleaner, with each value taking a closed form as opposed to a decimal. This may render it worthy of exploration. A further comparison of these two points is offered in the table below, which links nonlocality with local friendliness.
 
 ```{figure} L_NL_LF_graph.JPG
 :name: L_NL_LF_graph-figure

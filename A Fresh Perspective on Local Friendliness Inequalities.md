@@ -73,7 +73,7 @@ Although it superficially looks completely different, this is fully analagous to
 
 - $ \textrm{LF} = 4\textrm{LF'} - 6 $
 
-Plotting in our new parameter space we get a graph of $\epsilon$' against CHSH'.
+One immediate benefit of decomposing our LF inequality as above is that we have identified a new parameter space in which we can investigate; plotting in this parameter space we get a graph of $\epsilon$' against CHSH'.
 
 ```{figure} LFgraph.JPG
 :name: LF-graph-figure
@@ -82,7 +82,7 @@ Plotting in our new parameter space we get a graph of $\epsilon$' against CHSH'.
 **A graph of the LF inequality on axes of $\epsilon$' against $CHSH$'.** The line AE denotes the LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set). The hollow pink point represents the maximal quantum violation of LF (as found in the supplemental material of @Bong2020). The filled pink point represents the maximal quantum violation of LF which is not simply a hidden violation of the CHSH inequality between settings $1$ and $2$ (i.e. its nonlocality stems from violating other symmetries of CHSH); we propose this as a new point of interest due to its neat closed form nature. Indeed, the entire opaque orange region is of note as this is the area which lies outside of the LF set but inside the quantum set.
 ```
 
-For future reference, we preserve the vertices of the LF polytope from [](#LF-graph-figure). The saturating local deterministic strategies, and their scores for each part of the decomposition, are shown in the table below.
+For future reference, we preserve the vertices of the LF polytope from [](#LF-graph-figure). The saturating local deterministic strategies, and their scores for each part of the decomposition, are shown in the table below. They all map to point E.
 
 ```{figure} saturating-ld-strategies.JPG
 :name: saturating-ld-strategies-figure
@@ -96,7 +96,7 @@ The specific saturating local deterministic boxes are numbered as follows.
 :align: center
 ```
 
-Each of these corresponds to a vertex of the LF polytope in [](#LF-graph-figure). Likewise, the saturating PR strategies along with their scores for each part of the decomposition are shown in the following table.
+Each of these corresponds to a vertex of the LF polytope in [](#LF-graph-figure). Likewise, the saturating PR strategies along with their scores for each part of the decomposition are shown in the following table. Two of these map to point E and one maps to point A.
 
 ```{figure} saturating-pr-strategies.JPG
 :name: saturating-pr-strategies-figure

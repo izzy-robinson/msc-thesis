@@ -11,7 +11,9 @@ numbering:
 > To arrive where we started and know the place for the first time.
 > - T.S. Eliot
 
-One local friendliness inequality, appearing 256 times among the 932 facets [@Bong2020], is given in correlator form by
+In their original paper [@Bong2020], Bong et al. numerically derive several local friendliness inequalities. However they are simply written in the paper and left uninvestigated; if we are to generalise LF inequalities from this particular scenario to others (which may be too computationally intensive to derive numerically) then we will require a more in depth understanding of the inequalities. We notice immediately that there are traces of CHSH in one LF inequality and wonder if we can decompose it into a space of two parameters. From this perspective we see additional structure emerge.
+
+The local friendliness inequality we have chosen to focus on, appearing 256 times among the 932 facets [@Bong2020], is given in correlator form by
 
 \begin{equation}
 \begin{aligned}
@@ -38,6 +40,12 @@ where $x,y\in\set{1,2,3}$ denote the measurement settings chosen by Alice and Bo
 :width: 275px
 :align: center
 ```
+
+here we have introduced some notation which will prove very useful moving forwards
+
+alice on the left hand side and bob on the uppermost side of the table. the agents setting choice as the larger scale and the agents measurement outcome as the smaller scale.
+
+morally take the dot product of the probability table with the grid to return to the correlator form of the inequality
 
 ## Decomposition of the LF Inequality
 

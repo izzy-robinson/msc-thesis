@@ -15,7 +15,7 @@ In their original paper [@Bong2020], Bong et al. derive all facets of the LF pol
 
 A structural aspect we are able to notice immediately is that one LF inequality contains traces of CHSH. This presents the following question - are we able to decompose this LF inequality into a CHSH part and a novel part? If so, we inherit a space of two parameters as we are able to consider the trade-off between both parts. This proves to be the case, and from this perspective we see additional structure emerge. We are consequently able to identify the first quantum local friendliness inequality (in chapter 10) and to generalise LF inequalities for a larger scenario (in chapter 11).
 
-The local friendliness inequality we have chosen to focus on, appearing 256 times among the 932 facets [@Bong2020], is given in correlator form by
+The LF inequality we have chosen to focus on, appearing 256 times among the 932 facets [@Bong2020], is given in correlator form by
 
 \begin{equation}
 \begin{aligned}

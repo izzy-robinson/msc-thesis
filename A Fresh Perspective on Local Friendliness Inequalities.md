@@ -43,10 +43,9 @@ where $x,y\in\set{1,2,3}$ denote the measurement settings chosen by Alice and Bo
 :align: center
 ```
 
-Here we have introduced some notation which will prove very useful moving forwards. Alice's values ($x$ and $a$) are read along the left hand side whereas Bob's values ($y$ and $b$) are read along the uppermost side. The agents' measurement choice sets the larger scale $x,y\in\set{1,2,3}$ whilst the agents' measurement outcome sets the smaller scale $a,b\in\set{+1,-1}$.
+Here we have introduced some notation which will prove very useful moving forwards. Alice's values ($x$ and $a$) are read along the left hand side whereas Bob's values ($y$ and $b$) are read along the uppermost side. The agents' measurement choice sets the larger scale $x,y\in\set{1,2,3}$ whilst the agents' measurement outcome sets the smaller scale $a,b\in\set{+1,-1}.$ In order to return to the correlator form of the inequality you simply take the dot product of the grid in question with the probability matrix
 
 
-morally take the dot product of the probability table with the grid to return to the correlator form of the inequality
 
 ## Decomposition of the LF Inequality
 

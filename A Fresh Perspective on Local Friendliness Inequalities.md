@@ -11,7 +11,9 @@ numbering:
 > To arrive where we started and know the place for the first time.
 > - T.S. Eliot
 
-In their original paper [@Bong2020], Bong et al. numerically derive several local friendliness inequalities. However they are simply written in the paper and left uninvestigated; if we are to generalise LF inequalities from this particular scenario to others (which may be too computationally intensive to derive numerically) then we will require a more in depth understanding of the inequalities. We notice immediately that there are traces of CHSH in one LF inequality and wonder if we can decompose it into a space of two parameters. From this perspective we see additional structure emerge.
+In their original paper [@Bong2020], Bong et al. derive all facets of the LF polytope using standard computational techniques. They are then able to group these into equivalence classes. However the structure of each of these is largely left uninvestigated. If we are to generalise LF inequalities from this particular scenario, with $3$ inputs per player and $2$ outputs per input, to others (which may be more computationally intractable) then we will require a more in depth understanding.
+
+One structural aspect we are able to notice immediately is that one of the LF inequalities contains traces of CHSH. This presents the following question - are we able to decompose this LF inequality in a CHSH part and a novel part? If so, we inherit a space of two parameters as we are able to consider the trade-off between both parts. Indeed this proves to be the case, and from this perspective we see additional structure emerge. This allows us in chapter 10 to and in chapter 11 to.
 
 The local friendliness inequality we have chosen to focus on, appearing 256 times among the 932 facets [@Bong2020], is given in correlator form by
 
@@ -41,7 +43,7 @@ where $x,y\in\set{1,2,3}$ denote the measurement settings chosen by Alice and Bo
 :align: center
 ```
 
-here we have introduced some notation which will prove very useful moving forwards
+Here we have introduced some notation which will prove very useful moving forwards.
 
 alice on the left hand side and bob on the uppermost side of the table. the agents setting choice as the larger scale and the agents measurement outcome as the smaller scale.
 

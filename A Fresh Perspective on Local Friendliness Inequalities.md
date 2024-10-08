@@ -53,7 +53,7 @@ Here we have introduced some notation which will prove very useful moving forwar
 
 ## Decomposition of the LF Inequality
 
-Notice that this immedately admits the following decomposition.
+Notice that our new grid form of the LF inequality immedately admits the following decomposition.
 
 ```{figure} decompositions-original.JPG
 :name: decompositions-original-figure

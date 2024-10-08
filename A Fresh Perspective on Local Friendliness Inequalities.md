@@ -47,6 +47,7 @@ Here we have introduced some notation which will prove very useful moving forwar
 
 ```{figure} probability-matrix.jpg
 :name: probability-matrix-figure
+:width: 500px
 :align: center
 ```
 

@@ -11,11 +11,11 @@ numbering:
 > To arrive where we started and know the place for the first time.
 > - T.S. Eliot
 
-In their original paper [@Bong2020], Bong et al. derive all facets of the LF polytope using standard computational techniques (i.e. facet enumeration software). They are then able to group these into equivalence classes. However the structure of each equivalence class is largely left uninvestigated. If we are to succeed in generalising LF inequalities from this particular scenario, with $3$ inputs per player and $2$ outputs per input, to others (which may be computationally intractable) then we will require a more in depth understanding of the physical properties of LF inequalities.
+In their original paper [@Bong2018], Bong et al. derive all facets of the LF polytope using standard computational techniques (i.e. facet enumeration software). They are then able to group these into equivalence classes. However the structure of each equivalence class is largely left uninvestigated. If we are to succeed in generalising LF inequalities from this particular scenario, with $3$ inputs per player and $2$ outputs per input, to others (which may be computationally intractable) then we will require a more in depth understanding of the physical properties of LF inequalities.
 
 A structural aspect we are able to notice immediately is that one LF inequality contains traces of CHSH. This presents the following question - are we able to decompose this LF inequality into a CHSH part and a novel part? If so, we inherit a space of two parameters as we are able to consider the trade-off between both parts. This proves to be the case, and from this perspective we see additional structure emerge. We are consequently able to identify the first quantum LF inequality (in chapter 10) and to generalise LF inequalities for a larger scenario (in chapter 11).
 
-The LF inequality we have chosen to focus on, appearing 256 times among the 932 facets [@Bong2020], is given in correlator form by
+The LF inequality we have chosen to focus on, appearing 256 times among the 932 facets [@Bong2018], is given in correlator form by
 
 \begin{equation}
 \begin{aligned}
@@ -91,7 +91,7 @@ One immediate benefit of decomposing our LF inequality as above is that we have 
 :name: LF-graph-figure
 :width: 400px
 :align: center
-**A graph of the LF inequality on axes of $\epsilon$' against $CHSH$'.** The line AE denotes the LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set). The hollow pink point represents the maximal quantum violation of LF (as found in the supplemental material of @Bong2020). The filled pink point represents the maximal quantum violation of LF which is not simply a hidden violation of the CHSH inequality between settings $1$ and $2$ (i.e. its nonlocality stems from violating other symmetries of CHSH); we propose this as a new point of interest due to its neat closed form nature. Indeed, the entire opaque orange triangle is of note as this is the area which lies outside of the LF set but inside the quantum set without violating CHSH between settings $1$ and $2$.
+**A graph of the LF inequality on axes of $\epsilon$' against $CHSH$'.** The line AE denotes the LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set). The hollow pink point represents the maximal quantum violation of LF (as found in the supplemental material of @Bong2018). The filled pink point represents the maximal quantum violation of LF which is not simply a hidden violation of the CHSH inequality between settings $1$ and $2$ (i.e. its nonlocality stems from violating other symmetries of CHSH); we propose this as a new point of interest due to its neat closed form nature. Indeed, the entire opaque orange triangle is of note as this is the area which lies outside of the LF set but inside the quantum set without violating CHSH between settings $1$ and $2$.
 ```
 
 For future reference, we preserve the vertices of the LF polytope along the LF inequality from [](#LF-graph-figure). The saturating local deterministic strategies, and their scores for each part of the decomposition, are shown in the table below.

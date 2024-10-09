@@ -22,11 +22,13 @@ It can be noticed from figure 9.5 that, within the region identified as 'of inte
 
 ## Proving the Bound is Tight
 
+We will carry out the sum of squares decomposition several times with different orders of operators, some natural and some randomised, to emphasize that it does not matter; the decomposition is a property of the inequality not the order of operators chosen.
+
 ```{figure} key.JPG
 :name: key-figure
 :width: 200px
 :align: center
-Caption
+A colour coordination key.
 ```
 
 ### Order of Operators 1

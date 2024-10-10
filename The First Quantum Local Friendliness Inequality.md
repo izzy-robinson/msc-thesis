@@ -13,7 +13,13 @@ abbreviations:
 > The purpose of visualisation is insight, not pictures.
 > - Ben Shneiderman
 
-In chapter 5, on optimisation problems, we first encountered the concept of sums of squares (SOS). For this chapter it will be necessary to link SOS decompositions to quantum mechanics. We will do this via the example of the CHSH inequality, as the simplest interesting case.
+In chapter 5, on optimisation problems, we first encountered the concept of sums of squares (SOS). For this chapter it will be necessary to link SOS decompositions to quantum mechanics. We will do this via the example of the CHSH inequality, as it is the simplest interesting case.
+
+\begin{equation}
+(\sqrt{\frac{2}{2\sqrt{2}}}A_1 + \frac{1}{\sqrt{2\sqrt{2}}}B_1 - \frac{1}{\sqrt{2\sqrt{2}}}B_2)^2 + (\sqrt{\frac{2}{2\sqrt{2}}}A_2 - \frac{1}{\sqrt{2\sqrt{2}}}B_1 + \frac{1}{\sqrt{2\sqrt{2}}}B_2) ^2
+\end{equation}
+
+With equation x we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
 
 It can be noticed from figure 9.5 that, within the region identified as 'of interest', the quantum boundary falls along a straight line. This is therefore a quantum LF inequality.
 
@@ -24,9 +30,9 @@ It can be noticed from figure 9.5 that, within the region identified as 'of inte
 **A reproduction of figure 9.5 with additional information.** In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality).
 ```
 
-## Proving the Bound is Tight
+## Analytically Proving the Bound 
 
-We will carry out the sum of squares decomposition several times with different orders of operators, some natural and some randomised, to emphasize that it does not matter; the decomposition is a property of the inequality not the order of operators chosen.
+We will carry out the sum of squares decomposition several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. We do not know if any SOS decomposition is more useful than another so we preserve several for the record.
 
 ```{figure} key.JPG
 :name: key-figure

@@ -130,6 +130,51 @@ hold off
 
 ## SOS decompositions of QLF
 
+### CHSH bound
+
+```matlab
+
+cvx_begin sdp
+
+cvx_precision high
+
+variable Q(5,5) semidefinite; % set up the moment matrix
+
+variable v; % define the optimisation variable
+
+% input the constraints
+
+v == Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5); % identity coefficients
+
+0 == Q(1,2) + Q(2,1); % A1 coefficient
+0 == Q(1,3) + Q(3,1); % A2 coefficients
+
+0 == Q(1,4) + Q(4,1); % B1 coefficients
+0 == Q(1,5) + Q(5,1); % B2 coefficients
+
+0 == Q(2,3); % A1B1 coefficients
+0 == Q(3,2); % A1B2 coefficients
+0 == Q(4,5); % A2B1 coefficients
+0 == Q(5,4); % A2B2 coefficients
+
+-1 == Q(2,4) + Q(4,2); % A1A2 coefficients
+-1 == Q(2,5) + Q(5,2); % A2A1 coefficients
+
+-1 == Q(3,4) + Q(4,3); % B1B2 coefficients
+1 == Q(3,5) + Q(5,3); % B2B1 coefficients
+
+minimise v; % perform the optimisation
+ 
+cvx_end
+
+cvx_optval; % print the bound
+
+[V,D] = eig(full(Q)) % find the eigenvectors V and corresponding eigenvalues D
+
+chol(full(Q)) % find the Cholesky decomposition
+
+```
+
 ### Order of operators 1
 
 ```matlab

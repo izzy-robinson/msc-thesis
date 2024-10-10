@@ -60,7 +60,7 @@ Notice that our new grid form of the LF inequality immedately admits the followi
 :align: center
 ```
 
-However we need not stop there; we can simplify and make the pattern more obvious by taking advantage of freedom due to no-signalling. For instance, in the first step we are using no-signalling between Alice's settings $x=2$ and $x=3$ where Bob inputs $y=2$. The idea is that two inequalities can be viewed as equivalent if taking the dot product of their respective grids with the probability matrix returns the same number.
+However we need not stop there; we can simplify and make the pattern more obvious by taking advantage of freedom due to no-signalling. For instance, in the first step we are using no-signalling between Alice's settings $x=2$ and $x=3$ where Bob inputs $y=2$. The idea is that two inequalities can be viewed as equivalent if taking the dot product of their respective grids with the probability matrix returns the same result.
 
 ```{figure} decompositions-shifting.JPG
 :name: decompositions-shifting-figure

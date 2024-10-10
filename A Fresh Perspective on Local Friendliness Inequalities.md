@@ -4,6 +4,8 @@ subtitle:
 short_title: A Fresh Perspective on Local Friendliness Inequalities
 numbering: 
     enumerator: 9.%s
+abbreviations:
+  LF: Local Friendliness
 ---
 
 # A Fresh Perspective on Local Friendliness Inequalities

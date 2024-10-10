@@ -4,12 +4,16 @@ subtitle:
 short_title: The First Quantum Local Friendliness Inequality
 numbering: 
     enumerator: 10.%s
+abbreviations:
+  SOS: Sums of Squares
 ---
 
 # The First Quantum Local Friendliness Inequality
 
 > The purpose of visualisation is insight, not pictures.
 > - Ben Shneiderman
+
+In chapter 5, on optimisation problems, we first encountered the concept of sums of squares (SOS). For this chapter it will be necessary to link SOS decompositions to quantum mechanics. We will do this via the example of the CHSH inequality, as the simplest interesting case.
 
 It can be noticed from figure 9.5 that, within the region identified as 'of interest', the quantum boundary falls along a straight line. This is therefore a quantum LF inequality.
 

@@ -4,6 +4,8 @@ subtitle:
 short_title: Optimisation Problems
 numbering:
   enumerator: 5.%s
+abbreviations:
+  SOS: Sums of Squares
 ---
 
 # Optimisation Problems

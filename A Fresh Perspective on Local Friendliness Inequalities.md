@@ -60,7 +60,7 @@ Notice that our new grid form of the LF inequality immedately admits the followi
 :align: center
 ```
 
-However we need not stop there; we can simplify and make the pattern more obvious by taking advantage of freedom due to no-signalling.
+However we need not stop there; we can simplify and make the pattern more obvious by taking advantage of freedom due to no-signalling. For instance, in the first step we are using no-signalling between Alice's settings $x=2$ and $x=3$ where Bob inputs $y=2$. The idea is that two inequalities can be viewed as equivalent if taking the dot product of their respective grids with the probability matrix returns the same number.
 
 ```{figure} decompositions-shifting.JPG
 :name: decompositions-shifting-figure
@@ -85,13 +85,13 @@ Although it superficially looks completely different, this is fully analagous to
 
 - $ \textrm{LF} = 4\textrm{LF'} - 6 $
 
-One immediate benefit of decomposing our LF inequality as above is that we have identified a new parameter space in which we can investigate; plotting in this parameter space we get a graph of $\epsilon$' against CHSH'.
+One immediate benefit of decomposing our LF inequality as above is that we have identified a very natural two dimensional projection of the LF polytope in which we can investigate; plotting in this parameter space we get a graph of $\epsilon$' against CHSH'.
 
 ```{figure} LFgraph.JPG
 :name: LF-graph-figure
 :width: 400px
 :align: center
-**A graph of the LF inequality on axes of $\epsilon$' against $CHSH$'.** The line AE denotes the LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set). The hollow pink point represents the maximal quantum violation of LF (as found in the supplemental material of @Bong2018). The filled pink point represents the maximal quantum violation of LF which is not simply a hidden violation of the CHSH inequality between settings $1$ and $2$ (i.e. its nonlocality stems from violating other symmetries of CHSH); we propose this as a new point of interest due to its neat closed form nature. Indeed, the entire opaque orange triangle is of note as this is the area which lies outside of the LF set but inside the quantum set without violating CHSH between settings $1$ and $2$.
+**A projection of the LF polytope on axes of $\epsilon$' against $CHSH$'.** The line AE denotes the LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set). The hollow pink point represents the maximal quantum violation of LF (as found in the supplemental material of @Bong2018). The filled pink point represents the maximal quantum violation of LF which is not simply a hidden violation of the CHSH inequality between settings $1$ and $2$ (i.e. its nonlocality stems from violating other symmetries of CHSH); we propose this as a new point of interest due to its neat closed form nature. Indeed, the entire opaque orange triangle is of note as this is the area which lies outside of the LF set but inside the quantum set without violating CHSH between settings $1$ and $2$.
 ```
 
 For future reference, we preserve the vertices of the LF polytope along the LF inequality from [](#LF-graph-figure). The saturating local deterministic strategies, and their scores for each part of the decomposition, are shown in the table below.

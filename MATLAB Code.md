@@ -128,7 +128,7 @@ hold off
 
 ```
 
-## SOS decompositions of QLF
+## SOS decompositions 
 
 ### CHSH bound
 
@@ -175,7 +175,7 @@ chol(full(Q)) % find the Cholesky decomposition
 
 ```
 
-### Order of operators 1
+### QLF bound: Order of operators 1
 
 ```matlab
 
@@ -235,7 +235,7 @@ chol(full(Q)) % find the Cholesky decomposition
 
 ```
 
-### Order of operators 2
+### QLF bound: Order of operators 2
 
 ```matlab
 
@@ -295,7 +295,7 @@ chol(full(Q)) % find the Cholesky decomposition
 
 ```
 
-### Order of operators 3
+### QLF bound: Order of operators 3
 
 ```matlab
 
@@ -356,7 +356,7 @@ chol(full(Q)) % find the Cholesky decomposition
 
 ```
 
-### Order of operators 4
+### QLF bound: Order of operators 4
 
 ```matlab
 
@@ -417,7 +417,7 @@ chol(full(Q)) % find the Cholesky decomposition
 
 ```
 
-### Order of operators 5
+### QLF bound: Order of operators 5
 
 ```matlab
 

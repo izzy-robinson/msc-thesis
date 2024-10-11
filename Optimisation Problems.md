@@ -6,6 +6,7 @@ numbering:
   enumerator: 5.%s
 abbreviations:
   SOS: Sums of Squares
+  PSD: Positive SemiDefinite
 ---
 
 # Optimisation Problems

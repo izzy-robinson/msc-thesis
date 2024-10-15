@@ -20,9 +20,13 @@ An SOS decomposition can be found provided there exists some PSD Q
 \begin{equation}
 Q = \begin{pmatrix}
 0 & 0 & 0 & 0 & 0 \\
+\\
 0 & \frac{1}{\sqrt{2}} & 0 & -\frac{1}{2} & -\frac{1}{2} \\
+\\
 0 & 0 & \frac{1}{\sqrt{2}} & -\frac{1}{2} & \frac{1}{2} \\
+\\
 0 & -\frac{1}{2} & -\frac{1}{2} & \frac{1}{\sqrt{2}} & 0 \\
+\\
 0 & -\frac{1}{2} & \frac{1}{2} & 0 & \frac{1}{\sqrt{2}} \\
 \end{pmatrix}
 \end{equation}

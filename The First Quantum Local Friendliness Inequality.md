@@ -15,6 +15,8 @@ abbreviations:
 
 In chapter 5, on optimisation problems, we first encountered the concept of sums of squares (SOS). For this chapter it will be necessary to link SOS decompositions to quantum mechanics. We will do this via the example of the CHSH inequality, as it is the simplest interesting case.
 
+An SOS decomposition can be found provided there exists some PSD Q 
+
 \begin{equation}
 chol(Q) = \begin{pmatrix}
 0 & \sqrt{\frac{2}{2\sqrt{2}}} & 0 & -\frac{1}{\sqrt{2\sqrt{2}}} & -\frac{1}{\sqrt{2\sqrt{2}}} \\
@@ -42,7 +44,7 @@ It can be noticed from figure 9.5 that, within the region identified as 'of inte
 
 ## Analytically Proving the Bound 
 
-We will carry out the sum of squares decomposition several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. We do not know if any SOS decomposition is more useful than another so we preserve several for the record.
+We will carry out the sum of squares decomposition several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. We do not know if any SOS decomposition is more useful than another when it comes to self-testing, so we preserve several for the record.
 
 ```{figure} key.JPG
 :name: key-figure

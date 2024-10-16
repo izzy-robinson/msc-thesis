@@ -23,7 +23,7 @@ Suppose we want to prove that the upper bound on the CHSH inequality is $2\sqrt{
 \langle \psi | A_1 \otimes B_1 + A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 | \psi \rangle \leq  \langle \psi | 2\sqrt{2}\mathbf{1} | \psi \rangle
 \end{equation}
 
-Then, an operator equation is formed.
+From this, an operator equation is formed.
 
 \begin{equation}
 X = 2\sqrt{2}\mathbf{1} - A_1 \otimes B_1 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \geq 0

@@ -17,10 +17,10 @@ In chapter 5, on optimisation problems, we first encountered the concept of sums
 
 :::{prf:example} Proving the CHSH bound
 
-Suppose we want to prove that the upper bound on the CHSH inequality is $2\sqrt{2}$ for all quantum states and measurements. How might we achieve this? We will use the SOS tecnique.
+Suppose we want to prove that the upper bound on the CHSH inequality is $2\sqrt{2}$ for all quantum states and measurements. How might we achieve this? We will use the SOS tecnique. First, the Bell operator and the bound are sandwiched between two generic quantum states $| \psi \rangle$.
 
 \begin{equation}
-\langle \psi | A_1 \otimes B_1 + A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 | \psi \rangle \leq 2\sqrt{2} \langle \psi | \mathbf{1} | \psi \rangle
+\langle \psi | A_1 \otimes B_1 + A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 | \psi \rangle \leq  \langle \psi | 2\sqrt{2}\mathbf{1} | \psi \rangle
 \end{equation}
 
 \begin{equation}

@@ -43,7 +43,7 @@ S = (\mathbf{1} \otimes \mathbf{1}, A_0 \otimes \mathbf{1}, A_1 \otimes \mathbf{
 
 Imposing the following constraints sets $Y$ equal to $X$.
 
-- identity coefficients: $2\sqrt{2}$ = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) 
+- Identity coefficients: $2\sqrt{2}$ = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) 
 
 - A1 coefficients: 0 = Q(1,2) + Q(2,1)
 - A2 coefficients: 0 = Q(1,3) + Q(3,1) 
@@ -62,9 +62,7 @@ Imposing the following constraints sets $Y$ equal to $X$.
 - A2B1 coefficients: -1 = Q(3,4) + Q(4,3) 
 - A2B2 coefficients: 1 = Q(3,5) + Q(5,3)
 
-Can we find a $Q \geq 0$ which satisfies these constraints?
-
-An SOS decomposition can be found provided there exists some PSD Q 
+The question now is can we find a $Q \geq 0$ which satisfies these constraints? The answer is yes!
 
 \begin{equation}
 Q = \begin{pmatrix}
@@ -80,16 +78,20 @@ Q = \begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
+This already is sufficient to prove the bound, however it is interesting to go one step further and actually find the SOS decomposition. We can take the Cholesky decomposition of Q,
+
 \begin{equation}
 Q= L^T L
 \end{equation}
+
+which is specifically findable through MATLAB,
 
 \begin{equation}
 L = chol(Q) = \begin{pmatrix}
 0 & \sqrt{\frac{2}{2\sqrt{2}}} & 0 & -\frac{1}{\sqrt{2\sqrt{2}}} & -\frac{1}{\sqrt{2\sqrt{2}}} \\
 \\
 0 & 0 & \sqrt{\frac{2}{2\sqrt{2}}} & -\frac{1}{\sqrt{2\sqrt{2}}}  & \frac{1}{\sqrt{2\sqrt{2}}} \\
-\end{pmatrix}
+\end{pmatrix}.
 \end{equation}
 
 \begin{equation}
@@ -107,6 +109,8 @@ X &= \sum_{i,j} Q_{ij} S_i S_j \\
 \end{equation}
 
 With equation [Equation 10.2](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
+
+An SOS decomposition can be found provided there exists some PSD Q
 
 :::
 

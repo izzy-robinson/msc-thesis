@@ -15,7 +15,7 @@ abbreviations:
 
 In chapter 5, on optimisation problems, we first encountered the concept of sums of squares (SOS). For this chapter it will be necessary to link SOS decompositions to quantum mechanics. We will do this via the example of the CHSH inequality, as it is the simplest interesting case.
 
-Suppose we want to prove that the upper bound on the CHSH inequality is $2\sqrt{2}$ - how might we achieve this?
+Suppose we want to prove that the upper bound on the CHSH inequality is $2\sqrt{2}$. How might we achieve this?
 
 \begin{equation}
 \langle \psi | A_1 \otimes B_1 + A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 | \psi \rangle \leq 2\sqrt{2} \langle \psi | \mathbf{1} | \psi \rangle
@@ -24,6 +24,8 @@ Suppose we want to prove that the upper bound on the CHSH inequality is $2\sqrt{
 \begin{equation}
 2\sqrt{2} - A_1 \otimes B_1 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \geq 0
 \end{equation}
+
+A sufficient condition for finding $X \geq 0$ is to find the $T_k$'s such that $X=\sum_k T_k^2$ (i.e. finding an SOS decompsition of $X$).
 
 \begin{equation}
 S = (\mathbf{1} \otimes \mathbf{1}, A_0 \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, \mathbf{1} \otimes B_0, \mathbf{1} \otimes B_1)

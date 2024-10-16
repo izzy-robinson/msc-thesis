@@ -39,7 +39,9 @@ Y = \sum_{i,j} Q_{ij} S_i S_j
 S = (\mathbf{1} \otimes \mathbf{1}, A_0 \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, \mathbf{1} \otimes B_0, \mathbf{1} \otimes B_1)
 \end{equation}
 
-- $2\sqrt{2}$ = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5); % identity coefficients
+Imposing the following constraints sets $Y$ equal to $X$.
+
+- identity coefficients: $2\sqrt{2}$ = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) 
 
 - A1 coefficients: 0 = Q(1,2) + Q(2,1)
 - A2 coefficients: 0 = Q(1,3) + Q(3,1) 

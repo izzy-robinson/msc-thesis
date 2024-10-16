@@ -99,7 +99,7 @@ X &= \sum_{i,j} Q_{ij} S_i S_j \\
 
 \begin{equation}
 \label{CHSH-SOS-equation}
-2\sqrt{2} - A_1 \otimes B_1 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \\
+2\sqrt{2}\mathbf{1} - A_1 \otimes B_1 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \\
 = \Big(\sqrt{\frac{2}{2\sqrt{2}}}A_1 + \frac{1}{\sqrt{2\sqrt{2}}}B_1 - \frac{1}{\sqrt{2\sqrt{2}}}B_2\Big)^2 \\
 + \Big(\sqrt{\frac{2}{2\sqrt{2}}}A_2 - \frac{1}{\sqrt{2\sqrt{2}}}B_1 + \frac{1}{\sqrt{2\sqrt{2}}}B_2\Big)^2 \geq 0
 \end{equation}

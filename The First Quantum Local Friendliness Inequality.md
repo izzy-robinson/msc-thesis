@@ -54,6 +54,8 @@ A1B2 coefficients: -1 == Q(2,5) + Q(5,2)
 A2B1 coefficients: -1 == Q(3,4) + Q(4,3) 
 A2B2 coefficients: 1 == Q(3,5) + Q(5,3)
 
+Can we find a $Q \geq 0$ which satisfies these constraints?
+
 An SOS decomposition can be found provided there exists some PSD Q 
 
 \begin{equation}
@@ -71,11 +73,22 @@ Q = \begin{pmatrix}
 \end{equation}
 
 \begin{equation}
-chol(Q) = \begin{pmatrix}
+Q= L^T L
+\end{equation}
+
+\begin{equation}
+L = chol(Q) = \begin{pmatrix}
 0 & \sqrt{\frac{2}{2\sqrt{2}}} & 0 & -\frac{1}{\sqrt{2\sqrt{2}}} & -\frac{1}{\sqrt{2\sqrt{2}}} \\
 \\
 0 & 0 & \sqrt{\frac{2}{2\sqrt{2}}} & -\frac{1}{\sqrt{2\sqrt{2}}}  & \frac{1}{\sqrt{2\sqrt{2}}} \\
 \end{pmatrix}
+\end{equation}
+
+\begin{equation}
+X &= \sum_{i,j} Q_{ij} S_i S_j \\
+&= \sum_{i,j,k} L_{ki} L_{kj} S_i S_j \\
+&= \sum_k (\sum_i L_{ki} S_i) (\sum_j R_{kj} S_j) \\
+&= \sum_k T_k^2 
 \end{equation}
 
 \begin{equation}

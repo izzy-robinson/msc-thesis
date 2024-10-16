@@ -15,6 +15,8 @@ abbreviations:
 
 In chapter 5, on optimisation problems, we first encountered the concept of sums of squares (SOS). For this chapter it will be necessary to link SOS decompositions to quantum mechanics. We will do this via the example of the CHSH inequality, as it is the simplest interesting case.
 
+:::{prf:example} Proving the CHSH bound
+
 Suppose we want to prove that the upper bound on the CHSH inequality is $2\sqrt{2}$. How might we achieve this?
 
 \begin{equation}
@@ -98,6 +100,8 @@ X &= \sum_{i,j} Q_{ij} S_i S_j \\
 \end{equation}
 
 With equation [Equation 10.2](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
+
+:::
 
 It can be noticed from figure 9.5 that, within the region identified as 'of interest', the quantum boundary falls along a straight line. This is therefore a quantum LF inequality.
 

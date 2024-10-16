@@ -16,7 +16,15 @@ abbreviations:
 In chapter 5, on optimisation problems, we first encountered the concept of sums of squares (SOS). For this chapter it will be necessary to link SOS decompositions to quantum mechanics. We will do this via the example of the CHSH inequality, as it is the simplest interesting case.
 
 \begin{equation}
-S = (\mathbb{1} \otimes \mathbb{1}, A_0 \otimes \mathbb{1}, a_1 \otimes \mathbb{1}, \mathbb{1} \otimes B_0, \mathbb{1} \otimes B_1)
+\lange \psi | A_1 \otimes B_1 + A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 | \psi \rangle \leq 2\sqrt{2} \langle \psi | \mathbf{1} | \psi \rangle
+\end{equation}
+
+\begin{equation}
+2\sqrt{2} - A_1 \otimes B_1 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \geq 0
+\end{equation}
+
+\begin{equation}
+S = (\mathbf{1} \otimes \mathbf{1}, A_0 \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, \mathbf{1} \otimes B_0, \mathbf{1} \otimes B_1)
 \end{equation}
 
 An SOS decomposition can be found provided there exists some PSD Q 

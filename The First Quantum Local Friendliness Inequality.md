@@ -37,24 +37,24 @@ Y = \sum_{i,j} Q_{ij} S_i S_j
 S = (\mathbf{1} \otimes \mathbf{1}, A_0 \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, \mathbf{1} \otimes B_0, \mathbf{1} \otimes B_1)
 \end{equation}
 
-- $2\sqrt{2}$ == Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5); % identity coefficients
+- $2\sqrt{2}$ = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5); % identity coefficients
 
-- A1 coefficients: 0 == Q(1,2) + Q(2,1)
-- A2 coefficients: 0 == Q(1,3) + Q(3,1) 
+- A1 coefficients: 0 = Q(1,2) + Q(2,1)
+- A2 coefficients: 0 = Q(1,3) + Q(3,1) 
 
-- B1 coefficients: 0 == Q(1,4) + Q(4,1) 
-- B2 coefficients: 0 == Q(1,5) + Q(5,1) 
+- B1 coefficients: 0 = Q(1,4) + Q(4,1) 
+- B2 coefficients: 0 = Q(1,5) + Q(5,1) 
 
-- A1A2 coefficients: 0 == Q(2,3) 
-- A2A1 coefficients: 0 == Q(3,2)
+- A1A2 coefficients: 0 = Q(2,3) 
+- A2A1 coefficients: 0 = Q(3,2)
 
-- B1B2 coefficients: 0 == Q(4,5)
-- B2B1 coefficients: 0 == Q(5,4)
+- B1B2 coefficients: 0 = Q(4,5)
+- B2B1 coefficients: 0 = Q(5,4)
 
-- A1B1 coefficients: -1 == Q(2,4) + Q(4,2)
-- A1B2 coefficients: -1 == Q(2,5) + Q(5,2)
-- A2B1 coefficients: -1 == Q(3,4) + Q(4,3) 
-- A2B2 coefficients: 1 == Q(3,5) + Q(5,3)
+- A1B1 coefficients: -1 = Q(2,4) + Q(4,2)
+- A1B2 coefficients: -1 = Q(2,5) + Q(5,2)
+- A2B1 coefficients: -1 = Q(3,4) + Q(4,3) 
+- A2B2 coefficients: 1 = Q(3,5) + Q(5,3)
 
 Can we find a $Q \geq 0$ which satisfies these constraints?
 

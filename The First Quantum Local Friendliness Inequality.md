@@ -29,11 +29,13 @@ Then, an operator equation is formed.
 X = 2\sqrt{2}\mathbf{1} - A_1 \otimes B_1 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \geq 0
 \end{equation}
 
-A sufficient condition for finding $X \geq 0$ is to find the $T_k$'s such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$).
+A sufficient condition for finding $X \geq 0$ is to find the $T_k$'s such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). Now consider some $Y$,
 
 \begin{equation}
 Y = \sum_{i,j} Q_{ij} S_i S_j
 \end{equation}
+
+where
 
 \begin{equation}
 S = (\mathbf{1} \otimes \mathbf{1}, A_0 \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, \mathbf{1} \otimes B_0, \mathbf{1} \otimes B_1)

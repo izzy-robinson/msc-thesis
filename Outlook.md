@@ -16,4 +16,6 @@ Over the course of discovering the results conveyed within this thesis, several 
 
 - We generated several SOS decompositions of our quantum LF inequality. Each of these independently leads to a set of self-testing equations. It would be good to investigate them.
 
+- We found the bound on our new quantum LF inequality. It would be good to find a quantum state and explicit measurement scheme which yields this maximum.
+
 Given time, we hope to engage in these future directions.

@@ -17,7 +17,7 @@ In chapter 5, on optimisation problems, we first encountered the concept of sums
 
 :::{prf:example} Proving the CHSH bound
 
-Suppose we want to prove that the upper bound on the CHSH inequality is $2\sqrt{2}$. How might we achieve this?
+Suppose we want to prove that the upper bound on the CHSH inequality is $2\sqrt{2}$ for all quantum states and measurements. How might we achieve this? We will use the SOS tecnique.
 
 \begin{equation}
 \langle \psi | A_1 \otimes B_1 + A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 | \psi \rangle \leq 2\sqrt{2} \langle \psi | \mathbf{1} | \psi \rangle

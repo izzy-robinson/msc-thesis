@@ -84,7 +84,7 @@ This already is sufficient to prove the bound, however it is interesting to go o
 Q= L^T L
 \end{equation}
 
-which is specifically findable through MATLAB,
+which is specifically solvable through MATLAB to be
 
 \begin{equation}
 L = chol(Q) = \begin{pmatrix}
@@ -95,7 +95,7 @@ L = chol(Q) = \begin{pmatrix}
 \end{equation}
 
 \begin{equation}
-X &= \sum_{i,j} Q_{ij} S_i S_j \\
+Y = X &= \sum_{i,j} Q_{ij} S_i S_j \\
 &= \sum_{i,j,k} L_{ki} L_{kj} S_i S_j \\
 &= \sum_k (\sum_i L_{ki} S_i) (\sum_j R_{kj} S_j) \\
 &= \sum_k T_k^2 

@@ -78,7 +78,7 @@ Q = \begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
-This already is sufficient to prove the bound, however it is interesting to go one step further and actually find the SOS decomposition. We can take the Cholesky decomposition of Q,
+An SOS decomposition can be found provided there exists some PSD Q so this already is sufficient to prove the bound, however it is interesting to go one step further and actually find the SOS decomposition. We can take the Cholesky decomposition of Q,
 
 \begin{equation}
 Q= L^T L
@@ -110,7 +110,7 @@ Y = X &= \sum_{i,j} Q_{ij} S_i S_j \\
 
 With equation [Equation 10.2](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
 
-An SOS decomposition can be found provided there exists some PSD Q
+
 
 :::
 

@@ -183,9 +183,12 @@ See Appendix B for the MATLAB code which shows where this information comes from
 Expanding the brackets and combining all terms gives
 
 \begin{equation}
+\label{QLF-SOS-equation}
 (3&+2\sqrt2)\mathbf{1} + A_1 + A_2 + B_1 + B_2 \\
 &+ A_1B_2 + A_2B_1 - A_2B_2 + A_2B_3 + A_3B_2 + A_3B_3.
 \end{equation}
+
+With [Equation 10.13](#QLF-SOS-equation) we have provided an analytical proof that the upper bound on the QLF inequality is $3 + 2\sqrt2$ for all quantum states and measurements.
 
 ### Order of Operators 2
 

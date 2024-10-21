@@ -133,7 +133,7 @@ Therefore, finally, the SOS decomposition is
 + \Big(\sqrt{\frac{2}{2\sqrt{2}}}A_2 - \frac{1}{\sqrt{2\sqrt{2}}}B_1 + \frac{1}{\sqrt{2\sqrt{2}}}B_2\Big)^2 \geq 0
 \end{equation}
 
-where the first line of the SOS is $T_1$ and the second line of the SOS is $T_2$. This is true under the assumption that the eigenvalues are $\pm{1}$ i.e. $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}$. With equation [Equation 10.10](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
+where the first line of the SOS is $T_1$ and the second line of the SOS is $T_2$. This is true under the assumption that the eigenvalues are $\pm{1}$ i.e. $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}$. With [Equation 10.10](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
 
 :::
 

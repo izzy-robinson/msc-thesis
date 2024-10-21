@@ -349,3 +349,5 @@ Expanding the brackets and combining all terms gives
 \end{equation}
 
 as before.
+
+In this chapter, we have provided five different but related proofs that the upper bound on QLF is $3+2\sqrt{2}$.

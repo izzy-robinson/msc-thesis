@@ -350,4 +350,4 @@ Expanding the brackets and combining all terms gives
 
 as before.
 
-In this chapter, we have provided five different but related proofs that the upper bound on QLF is $3+2\sqrt{2}$.
+In this chapter, we have provided five different but related proofs that the upper bound on QLF is $3+2\sqrt{2}$. Each of these have the potential to be interesting in their own right.

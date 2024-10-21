@@ -14,6 +14,18 @@ abbreviations:
 > The purpose of visualisation is insight, not pictures.
 > - Ben Shneiderman
 
+It can be noticed from figure 9.5 that, within the region identified as 'of interest', the quantum boundary falls along a straight line. This is therefore a quantum LF inequality.[^1] 
+
+[^1]: Note how the point we identified in chapter 9 lies on this inequality so is extremal in this sense.
+
+```{figure} QLFgraph.JPG
+:name: QLF-graph-figure
+:width: 400px
+:align: center
+**A reproduction of figure 9.5 with additional information.** In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality).
+```
+
+
 In chapter 5, on optimisation problems, we first encountered the concept of sums of squares (SOS). For this chapter it will be necessary to link SOS decompositions to quantum mechanics. We will do this via the example of the CHSH inequality, as it is the simplest interesting case.
 
 :::{prf:example} Proving the CHSH bound
@@ -126,14 +138,7 @@ With equation [Equation 10.10](#CHSH-SOS-equation) we have provided an analytica
 
 :::
 
-It can be noticed from figure 9.5 that, within the region identified as 'of interest', the quantum boundary falls along a straight line. This is therefore a quantum LF inequality. Note how the point we identified in chapter 9 is extremal in this sense.
 
-```{figure} QLFgraph.JPG
-:name: QLF-graph-figure
-:width: 400px
-:align: center
-**A reproduction of figure 9.5 with additional information.** In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality).
-```
 
 ## Analytically Proving the Bound 
 

@@ -157,7 +157,7 @@ A colour coordination key.
 The list $S$ is given by the operators above and to the left of the grid. The necessarily zero terms (i.e. those which are not physically realisable) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients.
 ```
 
-The cholesky decomposition of the matrix is given by
+The cholesky decomposition of the matrix Q is given by
 
 \begin{equation}
 L = chol(Q) = \begin{pmatrix}
@@ -195,7 +195,7 @@ Expanding the brackets and combining all terms gives
 :align: center
 ```
 
-The cholesky decomposition of the matrix is given by
+The cholesky decomposition of the matrix Q is given by
 
 \begin{equation}
 L = chol(Q) = \begin{pmatrix}
@@ -235,7 +235,7 @@ as before.
 :align: center
 ```
 
-The cholesky decomposition of the matrix is given by
+The cholesky decomposition of the matrix Q is given by
 
 \begin{equation}
 L = chol(Q) = \begin{pmatrix}
@@ -275,7 +275,7 @@ as before.
 :align: center
 ```
 
-The cholesky decomposition of the matrix is given by
+The cholesky decomposition of the matrix Q is given by
 
 \begin{equation}
 L = chol(Q) = \begin{pmatrix}
@@ -315,7 +315,7 @@ as before.
 :align: center
 ```
 
-The cholesky decomposition of the matrix is given by
+The cholesky decomposition of the matrix Q is given by
 
 \begin{equation}
 L = chol(Q) = \begin{pmatrix}

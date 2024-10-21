@@ -14,7 +14,7 @@ abbreviations:
 > The purpose of visualisation is insight, not pictures.
 > - Ben Shneiderman
 
-It can be noticed from figure 9.5 that, within the region identified as 'of interest', the quantum boundary falls along a straight line. This is therefore a quantum LF inequality.[^1] 
+It can be noticed from figure 9.5 that, within the region identified as 'of interest', the quantum boundary falls along a straight line. This is therefore a quantum LF inequality which we call QLF.[^1] 
 
 [^1]: Note how the point we identified in chapter 9 lies on this inequality so is extremal in this sense.
 
@@ -137,11 +137,9 @@ With equation [Equation 10.10](#CHSH-SOS-equation) we have provided an analytica
 
 :::
 
+## Analytically Proving the Bound on QLF
 
-
-## Analytically Proving the Bound 
-
-We will carry out the sum of squares decomposition several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. With each order of operators we generate a different SOS decomposition. We do not know if any SOS decomposition is more useful than another when it comes to self-testing, so we preserve several for the record.
+We will carry out the sum of squares decomposition for QLF several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. Any one of these on their own would constitute a full proof of the bound, however with each order of operators we generate a different SOS decomposition. We do not know if any SOS decomposition is more useful than another when it comes to self-testing, so we preserve several for the record.
 
 ```{figure} key.JPG
 :name: key-figure

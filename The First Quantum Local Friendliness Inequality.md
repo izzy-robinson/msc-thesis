@@ -154,6 +154,7 @@ A colour coordination key.
 :name: order-of-operators-1-figure
 :width: 900px
 :align: center
+The list $S$ is given by the operators above and to the left of the grid. The necessarily zero terms (i.e. those which are not physically realisable) are left white. The potentially non-zero terms are colour coded for ease of equation coefficients.
 ```
 
 The cholesky decomposition of the matrix is given by

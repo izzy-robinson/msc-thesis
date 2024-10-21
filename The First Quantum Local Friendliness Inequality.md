@@ -33,6 +33,7 @@ X = 2\sqrt{2}\mathbf{1} - A_1 \otimes B_1 - A_1 \otimes B_2 - A_2 \otimes B_1 + 
 A sufficient condition for finding $X \geq 0$ is to find the $T_k$'s such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). Now consider some $Y$,
 
 \begin{equation}
+\label{Y-equation}
 Y = \sum_{i,j} Q_{ij} S_i S_j
 \end{equation}
 
@@ -79,9 +80,10 @@ Q = \begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
-An SOS decomposition can always be found provided there exists some PSD Q, so this already is sufficient to prove the bound; however it is interesting to go one step further and actually find the SOS decomposition. We can take the Cholesky decomposition of Q,
+An SOS decomposition can always be found provided there exists some PSD Q, so this already is sufficient to prove the bound; however it is interesting to go one step further and actually find the SOS decomposition. Since Q is PSD, we can take its Cholesky decomposition,
 
 \begin{equation}
+\label{cholesky-equation}
 Q= L^T L
 \end{equation}
 
@@ -95,12 +97,23 @@ L = chol(Q) = \begin{pmatrix}
 \end{pmatrix}.
 \end{equation}
 
+If you like, we can verify this by direct calculation. Since Q is of the form given by equation [Equation 10.6](#cholesky-equation), we now need the matrix elements of $Q$ (i.e. $Q_{ij}$) in terms of the matrix elements of $L$. This is
+
+\begin{equation}
+\label{matrix-elements-equation}
+Q_{ij}= \sum_k L_{ki} L_{kj}.
+\end{equation}
+
+Substituting [Equation 10.8](#matrix-elements-equation) into [Equation 10.3](#Y-equation), we find
+
 \begin{equation}
 Y = X &= \sum_{i,j} Q_{ij} S_i S_j \\
 &= \sum_{i,j,k} L_{ki} L_{kj} S_i S_j \\
-&= \sum_k (\sum_i L_{ki} S_i) (\sum_j R_{kj} S_j) \\
+&= \sum_k (\sum_i L_{ki} S_i) (\sum_j L_{kj} S_j) \\
 &= \sum_k T_k^2 
 \end{equation}
+
+Therefore, finally, the SOS decomposition is 
 
 \begin{equation}
 \label{CHSH-SOS-equation}
@@ -109,7 +122,7 @@ Y = X &= \sum_{i,j} Q_{ij} S_i S_j \\
 + \Big(\sqrt{\frac{2}{2\sqrt{2}}}A_2 - \frac{1}{\sqrt{2\sqrt{2}}}B_1 + \frac{1}{\sqrt{2\sqrt{2}}}B_2\Big)^2 \geq 0
 \end{equation}
 
-With equation [Equation 10.9](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
+With equation [Equation 10.10](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
 
 :::
 

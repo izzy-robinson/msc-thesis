@@ -79,7 +79,7 @@ Q = \begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
-An SOS decomposition can be found provided there exists some PSD Q, so this already is sufficient to prove the bound; however it is interesting to go one step further and actually find the SOS decomposition. We can take the Cholesky decomposition of Q,
+An SOS decomposition can always be found provided there exists some PSD Q, so this already is sufficient to prove the bound; however it is interesting to go one step further and actually find the SOS decomposition. We can take the Cholesky decomposition of Q,
 
 \begin{equation}
 Q= L^T L

@@ -126,7 +126,7 @@ With equation [Equation 10.10](#CHSH-SOS-equation) we have provided an analytica
 
 :::
 
-It can be noticed from figure 9.5 that, within the region identified as 'of interest', the quantum boundary falls along a straight line. This is therefore a quantum LF inequality.
+It can be noticed from figure 9.5 that, within the region identified as 'of interest', the quantum boundary falls along a straight line. This is therefore a quantum LF inequality. Note how the point we identified in chapter 9 is extremal in this sense.
 
 ```{figure} QLFgraph.JPG
 :name: QLF-graph-figure
@@ -137,7 +137,7 @@ It can be noticed from figure 9.5 that, within the region identified as 'of inte
 
 ## Analytically Proving the Bound 
 
-We will carry out the sum of squares decomposition several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. We do not know if any SOS decomposition is more useful than another when it comes to self-testing, so we preserve several for the record.
+We will carry out the sum of squares decomposition several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. With each order of operators we generate a different SOS decomposition. We do not know if any SOS decomposition is more useful than another when it comes to self-testing, so we preserve several for the record.
 
 ```{figure} key.JPG
 :name: key-figure

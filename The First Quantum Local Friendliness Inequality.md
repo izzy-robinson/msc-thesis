@@ -109,7 +109,7 @@ Y = X &= \sum_{i,j} Q_{ij} S_i S_j \\
 + \Big(\sqrt{\frac{2}{2\sqrt{2}}}A_2 - \frac{1}{\sqrt{2\sqrt{2}}}B_1 + \frac{1}{\sqrt{2\sqrt{2}}}B_2\Big)^2 \geq 0
 \end{equation}
 
-With equation [Equation 10.2](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
+With equation [Equation 10.9](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
 
 :::
 

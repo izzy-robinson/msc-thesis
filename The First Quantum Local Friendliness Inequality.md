@@ -6,6 +6,7 @@ numbering:
     enumerator: 10.%s
 abbreviations:
   SOS: Sums of Squares
+  PSD: Positive Semidefinite
 ---
 
 # The First Quantum Local Friendliness Inequality
@@ -109,8 +110,6 @@ Y = X &= \sum_{i,j} Q_{ij} S_i S_j \\
 \end{equation}
 
 With equation [Equation 10.2](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
-
-
 
 :::
 

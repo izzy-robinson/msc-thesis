@@ -97,7 +97,7 @@ L = chol(Q) = \begin{pmatrix}
 \end{pmatrix}.
 \end{equation}
 
-If you like, we can verify this by direct calculation. Since Q is of the form given by equation [Equation 10.6](#cholesky-equation), we now need the matrix elements of $Q$ (i.e. $Q_{ij}$) in terms of the matrix elements of $L$. This is
+If you like, we can verify this by direct calculation. As Q is of the form given by equation [Equation 10.6](#cholesky-equation), we now need the matrix elements of $Q$ (i.e. $Q_{ij}$) in terms of the matrix elements of $L$. This is
 
 \begin{equation}
 \label{matrix-elements-equation}

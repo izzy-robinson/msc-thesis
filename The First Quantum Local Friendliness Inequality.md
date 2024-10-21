@@ -91,7 +91,7 @@ Q = \begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
-See Apendix B for the MATLAB code which shows where this information comes from. An SOS decomposition can always be found provided there exists some PSD Q, so this already is sufficient to prove the bound; however it is interesting to go one step further and actually find the SOS decomposition. Since Q is PSD, we can take its Cholesky decomposition,
+See Appendix B for the MATLAB code which shows where this information comes from. An SOS decomposition can always be found provided there exists some PSD Q, so this already is sufficient to prove the bound; however it is interesting to go one step further and actually find the SOS decomposition. Since Q is PSD, we can take its Cholesky decomposition,
 
 \begin{equation}
 \label{cholesky-equation}

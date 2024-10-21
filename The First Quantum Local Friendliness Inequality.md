@@ -144,7 +144,7 @@ A colour coordination key.
 The cholesky decomposition of the matrix is given by
 
 \begin{equation}
-chol(Q) = \begin{pmatrix}
+L = chol(Q) = \begin{pmatrix}
 1 & \frac{1}{2} & \frac{1}{2} & 0 & \frac{1}{2} & \frac{1}{2} & 0 \\
 \\
 0 & \frac{1}{2} & -\frac{1}{2} & 0 & -\frac{1}{2} & \frac{1}{2} & 0 \\
@@ -158,8 +158,7 @@ chol(Q) = \begin{pmatrix}
 We perform the sum of squares calculation as follows
 
 \begin{equation}
-&|| (\mathbf{1} \hspace{2mm} A_1 \hspace{2mm} A_2 \hspace{2mm} A_3 \hspace{2mm} B_1 \hspace{2mm} B_2 \hspace{2mm} B_3) \cdot chol(Q)^T ||^2 \\
-&= (\mathbf{1} + \frac{1}{2}A_1 + \frac{1}{2}A_2 + \frac{1}{2}B_1 + \frac{1}{2}B_2)^2 \\
+&(\mathbf{1} + \frac{1}{2}A_1 + \frac{1}{2}A_2 + \frac{1}{2}B_1 + \frac{1}{2}B_2)^2 \\
 &+ (\frac{1}{2}A_1 - \frac{1}{2}A_2 - \frac{1}{2}B_1 + \frac{1}{2}B_2)^2 \\
 &+ (\frac{2^{3/4}}{2}A_2 - \frac{1}{2^{3/4}}B_2 + \frac{1}{2^{3/4}}B_3)^2 \\
 &+ (\frac{2^{3/4}}{2}A_3 + \frac{1}{2^{3/4}}B_2 + \frac{1}{2^{3/4}}B_3)^2
@@ -183,7 +182,7 @@ Expanding the brackets and combining all terms gives
 The cholesky decomposition of the matrix is given by
 
 \begin{equation}
-chol(Q) = \begin{pmatrix}
+L = chol(Q) = \begin{pmatrix}
 \frac{1}{\sqrt2} & 0 & 0 & 0 & \frac{1}{\sqrt2} & 0 & \frac{1}{\sqrt2} \\
 \\
 0 & \sqrt{\frac{1+\sqrt2}{2}} & 0 & \sqrt{\frac{\sqrt{2}-1}{2}} & -\sqrt{\frac{\sqrt{2}-1}{2}} & \sqrt{\frac{\sqrt{2}-1}{2}} & \sqrt{\frac{\sqrt{2}-1}{2}} \\
@@ -197,8 +196,7 @@ chol(Q) = \begin{pmatrix}
 We perform the sum of squares calculation as follows
 
 \begin{equation}
-&|| (A_1 \hspace{2mm} A_2 \hspace{2mm} A_3 \hspace{2mm} B_1 \hspace{2mm} B_2 \hspace{2mm} B_3 \hspace{2mm} \mathbf{1}) \cdot chol(Q)^T ||^2 \\
-&= (\frac{1}{\sqrt2}A_1 + \frac{1}{\sqrt2}B_2 + \frac{1}{\sqrt2}\mathbf{1})^2 \\
+&(\frac{1}{\sqrt2}A_1 + \frac{1}{\sqrt2}B_2 + \frac{1}{\sqrt2}\mathbf{1})^2 \\
 &+ (\sqrt{\frac{1+\sqrt2}{2}}A_2 + \sqrt{\frac{\sqrt2-1}{2}}B_1 - \sqrt{\frac{\sqrt2-1}{2}}B_2 + \sqrt{\frac{\sqrt2-1}{2}}B_3 + \sqrt{\frac{\sqrt2-1}{2}}\mathbf{1})^2 \\
 &+ (\frac{2^{3/4}}{2}A_3 + \frac{1}{2^{3/4}}B_2 + \frac{1}{2^{3/4}}B_3)^2 \\
 &+ (\frac{1}{\sqrt{2+\sqrt2}}B_1 + \frac{\sqrt{2-\sqrt2}}{2}B_2 - \frac{\sqrt{2-\sqrt2}}{2}B_3 + \frac{1}{\sqrt{2+\sqrt2}}\mathbf{1})^2 
@@ -224,7 +222,7 @@ as before.
 The cholesky decomposition of the matrix is given by
 
 \begin{equation}
-chol(Q) = \begin{pmatrix}
+L = chol(Q) = \begin{pmatrix}
 \frac{1}{\sqrt2} & 0 & 0 & \frac{1}{\sqrt2} & 0 & 0 & \frac{1}{\sqrt2} \\
 \\
 0 & \frac{1}{\sqrt2} & \frac{1}{\sqrt2} & 0 & 0 & 0 & \frac{1}{\sqrt2} \\
@@ -238,8 +236,7 @@ chol(Q) = \begin{pmatrix}
 We perform the sum of squares calculation as follows
 
 \begin{equation}
-&|| (\mathbf{1} \hspace{2mm} A_1 \hspace{2mm} B_1 \hspace{2mm} A_2 \hspace{2mm} B_2 \hspace{2mm} A_3 \hspace{2mm} B_3) \cdot chol(Q)^T ||^2 \\
-&= (\mathbf{1} + \frac{1}{2}A_1 + \frac{1}{2}B_1 + \frac{1}{2}A_2 + \frac{1}{2}B_2)^2 \\
+&(\mathbf{1} + \frac{1}{2}A_1 + \frac{1}{2}B_1 + \frac{1}{2}A_2 + \frac{1}{2}B_2)^2 \\
 &+ (\frac{1}{2}A_1 - \frac{1}{2}B_1 - \frac{1}{2}A_2 + \frac{1}{2}B_2)^2 \\
 &+ (\frac{2^{3/4}}{2}A_2 - \frac{1}{2^{3/4}}B_2 + \frac{1}{2^{3/4}}B_3)^2 \\
 &+ (\frac{1}{2^{3/4}}B_2 + \frac{2^{3/4}}{2}A_3 + \frac{1}{2^{3/4}}B_3)^2
@@ -265,12 +262,10 @@ as before.
 The cholesky decomposition of the matrix is given by
 
 \begin{equation}
-chol(Q) = \begin{pmatrix}
+L = chol(Q) = \begin{pmatrix}
 1 & \frac{1}{2} & \frac{1}{2} & \frac{1}{2} & \frac{1}{2} & 0 & 0 \\
 \\
 0 & \frac{1}{2} & -\frac{1}{2} & -\frac{1}{2} & \frac{1}{2} & 0 & 0 \\
-\\
-0 & 0 & 0 & 0 & 0 & 0 & 0 \\
 \\
 0 & 0 & 0 & \frac{2^{3/4}}{2} & -\frac{1}{2^{3/4}} & 0 & \frac{1}{2^{3/4}} \\
 \\
@@ -281,8 +276,7 @@ chol(Q) = \begin{pmatrix}
 We perform the sum of squares calculation as follows
 
 \begin{equation}
-&|| (A_1 \hspace{2mm} B_1 \hspace{2mm} A_2 \hspace{2mm} B_2 \hspace{2mm} A_3 \hspace{2mm} B_3 \hspace{2mm} \mathbf{1}) \cdot chol(Q)^T ||^2 \\
-&= (\frac{1}{\sqrt2}A_1 + \frac{1}{\sqrt2}B_2 + \frac{1}{\sqrt2}\mathbf{1})^2 \\
+&(\frac{1}{\sqrt2}A_1 + \frac{1}{\sqrt2}B_2 + \frac{1}{\sqrt2}\mathbf{1})^2 \\
 &+ (\frac{1}{\sqrt2}B_1 - \frac{1}{\sqrt2}A_2 - \frac{1}{\sqrt2}\mathbf{1})^2 \\
 &+ (\frac{2^{3/4}}{2}A_2 - \frac{1}{2^{3/4}}B_2 + \frac{1}{2^{3/4}}B_3)^2 \\
 &+ (\frac{1}{2^{3/4}}B_2 + \frac{2^{3/4}}{2}A_3 + \frac{1}{2^{3/4}}B_3)^2
@@ -308,7 +302,7 @@ as before.
 The cholesky decomposition of the matrix is given by
 
 \begin{equation}
-chol(Q) = \begin{pmatrix}
+L = chol(Q) = \begin{pmatrix}
 \frac{2^{3/4}}{2} & 0 & \frac{1}{2^{3/4}} & 0 & 0 & 0 & \frac{1}{2^{3/4}} \\
 \\
 0 & \frac{1}{\sqrt2} & \frac{1}{\sqrt2} & 0 & \frac{1}{\sqrt2} & 0 & 0 \\
@@ -322,8 +316,7 @@ chol(Q) = \begin{pmatrix}
 We perform the sum of squares calculation as follows
 
 \begin{equation}
-&|| (B_3 \hspace{2mm} B_1 \hspace{2mm} A_2 \hspace{2mm} A_1 \hspace{2mm} \mathbf{1} \hspace{2mm} B_2 \hspace{2mm} A_3) \cdot chol(Q)^T ||^2 \\
-&= (\frac{2^{3/4}}{2}B_3 + \frac{1}{2^{3/4}}A_2 + \frac{1}{2^{3/4}}A_3)^2 \\
+&(\frac{2^{3/4}}{2}B_3 + \frac{1}{2^{3/4}}A_2 + \frac{1}{2^{3/4}}A_3)^2 \\
 &+ (\frac{1}{\sqrt2}B_1 + \frac{1}{\sqrt2}A_2 + \frac{1}{\sqrt2}\mathbf{1})^2 \\
 &+ (\frac{1}{2^{3/4}}A_2 - \frac{2^{3/4}}{2}B_2 -  + \frac{1}{2^{3/4}}A_3)^2 \\
 &+ (\frac{1}{\sqrt2}A_1 - \frac{1}{\sqrt2}\mathbf{1} - \frac{1}{\sqrt2}B_2 )^2

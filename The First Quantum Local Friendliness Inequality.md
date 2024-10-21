@@ -154,7 +154,7 @@ A colour coordination key.
 :name: order-of-operators-1-figure
 :width: 900px
 :align: center
-The list $S$ is given by the operators above and to the left of the grid. The necessarily zero terms (i.e. those which are not physically realisable) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients.
+The list $S$ is given by the operators above and to the left of the grid. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients.
 ```
 
 The cholesky decomposition of the matrix Q is given by
@@ -171,7 +171,7 @@ L = chol(Q) = \begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
-We perform the sum of squares calculation as follows
+See Appendix B for the MATLAB code which shows where this information comes from. We perform the sum of squares calculation as follows
 
 \begin{equation}
 &(\mathbf{1} + \frac{1}{2}A_1 + \frac{1}{2}A_2 + \frac{1}{2}B_1 + \frac{1}{2}B_2)^2 \\

@@ -40,7 +40,7 @@ Y = \sum_{i,j} Q_{ij} S_i S_j
 where $S$ is given by the list
 
 \begin{equation}
-S = (\mathbf{1} \otimes \mathbf{1}, A_0 \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, \mathbf{1} \otimes B_0, \mathbf{1} \otimes B_1).
+S = (\mathbf{1} \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, A_2 \otimes \mathbf{1}, \mathbf{1} \otimes B_1, \mathbf{1} \otimes B_2).
 \end{equation}
 
 Imposing the following constraints sets $Y$ equal to $X$.

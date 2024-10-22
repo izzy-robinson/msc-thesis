@@ -4,6 +4,9 @@ subtitle:
 short_title: Outlook 
 numbering: 
     enumerator: 13.%s
+abbreviations:
+    SOS: Sums of Squares
+    LF: Local Friendliness
 ---
 
 # Outlook 
@@ -17,5 +20,7 @@ Over the course of discovering the results conveyed within this thesis, several 
 - We generated several SOS decompositions of our quantum LF inequality. Each of these independently leads to a set of self-testing equations. It would be good to investigate them.
 
 - We found the bound on our new quantum LF inequality. It would be good to find a quantum state and explicit measurement scheme which yields this maximum.
+
+- We identified 5 different SOS decompositions of QLF and have a simple algorithm for generating others. Could we use any of these to perform interesting self-testing based on the theory of LF?
 
 Given time, we hope to engage in these future directions.

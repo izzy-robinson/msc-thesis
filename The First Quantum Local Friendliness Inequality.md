@@ -15,7 +15,7 @@ abbreviations:
 > The purpose of visualisation is insight, not pictures.
 > - Ben Shneiderman
 
-In chapter 9, we took a fresh perspective on LF inequalities in which we identified a two dimensional projection of the LF polytope. This was originally demonstrated in figure 9.6 but is reproduced below in figure 10.1. It can be noticed that, within the region identified as 'of interest', the quantum boundary contains a number of straight lines. The one parallel to the y-axis is nothing other than the CHSH bound, but interestingly there is another straight line which is parallel to neither axis. This is therefore a 'quantum LF inequality' (i.e. a linear inequality which is satisfied by quantum mechanics) which we will call QLF.[^1] The purpose of this chapter is to investigate QLF and prove it is genuine; in other words, we want to find a bound.
+In chapter 9, we took a fresh perspective on LF inequalities in which we identified a two dimensional projection of the LF polytope. This was originally demonstrated in [](#LF-graph-figure) but is reproduced below in [](#QLF-graph-figure). It can be noticed that, within the region identified as 'of interest', the quantum boundary contains a number of straight lines. The one parallel to the y-axis is nothing other than the CHSH bound, but interestingly there is another straight line which is parallel to neither axis. This is therefore a 'quantum LF inequality' (i.e. a linear inequality which is satisfied by quantum mechanics) which we will call QLF.[^1] The purpose of this chapter is to investigate QLF and prove it is genuine; in other words, we want to find a bound.
 
 [^1]: Note how the point we identified in chapter 9 lies on this inequality so is extremal in this sense.
 

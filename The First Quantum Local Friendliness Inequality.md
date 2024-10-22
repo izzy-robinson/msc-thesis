@@ -7,6 +7,7 @@ numbering:
 abbreviations:
   SOS: Sums of Squares
   PSD: Positive Semidefinite
+  LF: Local Friendliness
 ---
 
 # The First Quantum Local Friendliness Inequality
@@ -14,7 +15,7 @@ abbreviations:
 > The purpose of visualisation is insight, not pictures.
 > - Ben Shneiderman
 
-It can be noticed from figure 9.5 that, within the region identified as 'of interest', the quantum boundary falls along a straight line. This is therefore a quantum LF inequality which we call QLF.[^1] 
+In chapter 9, we took a fresh perspective on LF inequalities in which we identified a two dimensional projection of the LF polytope. This was originally demonstrated in figure 9.6 but is reproduced below in figure 10.1. It can be noticed that, within the region identified as 'of interest', the quantum boundary contains a number of straight lines. The one parallel to the y-axis is nothing other than the CHSH bound, but interestingly there is another straight line which is parallel to neither axis. This is therefore a 'quantum LF inequality' (i.e. a linear inequality which is satisfied by quantum mechanics) which we will call QLF.[^1] The purpose of this chapter is to investigate QLF and prove it is genuine; in other words, we want to find a bound.
 
 [^1]: Note how the point we identified in chapter 9 lies on this inequality so is extremal in this sense.
 
@@ -316,3 +317,5 @@ We perform the sum of squares calculation as follows
 \end{equation}
 
 In this chapter, we have provided five different but related proofs that the upper bound on QLF is $3+2\sqrt{2}$. Each of these have the potential to be interesting in their own right.
+
+what we've seen here is weve proven this is a genuine quantum lf inequality and we managed to obain 5 independent proofs based upon different choesky decompositions of the q matrix. although we won;t explore this within this chapter it is interesting to ask whether tehse sos decmopositons may be useful for something. in the study of nonlocality, sos decompositions have found application in the theroy of self testing. roughtly speaking this is to what extent are the quantum state and measurements which maximally violate a bell inequality are unique. results raise the possibility that we could do some self testing based upon the theroy of LF.

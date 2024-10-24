@@ -15,9 +15,3 @@ numbering:
 :align: center
 Caption
 ```
-
-```{figure} sliding-tile-game.PNG
-:name: sliding-tile-game-figure
-:align: center
-The evolution of a sliding tile puzzle from its unsolved state (left) to its solved state (right). All valid moves are shown by purple arrows.
-```

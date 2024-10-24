@@ -8,6 +8,7 @@ abbreviations:
   SOS: Sums of Squares
   PSD: Positive Semidefinite
   LF: Local Friendliness
+  CHSH: Clauser, Horne, Shimony, Holt
 ---
 
 # The First Quantum Local Friendliness Inequality

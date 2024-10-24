@@ -4,6 +4,9 @@ subtitle:
 short_title: Bell Nonlocality
 numbering: 
     enumerator: 7.%s
+abbreviations:
+    CHSH: Clauser, Horne, Shimony, Holt
+    CGLMP: Collins, Gisin, Linden, Massar, Popescu
 ---
 
 # Bell Nonlocality

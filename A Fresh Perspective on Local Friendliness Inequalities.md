@@ -6,6 +6,7 @@ numbering:
     enumerator: 9.%s
 abbreviations:
   LF: Local Friendliness
+  CHSH: Clauser, Horne, Shimony, Holt
 ---
 
 # A Fresh Perspective on Local Friendliness Inequalities

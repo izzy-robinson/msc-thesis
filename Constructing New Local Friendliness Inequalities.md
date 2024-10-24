@@ -19,7 +19,7 @@ We saw in chapter 9 that an LF inequality based on the simplest $3$ settings and
 
 We initially focus on the strategies which saturate CGLMP; there are a huge set of these. We then add in a penalisation term with $\delta$; this narrows down the search space somewhat. Finally we choose a $\gamma$ such that none of these optimal strategies are rewarded (i.e. they are either penalised or neutral); we start off with a symmetric $\gamma$ then edit it through trial and error. We are ultimately left with the following proposal:
 
-Now we have a concrete proposal for a CGLMP-LF inequality, we need to carefully check all strategies to find the LF bound. We do so numerically using MATLAB code found in Appendix B. It is found that the LF bound on our new inequality is $3$. The next step is to see if quantum mechanics is able to violate this bound. Luckily it is - the quantum bound is $3.69393>3$. 
+Now we have a concrete proposal for a CGLMP-LF inequality, we need to carefully check all strategies to find the LF bound. We do so numerically using MATLAB code found in Appendix B. It is discovered that the LF bound on our new inequality is $3$. The next step is to see if quantum mechanics is able to violate this bound. Luckily it is - the quantum bound is $3.69393>3$. 
 
 Our new inequality is not a facet of the CGLMP-LF polytope.
 

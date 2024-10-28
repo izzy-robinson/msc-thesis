@@ -93,7 +93,7 @@ Q = \begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
-See Appendix B for the MATLAB code which shows where this information comes from. An SOS decomposition can always be found provided there exists some PSD $Q$, so this already is sufficient to prove the bound; however it is interesting to go one step further and actually find the SOS decomposition. Since $Q$ is PSD, we can take its Cholesky decomposition,
+See Appendix B.2 for the MATLAB code which shows where this information comes from. An SOS decomposition can always be found provided there exists some PSD $Q$, so this already is sufficient to prove the bound; however it is interesting to go one step further and actually find the SOS decomposition. Since $Q$ is PSD, we can take its Cholesky decomposition,
 
 \begin{equation}
 \label{cholesky-equation}
@@ -173,7 +173,7 @@ L = chol(Q) = \begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
-See Appendix B for the MATLAB code which shows where this information comes from. We perform the sum of squares calculation as follows
+See Appendix B.2 for the MATLAB code which shows where this information comes from. We perform the sum of squares calculation as follows
 
 \begin{equation}
 &(\mathbf{1} + \frac{1}{2}A_1 + \frac{1}{2}A_2 + \frac{1}{2}B_1 + \frac{1}{2}B_2)^2 \\

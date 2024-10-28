@@ -821,3 +821,9 @@ CGLMPLF = CGLMP + delta + gamma; % defining LF as the sum of CGLMP, delta and ga
    cvx_end
 
 ```
+
+### Finding the Maximally Violating States and Measurements
+
+```matlab
+
+```

@@ -26,6 +26,6 @@ We initially focus on the strategies which saturate CGLMP; there are a huge set 
 
 Now we have a concrete proposal for a CGLMP-LF inequality, we need to carefully check all strategies to find the LF bound. We do so numerically using MATLAB code found in Appendix B.3. It is discovered that the LF bound on our new inequality is $3$. The next step is to see if quantum mechanics is able to violate this bound. Luckily it is - the quantum bound is $3.69393>3$. 
 
-Our new inequality is not a facet of the CGLMP-LF polytope.
+Note that our new inequality is *not* a facet of the LF polytope; however it is in principle possible to find a related facet inequality. We have a point outside the LF polytope (i.e. the quantum violation of our new inequality). This brings up the possibility of using linear programming and various forms of robustness to rotate our non-facet inequality and find the facet inequality it lies above. 
 
 assume either the maximally entangled state of two qutrits or the state which maximally violates cglmp - find measurements which get 3.69 - as small criticism is finding this is the score in Q2 and there could be a gap between Q2 and quantum mechanics. unlikely as Q2 is very good approximation to quantum mechanics. we can figure this out using see-saw approach.

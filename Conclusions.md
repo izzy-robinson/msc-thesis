@@ -15,3 +15,5 @@ Having narrated each of our results in turn, it is time to circle back and summa
 - We used this graph to propose the first ever quantum LF inequality and provided five independent proofs of the upper bound on QLF.
 - We used our deeper understanding of the decomposed structure of LF to construct a new LF inequality based on CGLMP rather than CHSH.
 - We evaluated the quantum bound on our CGLMP-LF inequality and found the states and measurements which achieve this.
+
+Overall we have obtained a much deeper understanding of what LF means.

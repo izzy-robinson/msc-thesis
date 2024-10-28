@@ -10,7 +10,7 @@ numbering:
 
 ## Figures 9.6 and 10.1
 
-MATLAB was used to calculate the quantum region and locate maximal quantum violations of the LF inequality (both overall and in the region identified as interesting). Vertices of the LF polytope were calculated by hand (see section ?) and therefore plotted manually. Note that the final appearance of figures ? and ? is slightly different from the output of this code. Firstly, the plot has been split into two separate graphs, each with fewer features, to emphasise different aspects. Secondly, details such as colour and line style have been edited to improve clarity. All changes were performed using the vector graphics software Adobe Illustrator.
+MATLAB was used to calculate the quantum region and locate maximal quantum violations of the LF inequality (both overall and in the region identified as interesting). Vertices of the LF polytope were calculated by hand and therefore plotted manually. Note that the final appearance of figures [](#LF-graph-figure) and [](#QLF-graph-figure) is slightly different from the output of this code. Firstly, the plot has been split into two separate graphs, each with fewer features, to emphasise different aspects. Secondly, details such as colour and line style have been edited to improve clarity. All changes were performed using the vector graphics software Adobe Illustrator.
 
 ```matlab
     

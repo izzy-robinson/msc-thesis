@@ -477,7 +477,7 @@ chol(full(Q)) % find the Cholesky decomposition
 
 ```
 
-## A New CGLMP-LF Inequality
+## A new CGLMP-LF inequality
 
 ### Finding the LF bound
 
@@ -756,7 +756,7 @@ rank(L)
 
 ```
 
-### Finding the Quantum Maximum
+### Finding the quantum maximum
 
 ```matlab
 
@@ -822,7 +822,7 @@ CGLMPLF = CGLMP + delta + gamma; % defining LF as the sum of CGLMP, delta and ga
 
 ```
 
-### Finding the Maximally Violating States and Measurements
+### Finding the maximally violating states and measurements
 
 ```matlab
 

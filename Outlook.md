@@ -23,7 +23,7 @@ Over the course of discovering the results conveyed within this thesis, several 
 
 - When constructing a new inequality based on CGLMP, we guessed $\delta$ and $\gamma$ with coefficients of $1$ and this worked. But could we find anything else by keeping terms in the same locations while setting arbitrary coefficients? Perhaps a family of inequalities?
 
-- What actually is $\gamma$?
+- If we are to formalise the method for finding new LF inequalities based on different scenarios there is still work to be done, as the current approach relies non-trivially on trial and error. This may take the form of understanding what actually is $\gamma$.
 
 - We have a full list of vertices of the CGLMP-LF polytope; we could feed that back into the software LRS and look for the corresponding hyperplane description.
 

@@ -4,6 +4,10 @@ subtitle:
 short_title: Conclusions 
 numbering: 
     enumerator: 12.%s
+abbreviations:
+  LF: Local Friendliness
+  CHSH: Clauser, Horne, Shimony, Holt
+  CGLMP: Collins, Gisin, Linden, Massar, Popescu
 ---
 
 # Conclusions

@@ -40,12 +40,10 @@ we will not attempt to cover everything one might wish to know about the subject
 
 Part 4 of this thesis utilises the tools and ideas from Parts 2 and 3 respectively to arrive at several novel results; these can be grouped into three broad categories, as indicated by the chapter titles.
 
-- **Chapter 9 | A Fresh Perspective on Local Friendliness Inequalities:**  
-- **Chapter 10 | The First Quantum Local Friendliness Inequality:**  
-- **Chapter 11 | Constructing New Local Friendliness Inequalities:**  
+- **Chapter 9 | A Fresh Perspective on Local Friendliness Inequalities:** In this chapter we decompose an existing LF inequality and probe its structure.
+- **Chapter 10 | The First Quantum Local Friendliness Inequality:** In this chapter we propose the first ever quantum LF inequality.
+- **Chapter 11 | Constructing New Local Friendliness Inequalities:** In this chapter we generalise LF inequalities to a larger scenario.
 
 ## **Part 5: Conclusions and Outlook**
 
 In Part 5 of this thesis, we draw together what we have learned from all that came before. We then consider whether we have uncovered any avenues worth pursuing in the future.
-
-- **Chapter 11 | The Beginning of the End:**

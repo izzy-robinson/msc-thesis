@@ -13,5 +13,4 @@ numbering:
 ```{figure} correlators-to-probabilities.JPG
 :name: correlators-to-probabilities-figure
 :align: center
-Caption
 ```

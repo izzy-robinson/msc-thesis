@@ -32,4 +32,6 @@ One potential criticism of our work so far is that we have found the maximum qua
     |\phi\rangle = \sqrt{0.1378} |0\rangle |0\rangle + \sqrt{0.3980} |1\rangle |1\rangle + \sqrt{0.4642} |2\rangle |2\rangle. 
 \end{equation}
 
+This is stable for all methods which achieve the bound. The fact that we are able to find a method which achieves the bound proves that our fears were unfounded and there is no significant gap between the quantum set and the second level of the NPA hierarchy.
+
 Note that our new inequality is *not* a facet of the LF polytope; however it is in principle possible to find a related facet inequality. We have a point outside the LF polytope (i.e. the quantum violation of our new inequality) - this brings up the possibility of using linear programming and various forms of robustness to rotate our non-facet inequality and find the facet inequality it lies above. 

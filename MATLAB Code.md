@@ -826,4 +826,157 @@ CGLMPLF = CGLMP + delta + gamma; % defining LF as the sum of CGLMP, delta and ga
 
 ```matlab
 
+CGLMP = zeros(3,3,3,3); % setting up the CGLMP grid
+
+CGLMP(1,1,1,1) = +1;
+CGLMP(3,1,1,1) = -1;
+CGLMP(1,2,1,1) = -1;
+CGLMP(2,2,1,1) = +1;
+CGLMP(2,3,1,1) = -1;
+CGLMP(3,3,1,1) = +1;
+
+CGLMP(1,1,2,1) = +1;
+CGLMP(2,1,2,1) = -1;
+CGLMP(2,2,2,1) = +1;
+CGLMP(3,2,2,1) = -1;
+CGLMP(1,3,2,1) = -1;
+CGLMP(3,3,2,1) = +1;
+
+CGLMP(1,1,1,2) = +1;
+CGLMP(2,1,1,2) = -1;
+CGLMP(2,2,1,2) = +1;
+CGLMP(3,2,1,2) = -1;
+CGLMP(1,3,1,2) = -1;
+CGLMP(3,3,1,2) = +1;
+
+CGLMP(1,1,2,2) = -1;
+CGLMP(2,1,2,2) = +1;
+CGLMP(2,2,2,2) = -1;
+CGLMP(3,2,2,2) = +1;
+CGLMP(1,3,2,2) = +1;
+CGLMP(3,3,2,2) = -1;
+
+delta = zeros(3,3,3,3); % setting up the delta grid
+
+delta(3,1,1,1) = +1;
+
+gamma = zeros(3,3,3,3); % setting up the gamma grid
+
+gamma(2,1,3,2) = -1;
+gamma(1,2,3,2) = +1;
+gamma(2,1,2,3) = +1;
+gamma(3,2,2,3) = -1;
+gamma(1,1,3,3) = -1;
+
+CGLMPLF = CGLMP + delta + gamma; % defining LF as the sum of CGLMP, delta and gamma
+
+psi = MaxEntangled(3);
+rho = psi * psi';
+
+A0 = RandomPOVM(3,3);
+A1 = RandomPOVM(3,3);
+A2 = RandomPOVM(3,3);
+
+A = zeros(3,3,3,3);
+A(:,:,1,1) = A0{1};
+A(:,:,2,1) = A0{2};
+A(:,:,3,1) = A0{3};
+A(:,:,1,2) = A1{1};
+A(:,:,2,2) = A1{2};
+A(:,:,3,2) = A1{3};
+A(:,:,1,3) = A2{1};
+A(:,:,2,3) = A2{2};
+A(:,:,3,3) = A2{3};
+
+diff = 1;
+
+while diff >= 1E-7
+
+cvx_begin quiet
+
+    variable B(3,3,3,3) complex
+
+    expression beta1
+    
+    beta1 = 0;
+
+    for a = 1:3
+        for b = 1:3
+            for x = 1:3
+                for y = 1:3
+                    beta1 = beta1 + CGLMPLF(a,b,x,y)*real(trace(rho*Tensor(A(:,:,a,x),B(:,:,b,y))));
+                end
+            end
+        end
+    end
+
+    maximise beta1
+    
+    for y = 1:3
+        for b = 1:3
+            B(:,:,b,y) == hermitian_semidefinite(3)
+        end
+        B(:,:,1,y) + B(:,:,2,y) + B(:,:,3,y) == eye(3)
+    end
+
+cvx_end
+
+cvx_begin quiet
+
+    variable A(3,3,3,3) complex
+
+    expression beta2
+    
+    beta2 = 0;
+
+    for a = 1:3
+        for b = 1:3
+            for x = 1:3
+                for y = 1:3
+                    beta2 = beta2 + CGLMPLF(a,b,x,y)*real(trace(rho*Tensor(A(:,:,a,x),B(:,:,b,y))));
+                end
+            end
+        end
+    end
+
+    maximise beta2
+    
+    for x = 1:3
+        for a = 1:3
+            A(:,:,a,x) == hermitian_semidefinite(3)
+        end
+        A(:,:,1,x) + A(:,:,2,x) + A(:,:,3,x) == eye(3)
+    end
+
+cvx_end
+
+cvx_begin quiet
+
+    variable rho(9,9) hermitian semidefinite
+
+    expression beta3
+    
+    beta3 = 0;
+
+    for a = 1:3
+        for b = 1:3
+            for x = 1:3
+                for y = 1:3
+                    beta3 = beta3 + CGLMPLF(a,b,x,y)*real(trace(rho*Tensor(A(:,:,a,x),B(:,:,b,y))));
+                end
+            end
+        end
+    end
+
+    maximise beta3
+    
+    trace(rho) == 1
+
+cvx_end
+
+diff = beta3 - beta1;
+[beta1 beta2 beta3 diff]
+
+end
+
 ```

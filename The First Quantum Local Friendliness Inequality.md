@@ -16,9 +16,13 @@ abbreviations:
 > The purpose of visualisation is insight, not pictures.
 > - Ben Shneiderman
 
-In chapter 9, we took a fresh perspective on LF inequalities in which we identified a two dimensional projection of the LF polytope. This was originally demonstrated in [](#LF-graph-figure) but is reproduced below in [](#QLF-graph-figure). It can be noticed that, within the region identified as 'of interest', the quantum boundary contains a number of straight lines. The one parallel to the y-axis is nothing other than the CHSH bound, but interestingly there is another straight line which is parallel to neither axis. This is therefore a 'quantum LF inequality' (i.e. a linear inequality which is satisfied by quantum mechanics) which we will call QLF.[^1] The purpose of this chapter is to investigate QLF and prove it is genuine; in other words, we want to find a bound.
+## Introduction
 
-[^1]: Note how the point we identified in chapter 9 lies on this inequality so is extremal in this sense.
+In chapter 9, we took a fresh perspective on LF inequalities in which we identified an interesting two dimensional projection of the LF polytope. This was originally demonstrated in [](#LF-graph-figure) but is reproduced below in [](#QLF-graph-figure). It can be noticed that, within the region identified as 'of interest', the quantum boundary contains a number of straight sections. The one parallel to the y-axis is nothing other than the CHSH bound, but interestingly there is another straight section of the boundary which is parallel to neither axis. This is therefore a 'quantum LF inequality' (i.e. an inequality which is satisfied by quantum mechanics) which we will call QLF.[^1] [^2] The purpose of this chapter is to investigate QLF and prove it is genuine; in other words, we want to find a bound.
+
+
+[^1]: It is of course possible to have quantum LF inequalities for regions which are curved - this linear one is simply a natural one to try and characterise.
+[^2]: Note how the point we identified in chapter 9 lies on this inequality so is extremal in this sense.
 
 ```{figure} QLFgraph.JPG
 :name: QLF-graph-figure
@@ -26,6 +30,8 @@ In chapter 9, we took a fresh perspective on LF inequalities in which we identif
 :align: center
 **A reproduction of figure 9.5 with additional information.** In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality).
 ```
+
+## SOS bounds
 
 How can we find the bound on our new inequality? We can do so via a technique known as Sums of Squares (SOS). In chapter 5, on optimisation problems, we first encountered the concept of SOS. For this chapter it will be necessary to link SOS decompositions to quantum mechanics. We will do this via the example of the CHSH inequality, as it is the simplest interesting case.
 
@@ -43,7 +49,7 @@ From this, an operator equation is formed.
 X = 2\sqrt{2}\mathbf{1} - A_1 \otimes B_1 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \geq 0
 \end{equation}
 
-A sufficient condition for finding $X \geq 0$ is to find the $T_k$'s such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). Now consider some $Y$,
+A sufficient condition for finding $X \geq 0$ is to find some operators $T_k$ such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). Now consider some $Y$,
 
 \begin{equation}
 \label{Y-equation}
@@ -56,7 +62,7 @@ where $S$ is given by the list
 S = (\mathbf{1} \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, A_2 \otimes \mathbf{1}, \mathbf{1} \otimes B_1, \mathbf{1} \otimes B_2).
 \end{equation}
 
-Imposing the following constraints sets $Y$ equal to $X$.
+Imposing the following constraints, we are able to ensure that $Y$ equals $X$.
 
 - Identity coefficients: $2\sqrt{2}$ = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) 
 
@@ -110,7 +116,7 @@ L = chol(Q) = \begin{pmatrix}
 \end{pmatrix}.
 \end{equation}
 
-If you like, we can verify this by direct calculation. As $Q$ is of the form given by equation [Equation 10.6](#cholesky-equation), we now need the matrix elements of $Q$ (i.e. $Q_{ij}$) in terms of the matrix elements of $L$. These are
+If you like, we can verify this by direct calculation. As $Q$ is of the form given by [Equation 10.6](#cholesky-equation), we now need the matrix elements of $Q$ (i.e. $Q_{ij}$) in terms of the matrix elements of $L$. These are
 
 \begin{equation}
 \label{matrix-elements-equation}
@@ -141,7 +147,7 @@ where the first line of the SOS is $T_1$ and the second line of the SOS is $T_2$
 
 ## Analytically Proving the Bound on QLF
 
-We will carry out the sum of squares decomposition for QLF several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. Any one of these on their own would constitute a full proof of the bound, however with each order of operators we generate a different SOS decomposition. We do not know if any SOS decomposition is more useful than another when it comes to self-testing @supic2020, so we preserve several for the record.
+We will now apply the SOS technique to QLF in order to show that it is a genuine quantum LF inequality. We will do so several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. Any one of these on their own would constitute a full proof of the bound, however with each order of operators we generate a different SOS decomposition. We do not know if any SOS decomposition is more useful than another when it comes to self-testing @supic2020, so we preserve several for the record.
 
 ```{figure} key.JPG
 :name: key-figure
@@ -316,5 +322,7 @@ We perform the sum of squares calculation as follows
 &+ (\frac{1}{2^{3/4}}A_2 - \frac{2^{3/4}}{2}B_2 -  + \frac{1}{2^{3/4}}A_3)^2 \\
 &+ (\frac{1}{\sqrt2}A_1 - \frac{1}{\sqrt2}\mathbf{1} - \frac{1}{\sqrt2}B_2 )^2
 \end{equation}
+
+## Summary
 
 In this chapter, we have provided five independent but related proofs that the upper bound on QLF is $3+2\sqrt{2}$ and hence that it is a genuine quantum LF inequality. Our proofs are based on different SOS decompositions of the inequality. Although we won't explore this within the thesis, each of these has the potential to be interesting in their own right. In the study of nonlocality, SOS decompositions have found application in the theory of self-testing; roughly speaking, this is questioning to what extent are the quantum state and measurements which maximally violate a Bell inequality unique. Our results raise the possibility that we could do some self testing based upon the theory of LF.

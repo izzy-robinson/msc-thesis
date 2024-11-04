@@ -56,7 +56,9 @@ Here we have introduced some notation which will prove very useful moving forwar
 :align: center
 ```
 
-In the next section we will use this grid form to decompose the inequality in a useful way. We could of course have done so directly from the correlator form of the inequality, however it is useful to have a visual aid.
+In the next section we will use this grid form to decompose the inequality in a useful way.[^1] 
+
+[^1]: We could of course have done so directly from the correlator form of the inequality, however it is useful to have a visual aid.
 
 ## Decomposition of the LF Inequality
 
@@ -94,9 +96,9 @@ Although it superficially looks completely different, this is fully analagous to
 
 - $ \textrm{LF} = 4\textrm{LF'} - 6 $
 
-One immediate benefit of decomposing our LF inequality as above is that we have identified a very natural two dimensional projection of the LF polytope in which we can investigate; plotting in this parameter space we get a graph of $\epsilon$' against CHSH'.[^1]
+One immediate benefit of decomposing our LF inequality as above is that we have identified a very natural two dimensional projection of the LF polytope in which we can investigate; plotting in this parameter space we get a graph of $\epsilon$' against CHSH'.[^2]
 
-[^1]: Note that, rather than amalgamating $\delta'$ and $\gamma'$ into a single $\epsilon'$, we could have produced a three dimensional representation of CHSH' against $\delta'$ against $\gamma'$. However we prefer the two dimensional representation as it is sufficient for our needs and easier to interpret.
+[^2]: Note that, rather than amalgamating $\delta'$ and $\gamma'$ into a single $\epsilon'$, we could have produced a three dimensional representation of CHSH' against $\delta'$ against $\gamma'$. However we prefer the two dimensional representation as it is sufficient for our needs and easier to interpret.
 
 ```{figure} LFgraph.JPG
 :name: LF-graph-figure
@@ -170,4 +172,4 @@ Several disparate ideas have been conveyed within this first results chapter; it
 3.  We have logged the vertices of the LF polytope along the LF inequality.
 4.  We have identified a new point of potential interest.
 
-Of these points, it is the first two which we shall return to in the subsequent results chapters.
+Of these points, it is the first two which we shall return to and substantially build upon in the subsequent results chapters.

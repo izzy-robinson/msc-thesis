@@ -148,7 +148,7 @@ where the first line of the SOS is $T_1$ and the second line of the SOS is $T_2$
 
 ## Analytically Proving the Bound on QLF
 
-We will now apply the SOS technique to QLF in order to show that it is a genuine quantum LF inequality. We will do so several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. Any one of these on their own would constitute a full proof of the bound, however with each order of operators we generate a different SOS decomposition. We do not know if any SOS decomposition is more useful than another when it comes to self-testing @supic2020, so we preserve several for the record.
+We will now apply the SOS technique to QLF in order to show that it is a genuine quantum LF inequality. We will do so several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. Any one of these on their own would constitute a full proof of the bound, however with each order of operators we generate a different SOS decomposition. We do not know if any SOS decomposition is more useful than another when it comes to self-testing [@supic2020], so we preserve several for the record.
 
 ```{figure} key.JPG
 :name: key-figure
@@ -166,6 +166,24 @@ A colour coordination key.
 ```
 
 The list $S$ is given by the operators above and to the left of the grid. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. The cholesky decomposition of the matrix Q is given by
+
+\begin{equation}
+Q=\begin{pmatrix}
+1 & \frac{1}{2} & \frac{1}{2} & 0 & \frac{1}{2} & \frac{1}{2} & 0 \\
+\\
+\frac{1}{2} & \frac{1}{2} & 0 & 0 & 0 & \frac{1}{2} & 0 \\
+\\
+\frac{1}{2} & 0 & \frac{1+\sqrt2}{2} & 0 & \frac{1}{2} & -\frac{1}{2} & \frac{1}{2} \\
+\\
+0 & 0 & 0 & \frac{1}{\sqrt2} & 0 & \frac{1}{2} & \frac{1}{2}\\
+\\
+\frac{1}{2} & 0 & \frac{1}{2} & 0 & \frac{1}{2} & 0 & 0 \\
+\\
+\frac{1}{2} & \frac{1}{2} & -\frac{1}{2} & \frac{1}{2} & 0 & \frac{1+\sqrt2}{2} & 0 \\
+\\
+0 & 0 & \frac{1}{2} & \frac{1}{2} & 0 & 0 & \frac{1}{\sqrt2}
+\end{pmatrix}
+\end{equation}
 
 \begin{equation}
 L = chol(Q) = \begin{pmatrix}
@@ -325,4 +343,4 @@ We perform the sum of squares calculation as follows
 
 ## Summary
 
-In this chapter, we have found the first ever quantum LF inequality and used the second level of the NPA hierarchy to provide five independent but related proofs that the upper bound on QLF is $3+2\sqrt{2}$ and hence that it is a genuine quantum LF inequality. Our proofs are based on different SOS decompositions of the inequality. Although we won't explore this within the thesis, each of these has the potential to be interesting in their own right. In the study of nonlocality, SOS decompositions have found application in the theory of self-testing; roughly speaking, this is questioning to what extent are the quantum state and measurements which maximally violate a Bell inequality unique. Our results raise the possibility that we could do some self testing based upon the theory of LF.
+In this chapter, we have found the first ever quantum LF inequality and used the second level of the NPA hierarchy [@Navascues2007] to provide five independent but related proofs that the upper bound on QLF is $3+2\sqrt{2}$ and hence that it is a genuine quantum LF inequality. Our proofs are based on different SOS decompositions of the inequality. Although we won't explore this within the thesis, each of these has the potential to be interesting in their own right. In the study of nonlocality, SOS decompositions have found application in the theory of self-testing; roughly speaking, this is questioning to what extent are the quantum state and measurements which maximally violate a Bell inequality unique. Our results raise the possibility that we could do some self testing based upon the theory of LF.

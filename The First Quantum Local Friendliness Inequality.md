@@ -167,6 +167,41 @@ A colour coordination key.
 
 The list $S$ is given by the operators above and to the left of the grid. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. The cholesky decomposition of the matrix Q is given by
 
+Identity coefficients: v = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) + Q(6,6) + Q(7,7)
+
+A1 coefficients: 1 = Q(1,2) + Q(2,1)  
+A2 coefficients: 1 = Q(1,3) + Q(3,1)  
+A3 coefficients: 0 = Q(1,4) + Q(4,1)  
+
+B1 coefficients: 1 = Q(1,5) + Q(5,1)  
+B2 coefficients: 1 = Q(1,6) + Q(6,1)  
+B3 coefficients: 0 = Q(1,7) + Q(7,1) 
+
+A1B1 coefficients: 0 = Q(2,5) + Q(5,2)  
+A1B2 coefficients: 1 = Q(2,6) + Q(6,2)  
+A1B3 coefficients: 0 = Q(2,7) + Q(7,2)  
+A2B1 coefficients: 1 = Q(3,5) + Q(5,3)  
+A2B2 coefficients: -1 = Q(3,6) + Q(6,3)  
+A2B3 coefficients: 1 = Q(3,7) + Q(7,3)  
+A3B1 coefficients: 0 = Q(4,5) + Q(5,4)  
+A3B2 coefficients: 1 = Q(4,6) + Q(6,4)  
+A3B3 coefficients: 1 = Q(4,7) + Q(7,4)  
+
+A1A2 coefficients: 0 = Q(2,3)  
+A2A1 coefficients: 0 = Q(3,2)  
+A1A3 coefficients: 0 = Q(2,4)  
+A3A1 coefficients: 0 = Q(4,2)  
+A2A3 coefficients: 0 = Q(3,4)  
+A3A2 coefficients: 0 = Q(4,3)  
+
+B1B2 coefficients: 0 = Q(5,6)  
+B2B1 coefficients: 0 = Q(6,5)  
+B1B3 coefficients: 0 = Q(5,7)  
+B3B1 coefficients: 0 = Q(7,5)  
+B2B3 coefficients: 0 = Q(6,7)  
+B3B2 coefficients: 0 = Q(7,6) 
+
+
 \begin{equation}
 Q=\begin{pmatrix}
 1 & \frac{1}{2} & \frac{1}{2} & 0 & \frac{1}{2} & \frac{1}{2} & 0 \\

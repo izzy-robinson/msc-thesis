@@ -32,7 +32,7 @@ In chapter 9, we took a fresh perspective on LF inequalities in which we identif
 **A reproduction of figure 9.5 with additional information.** In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality).
 ```
 
-## SOS bounds
+## SOS Bounds
 
 How can we find the bound on our new inequality? We can do so via a technique known as Sums of Squares (SOS). In chapter 5, on optimisation problems, we first encountered the concept of SOS. For this chapter it will be necessary to link SOS decompositions to quantum mechanics. We will do this via the example of the CHSH inequality, as it is the simplest interesting case.
 
@@ -163,10 +163,9 @@ A colour coordination key.
 :name: order-of-operators-1-figure
 :width: 900px
 :align: center
-The list $S$ is given by the operators above and to the left of the grid. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients.
 ```
 
-The cholesky decomposition of the matrix Q is given by
+The list $S$ is given by the operators above and to the left of the grid. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. The cholesky decomposition of the matrix Q is given by
 
 \begin{equation}
 L = chol(Q) = \begin{pmatrix}
@@ -326,4 +325,4 @@ We perform the sum of squares calculation as follows
 
 ## Summary
 
-In this chapter, we have provided five independent but related proofs that the upper bound on QLF is $3+2\sqrt{2}$ and hence that it is a genuine quantum LF inequality. Our proofs are based on different SOS decompositions of the inequality. Although we won't explore this within the thesis, each of these has the potential to be interesting in their own right. In the study of nonlocality, SOS decompositions have found application in the theory of self-testing; roughly speaking, this is questioning to what extent are the quantum state and measurements which maximally violate a Bell inequality unique. Our results raise the possibility that we could do some self testing based upon the theory of LF.
+In this chapter, we have found the first ever quantum LF inequality and used the second level of the NPA hierarchy to provide five independent but related proofs that the upper bound on QLF is $3+2\sqrt{2}$ and hence that it is a genuine quantum LF inequality. Our proofs are based on different SOS decompositions of the inequality. Although we won't explore this within the thesis, each of these has the potential to be interesting in their own right. In the study of nonlocality, SOS decompositions have found application in the theory of self-testing; roughly speaking, this is questioning to what extent are the quantum state and measurements which maximally violate a Bell inequality unique. Our results raise the possibility that we could do some self testing based upon the theory of LF.

@@ -9,6 +9,7 @@ abbreviations:
   PSD: Positive Semidefinite
   LF: Local Friendliness
   CHSH: Clauser, Horne, Shimony, Holt
+  SDP: Semidefinite Program
 ---
 
 # The First Quantum Local Friendliness Inequality
@@ -43,13 +44,13 @@ Suppose we want to prove that the upper bound on the CHSH inequality is $2\sqrt{
 \langle \psi | A_1 \otimes B_1 + A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 | \psi \rangle \leq  \langle \psi | 2\sqrt{2}\mathbf{1} | \psi \rangle
 \end{equation}
 
-From this, an operator equation is formed.
+Since this must hold for all $| \psi \rangle $, this means the operator must be positive semidefinite (PSD). This is already one step forwards.
 
 \begin{equation}
 X = 2\sqrt{2}\mathbf{1} - A_1 \otimes B_1 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \geq 0
 \end{equation}
 
-A sufficient condition for finding $X \geq 0$ is to find some operators $T_k$ such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). Now consider some $Y$,
+A sufficient condition for finding $X \geq 0$ is to find some operators $T_k$ such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). To see how we can find such a set of operators $T_k$, consider an operator $Y$
 
 \begin{equation}
 \label{Y-equation}
@@ -62,7 +63,7 @@ where $S$ is given by the list
 S = (\mathbf{1} \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, A_2 \otimes \mathbf{1}, \mathbf{1} \otimes B_1, \mathbf{1} \otimes B_2).
 \end{equation}
 
-Imposing the following constraints, we are able to ensure that $Y$ equals $X$.
+Setting $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}$ and imposing the following constraints, we are able to ensure that $Y$ equals $X$.
 
 - Identity coefficients: $2\sqrt{2}$ = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) 
 
@@ -83,7 +84,7 @@ Imposing the following constraints, we are able to ensure that $Y$ equals $X$.
 - A2B1 coefficients: -1 = Q(3,4) + Q(4,3) 
 - A2B2 coefficients: 1 = Q(3,5) + Q(5,3)
 
-The question now is can we find a $Q \geq 0$ which satisfies these constraints? The answer is yes!
+The question now is can we find a $Q \geq 0$ which satisfies these constraints? The answer is yes! This problem is simply an SDP due to its linear constraints.
 
 \begin{equation}
 Q = \begin{pmatrix}
@@ -132,7 +133,7 @@ Y = X &= \sum_{i,j} Q_{ij} S_i S_j \\
 &= \sum_k T_k^2 
 \end{equation}
 
-Therefore, finally, the SOS decomposition is 
+where $T_k = \sum_i L_{ki} S_i$ is what we were looking for. Therefore, finally, the SOS decomposition is 
 
 \begin{equation}
 \label{CHSH-SOS-equation}
@@ -141,7 +142,7 @@ Therefore, finally, the SOS decomposition is
 + \Big(\sqrt{\frac{2}{2\sqrt{2}}}A_2 - \frac{1}{\sqrt{2\sqrt{2}}}B_1 + \frac{1}{\sqrt{2\sqrt{2}}}B_2\Big)^2 \geq 0
 \end{equation}
 
-where the first line of the SOS is $T_1$ and the second line of the SOS is $T_2$. This is true under the assumption that the eigenvalues are $\pm{1}$ i.e. $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}$. With [Equation 10.10](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
+where the first line of the SOS is $T_1$ and the second line of the SOS is $T_2$. This is true under the assumption that the eigenvalues are $\pm{1}$ i.e. $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}.$ With [Equation 10.10](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
 
 :::
 

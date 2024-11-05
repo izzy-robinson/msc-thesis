@@ -179,9 +179,7 @@ X = \nu \mathbf{1} + A_1 + A_2 + B_1 + B_2 + A_1 \otimes B_2 + A_2 \otimes B_1 -
 + A_2 \otimes B_3 + A_3 \otimes B_2 + A_3 \otimes B_3 \geq 0
 \end{equation}
 
-A sufficient condition for finding $X \geq 0$ is to find some operators $T_k$ such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). To see how we can find such a set of operators $T_k$, consider an operator $Y$ of the form of [Equation 10.3](#Y-equation) where $S$ is given by the list of operators above and to the left of the grids. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. 
-
-Setting $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}$ and imposing the following constraints, we are able to ensure that $Y$ equals $X$.
+A sufficient condition for finding $X \geq 0$ is to find some operators $T_k$ such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). To see how we can find such a set of operators $T_k$, consider an operator $Y$ of the form of [Equation 10.3](#Y-equation) where $S$ is given by the list of operators above and to the left of the grids. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. Setting $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}$ and imposing the following constraints, we are able to ensure that $Y$ equals $X$.
 
 - Identity coefficients: $\nu$ = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) + Q(6,6) + Q(7,7)
 

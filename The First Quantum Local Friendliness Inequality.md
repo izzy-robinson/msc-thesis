@@ -172,7 +172,7 @@ A colour coordination key.
 
 \begin{equation}
 X = \nu \mathbf{1} + A_1 + A_2 + B_1 + B_2 + A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 \\
-+ A_2 \otimes B_3 + A_3 \otimes B_2 + A_3 \otimes B_3 \leq 0
++ A_2 \otimes B_3 + A_3 \otimes B_2 + A_3 \otimes B_3 \geq 0
 \end{equation}
 
 [Equation 10.3](#Y-equation) where $S$ is given by the list of operators above and to the left of the grids. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. 

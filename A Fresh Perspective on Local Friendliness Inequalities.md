@@ -96,6 +96,8 @@ Although it superficially looks completely different, this is fully analagous to
 
 - $ \textrm{LF} = 4\textrm{LF'} - 6 $
 
+Notice how $\delta'$ is easy to undestand as a 'reward' term and $\gamma'$ is now localised in the (3,3) setting.
+
 One immediate benefit of decomposing our LF inequality as above is that we have identified a very natural two dimensional projection of the LF polytope in which we can investigate; plotting in this parameter space we get a graph of $\epsilon$' against CHSH'.[^2]
 
 [^2]: Note that, rather than amalgamating $\delta'$ and $\gamma'$ into a single $\epsilon'$, we could have produced a three dimensional representation of CHSH' against $\delta'$ against $\gamma'$. However we prefer the two dimensional representation as it is sufficient for our needs and easier to interpret.
@@ -161,7 +163,7 @@ where $c=\frac{1}{2}\textrm{cos}^2(\frac{\pi}{8})$ and $s=\frac{1}{2}\textrm{sin
 :align: center
 ```
 
-It can be seen that, whereas our point is by construction local in the setting [(1,2),(1,2)] and coincidentally local in the setting [(1,3),(1,3)], their point is local in the settings [(1,3),(1,3)], [(1,2),(1,3)] and [(1,3),(1,2)]. This raises an interesting question as to how to compare. Whilst their point may be viewed as superior in the sense that its nonlocality is concentrated only in the [(1,2),(1,2)] setting as opposed to being split between the settings [(1,2),(1,3)] and [(1,3),(1,2)] as is the case for our point, ours is much cleaner with each value taking a closed form as opposed to a decimal. This may render it worthy of further exploration. An interesting question would be whether it is possible to find a point which is local in all four setting combinations [(1,2),(1,2)],[(1,3),(1,3)],[(1,2),(1,3)] and [(1,3),(1,2)], as both identified points fail in this task. It is obviously an option to numerically check this, however it may also be the case that a careful examination of our point allows us to analytically prove whether or not this is achieveable. We leave this for later work.
+It can be seen that, whereas our point is by construction local in the setting [(1,2),(1,2)] and coincidentally local in the setting [(1,3),(1,3)], their point is local in the settings [(1,3),(1,3)], [(1,2),(1,3)] and [(1,3),(1,2)]. This raises an interesting question as to how to compare. Whilst their point may be viewed as superior in the sense that its nonlocality is concentrated only in the [(1,2),(1,2)] setting as opposed to being split between the settings [(1,2),(1,3)] and [(1,3),(1,2)] as is the case for our point, ours is much 'cleaner' with each value taking a closed form as opposed to a decimal. This may render it worthy of further exploration. An interesting question would be whether it is possible to find a point which is local in all four setting combinations [(1,2),(1,2)],[(1,3),(1,3)],[(1,2),(1,3)] and [(1,3),(1,2)], as both identified points fail in this task. It is obviously an option to numerically check this, however it may also be the case that a careful examination of our point allows us to analytically prove whether or not this is achieveable. We leave this for later work.
 
 ## Summary
 

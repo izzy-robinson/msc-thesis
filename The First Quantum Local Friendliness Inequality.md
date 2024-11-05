@@ -165,7 +165,7 @@ A colour coordination key.
 :align: center
 ```
 
-First the Bell operators and the bound are sandwhiched between two generic quantum states $|\psi\rangle$. 
+We proceed analagously to the CHSH case. First the Bell operators and the bound are sandwhiched between two generic quantum states $|\psi\rangle$. 
 
 \begin{equation}
 \langle \psi | - A_1 - A_2 - B_1 - B_2 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \\

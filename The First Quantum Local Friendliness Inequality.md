@@ -166,16 +166,20 @@ A colour coordination key.
 ```
 
 \begin{equation}
-\langle \psi | A_1 + A_2 + B_1 + B_2 + A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 + A_2 \otimes B_3 \\
-
-+ A_3 \otimes B_2 + A_3 \otimes B_3 | \psi \rangle \leq  \langle \psi | \nu \mathbf{1} | \psi \rangle
+\langle \psi | - A_1 - A_2 - B_1 - B_2 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 - A_2 \otimes B_3 \\
+- A_3 \otimes B_2 - A_3 \otimes B_3 | \psi \rangle \leq  \langle \psi | \nu \mathbf{1} | \psi \rangle
 \end{equation}
 
-The list $S$ is given by the operators above and to the left of the grid. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. 
+\begin{equation}
+X = \nu \mathbf{1} + A_1 + A_2 + B_1 + B_2 + A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 + A_2 \otimes B_3 \\
++ A_3 \otimes B_2 + A_3 \otimes B_3 \leq 0
+\end{equation}
+
+[Equation 10.3](#Y-equation) where $S$ is given by the list of operators above and to the left of the grids. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. 
 
 Setting $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}$ and imposing the following constraints, we are able to ensure that $Y$ equals $X$.
 
-Identity coefficients: $\nu$ = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) + Q(6,6) + Q(7,7)
+- Identity coefficients: $\nu$ = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) + Q(6,6) + Q(7,7)
 
 - A1 coefficients: 1 = Q(1,2) + Q(2,1)  
 - A2 coefficients: 1 = Q(1,3) + Q(3,1)  

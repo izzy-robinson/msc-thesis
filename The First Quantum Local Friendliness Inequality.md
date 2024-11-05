@@ -44,7 +44,7 @@ Suppose we want to prove that the upper bound on the CHSH inequality is $2\sqrt{
 \langle \psi | A_1 \otimes B_1 + A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 | \psi \rangle \leq  \langle \psi | 2\sqrt{2}\mathbf{1} | \psi \rangle
 \end{equation}
 
-Since this must hold for all $| \psi \rangle $, this means the operator must be positive semidefinite (PSD). This is already one step forwards.
+Since this must hold for all $| \psi \rangle $, it means the operator must be positive semidefinite (PSD). This is already one step forwards.
 
 \begin{equation}
 X = 2\sqrt{2}\mathbf{1} - A_1 \otimes B_1 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \geq 0
@@ -165,9 +165,14 @@ A colour coordination key.
 :align: center
 ```
 
+\begin{equation}
+\langle \psi | A_1 + A_2 + B_1 + B_2 \\
+&+ A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 + A_2 \otimes B_3 + A_3 \otimes B_2 + A_3 \otimes B_3 | \psi \rangle \leq  \langle \psi | \nu \mathbf{1} | \psi \rangle
+\end{equation}
+
 The list $S$ is given by the operators above and to the left of the grid. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. 
 
-We can set $X$ equal to $Y$ 
+Setting $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}$ and imposing the following constraints, we are able to ensure that $Y$ equals $X$.
 
 Identity coefficients: v = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) + Q(6,6) + Q(7,7)
 

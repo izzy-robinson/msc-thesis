@@ -10,6 +10,7 @@ abbreviations:
   LF: Local Friendliness
   CHSH: Clauser, Horne, Shimony, Holt
   SDP: Semidefinite Program
+  NPA: Navascués, Pironio, Acin
 ---
 
 # The First Quantum Local Friendliness Inequality
@@ -20,7 +21,6 @@ abbreviations:
 ## Introduction
 
 In chapter 9, we took a fresh perspective on LF inequalities in which we identified an interesting two dimensional projection of the LF polytope. This was originally demonstrated in [](#LF-graph-figure) but is reproduced below in [](#QLF-graph-figure). It can be noticed that, within the region identified as 'of interest', the quantum boundary contains a number of straight sections. The one parallel to the y-axis is nothing other than the CHSH bound, but interestingly there is another straight section of the boundary which is parallel to neither axis. This is therefore a 'quantum LF inequality' (i.e. an inequality which is satisfied by quantum mechanics) which we will call QLF.[^1] [^2] The purpose of this chapter is to investigate QLF and prove it is genuine; in other words, we want to find a bound.
-
 
 [^1]: It is of course possible to have quantum LF inequalities for regions which are curved - this linear one is simply a natural one to try and characterise.
 [^2]: Note how the point we identified in chapter 9 lies on this inequality so is extremal in this sense.
@@ -165,7 +165,9 @@ A colour coordination key.
 :align: center
 ```
 
-The list $S$ is given by the operators above and to the left of the grid. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. The cholesky decomposition of the matrix Q is given by
+The list $S$ is given by the operators above and to the left of the grid. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. 
+
+We can set $X$ equal to $Y$ 
 
 Identity coefficients: v = Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) + Q(6,6) + Q(7,7)
 
@@ -220,6 +222,8 @@ Q=\begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
+The cholesky decomposition of the matrix Q is given by
+
 \begin{equation}
 L = chol(Q) = \begin{pmatrix}
 1 & \frac{1}{2} & \frac{1}{2} & 0 & \frac{1}{2} & \frac{1}{2} & 0 \\
@@ -249,7 +253,7 @@ Expanding the brackets and combining all terms gives
 &+ A_1B_2 + A_2B_1 - A_2B_2 + A_2B_3 + A_3B_2 + A_3B_3.
 \end{equation}
 
-With [Equation 10.13](#QLF-SOS-equation) we have provided an analytical proof that the upper bound on the QLF inequality is $3 + 2\sqrt2$ for all quantum states and measurements.
+With [Equation 10.14](#QLF-SOS-equation) we have provided an analytical proof that the upper bound on the QLF inequality is $3 + 2\sqrt2$ for all quantum states and measurements.
 
 ### Order of Operators 2
 

@@ -8,6 +8,7 @@ abbreviations:
     LF: Local Friendliness
     CHSH: Clauser, Horne, Shimony, Holt
     CGLMP: Collins, Gisin, Linden, Massar, Popescu
+    NPA: Navascués, Pironio, Acin
 ---
 
 # Constructing New Local Friendliness Inequalities

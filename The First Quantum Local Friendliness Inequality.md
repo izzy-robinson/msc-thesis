@@ -165,17 +165,21 @@ A colour coordination key.
 :align: center
 ```
 
+First the Bell operators and the bound are sandwhiched between two generic quantum states $|\psi\rangle$. 
+
 \begin{equation}
 \langle \psi | - A_1 - A_2 - B_1 - B_2 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \\
 - A_2 \otimes B_3 - A_3 \otimes B_2 - A_3 \otimes B_3 | \psi \rangle \leq  \langle \psi | \nu \mathbf{1} | \psi \rangle
 \end{equation}
+
+Since this must hold for all $|\psi\rangle$, it means the operator must be PSD.
 
 \begin{equation}
 X = \nu \mathbf{1} + A_1 + A_2 + B_1 + B_2 + A_1 \otimes B_2 + A_2 \otimes B_1 - A_2 \otimes B_2 \\
 + A_2 \otimes B_3 + A_3 \otimes B_2 + A_3 \otimes B_3 \geq 0
 \end{equation}
 
-[Equation 10.3](#Y-equation) where $S$ is given by the list of operators above and to the left of the grids. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. 
+A sufficient condition for finding $X \geq 0$ is to find some operators $T_k$ such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). To see how we can find such a set of operators $T_k$, consider an operator $Y$ of the form of [Equation 10.3](#Y-equation) where $S$ is given by the list of operators above and to the left of the grids. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. 
 
 Setting $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}$ and imposing the following constraints, we are able to ensure that $Y$ equals $X$.
 
@@ -213,6 +217,7 @@ Setting $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}$ and imposing the following constra
 - B2B3 coefficients: 0 = Q(6,7)  
 - B3B2 coefficients: 0 = Q(7,6) 
 
+The question now is can we find a $Q \geq 0$ which satisfies these constraints? The answer is yes! This problem is simply an SDP due to its linear constraints.
 
 \begin{equation}
 Q=\begin{pmatrix}
@@ -232,7 +237,7 @@ Q=\begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
-The cholesky decomposition of the matrix Q is given by
+See Appendix B.2 for the MATLAB code which shows where this information comes from. An SOS decomposition can always be found provided there exists some PSD $Q$, so this already is sufficient to prove the bound; however it is interesting to go one step further and actually find the SOS decomposition. Since $Q$ is PSD, we can take its Cholesky decomposition given by [Equation 10.6](#cholesky-equation), which is solvable using MATLAB to be
 
 \begin{equation}
 L = chol(Q) = \begin{pmatrix}
@@ -246,7 +251,7 @@ L = chol(Q) = \begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
-See Appendix B.2 for the MATLAB code which shows where this information comes from. We perform the sum of squares calculation as follows
+We perform the sum of squares calculation as follows
 
 \begin{equation}
 &(\mathbf{1} + \frac{1}{2}A_1 + \frac{1}{2}A_2 + \frac{1}{2}B_1 + \frac{1}{2}B_2)^2 \\

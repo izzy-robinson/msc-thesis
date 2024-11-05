@@ -32,6 +32,8 @@ In chapter 9, we took a fresh perspective on LF inequalities in which we identif
 **A reproduction of figure 9.5 with additional information.** In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality).
 ```
 
+In order to achieve this, we will move away from our grid notation for inequalities and return to the correlator form. To see how to translate between these forms see Appendix A.
+
 ## SOS Bounds
 
 How can we find the bound on our new inequality? We can do so via a technique known as Sums of Squares (SOS). In chapter 5, on optimisation problems, we first encountered the concept of SOS. For this chapter it will be necessary to link SOS decompositions to quantum mechanics. We will do this via the example of the CHSH inequality, as it is the simplest interesting case.

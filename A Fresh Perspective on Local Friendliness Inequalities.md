@@ -16,8 +16,6 @@ abbreviations:
 
 ## Introduction
 
-
-
 In their original paper [@Bong2018], Bong et al. introduced the notion of local friendliness (LF), as explained in chapter 8. Their key result is that, in the simplest scenario with $3$ inputs per player and $2$ outputs per input, they were able to derive all facets of the LF polytope using standard computational techniques (i.e. facet enumeration software). They found that there were a number of different inequalities and were able to group these into equivalence classes by relabelling the parties and the outcomes. However the structure of each equivalence class is largely left uninvestigated. Furthermore, because of the computational way the results were generated, Bong et al. do not offer any underlying guiding principles as to what is really going on. If we are to succeed in generalising LF inequalities from this particular scenario to others (which quickly become computationally intractable) then we will require a more conceptual understanding of the physical properties of LF inequalities; finding that deeper understanding is the goal of this chapter.
 
 A structural aspect we are able to notice immediately is that one LF inequality contains traces of the CHSH inequality. This presents the following question - are we able to decompose this LF inequality into a CHSH part and a novel part? If so, we inherit a space of two parameters as we are able to consider the trade-off between both parts. This proves to be the case, and from this perspective we see additional structure emerge. We are consequently able to identify the first quantum LF inequality (in chapter 10) and to generalise LF inequalities for a larger scenario (in chapter 11).
@@ -74,6 +72,16 @@ Notice that our new grid form of the LF inequality immedately admits the followi
 where we have pulled out the standard CHSH inequality for settings $1$ and $2$, and have further decomposed the remainder into two terms which we shall analyse below.
 
 However we need not stop there; we can simplify and make the structure more obvious by taking advantage of freedom due to no-signalling (this is where the grid representation shows its true power). For instance, in the first step we are using no-signalling between Alice's settings $x=2$ and $x=3$ where Bob inputs $y=2$. The idea is that two inequalities can be viewed as equivalent if taking the dot product of their respective grids with the probability matrix returns the same result.
+
+$P(0,0|0,0)+P(1,0|0,0) = P(0,0|1,0) + P(1,0|1,0)$
+
+$P(0,0|0,0)+P(1,0|0,0)-P(0,0|1,0)-P(1,0|1,0)=0$
+
+$LF \leq 6$
+
+$\underbrace{LF + P(0,0|0,0)+P(1,0|0,0)-P(0,0|1,0)-P(1,0|1,0)}_\text{LF'} \leq 6$
+
+
 
 ```{figure} decompositions-shifting.JPG
 :name: decompositions-shifting-figure

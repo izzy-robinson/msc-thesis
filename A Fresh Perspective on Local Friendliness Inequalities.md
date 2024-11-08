@@ -88,7 +88,7 @@ P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1) = 0.
 Therefore if $LF \leq 6$ and we add this zero sum onto LF we get an equivalent inequality with the same bound.
 
 \begin{equation}
-\underbrace{LF + P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1)}_\text{LF'} \leq 6$
+\underbrace{LF + P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1)}_\text{LF'} \leq 6
 \end{equation}
 
 

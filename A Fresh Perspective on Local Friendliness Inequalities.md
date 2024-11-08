@@ -73,16 +73,23 @@ where we have pulled out the standard CHSH inequality for settings $1$ and $2$, 
 
 However we need not stop there; we can simplify and make the structure more obvious by taking advantage of freedom due to no-signalling (this is where the grid representation shows its true power). For instance, in the first step we are using no-signalling between Alice's settings $x=2$ and $x=3$ where Bob inputs $y=2$. The idea is that two inequalities can be viewed as equivalent if taking the dot product of their respective grids with the probability matrix returns the same result.
 
-[Equation 7.1](#NS-equation)
+Recall the no-signalling conditions given by [Equation 7.1](#NS-equation). In the $(2,2,2,2)$ scenario, these divide into $36$ individual equations. One such equation is the following,
 
-$P(+1,+1|1,1)+P(-1,+1|1,1) = P(+1,+1|2,1) + P(-1,+1|2,1)$
+\begin{equation}
+P(+1,+1|1,1)+P(-1,+1|1,1) = P(+1,+1|2,1) + P(-1,+1|2,1).
+\end{equation}
 
-$P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1) = 0$
+Putting all terms on the left hand side, we generate a sum which equals zero,
 
-$LF \leq 6$
+\begin{equation}
+P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1) = 0.
+\end{equation}
 
-$\underbrace{LF + P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1)}_\text{LF'} \leq 6$
+Therefore if $LF \leq 6$ and we add this zero sum onto LF we get an equivalent inequality with the same bound.
 
+\begin{equation}
+\underbrace{LF + P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1)}_\text{LF'} \leq 6$
+\end{equation}
 
 
 ```{figure} decompositions-shifting.JPG

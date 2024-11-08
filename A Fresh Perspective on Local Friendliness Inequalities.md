@@ -71,7 +71,7 @@ Notice that our new grid form of the LF inequality immedately admits the followi
 
 where we have pulled out the standard CHSH inequality for settings $1$ and $2$, and have further decomposed the remainder into two terms which we shall analyse below.
 
-However we need not stop there; we can simplify and make the structure more obvious by taking advantage of freedom due to no-signalling (this is where the grid representation shows its true power). For instance, in the first step we are using no-signalling between Alice's settings $x=2$ and $x=3$ where Bob inputs $y=2$. The idea is that two inequalities can be viewed as equivalent if taking the dot product of their respective grids with the probability matrix returns the same result.
+However we need not stop there; we can simplify and make the structure more obvious by taking advantage of freedom due to no-signalling (this is where the grid representation shows its true power). The idea is that two inequalities can be viewed as equivalent if taking the dot product of their respective grids with the probability matrix returns the same result.
 
 Recall the no-signalling conditions given by [Equation 7.1](#NS-equation). In the $(3,3,2,2)$ scenario, these divide into $36$ individual equations. One such equation is the following, where for the sake of example we have arbitrarily set $b=1$, $y=1$, $x=1$, $x'=2$,
 
@@ -93,7 +93,7 @@ If $LF \leq 6$ and we add this zero sum grid onto LF we get an equivalent inequa
 \underbrace{LF + P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1)}_\text{LF'} \leq 6.
 \end{equation}
 
-As has just been seen, we could do this manipulation without ever using the grid notation - however it would be very messy and difficult to see which steps to take. We will now proceed with simplifying the LF inequality using freedom due to no-signalling in the grid notation.
+As has just been seen, we could do this manipulation without ever using the grid notation - however it would be very messy and difficult to see which steps to take. We will now proceed with simplifying the LF inequality using freedom due to no-signalling in the grid notation. For instance, in the first step we are using no-signalling between Alice's settings $x=2$ and $x=3$ where Bob inputs $y=2$.
 
 ```{figure} decompositions-shifting.JPG
 :name: decompositions-shifting-figure

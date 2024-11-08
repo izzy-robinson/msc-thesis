@@ -79,7 +79,7 @@ Recall the no-signalling conditions given by [Equation 7.1](#NS-equation). In th
 P(+1,+1|1,1)+P(-1,+1|1,1) = P(+1,+1|2,1) + P(-1,+1|2,1).
 \end{equation}
 
-Putting all terms on the left hand side, we generate a sum which equals zero,
+Moving all terms to the left hand side, we generate a sum which equals zero,
 
 \begin{equation}
 P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1) = 0.

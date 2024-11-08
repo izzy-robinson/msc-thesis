@@ -73,13 +73,15 @@ where we have pulled out the standard CHSH inequality for settings $1$ and $2$, 
 
 However we need not stop there; we can simplify and make the structure more obvious by taking advantage of freedom due to no-signalling (this is where the grid representation shows its true power). For instance, in the first step we are using no-signalling between Alice's settings $x=2$ and $x=3$ where Bob inputs $y=2$. The idea is that two inequalities can be viewed as equivalent if taking the dot product of their respective grids with the probability matrix returns the same result.
 
-$P(0,0|0,0)+P(1,0|0,0) = P(0,0|1,0) + P(1,0|1,0)$
+[Equation 7.1](#NS-equation)
 
-$P(0,0|0,0)+P(1,0|0,0)-P(0,0|1,0)-P(1,0|1,0)=0$
+$P(+1,+1|1,1)+P(-1,+1|1,1) = P(+1,+1|2,1) + P(-1,+1|2,1)$
+
+$P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1) = 0$
 
 $LF \leq 6$
 
-$\underbrace{LF + P(0,0|0,0)+P(1,0|0,0)-P(0,0|1,0)-P(1,0|1,0)}_\text{LF'} \leq 6$
+$\underbrace{LF + P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1)}_\text{LF'} \leq 6$
 
 
 

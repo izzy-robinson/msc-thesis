@@ -51,6 +51,7 @@ Processes, denoted $\lambda$, describe the mechanism by which outputs are genera
 The most interesting kind of resources are non-signalling ones; if players were able to communicate during the game they would easily win 100% of the time. Non-signalling constraints are formally expressed as
 
 \begin{equation}
+\label{NS-equation}
 \sum_b P(a,b|x,y) = \sum_b P(a,b|xy') = \sum_b P(a,b|x) \hspace{5mm}\forall \hspace{2mm} a,x,y,y'\\
 \sum_a P(a,b|x,y) = \sum_a P(a,b|x'y) = \sum_a P(a,b|y) \hspace{5mm} \forall \hspace{2mm} b,x,y,x'.
 \end{equation}

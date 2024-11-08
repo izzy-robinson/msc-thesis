@@ -93,7 +93,7 @@ If $LF \leq 6$ and we add this zero sum grid onto LF we get an equivalent inequa
 \underbrace{LF + P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1)}_\text{LF'} \leq 6.
 \end{equation}
 
-Obviously we could do this manipulation without ever using the grid notation, however it would be very messy and difficult to see which steps to take. 
+As has just been seen, we could do this manipulation without ever using the grid notation - however it would be very messy and difficult to see which steps to take. We will now proceed with simplifying the LF inequality using freedom due to no-signalling in the grid notation.
 
 ```{figure} decompositions-shifting.JPG
 :name: decompositions-shifting-figure

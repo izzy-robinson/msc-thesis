@@ -48,7 +48,7 @@ where $x,y\in\set{1,2,3}$ denote the measurement settings chosen by Alice and Bo
 :align: center
 ```
 
-where the lower bound of $-10$ was found by trialling all local deterministic strategies. Here we have introduced some notation which will prove very useful moving forwards. Alice's values ($x$ and $a$) are read along the left hand side whereas Bob's values ($y$ and $b$) are read along the uppermost side. The agents' measurement choice sets the larger scale $x,y\in\set{1,2,3}$ whilst the agents' measurement outcome sets the smaller scale $a,b\in\set{+1,-1}.$ In order to return to the correlator form of the inequality you simply take the dot product of the grid in question with the probability matrix
+where the lower bound of $-10$ was found by trialling all strategies. Here we have introduced some notation which will prove very useful moving forwards. Alice's values ($x$ and $a$) are read along the left hand side whereas Bob's values ($y$ and $b$) are read along the uppermost side. The agents' measurement choice sets the larger scale $x,y\in\set{1,2,3}$ whilst the agents' measurement outcome sets the smaller scale $a,b\in\set{+1,-1}.$ In order to return to the correlator form of the inequality you simply take the dot product of the grid in question with the probability matrix
 
 ```{figure} probability-matrix.jpg
 :name: probability-matrix-figure
@@ -85,10 +85,12 @@ Putting all terms on the left hand side, we generate a sum which equals zero,
 P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1) = 0.
 \end{equation}
 
-Therefore if $LF \leq 6$ and we add this zero sum onto LF we get an equivalent inequality with the same bound.
+This can be written in grid format as
+
+If $LF \leq 6$ and we add this zero sum onto LF we get an equivalent inequality with the same bound,
 
 \begin{equation}
-\underbrace{LF + P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1)}_\text{LF'} \leq 6
+\underbrace{LF + P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1)}_\text{LF'} \leq 6.
 \end{equation}
 
 

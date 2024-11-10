@@ -89,7 +89,7 @@ This can be written in grid format as
 
 ```{figure} NS-example.JPG
 :name: NS-example-figure
-:width: 250px
+:width: 225px
 :align: center
 ```
 

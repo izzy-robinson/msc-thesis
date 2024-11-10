@@ -87,6 +87,12 @@ P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1) = 0.
 
 This can be written in grid format as
 
+```{figure} NS-example.JPG
+:name: NS-example-figure
+:width: 250px
+:align: center
+```
+
 If $LF \leq 6$ and we add this zero sum grid onto LF we get an equivalent inequality with the same bound,
 
 \begin{equation}

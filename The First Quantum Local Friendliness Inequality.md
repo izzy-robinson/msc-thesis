@@ -152,13 +152,6 @@ where the first line of the SOS is $T_1$ and the second line of the SOS is $T_2$
 
 We will now apply the SOS technique to QLF in order to show that it is a genuine quantum LF inequality. We will do so several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. Any one of these on their own would constitute a full proof of the bound, however with each order of operators we generate a different SOS decomposition. We do not know if any SOS decomposition is more useful than another when it comes to self-testing [@supic2020], so we preserve several for the record.
 
-```{figure} key.JPG
-:name: key-figure
-:width: 200px
-:align: center
-A colour coordination key.
-```
-
 ### Order of Operators 1
 
 ```{figure} order-of-operators-1.JPG

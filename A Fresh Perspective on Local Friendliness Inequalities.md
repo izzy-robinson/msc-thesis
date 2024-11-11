@@ -165,6 +165,8 @@ The specific saturating PR boxes referred to in the table above are numbered as 
 
 As before, each of these corresponds to a vertex of the LF polytope along the LF inequality in [](#LF-graph-figure) - specifically, two map to point E and one maps to point A.
 
+## A New Point of Interest
+
 As noted in @Bong2018, the maximal quantum violation of the LF inequality (denoted in [](#LF-graph-figure) by a hollow pink point) is given by the following P(a,b|x,y):
 
 ```{figure} their_point.JPG

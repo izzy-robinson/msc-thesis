@@ -181,7 +181,7 @@ The point we identified as potentially of interest (denoted in [](#LF-graph-figu
 :align: center
 ```
 
-where $c=\frac{1}{2}\textrm{cos}^2(\frac{\pi}{8})$ and $s=\frac{1}{2}\textrm{sin}^2(\frac{\pi}{8})$. Having found our new box, we are able to compare it with the maximal quantum violation of LF in the table below, which links nonlocality with local friendliness. Because there are three measurement settings for Alice and three measurement settings for Bob, we could try to break it down into something simpler by isolating two out of the three settings for each and asking what properties those statistics have. There are nine two by two sub-experiments are contained within the larger experiment. It is reasonable to expect locality in the settings where both parties use a $1$ as this corresponds to both parties opening the box and asking its occupant for their result. Hence we categorise the options according to the number of times setting $1$ is used.
+where $c=\frac{1}{2}\textrm{cos}^2(\frac{\pi}{8})$ and $s=\frac{1}{2}\textrm{sin}^2(\frac{\pi}{8})$. Having found our new box, we are able to compare it with the maximal quantum violation of LF in the table below, which links nonlocality with local friendliness. Because there are three measurement settings for Alice and three measurement settings for Bob, we could try to break it down into something simpler by isolating two out of the three settings for each and asking what properties those statistics have. There are nine two by two sub-experiments contained within the larger experiment. It is reasonable to expect locality in the settings where both parties use a $1$ as this corresponds to both parties opening the box and asking its occupant for their result. Hence we categorise the options according to the number of times setting $1$ is used.
 
 ```{figure} L_NL_LF_graph.JPG
 :name: L_NL_LF_graph-figure
@@ -189,7 +189,15 @@ where $c=\frac{1}{2}\textrm{cos}^2(\frac{\pi}{8})$ and $s=\frac{1}{2}\textrm{sin
 :align: center
 ```
 
-As an example, we will show how we reached our conclusion that the box is local in the [(1,2),(1,2)] setting. 
+As an example, we will show how we reached our conclusion that the box is local in the [(1,2),(1,2)] setting. If we violate CHSH (or any of its symmetries) then we are nonlocal (NL), whereas if we don't then we are local (L). This amounts to taking the score of the correlators, adding them with either three plus signs and one minus sign or three minus signs and one plus sign, and checking if we exceed the upper bound of $2$.
+
+```{figure} local-example.JPG
+:name: local-example-figure
+:width: 275px
+:align: center
+```
+
+Here we have $\langle A_1B_1\rangle =\frac{1}{\sqrt2}$, $\langle A_1B_2\rangle = -1$, $\langle A_2B_1\rangle = -1$ and $\langle A_2B_2\rangle =\frac{1}{\sqrt2}$. The highest score we can achieve is by calculating $-1(\frac{1}{\sqrt2}) -1 (-1) -1 (-1) +1(\frac{1}{\sqrt2}) = 2$ which does not exceed the bound, making these statistics local.
 
 It can be seen that, whereas our box is by construction local in the setting [(1,2),(1,2)] and coincidentally local in the setting [(1,3),(1,3)], their box is local in the settings [(1,3),(1,3)], [(1,2),(1,3)] and [(1,3),(1,2)]. This raises an interesting question as to how to compare. Whilst their box may be viewed as superior in the sense that its nonlocality is concentrated only in the [(1,2),(1,2)] setting as opposed to being split between the settings [(1,2),(1,3)] and [(1,3),(1,2)] as is the case for our box, ours is much 'cleaner' with each value taking a closed form as opposed to a decimal. This may render it worthy of further exploration. An interesting question would be whether it is possible to find a box which is local in all four setting combinations [(1,2),(1,2)],[(1,3),(1,3)],[(1,2),(1,3)] and [(1,3),(1,2)], as both identified boxes fail in this task. It is obviously an option to numerically check this, however it may also be the case that a careful examination of our box allows us to analytically prove whether or not this is achieveable. We leave this for later work.
 

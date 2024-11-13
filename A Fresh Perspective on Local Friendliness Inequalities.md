@@ -108,7 +108,7 @@ As has just been seen, we could perform this manipulation without ever using the
 
 This new grid admits the following decomposition. 
 
-```{figure} decompositions-shifted.JPG
+```{figure} shifted-decompositions.JPG
 :name: decompositions-shifted-figure
 :align: center
 ```

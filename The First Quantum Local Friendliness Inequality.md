@@ -154,12 +154,6 @@ We will now apply the SOS technique to QLF in order to show that it is a genuine
 
 ### NPA Hierarchy Level 1
 
-```{figure} order-of-operators-1.JPG
-:name: order-of-operators-1-figure
-:width: 900px
-:align: center
-```
-
 We proceed analagously to the CHSH case. First the Bell operator and the bound are sandwhiched between two generic quantum states $|\psi\rangle$,
 
 \begin{equation}

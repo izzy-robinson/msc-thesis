@@ -175,7 +175,7 @@ chol(full(Q)) % find the Cholesky decomposition
 
 ```
 
-### QLF bound: Order of operators 1
+### QLF bound: NPA Hierarchy Level 1
 
 ```matlab
 
@@ -235,235 +235,129 @@ chol(full(Q)) % find the Cholesky decomposition
 
 ```
 
-### QLF bound: Order of operators 2
+### QLF bound: NPA Hierarchy Level 1+AB
 
 ```matlab
 
 cvx_begin sdp
 
 cvx_precision high
+cvx_solver mosek
 
-variable Q(7,7) semidefinite; % set up the moment matrix
-
-variable v; % define the optimisation variable
-
-% input the constraints
-
-v == Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) + Q(6,6) + Q(7,7); % identity coefficients
-
-1 == Q(1,7) + Q(7,1); % A1 coefficients
-1 == Q(2,7) + Q(7,2); % A2 coefficients
-0 == Q(3,7) + Q(7,3); % A3 coefficients
-
-1 == Q(4,7) + Q(7,4); % B1 coefficients
-1 == Q(5,7) + Q(7,5); % B2 coefficients
-0 == Q(6,7) + Q(7,6); % B3 coefficients
-
-0 == Q(1,4) + Q(4,1); % A1B1 coefficients
-1 == Q(1,5) + Q(5,1); % A1B2 coefficients
-0 == Q(1,6) + Q(6,1); % A1B3 coefficients
-1 == Q(2,4) + Q(4,2); % A2B1 coefficients
--1 == Q(2,5) + Q(5,2); % A2B2 coefficients
-1 == Q(2,6) + Q(6,2); % A2B3 coefficients
-0 == Q(3,4) + Q(4,3); % A3B1 coefficients
-1 == Q(3,5) + Q(5,3); % A3B2 coefficients
-1 == Q(3,6) + Q(6,3); % A3B3 coefficients
-
-0 == Q(1,2); % A1A2 coefficients
-0 == Q(2,1); % A2A1 coefficients
-0 == Q(1,3); % A1A3 coefficients
-0 == Q(3,1); % A3A1 coefficients
-0 == Q(2,3); % A2A3 coefficients
-0 == Q(3,2); % A3A2 coefficients
-
-0 == Q(4,5); % B1B2 coefficients
-0 == Q(5,4); % B2B1 coefficients
-0 == Q(4,6); % B1B3 coefficients
-0 == Q(6,4); % B3B1 coefficients
-0 == Q(5,6); % B2B3 coefficients
-0 == Q(6,4); % B3B2 coefficients
-
-minimise v; % perform the optimisation
- 
-cvx_end
-
-cvx_optval; % print the bound
-
-[V,D] = eig(full(Q)) % find the eigenvectors V and corresponding eigenvalues D
-
-chol(full(Q)) % find the Cholesky decomposition
-
-```
-
-### QLF bound: Order of operators 3
-
-```matlab
-
-cvx_begin sdp
-
-cvx_precision high
-
-variable Q(7,7) semidefinite; % set up the moment matrix
+variable Q(16,16) semidefinite; % set up the moment matrix
 
 variable v; % define the optimisation variable
 
 % input the constraints
 
-v == Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) + Q(6,6) + Q(7,7); % identity coefficients
+v == Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) + Q(6,6) + Q(7,7) + Q(8,8) + Q(9,9) + Q(10,10) + Q(11,11) + Q(12,12) + Q(13,13) + Q(14,14) + Q(15,15) + Q(16,16); % identity coefficients
 
-1 == Q(1,2) + Q(2,1); % A1 coefficients
-1 == Q(1,3) + Q(3,1); % B1 coefficients
+1 == Q(7,4) + Q(8,5) + Q(9,6) + Q(16,1) + Q(4,7) + Q(5,8) + Q(6,9) + Q(1,16); % A1 coefficients
+1 == Q(10,4) + Q(11,5) + Q(12,6) + Q(16,2) + Q(4,10) + Q(5,11) + Q(6,12) + Q(2,16); % A2 coefficients
+1 == Q(7,1) + Q(10,2) + Q(13,3) + Q(16,4) + Q(1,7) + Q(2,10) + Q(3,13) + Q(4,16); % B1 coefficients
+1 == Q(8,1) + Q(11,2) + Q(14,3) + Q(16,5) + Q(1,8) + Q(2,11) + Q(3,14) + Q(5,16); % B2 coefficients
+1 == Q(5,1) + Q(1,5) + Q(16,8) + Q(8,16); % A1B2 coefficients
+1 == Q(4,2) + Q(2,4) + Q(16,10) + Q(10,16); % A2B1 coefficients
+-1 == Q(5,2) + Q(2,5) + Q(16,11) + Q(11,16); % A2B2 coefficients
+1 == Q(6,2) + Q(2,6) + Q(16,12) + Q(12,16); % A2B3 coefficients
+1 == Q(5,3) + Q(3,5) + Q(16,14) + Q(14,16); % A3B2 coefficients
+1 == Q(6,3) + Q(3,6) + Q(16,15) + Q(15,16); % A3B3 coefficients
 
-1 == Q(1,4) + Q(4,1); % A2 coefficients
-1 == Q(1,5) + Q(5,1); % B2 coefficients
+0 == Q(13,4) + Q(14,5) + Q(15,6) + Q(16,3) + Q(4,13) + Q(5,14) + Q(6,15) + Q(3,16); % A3
+0 == Q(9,1) + Q(12,2) + Q(15,3) + Q(16,6) + Q(1,9) + Q(2,12) + Q(3,15) + Q(6,16); % B3
 
-0 == Q(1,6) + Q(6,1); % A3 coefficients
-0 == Q(1,7) + Q(7,1); % B3 coefficients
+0 == Q(2,1) + Q(10,7) + Q(11,8) + Q(12,9); % A2A1
+0 == Q(1,2) + Q(7,10) + Q(8,11) + Q(9,12); % A1A2
+0 == Q(3,1) + Q(13,7) + Q(14,8) + Q(15,9); % A3A1
+0 == Q(1,3) + Q(7,13) + Q(8,14) + Q(9,15); % A1A3
+0 == Q(2,3) + Q(10,13) + Q(11,14) + Q(12,15); % A2A3
+0 == Q(3,2) + Q(13,10) + Q(14,11) + Q(15,12); % A3A2
 
-0 == Q(2,3) + Q(3,2); % A1B1 coefficients
-1 == Q(2,5) + Q(5,2); % A1B2 coefficients
-0 == Q(2,7) + Q(7,2); % A1B3 coefficients
-1 == Q(3,4) + Q(4,3); % A2B1 coefficients
--1 == Q(4,5) + Q(5,4); % A2B2 coefficients
-1 == Q(4,7) + Q(7,4); % A2B3 coefficients
-0 == Q(3,6) + Q(6,3); % A3B1 coefficients
-1 == Q(5,6) + Q(6,5); % A3B2 coefficients
-1 == Q(6,7) + Q(7,6); % A3B3 coefficients
+0 == Q(4,1) + Q(1,4) + Q(16,7) + Q(7,16); % A1B1
+0 == Q(6,1) + Q(1,6) + Q(16,9) + Q(9,16); % A1B3
+0 == Q(4,3) + Q(3,4) + Q(16,13) + Q(13,16); % A3B1
 
-0 == Q(2,4); % A1A2 coefficients
-0 == Q(4,2); % A2A1 coefficients
-0 == Q(2,6); % A1A3 coefficients
-0 == Q(6,2); % A3A1 coefficients
-0 == Q(4,6); % A2A3 coefficients
-0 == Q(6,4); % A3A2 coefficients
+0 == Q(4,5) + Q(7,8) + Q(10,11) + Q(13,14); % B1B2
+0 == Q(5,4) + Q(8,7) + Q(11,10) + Q(14,13); % B2B1
+0 == Q(4,6) + Q(7,9) + Q(10,12) + Q(13,15); % B1B3
+0 == Q(6,4) + Q(9,7) + Q(12,10) + Q(15,13); % B3B1
+0 == Q(5,6) + Q(8,9) + Q(11,12) + Q(14,15); % B2B3
+0 == Q(6,5) + Q(9,8) + Q(12,11) + Q(15,14); % B3B2
 
-0 == Q(3,5); % B1B2 coefficients
-0 == Q(5,3); % B2B1 coefficients
-0 == Q(3,7); % B1B3 coefficients
-0 == Q(7,3); % B3B1 coefficients
-0 == Q(5,7); % B2B3 coefficients
-0 == Q(7,5); % B3B2 coefficients
+0 == Q(7,2) + Q(1,10); % A1A2B1
+0 == Q(8,2) + Q(1,11); % A1A2B2
+0 == Q(9,2) + Q(1,12); % A1A2B3
+0 == Q(10,1) + Q(2,7); % A2A1B1
+0 == Q(11,1) + Q(2,8); % A2A1B2
+0 == Q(12,1) + Q(2,9); % A2A1B3
+0 == Q(13,1) + Q(3,7); % A3A1B1
+0 == Q(14,1) + Q(3,8); % A3A1B2
+0 == Q(15,1) + Q(3,9); % A3A1B3
+0 == Q(13,2) + Q(3,10); % A3A2B1
+0 == Q(14,2) + Q(3,11); % A3A2B2
+0 == Q(15,2) + Q(3,12); % A3A2B3
+0 == Q(7,3) + Q(1,13); % A1A3B1
+0 == Q(8,3) + Q(1,14); % A1A3B2
+0 == Q(9,3) + Q(1,15); % A1A3B3
+0 == Q(10,3) + Q(2,13); % A2A3B1
+0 == Q(11,3) + Q(2,14); % A2A3B2
+0 == Q(12,3) + Q(2,15); % A2A3B3
+0 == Q(8,4) + Q(5,7); % A1B2B1
+0 == Q(9,4) + Q(6,7); % A1B3B1
+0 == Q(11,4) + Q(5,10); % A2B2B1
+0 == Q(12,4) + Q(6,10); % A2B3B1
+0 == Q(14,4) + Q(5,13); % A3B2B1
+0 == Q(15,4) + Q(6,13); % A3B3B1
+0 == Q(7,5) + Q(4,8); % A1B1B2
+0 == Q(9,5) + Q(6,8); % A1B3B2
+0 == Q(10,5) + Q(4,11); % A2B1B2
+0 == Q(12,5) + Q(6,11); % A2B3B2
+0 == Q(13,5) + Q(4,14); % A3B1B2
+0 == Q(15,5) + Q(6,14); % A3B3B2
+0 == Q(7,6) + Q(4,9); % A1B1B3
+0 == Q(8,6) + Q(5,9); % A1B2B3
+0 == Q(10,6) + Q(4,12); % A2B1B3
+0 == Q(11,6) + Q(5,12); % A2B2B3
+0 == Q(13,6) + Q(4,15); % A3B1B3
+0 == Q(14,6) + Q(5,15); % A3B2B3
 
-minimise v; % perform the optimisation
- 
-cvx_end
+0 == Q(11,7);
+0 == Q(12,7);
+0 == Q(14,7);
+0 == Q(15,7);
+0 == Q(10,8);
+0 == Q(12,8);
+0 == Q(13,8);
+0 == Q(15,8);
+0 == Q(10,9);
+0 == Q(11,9);
+0 == Q(13,9);
+0 == Q(14,9);
+0 == Q(8,10);
+0 == Q(9,10);
+0 == Q(14,10);
+0 == Q(15,10);
+0 == Q(7,11);
+0 == Q(9,11);
+0 == Q(13,11);
+0 == Q(15,11);
+0 == Q(7,12);
+0 == Q(8,12);
+0 == Q(13,12);
+0 == Q(14,12);
+0 == Q(8,13);
+0 == Q(9,13);
+0 == Q(11,13);
+0 == Q(12,13);
+0 == Q(7,14);
+0 == Q(9,14);
+0 == Q(10,14);
+0 == Q(12,14);
+0 == Q(7,15);
+0 == Q(8,15);
+0 == Q(10,15);
+0 == Q(11,15);
 
-cvx_optval; % print the bound
-
-[V,D] = eig(full(Q)) % find the eigenvectors V and corresponding eigenvalues D
-
-chol(full(Q)) % find the Cholesky decomposition
-
-```
-
-### QLF bound: Order of operators 4
-
-```matlab
-
-cvx_begin sdp
-
-cvx_precision high
-
-variable Q(7,7) semidefinite; % set up the moment matrix
-
-variable v; % define the optimisation variable
-
-% input the constraints
-
-v == Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) + Q(6,6) + Q(7,7); % identity coefficients
-
-1 == Q(1,7) + Q(7,1); % A1 coefficients
-1 == Q(2,7) + Q(7,2); % B1 coefficients
-
-1 == Q(3,7) + Q(7,3); % A2 coefficients
-1 == Q(4,7) + Q(7,4); % B2 coefficients
-
-0 == Q(5,7) + Q(7,5); % A3 coefficients
-0 == Q(6,7) + Q(7,6); % B3 coefficients
-
-0 == Q(1,2) + Q(2,1); % A1B1 coefficients
-1 == Q(1,4) + Q(4,1); % A1B2 coefficients
-0 == Q(1,6) + Q(6,1); % A1B3 coefficients
-1 == Q(2,3) + Q(3,2); % A2B1 coefficients
--1 == Q(3,4) + Q(4,3); % A2B2 coefficients
-1 == Q(3,6) + Q(6,3); % A2B3 coefficients
-0 == Q(2,5) + Q(5,2); % A3B1 coefficients
-1 == Q(4,5) + Q(5,4); % A3B2 coefficients
-1 == Q(5,6) + Q(6,5); % A3B3 coefficients
-
-0 == Q(1,3); % A1A2 coefficients
-0 == Q(3,1); % A2A1 coefficients
-0 == Q(1,5); % A1A3 coefficients
-0 == Q(5,1); % A3A1 coefficients
-0 == Q(3,5); % A2A3 coefficients
-0 == Q(5,3); % A3A2 coefficients
-
-0 == Q(2,4); % B1B2 coefficients
-0 == Q(4,2); % B2B1 coefficients
-0 == Q(2,6); % B1B3 coefficients
-0 == Q(6,2); % B3B1 coefficients
-0 == Q(4,6); % B2B3 coefficients
-0 == Q(6,4); % B3B2 coefficients
-
-minimise v; % perform the optimisation
- 
-cvx_end
-
-cvx_optval; % print the bound
-
-[V,D] = eig(full(Q)) % find the eigenvectors V and corresponding eigenvalues D
-
-chol(full(Q)) % find the Cholesky decomposition
-
-```
-
-### QLF bound: Order of operators 5
-
-```matlab
-
-cvx_begin sdp
-
-cvx_precision high
-
-variable Q(7,7) semidefinite; % set up the moment matrix
-
-variable v; % define the optimisation variable
-
-% input the constraints
-
-v == Q(1,1) + Q(2,2) + Q(3,3) + Q(4,4) + Q(5,5) + Q(6,6) + Q(7,7); % identity coefficients
-
-1 == Q(4,5) + Q(5,4); % A1 coefficient
-1 == Q(3,5) + Q(5,3); % A2 coefficients
-0 == Q(5,7) + Q(7,5); % A3 coefficients
-
-1 == Q(2,5) + Q(5,2); % B1 coefficients
-1 == Q(5,6) + Q(6,5); % B2 coefficients
-0 == Q(1,5) + Q(5,1); % B3 coefficients
-
-0 == Q(2,4) + Q(4,2); % A1B1 coefficients
-1 == Q(4,6) + Q(6,4); % A1B2 coefficients
-0 == Q(1,4) + Q(4,1); % A1B3 coefficients
-1 == Q(2,3) + Q(3,2); % A2B1 coefficients
--1 == Q(3,6) + Q(6,3); % A2B2 coefficients
-1 == Q(1,3) + Q(3,1); % A2B3 coefficients
-0 == Q(2,7) + Q(7,2); % A3B1 coefficients
-1 == Q(6,7) + Q(7,6); % A3B2 coefficients
-1 == Q(1,7) + Q(7,1); % A3B3 coefficients
-
-0 == Q(4,3); % A1A2 coefficients
-0 == Q(3,4); % A2A1 coefficients
-0 == Q(4,7); % A1A3 coefficients
-0 == Q(7,4); % A3A1 coefficients
-0 == Q(3,7); % A2A3 coefficients
-0 == Q(7,3); % A3A2 coefficients
-
-0 == Q(2,6); % B1B2 coefficients
-0 == Q(6,2); % B2B1 coefficients
-0 == Q(2,1); % B1B3 coefficients
-0 == Q(1,2); % B3B1 coefficients
-0 == Q(6,1); % B2B3 coefficients
-0 == Q(1,6); % B3B2 coefficients
 
 minimise v; % perform the optimisation
  

@@ -276,7 +276,8 @@ S = (\mathbf{1} \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, A_2 \otimes \mathbf{
 we have a 16 by 16 Q matrix and
 
 \begin{equation}
-S = (A_1 \otimes \mathbf{1}, A_2 \otimes \mathbf{1}, \mathbf{1} \otimes B_1, \mathbf{1} \otimes B_2, A_1 \otimes B_1, A_1 \otimes B_2, A_1 \otimes B_3, A_2 \otimes B_1, A_2 \otimes B_2, A_2 \otimes B_3, A_3 \otimes B_1, A_3 \otimes B_2, A_3 \otimes B_3, \mathbf{1} \otimes \mathbf{1}).
+S = (A_1 \otimes \mathbf{1}, A_2 \otimes \mathbf{1}, \mathbf{1} \otimes B_1, \mathbf{1} \otimes B_2, A_1 \otimes B_1, A_1 \otimes B_2, A_1 \otimes B_3, \\
+A_2 \otimes B_1, A_2 \otimes B_2, A_2 \otimes B_3, A_3 \otimes B_1, A_3 \otimes B_2, A_3 \otimes B_3, \mathbf{1} \otimes \mathbf{1}).
 \end{equation}
 
 ## Summary

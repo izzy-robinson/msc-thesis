@@ -168,7 +168,13 @@ X = \nu \mathbf{1} + A_1 + A_2 + B_1 + B_2 + A_1 \otimes B_2 + A_2 \otimes B_1 -
 + A_2 \otimes B_3 + A_3 \otimes B_2 + A_3 \otimes B_3 \geq 0.
 \end{equation}
 
-A sufficient condition for finding $X \geq 0$ is to find some operators $T_k$ such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). To see how we can find such a set of operators $T_k$, consider an operator $Y$ of the form of [Equation 10.3](#Y-equation) where $S$ is given by the list of operators above and to the left of the grids. The necessarily zero terms (i.e. those which are not physically measurable so will never appear in the inequality) are left white. The potentially non-zero terms are colour coded for ease of equating coefficients. 
+A sufficient condition for finding $X \geq 0$ is to find some operators $T_k$ such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). To see how we can find such a set of operators $T_k$, consider an operator $Y$ of the form of [Equation 10.3](#Y-equation) where $S$ is given by the list of operators 
+
+
+\begin{equation}
+S = (\mathbf{1} \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, A_2 \otimes \mathbf{1}, \mathbf{1} \otimes B_1, \mathbf{1} \otimes B_2).
+\end{equation}
+
 
 Setting $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}$ and imposing the following constraints, we are able to ensure that $Y$ equals $X$.
 
@@ -260,6 +266,18 @@ Expanding the brackets and combining all terms gives
 With [Equation 10.14](#QLF-SOS-equation) we have provided an analytical proof that the upper bound on the QLF inequality is $3 + 2\sqrt2$ for all quantum states and measurements.
 
 ### NPA Hierarchy Level 1+AB
+
+We proceed analagously to the case of NPA hierarchy level 1. The only difference is that, instead of a 7 by 7 Q matrix with
+
+\begin{equation}
+S = (\mathbf{1} \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, A_2 \otimes \mathbf{1}, \mathbf{1} \otimes B_1, \mathbf{1} \otimes B_2),
+\end{equation}
+
+we have a 16 by 16 Q matrix and
+
+\begin{equation}
+S = (A_1 \otimes \mathbf{1}, A_2 \otimes \mathbf{1}, \mathbf{1} \otimes B_1, \mathbf{1} \otimes B_2, A_1 \otimes B_1, A_1 \otimes B_2, A_1 \otimes B_3, A_2 \otimes B_1, A_2 \otimes B_2, A_2 \otimes B_3, A_3 \otimes B_1, A_3 \otimes B_2, A_3 \otimes B_3, \mathbf{1} \otimes \mathbf{1}).
+\end{equation}
 
 ## Summary
 

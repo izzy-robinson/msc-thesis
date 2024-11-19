@@ -280,7 +280,7 @@ S = (A_1 \otimes \mathbf{1}, A_2 \otimes \mathbf{1}, \mathbf{1} \otimes B_1, \ma
 A_2 \otimes B_1, A_2 \otimes B_2, A_2 \otimes B_3, A_3 \otimes B_1, A_3 \otimes B_2, A_3 \otimes B_3, \mathbf{1} \otimes \mathbf{1}).
 \end{equation}
 
-We now also require a larger number of constraints to set $Y$ equal to $X$; these constraints are explicitly listed in the MATLAB code contained within Appendix B.2. What is important is that, at this level of the NPA hierarchy, the code outputs a tight bound of $2+2\sqrt{2}$ proving that QLF is a genuine quantum LF inequality. We could easily generate the cholesky of $Q$ and expand this out into a full SOS decomposition for QLF. However, upon initial inspection, the cholesky's coefficients do not adopt closed forms. Neither do they do so upon permutation of the order of operators in the string $S$.
+We now also require a larger number of constraints to set $Y$ equal to $X$; these constraints are explicitly listed in the MATLAB code contained within Appendix B.2. What is important is that, at this level of the NPA hierarchy, the code outputs a tight bound of $2+2\sqrt{2}$ proving that QLF is a genuine quantum LF inequality. We could easily generate the cholesky of $Q$ and expand this out into a full SOS decomposition for QLF. However, upon initial inspection, the cholesky's coefficients do not adopt closed forms. Neither do they do so upon permutation of the order of operators in the string $S$. Therefore there is nothing to be gained from including this decomposition.
 
 ## Summary
 

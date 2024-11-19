@@ -267,18 +267,20 @@ With [Equation 10.14](#QLF-SOS-equation) we have provided an analytical proof th
 
 ### NPA Hierarchy Level 1+AB
 
-We proceed analagously to the case of NPA hierarchy level 1. The only difference is that, instead of a 7 by 7 Q matrix with
+We proceed analagously to the case of NPA hierarchy level 1. The main difference is that, instead of a $7$ by $7$ Q matrix with
 
 \begin{equation}
 S = (\mathbf{1} \otimes \mathbf{1}, A_1 \otimes \mathbf{1}, A_2 \otimes \mathbf{1}, \mathbf{1} \otimes B_1, \mathbf{1} \otimes B_2),
 \end{equation}
 
-we have a 16 by 16 Q matrix and
+we have a $16$ by $16$ Q matrix with
 
 \begin{equation}
 S = (A_1 \otimes \mathbf{1}, A_2 \otimes \mathbf{1}, \mathbf{1} \otimes B_1, \mathbf{1} \otimes B_2, A_1 \otimes B_1, A_1 \otimes B_2, A_1 \otimes B_3, \\
 A_2 \otimes B_1, A_2 \otimes B_2, A_2 \otimes B_3, A_3 \otimes B_1, A_3 \otimes B_2, A_3 \otimes B_3, \mathbf{1} \otimes \mathbf{1}).
 \end{equation}
+
+We now also require a larger number of constraints to set $Y$ equal to $X$.
 
 ## Summary
 

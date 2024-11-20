@@ -32,20 +32,27 @@ In chapter 9, we took a fresh perspective on LF inequalities in which we identif
 **A reproduction of figure 9.5 with additional information.** In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality).
 ```
 
-The first step towards finding a bound is to define what precisely is the inequality QLF. 
+The first step towards finding a bound is to define what precisely is the inequality QLF. It is given by
 
 \begin{equation}
 \epsilon' - \textrm{CHSH}' \leq \frac{3}{2}+\frac{1}{\sqrt2}
 \end{equation}
 
-or
+or, in correlator form,
 
 \begin{equation}
 - A_1 - A_2 - B_1 - B_2 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \\
-- A_2 \otimes B_3 - A_3 \otimes B_2 - A_3 \otimes B_3 \leq 2 + \sqrt2
+- A_2 \otimes B_3 - A_3 \otimes B_2 - A_3 \otimes B_3 \leq 2 + \sqrt2.
 \end{equation}
 
-In order to achieve this, we will move away from our grid notation for inequalities and return to the correlator form. To see how to translate between these forms see Appendix A.
+See below for the transformation between decomposition form and correlator form.
+
+```{figure} QLF.JPG
+:name: QLF-figure
+:align: center
+```
+
+Note that, from now on, we will move away from our grid notation for inequalities and return to the correlator form. To see how to translate between these forms see Appendix A.
 
 ## SOS Bounds
 

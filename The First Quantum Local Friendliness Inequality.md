@@ -52,7 +52,7 @@ See below for the transformation between decomposition form and correlator form.
 :align: center
 ```
 
-Note that, from now on, we will move away from our grid notation for inequalities and return to the correlator form. To see how to translate between these forms see Appendix A.
+To see how we translated between correlator form and grid form in the first line, see Appendix A. 
 
 ## SOS Bounds
 

@@ -38,6 +38,13 @@ The first step towards finding a bound is to define what precisely is the inequa
 \epsilon' - \textrm{CHSH}' \leq \frac{3}{2}+\frac{1}{\sqrt2}
 \end{equation}
 
+or
+
+\begin{equation}
+- A_1 - A_2 - B_1 - B_2 - A_1 \otimes B_2 - A_2 \otimes B_1 + A_2 \otimes B_2 \\
+- A_2 \otimes B_3 - A_3 \otimes B_2 - A_3 \otimes B_3 \leq 2 + \sqrt2
+\end{equation}
+
 In order to achieve this, we will move away from our grid notation for inequalities and return to the correlator form. To see how to translate between these forms see Appendix A.
 
 ## SOS Bounds

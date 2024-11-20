@@ -19,7 +19,7 @@ Over the course of discovering the results conveyed within this thesis, several 
 
 - We found the bound on our new quantum LF inequality. It would be good to find a quantum state and explicit measurement scheme which yields this maximum.
 
-- We identified 5 different SOS decompositions of QLF and have a simple algorithm for generating others. Each of these independently leads to a set of self-testing equations. Could we use any of these to perform interesting self-testing based on the theory of LF?
+- We identified a simple algorithm for generating different SOS decompositions of QLF; to do this one must simply permute the order of operators in the string $S$. Each SOS decomposition independently leads to a set of self-testing equations. Could we use any of these to perform interesting self-testing based on the theory of LF?
 
 - When constructing a new inequality based on CGLMP, we guessed $\delta$ and $\gamma$ with coefficients of $1$ and this worked. But could we find anything else by keeping terms in the same locations while setting arbitrary coefficients? Perhaps a family of inequalities?
 

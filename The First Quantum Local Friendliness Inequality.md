@@ -139,14 +139,14 @@ L = chol(Q) = \begin{pmatrix}
 \end{pmatrix}.
 \end{equation}
 
-If you like, we can verify this by direct calculation. As $Q$ is of the form given by [Equation 10.6](#cholesky-equation), we now need the matrix elements of $Q$ (i.e. $Q_{ij}$) in terms of the matrix elements of $L$. These are
+If you like, we can verify this by direct calculation. As $Q$ is of the form given by [Equation 10.8](#cholesky-equation), we now need the matrix elements of $Q$ (i.e. $Q_{ij}$) in terms of the matrix elements of $L$. These are
 
 \begin{equation}
 \label{matrix-elements-equation}
 Q_{ij}= \sum_k L_{ki} L_{kj}.
 \end{equation}
 
-Substituting [Equation 10.8](#matrix-elements-equation) into [Equation 10.3](#Y-equation), we find
+Substituting [Equation 10.10](#matrix-elements-equation) into [Equation 10.5](#Y-equation), we find
 
 \begin{equation}
 Y = X &= \sum_{i,j} Q_{ij} S_i S_j \\
@@ -164,7 +164,7 @@ where $T_k = \sum_i L_{ki} S_i$ is what we were looking for. Therefore, finally,
 + \Big(\sqrt{\frac{2}{2\sqrt{2}}}A_2 - \frac{1}{\sqrt{2\sqrt{2}}}B_1 + \frac{1}{\sqrt{2\sqrt{2}}}B_2\Big)^2 \geq 0
 \end{equation}
 
-where the first line of the SOS is $T_1$ and the second line of the SOS is $T_2$. This is true under the assumption that the eigenvalues are $\pm{1}$ i.e. $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}.$ With [Equation 10.10](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
+where the first line of the SOS is $T_1$ and the second line of the SOS is $T_2$. This is true under the assumption that the eigenvalues are $\pm{1}$ i.e. $A_i^2=B_j^2=\mathbf{1}^2=\mathbf{1}.$ With [Equation 10.12](#CHSH-SOS-equation) we have provided an analytical proof that the upper bound on the CHSH inequality is $2\sqrt2$ for all quantum states and measurements.
 
 :::
 
@@ -188,7 +188,7 @@ X = \nu \mathbf{1} + A_1 + A_2 + B_1 + B_2 + A_1 \otimes B_2 + A_2 \otimes B_1 -
 + A_2 \otimes B_3 + A_3 \otimes B_2 + A_3 \otimes B_3 \geq 0.
 \end{equation}
 
-A sufficient condition for finding $X \geq 0$ is to find some operators $T_k$ such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). To see how we can find such a set of operators $T_k$, consider an operator $Y$ of the form of [Equation 10.3](#Y-equation) where $S$ is given by the list of operators 
+A sufficient condition for finding $X \geq 0$ is to find some operators $T_k$ such that $X=\sum_k T_k^2$ (i.e. it is enough to find an SOS decompsition of $X$). To see how we can find such a set of operators $T_k$, consider an operator $Y$ of the form of [Equation 10.5](#Y-equation) where $S$ is given by the list of operators 
 
 
 \begin{equation}
@@ -252,7 +252,7 @@ Q=\begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
-See Appendix B.2 for the MATLAB code which shows where this information comes from. An SOS decomposition can always be found provided there exists some PSD $Q$, so this already is sufficient to prove the bound; however it is interesting to go one step further and actually find the SOS decomposition. Since $Q$ is PSD, we can take its Cholesky decomposition given by [Equation 10.6](#cholesky-equation), which is solvable using MATLAB to be
+See Appendix B.2 for the MATLAB code which shows where this information comes from. An SOS decomposition can always be found provided there exists some PSD $Q$, so this already is sufficient to prove the bound; however it is interesting to go one step further and actually find the SOS decomposition. Since $Q$ is PSD, we can take its Cholesky decomposition given by [Equation 10.8](#cholesky-equation), which is solvable using MATLAB to be
 
 \begin{equation}
 L = chol(Q) = \begin{pmatrix}
@@ -283,7 +283,7 @@ Expanding the brackets and combining all terms gives
 &+ A_1B_2 + A_2B_1 - A_2B_2 + A_2B_3 + A_3B_2 + A_3B_3.
 \end{equation}
 
-With [Equation 10.17](#QLF-SOS-equation) we have provided an analytical proof that the upper bound on the QLF inequality is $3 + 2\sqrt2$ for all quantum states and measurements. However, whilst accurate, we know that this is not a tight bound. If we are to prove a tight bound we must go to a higher level of the NPA hierarchy.
+With [Equation 10.19](#QLF-SOS-equation) we have provided an analytical proof that the upper bound on the QLF inequality is $3 + 2\sqrt2$ for all quantum states and measurements. However, whilst accurate, we know that this is not a tight bound. If we are to prove a tight bound we must go to a higher level of the NPA hierarchy.
 
 ### NPA Hierarchy Level 1+AB
 

@@ -16,6 +16,8 @@ abbreviations:
 > Each truth discovered was a rule available in the discovery of subsequent ones.
 > - René Descartes
 
+# Introduction
+
 We saw in chapter 9 that an LF inequality based on the simplest $3$ settings and $2$ outcomes scenario can be decomposed into a CHSH part and a novel part made up of $\delta$ and $\gamma$. The big question raised here is whether it is possible to find LF inequalities for larger more computationally intractable scenarios. If we want to go up to the next simplest scenario (i.e. the $3$ settings and $3$ outcomes scenario) we should therefore take the associated interesting Bell inequality (i.e. CGLMP) and see if we can construct an extension based on the structure identified in chapter 9.
 
 We initially focus on the strategies which saturate CGLMP; there are a huge set of these. We then add in a reward term with $\delta$; this narrows down the search space somewhat. Finally we choose a $\gamma$ such that none of these optimal strategies are rewarded (i.e. they are either penalised or neutral); we start off with a symmetric $\gamma$ then edit it through trial and error. There is significant work left to do if we are to formalise this technique, however we are ultimately left with the following proposal:

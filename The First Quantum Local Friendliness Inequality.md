@@ -170,7 +170,7 @@ where the first line of the SOS is $T_1$ and the second line of the SOS is $T_2$
 
 ## Analytically Proving the Bound on QLF
 
-We will now apply the SOS technique to QLF in order to show that it is a genuine quantum LF inequality. We will initially use the first level of the NPA hierarchy as this is the simplest. We will then go on to use a higher level of the NPA hierarchy when our initial attempt fails to yield the tight bound we are looking for.
+We will now apply the SOS technique to QLF in order to show that it is a genuine quantum LF inequality. We will initially use the first level of the NPA hierarchy [@Navascues2007]  (as we did in the CHSH example) since this is the simplest. We will then go on to use a higher level of the NPA hierarchy when our initial attempt fails to yield the tight bound we are looking for.
 
 ### NPA Hierarchy Level 1
 
@@ -304,4 +304,4 @@ We now also require a larger number of constraints to set $Y$ equal to $X$; thes
 
 ## Summary
 
-In this chapter, we have found the first ever quantum LF inequality. We initially tried using the first level of the NPA hierarchy [@Navascues2007] to find an upper bound on QLF, but the bound it provided was not tight. We then moved onto the 1+AB level of the NPA hierarchy which did result in a tight upper bound of $2+2\sqrt{2}$ for QLF. Our proof is based on SOS decompositions of the inequality. Although we won't explore this within the thesis, these SOS decompositions have the potential to be interesting in their own right. In the study of nonlocality, SOS decompositions have found application in the theory of self-testing; roughly speaking, this is questioning to what extent are the quantum state and measurements which maximally violate a Bell inequality unique. Our results raise the possibility that we could do some self testing based upon the theory of LF.
+In this chapter, we have found the first ever quantum LF inequality. We initially tried using the first level of the NPA hierarchy to find an upper bound on QLF, but the bound it provided was not tight. We then moved onto the 1+AB level of the NPA hierarchy which did result in a tight upper bound of $2+2\sqrt{2}$ for QLF. Our proof is based on SOS decompositions of the inequality. Although we won't explore this within the thesis, these SOS decompositions have the potential to be interesting in their own right. In the study of nonlocality, SOS decompositions have found application in the theory of self-testing; roughly speaking, this is questioning to what extent are the quantum state and measurements which maximally violate a Bell inequality unique. Our results raise the possibility that we could do some self testing based upon the theory of LF.

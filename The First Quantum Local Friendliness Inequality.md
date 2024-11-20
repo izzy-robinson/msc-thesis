@@ -32,6 +32,12 @@ In chapter 9, we took a fresh perspective on LF inequalities in which we identif
 **A reproduction of figure 9.5 with additional information.** In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality).
 ```
 
+The first step towards finding a bound is to define what precisely is the inequality QLF. 
+
+\begin{equation}
+\epsilon' - \textrm{CHSH}' \leq \frac{3}{2}+\frac{1}{\sqrt2}
+\end{equation}
+
 In order to achieve this, we will move away from our grid notation for inequalities and return to the correlator form. To see how to translate between these forms see Appendix A.
 
 ## SOS Bounds
@@ -263,7 +269,7 @@ Expanding the brackets and combining all terms gives
 &+ A_1B_2 + A_2B_1 - A_2B_2 + A_2B_3 + A_3B_2 + A_3B_3.
 \end{equation}
 
-With [Equation 10.14](#QLF-SOS-equation) we have provided an analytical proof that the upper bound on the QLF inequality is $3 + 2\sqrt2$ for all quantum states and measurements. However, whilst accurate, we know that this is not a tight bound. If we are to prove a tight bound we must go to a higher level of the NPA hierarchy.
+With [Equation 10.17](#QLF-SOS-equation) we have provided an analytical proof that the upper bound on the QLF inequality is $3 + 2\sqrt2$ for all quantum states and measurements. However, whilst accurate, we know that this is not a tight bound. If we are to prove a tight bound we must go to a higher level of the NPA hierarchy.
 
 ### NPA Hierarchy Level 1+AB
 

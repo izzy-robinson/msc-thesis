@@ -170,7 +170,7 @@ where the first line of the SOS is $T_1$ and the second line of the SOS is $T_2$
 
 ## Analytically Proving the Bound on QLF
 
-We will now apply the SOS technique to QLF in order to show that it is a genuine quantum LF inequality. We will do so several times with different orders of operators, some natural and some randomised, to provide five different proofs of the bound. Any one of these on their own would constitute a full proof of the bound, however with each order of operators we generate a different SOS decomposition. We do not know if any SOS decomposition is more useful than another when it comes to self-testing [@supic2020], so we preserve several for the record.
+We will now apply the SOS technique to QLF in order to show that it is a genuine quantum LF inequality. We will initially use the first level of the NPA hierarchy as this is the simplest. We will then go on to use a higher level of the NPA hierarchy when our initial attempt fails to yield the tight bound we are looking for.
 
 ### NPA Hierarchy Level 1
 

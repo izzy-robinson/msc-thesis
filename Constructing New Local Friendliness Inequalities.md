@@ -29,13 +29,13 @@ We initially focus on the strategies which saturate CGLMP; there are a huge set 
 
 Now we have a set of ingredients, we want to turn these into a concrete proposal for a CGLMP-LF inequality. To achieve this we will produce a two dimensional plot taking CGLMP as one axis and $\delta + \gamma$ as the other axis. From this we should be able to read off the optimal coefficients for each part.
 
-```{figure} graph.svg
+```{figure} graph.png
 :name: graph-figure
 :align: center
 ```
 
 \begin{equation}
-\textrm{CGLMP} + 3 \textrm{\delta+\gamma} \leq 5
+\textrm{CGLMP} + 3(\delta+\gamma) \leq 5
 \end{equation}
 
 Having obtained a concrete proposal for a CGLMP-LF inequality, we need to carefully check all strategies to find the LF bound. We do so numerically using MATLAB code found in Appendix B.3. It is discovered that the LF bound on our new inequality is $3$. The next step is to see if quantum mechanics is able to violate this bound. Luckily it is - the quantum bound is $3.69393>3$. However, with a rank of only $19$, this inequality is not a facet of the LF polytope. Is there anything we can do to locate a related facet inequality (i.e. can we rotate our non-facet inequality and find the facet inequality it lies above)? This is possible if we return to the graphical approach advocated for in chapter 9.

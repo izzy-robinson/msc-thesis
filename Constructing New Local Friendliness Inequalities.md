@@ -22,8 +22,8 @@ We saw in chapter 9 that an LF inequality based on the simplest $3$ settings and
 
 We initially focus on the strategies which saturate CGLMP; there are a huge set of these. We then add in a reward term with $\delta$; this narrows down the search space somewhat. Finally we choose a $\gamma$ such that none of these optimal strategies are rewarded (i.e. they are either penalised or neutral); we start off with a symmetric $\gamma$ then edit it through trial and error. There is significant work left to do if we are to formalise this technique, however we are ultimately left with the following ingredients:
 
-```{figure} CGLMP-LF.jpg
-:name: CGLMP-LF-figure
+```{figure} cglmp-proposal.JPG
+:name: cglmp-proposal-figure
 :align: center
 ```
 

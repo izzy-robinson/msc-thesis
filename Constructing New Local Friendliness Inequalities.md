@@ -59,4 +59,4 @@ Note also that, in [](#graph1-figure), the quantum boundary contains several str
 
 # Summary
 
-What have we achieved within this chapter? 
+What have we achieved within this chapter? We have used our intuition, built through the previous two chapters, to construct by hand an entirely new LF inequality based on CGLMP rather than CHSH. We have discovered that this is not a facet inequality but have proposed a method whereby a related facet inequality may yet be uncovered. We have further found an explicit measurement scheme which achieves the maximum quantum violation, proving that our new inequality is genuinely violable by quantum mechanics and it is not simply a computational artefact. Finally, we have noticed the existence of several quantum CGLMP-LF inequalities; characterising these may be a direction for future work.

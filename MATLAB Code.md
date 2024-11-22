@@ -373,7 +373,7 @@ chol(full(Q)) % find the Cholesky decomposition
 
 ## A new CGLMP-LF inequality
 
-### Finding the LF bound
+### Verifying the LF bound
 
 ```matlab
 
@@ -547,7 +547,7 @@ b = R(:,1);
 
 % The following line sends from LRS to matlab
 
-C = readmatrix('C:\Users\entan\AppData\Local\Microsoft\Attachments\vertices.txt');
+load NSvert.mat
 
 % Reshape each of the 1161 rows of C (composed of 25 numbers) into 5x5 grids
 % cg2fp each 'row'
@@ -624,7 +624,7 @@ gamma(2,1,2,3) = +1;
 gamma(3,2,2,3) = -1;
 gamma(1,1,3,3) = -1;
 
-LF = CGLMP + delta + gamma; % defining LF as the sum of CGLMP, delta and gamma
+LF = CGLMP + 3*(delta + gamma); % defining LF as a sum of CGLMP, delta and gamma
 
 violations = zeros(1,1161*9);
 
@@ -646,7 +646,6 @@ for k = 1:1:length(J)
 end
 
 max(violations)
-rank(L)
 
 ```
 
@@ -696,7 +695,7 @@ gamma(2,1,2,3) = +1;
 gamma(3,2,2,3) = -1;
 gamma(1,1,3,3) = -1;
 
-CGLMPLF = CGLMP + delta + gamma; % defining LF as the sum of CGLMP, delta and gamma
+CGLMPLF = CGLMP + 3*(delta + gamma); % defining LF as the sum of CGLMP, delta and gamma
 
 %
 % BellInequalityMax2(LF, [3,3,3,3], 'fp') % checking the local bound on LF (result = 3)
@@ -711,14 +710,224 @@ CGLMPLF = CGLMP + delta + gamma; % defining LF as the sum of CGLMP, delta and ga
 
        subject to
 
-            NPAHierarchy(p,2) == 1;
+            NPAHierarchy1(p,2) == 1;
    cvx_end
 
 ```
 
-### Finding the maximally violating states and measurements
+### Finding the rank of the face
 
 ```matlab
+
+
+r1 = zeros(3,3,2,2);
+r1(1,1,1,1) = 1;
+R1 = fp2cg(r1);
+
+r2 = zeros(3,3,2,2);
+r2(2,1,1,1) = 1;
+R2 = fp2cg(r2);
+
+r3 = zeros(3,3,2,2);
+r3(3,1,1,1) = 1;
+R3 = fp2cg(r3);
+
+r4 = zeros(3,3,2,2);
+r4(1,2,1,1) = 1;
+R4 = fp2cg(r4);
+
+r5 = zeros(3,3,2,2);
+r5(2,2,1,1) = 1;
+R5 = fp2cg(r5);
+
+r6 = zeros(3,3,2,2);
+r6(3,2,1,1) = 1;
+R6 = fp2cg(r6);
+
+r7 = zeros(3,3,2,2);
+r7(1,3,1,1) = 1;
+R7 = fp2cg(r7);
+
+r8 = zeros(3,3,2,2);
+r8(2,3,1,1) = 1;
+R8 = fp2cg(r8);
+
+r9 = zeros(3,3,2,2);
+r9(3,3,1,1) = 1;
+R9 = fp2cg(r9);
+
+%%%%%%%%%%%%%%%%%%%
+
+r10 = zeros(3,3,2,2);
+r10(1,1,2,1) = 1;
+R10 = fp2cg(r10);
+
+r11 = zeros(3,3,2,2);
+r11(2,1,2,1) = 1;
+R11 = fp2cg(r11);
+
+r12 = zeros(3,3,2,2);
+r12(3,1,2,1) = 1;
+R12 = fp2cg(r12);
+
+r13 = zeros(3,3,2,2);
+r13(1,2,2,1) = 1;
+R13 = fp2cg(r13);
+
+r14 = zeros(3,3,2,2);
+r14(2,2,2,1) = 1;
+R14 = fp2cg(r14);
+
+r15 = zeros(3,3,2,2);
+r15(3,2,2,1) = 1;
+R15 = fp2cg(r15);
+
+r16 = zeros(3,3,2,2);
+r16(1,3,2,1) = 1;
+R16 = fp2cg(r16);
+
+r17 = zeros(3,3,2,2);
+r17(2,3,2,1) = 1;
+R17 = fp2cg(r17);
+
+r18 = zeros(3,3,2,2);
+r18(3,3,2,1) = 1;
+R18 = fp2cg(r18);
+
+%%%%%%%%%%%%%%%%%%%
+
+r19 = zeros(3,3,2,2);
+r19(1,1,1,2) = 1;
+R19 = fp2cg(r19);
+
+r20 = zeros(3,3,2,2);
+r20(2,1,1,2) = 1;
+R20 = fp2cg(r20);
+
+r21 = zeros(3,3,2,2);
+r21(3,1,1,2) = 1;
+R21 = fp2cg(r21);
+
+r22 = zeros(3,3,2,2);
+r22(1,2,1,2) = 1;
+R22 = fp2cg(r22);
+
+r23 = zeros(3,3,2,2);
+r23(2,2,1,2) = 1;
+R23 = fp2cg(r23);
+
+r24 = zeros(3,3,2,2);
+r24(3,2,1,2) = 1;
+R24 = fp2cg(r24);
+
+r25 = zeros(3,3,2,2);
+r25(1,3,1,2) = 1;
+R25 = fp2cg(r25);
+
+r26 = zeros(3,3,2,2);
+r26(2,3,1,2) = 1;
+R26 = fp2cg(r26);
+
+r27 = zeros(3,3,2,2);
+r27(3,3,1,2) = 1;
+R27 = fp2cg(r27);
+
+%%%%%%%%%%%%%%%%%%%
+
+r28 = zeros(3,3,2,2);
+r28(1,1,2,2) = 1;
+R28 = fp2cg(r28);
+
+r29 = zeros(3,3,2,2);
+r29(2,1,2,2) = 1;
+R29 = fp2cg(r29);
+
+r30 = zeros(3,3,2,2);
+r30(3,1,2,2) = 1;
+R30 = fp2cg(r30);
+
+r31 = zeros(3,3,2,2);
+r31(1,2,2,2) = 1;
+R31 = fp2cg(r31);
+
+r32 = zeros(3,3,2,2);
+r32(2,2,2,2) = 1;
+R32 = fp2cg(r32);
+
+r33 = zeros(3,3,2,2);
+r33(3,2,2,2) = 1;
+R33 = fp2cg(r33);
+
+r34 = zeros(3,3,2,2);
+r34(1,3,2,2) = 1;
+R34 = fp2cg(r34);
+
+r35 = zeros(3,3,2,2);
+r35(2,3,2,2) = 1;
+R35 = fp2cg(r35);
+
+r36 = zeros(3,3,2,2);
+r36(3,3,2,2) = 1;
+R36 = fp2cg(r36);
+
+%%%%%%%%%%%%%%%%%%%
+
+R = [ R1(:)' ; R2(:)' ; R3(:)' ; R4(:)' ; R5(:)' ; R6(:)' ; R7(:)' ; R8(:)' ; R9(:)' ;
+    R10(:)' ; R11(:)' ; R12(:)' ; R13(:)' ; R14(:)' ; R15(:)' ; R16(:)' ; R17(:)' ; R18(:)' ;
+    R19(:)' ; R20(:)' ; R21(:)' ; R22(:)' ; R23(:)' ; R24(:)' ; R25(:)' ; R26(:)' ; R27(:)' ;
+    R28(:)' ; R29(:)' ; R30(:)' ; R31(:)' ; R32(:)' ; R33(:)' ; R34(:)' ; R35(:)' ; R36(:)' ];
+
+% We can split this matrix R into two, giving constraints in the form Ax >= b (i.e. b-Ax >= 0)
+
+A = R(:, 2:25);
+
+b = R(:,1);
+
+% But the full matrix R is exactly what LRS wants as an input
+
+% The following line sends from matlab to LRS
+% dlmwrite('test.txt',R,'delimiter',' ');
+
+% The following line sends from LRS to matlab
+
+load NSvert.mat
+
+% Reshape each of the 1161 rows of C (composed of 25 numbers) into 5x5 grids
+% cg2fp each 'row'
+
+D = zeros(5,5,1161);
+E = zeros(3,3,2,2,1161);
+
+for k = 1:1161 % Iterating over k with an initial value of 1, step value of 1, final value of 1161
+    D(:,:,k) = reshape(C(k,:),[5,5]);
+    E(:,:,:,:,k) = cg2fp(D(:,:,k),[3,3,2,2],1);
+end
+
+% The top left number is always 1 to indicate each is a vertex
+% (as opposed to an array which would have top left number 0)
+
+
+
+% add settings to turn each 'row'  into 9 full grids
+
+F = zeros(3,3,3,3,1161*9);
+counter = 1;
+
+for k = 1:1:1161
+    for a_0 = 1:3
+        for b_0 = 1:3
+            F(a_0,b_0,1,1,counter) = 1;
+            F(:,b_0,2:3,1,counter) = sum(E(:,:,:,2,k),2);
+            F(a_0,:,1,2:3,counter) = sum(E(:,:,2,:,k),1);
+            F(:,:,2:3,2:3,counter) = E(:,:,:,:,k);
+            counter = counter + 1;
+        end
+    end
+end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% DEFINING THE DECOMPOSITION ELEMENTS %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 CGLMP = zeros(3,3,3,3); % setting up the CGLMP grid
 
@@ -763,6 +972,76 @@ gamma(3,2,2,3) = -1;
 gamma(1,1,3,3) = -1;
 
 CGLMPLF = CGLMP + delta + gamma; % defining LF as the sum of CGLMP, delta and gamma
+
+M = delta + gamma;
+
+vertices = zeros(2,1161*9);
+
+for k = 1:1161*9
+    vertices(1,k) = sum(sum(sum(sum(CGLMP.*F(:,:,:,:,k)))));
+    vertices(2,k) = sum(sum(sum(sum(M.*F(:,:,:,:,k)))));
+end
+
+listsat = find([1 3]*vertices >= 4.99);
+
+S = [];
+for i = 2:length(listsat)
+    S = [S; reshape(F(:,:,:,:,listsat(i)),1,[]) - reshape(F(:,:,:,:,listsat(1)),1,[])];
+end
+
+rank(S) % finding the rank of S (i.e. the vertex vectors as a matrix) is equivalent to finding the dimension of the corresponding face of the polytope
+
+```
+
+### Finding the maximally violating states and measurements
+
+```matlab
+
+% Finding the maximally violating states and measurements
+
+CGLMP = zeros(3,3,3,3); % setting up the CGLMP grid
+
+CGLMP(1,1,1,1) = +1;
+CGLMP(3,1,1,1) = -1;
+CGLMP(1,2,1,1) = -1;
+CGLMP(2,2,1,1) = +1;
+CGLMP(2,3,1,1) = -1;
+CGLMP(3,3,1,1) = +1;
+
+CGLMP(1,1,2,1) = +1;
+CGLMP(2,1,2,1) = -1;
+CGLMP(2,2,2,1) = +1;
+CGLMP(3,2,2,1) = -1;
+CGLMP(1,3,2,1) = -1;
+CGLMP(3,3,2,1) = +1;
+
+CGLMP(1,1,1,2) = +1;
+CGLMP(2,1,1,2) = -1;
+CGLMP(2,2,1,2) = +1;
+CGLMP(3,2,1,2) = -1;
+CGLMP(1,3,1,2) = -1;
+CGLMP(3,3,1,2) = +1;
+
+CGLMP(1,1,2,2) = -1;
+CGLMP(2,1,2,2) = +1;
+CGLMP(2,2,2,2) = -1;
+CGLMP(3,2,2,2) = +1;
+CGLMP(1,3,2,2) = +1;
+CGLMP(3,3,2,2) = -1;
+
+delta = zeros(3,3,3,3); % setting up the delta grid
+
+delta(3,1,1,1) = +1;
+
+gamma = zeros(3,3,3,3); % setting up the gamma grid
+
+gamma(2,1,3,2) = -1;
+gamma(1,2,3,2) = +1;
+gamma(2,1,2,3) = +1;
+gamma(3,2,2,3) = -1;
+gamma(1,1,3,3) = -1;
+
+CGLMPLF = CGLMP + 3*(delta + gamma); % defining LF as the sum of CGLMP, delta and gamma
 
 psi = MaxEntangled(3);
 rho = psi * psi';

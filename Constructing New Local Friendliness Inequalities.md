@@ -37,7 +37,7 @@ Now we have a set of ingredients, we want to turn these into a concrete proposal
 The dashed turqoise line represents the new CGLMP-LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an upper bound for the quantum set).
 ```
 
-From [](#graph1-figure), we are able to read off the precise CGLMP-LF inequality. It is given by
+From [](#cglmp-graph-figure), we are able to read off the precise CGLMP-LF inequality. It is given by
 
 \begin{equation}
 \textrm{CGLMP} + 3(\delta+\gamma) \leq 5.

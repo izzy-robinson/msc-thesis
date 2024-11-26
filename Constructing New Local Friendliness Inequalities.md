@@ -29,7 +29,7 @@ We initially focus on the strategies which saturate CGLMP; there are a huge set 
 :align: center
 ```
 
-Now we have a set of ingredients, we want to turn these into a concrete proposal for a CGLMP-LF inequality. To achieve this we will produce a two dimensional plot taking CGLMP as one axis and $\delta + \gamma$ as the other axis. From this we should be able to read off the optimal coefficients for each part. Such an approach is analagous to how we discovered the quantum LF inequality in chapter 10. 
+Now we have a set of ingredients, we want to turn these into a concrete proposal for a CGLMP-LF inequality. To achieve this we will produce a two dimensional plot taking CGLMP as one axis and $\epsilon = \delta + \gamma$ as the other axis. From this we should be able to read off the optimal coefficients for each part. Such an approach is analagous to how we discovered the quantum LF inequality in chapter 10. 
 
 ```{figure} cglmp-graph.JPG
 :name: cglmp-graph-figure

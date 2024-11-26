@@ -52,7 +52,7 @@ Using the rank method, we see the dimension of the face of our polytope is only 
 One potential criticism of our work so far is that we have found the maximum quantum violation assuming the quantum set is equal to the second level of the NPA hierarchy [@Navascues2007]. This is not strictly true as the NPA hierarchy provides an outer bound for the quantum set - there could be a gap between the two. We are unlikely to run into problems as the second level of the NPA hierarchy is typically an extremely good approximation to the quantum set. However, to be absolutely certain, we will find an explicit quantum measurement scheme which achieves the bound using a see-saw technique. This is implemented by code in Appendix B.3. Ultimately it is found that we can achieve the quantum bound $5.8971$ with a state that is locally unitarily equivalent to the maximally entangled state in qubit basis
 
 \begin{equation}
-\frac{1}{2}(|1\rangle |1\rangle + | 2 \rangle | 2 \rangle). 
+\frac{1}{\sqrt{2}}(|1\rangle |1\rangle + | 2 \rangle | 2 \rangle). 
 \end{equation}
 
 This is stable for all methods which achieve the bound. The fact that we are able to find a method which achieves the bound proves that our fears were unfounded and there is no significant gap between the quantum set and the second level of the NPA hierarchy. It is interesting that this state is neither in the qubit basis nor is it the same as the state which maximally violates the CGLMP inequality.

@@ -149,6 +149,7 @@ The measurement directions used by Alice (x) and Bob (y) in a winning quantum st
 In probability form, the CGLMP inequality (@Collins2002) is given by
 
 \begin{equation}
+\label{cglmp-equation}
     P(a-b=0|1,1) + P(a-b=0|1,2) + P(a-b=0|2,1) \\
     + P(a-b=1|2,2) - P(a-b=2|1,1) - P(a-b=1|1,2) \\
     - P(a-b=1|2,1) - P(a-b=0|2,2) \leq 2

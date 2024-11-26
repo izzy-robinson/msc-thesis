@@ -20,7 +20,7 @@ project:
    heading_5: false
    heading_6: false
   # github:
-  bibliography: C:\Users\entan\mystmd-quickstart\bibliography.bib
+  bibliography: C:\Users\entan\OneDrive\Documents\GitHub\msc-thesis\bibliography.bib
 
 site:
   template: book-theme

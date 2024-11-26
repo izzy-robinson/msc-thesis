@@ -57,7 +57,7 @@ One potential criticism of our work so far is that we have found the maximum qua
 
 This is stable for all methods which achieve the bound. The fact that we are able to find a method which achieves the bound proves that our fears were unfounded and there is no significant gap between the quantum set and the second level of the NPA hierarchy. It is interesting that this state is neither in the qubit basis nor is it the same as the state which maximally violates the CGLMP inequality.
 
-Note also that, in [](#graph1-figure), the quantum boundary contains several straight sections. Although we will not explore this within the thesis, each of these presents a quantum CGLMP-LF inequality which could be characterised.
+Note also that, in [](#graph1-figure), the quantum boundary contains several straight sections. Although we will not explore this within the thesis, each of these presents a quantum CGLMP-LF inequality which could be characterised. It is interesting that there appears to be so much structure contained within the quantum set for LF when the geometry of quantum sets for nonlocality are frequently very complex [@Goh2018].
 
 # Summary
 

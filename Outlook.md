@@ -29,4 +29,6 @@ Over the course of discovering the results conveyed within this thesis, several 
 
 - We have a point outside the CGLMP-LF polytope (i.e. the quantum violation of our new inequality). This brings up the possibility of using linear programming and various forms of robustness to rotate our non-facet inequality and find the facet inequality it lies above. We could therefore map out the local region even if LRS doesn't terminate when telling us the facets.
 
+- It can be noticed that the quantum boundary on our graph of CGLMP against $\epsilon$ has several straight sections. Each of these constitutes a quantum CGLMP-LF inequality. Investigating these is a logical next step.
+
 Given time, we hope to engage in these future directions.

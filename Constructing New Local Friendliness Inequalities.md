@@ -57,8 +57,9 @@ One potential criticism of our work so far is that we have found the maximum qua
 
 This is stable for all methods which achieve the bound. The fact that we are able to find a method which achieves the bound proves that our fears were unfounded and there is no significant gap between the quantum set and the second level of the NPA hierarchy. It is interesting that this state is neither in the qubit basis nor is it the same as the state which maximally violates the CGLMP inequality.
 
-Note also that, in [](#cglmp-graph-figure), the quantum boundary contains several straight sections. Although we will not explore this within the thesis, each of these presents a quantum CGLMP-LF inequality which could be characterised. It is interesting that there appears to be so much structure contained within the quantum set for LF when the geometry of quantum sets for nonlocality are frequently very complex [@Goh2018].
+Note also that, in [](#cglmp-graph-figure), the quantum boundary contains several straight sections. Although we will not explore this within the thesis, each of these presents a quantum CGLMP-LF inequality which could be characterised. It is interesting that there appears to be so much simplicity contained within the quantum set for LF when the geometry of quantum sets for nonlocality are frequently very complex [@Goh2018].
 
 # Summary
 
 What have we achieved within this chapter? We have used our intuition, built through the previous two chapters, to construct by hand an entirely new LF inequality based on CGLMP rather than CHSH. We have discovered that this is not a facet inequality but have proposed a method whereby a related facet inequality may yet be uncovered. We have further found an explicit measurement scheme which achieves the maximum quantum violation, proving that our new inequality is genuinely violable by quantum mechanics and it is not simply a computational artefact. Finally, we have noticed the existence of several quantum CGLMP-LF inequalities; characterising these may be a direction for future work.
+

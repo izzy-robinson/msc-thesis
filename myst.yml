@@ -20,7 +20,7 @@ project:
    heading_5: false
    heading_6: false
   # github:
-  bibliography: C:\Users\entan\OneDrive\Documents\GitHub\msc-thesis\bib.bib
+  bibliography: biblio.bib
 site:
   template: book-theme
   title:  Extending the Power of Extended Wigner's Friend Scenarios

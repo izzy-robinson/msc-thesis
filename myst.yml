@@ -21,7 +21,7 @@ project:
    heading_6: false
   # github:
   bibliography: 
-  - nobib.bib
+  - mybib
 site:
   template: book-theme
   title:  Extending the Power of Extended Wigner's Friend Scenarios

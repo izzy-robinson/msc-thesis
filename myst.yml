@@ -20,8 +20,7 @@ project:
    heading_5: false
    heading_6: false
   # github:
-  bibliography: 
-  - mybib.bib
+  bibliography: mybib.bib
 site:
   template: book-theme
   title:  Extending the Power of Extended Wigner's Friend Scenarios

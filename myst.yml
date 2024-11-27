@@ -26,7 +26,7 @@ site:
   template: book-theme
   title:  Extending the Power of Extended Wigner's Friend Scenarios
   options:
-    logo: C:\Users\entan\mystmd-quickstart\logo.png
+    logo: logo.png
     logo_text: Extending the Power of Extended Wigner's Friend Scenarios
 
   nav: []

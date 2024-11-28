@@ -21,4 +21,4 @@ As a result of the geometric approach, we were also able to propose the first ev
 
 Finally, we used our knowledge of the decomposed structure of LF inequalities to construct a new LF inequality based on CGLMP rather than CHSH. We evaluated the quantum bound on our CGLMP-LF inequality and found the state which achieves this, proving that it is genuinely violable by quantum mechanics.
 
-OVerall we have obtained a much deeper understanding of what LF means.
+Overall we have obtained a much deeper understanding of what LF means.

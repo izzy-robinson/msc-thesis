@@ -19,6 +19,6 @@ First, we decomposed an LF inequality from @Bong2020 into a CHSH part and a nove
 
 As a result of the geometric approach, we were also able to propose the first ever quantum LF inequality. We provided a proof that it is genuine by using the SOS technique to find an upper bound.
 
-Finally, we used our knowledge of the decomposed structure of LF inequalities to construct a new LF inequality based on CGLMP rather than CHSH. We evaluated the quantum bound on our CGLMP-LF inequality and found the state which achieves this, proving that it is genuinely violable by quantum mechanics.
+Finally, we used our knowledge of the decomposed structure of LF inequalities to construct a new LF inequality based on CGLMP (i.e. for the 3 settings and 3 outcomes scenario). We evaluated the quantum bound on our CGLMP-LF inequality and found the state which achieves this, proving that it is genuinely violable by quantum mechanics.
 
 Overall we have obtained a much deeper understanding of what LF means.

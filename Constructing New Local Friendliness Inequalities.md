@@ -31,7 +31,7 @@ We initially focus on the strategies which saturate CGLMP; there are a huge set 
 :align: center
 ```
 
-Now we have a set of ingredients, we want to turn these into a concrete proposal for a CGLMP-LF inequality. To achieve this we will produce a two dimensional plot taking CGLMP as one axis and $\epsilon = \delta + \gamma$ as the other axis. From this we should be able to read off the optimal coefficients for each part. Such an approach is analagous to how we discovered the quantum LF inequality in chapter 10. 
+Now we have a set of ingredients, we want to turn these into a concrete proposal for a CGLMP-LF inequality. To achieve this we will plot a projection of the LF polytope in the two dimensional subspace taking CGLMP as one axis and $\epsilon = \delta + \gamma$ as the other axis. From this we should be able to read off the optimal coefficients for each part. Such an approach is analagous to how we discovered the quantum LF inequality in chapter 10. 
 
 ```{figure} cglmp-graph.JPG
 :name: cglmp-graph-figure
@@ -45,9 +45,9 @@ From [](#cglmp-graph-figure), we are able to read off the precise CGLMP-LF inequ
 \textrm{CGLMP} + 3(\delta+\gamma) \leq 5.
 \end{equation}
 
-Having obtained a concrete proposal for a CGLMP-LF inequality, we need to carefully check all strategies to verify the LF bound. We do so numerically using MATLAB code found in Appendix B.3. It is discovered that the LF bound on our new inequality is $5$, as expected. The next step is to see if quantum mechanics is able to violate this bound. Luckily it is - the quantum bound is $5.8971>5$. 
+Having obtained a concrete proposal for a CGLMP-LF inequality, we can carefully check all strategies to verify the LF bound. We do so numerically using MATLAB code found in Appendix B.3. It is discovered that the LF bound on our new inequality is $5$, as expected. The next step is to see if quantum mechanics is able to violate this bound. Luckily it is - the quantum bound is $5.8971>5$. 
 
-Using the rank method, we see the dimension of the face of our polytope is only $37$ (not $47$); therefore this inequality is not a facet of the LF polytope. Is there anything we can do to locate a related facet inequality? We have a point outside the CGLMP-LF polytope (i.e. the quantum violation of our new inequality). This brings up the possibility of using linear programming and various forms of robustness to rotate our non-facet inequality and find the facet inequality it lies above. 
+Using the rank method, we see the dimension of the face of our polytope is only $37$ (not $47$ which is the dimension of the entire LF polytope); therefore this inequality is not a facet of the LF polytope. Is there anything we can do to locate a related facet inequality? We have a point outside the CGLMP-LF polytope (i.e. the quantum violation of our new inequality). This brings up the possibility of using linear programming and various forms of robustness to rotate our non-facet inequality and find the facet inequality it lies above. We ideally want a facet inequality because it is the tightest representation of a polytope.
 
 One potential criticism of our work so far is that we have found the maximum quantum violation assuming the quantum set is equal to the second level of the NPA hierarchy [@Navascues2008]. This is not strictly true as the NPA hierarchy provides an outer bound for the quantum set - there could be a gap between the two. We are unlikely to run into problems as the second level of the NPA hierarchy is typically an extremely good approximation to the quantum set. However, to be absolutely certain, we will find an explicit quantum measurement scheme which achieves the bound using a see-saw technique. This is implemented by code in Appendix B.3. Ultimately it is found that we can achieve the quantum bound $5.8971$ with a state that is locally unitarily equivalent to the maximally entangled state in qubit basis,
 
@@ -55,11 +55,13 @@ One potential criticism of our work so far is that we have found the maximum qua
 \frac{1}{\sqrt{2}}(|1\rangle |1\rangle + | 2 \rangle | 2 \rangle). 
 \end{equation}
 
-This is stable for all methods which achieve the bound. The fact that we are able to find a method which achieves the bound proves that our fears were unfounded and there is no significant gap between the quantum set and the second level of the NPA hierarchy. It is interesting that this state is neither in the qubit basis nor is it the same as the state which maximally violates the CGLMP inequality.
+The fact that we are able to find a method which achieves the bound proves that our fears were unfounded and there is no significant gap between the quantum set and the second level of the NPA hierarchy. It is interesting that this state is neither in the qubit basis nor is it the same as the state which maximally violates the CGLMP inequality.
 
 Note also that, in [](#cglmp-graph-figure), the quantum boundary contains several straight sections. Although we will not explore this within the thesis, each of these presents a quantum CGLMP-LF inequality which could be characterised. It is interesting that there appears to be so much simplicity contained within the quantum set for LF when the geometry of quantum sets for nonlocality are frequently very complex [@Goh2018].
 
 # Summary
 
 What have we achieved within this chapter? We have used our intuition, built through the previous two chapters, to construct by hand an entirely new LF inequality based on CGLMP rather than CHSH. We have discovered that this is not a facet inequality but have proposed a method whereby a related facet inequality may yet be uncovered. We have further found an explicit measurement scheme which achieves the maximum quantum violation, proving that our new inequality is genuinely violable by quantum mechanics and it is not simply a computational artefact. Finally, we have noticed the existence of several quantum CGLMP-LF inequalities; characterising these may be a direction for future work.
+
+In terms of other directions for future work, there are several. Thus far, for the CHSH and CGLMP cases, we have relied on brute force enumeration of all vertices of the LF polytope in order to prove the LF bound; it is therefore unclear how we could move to larger more computationally intractable scenarios with our current toolkit. It is also an open question to ask whether we even gain anything by moving to higher dimensions; could we show that new inequalities based on larger scenarios are stronger demonstrations of LF than CHSH based inequalities? Finally, we could hunt for the associated facet inequality and see how close it is in form - could this be simpler to understand?
 

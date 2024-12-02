@@ -18,8 +18,7 @@ abbreviations:
 
 # Introduction
 
-We saw in chapter 9 that an LF inequality based on the simplest $3$ settings and $2$ outcomes scenario can be decomposed into a CHSH part and a novel part made up of $\delta$ and $\gamma$. The big question raised here is whether it is possible to find LF inequalities for larger more computationally intractable scenarios. If we want to go up to the next simplest scenario (i.e. the $3$ settings and $3$ outcomes scenario) we should therefore take the associated interesting Bell inequality (i.e. CGLMP[^1]) and see if we can construct an extension based on the structure identified in chapter 9. This is what we shall do in this chapter.
-
+We saw in chapter 9 that an LF inequality based on the simplest $3$ settings and $2$ outcomes scenario can be decomposed into a CHSH part and a novel part made up of $\delta$ and $\gamma$. The big question raised here is whether it is possible to find LF inequalities for larger more computationally intractable scenarios. If we want to go up to the next simplest scenario (i.e. the $3$ settings and $3$ outcomes scenario) we should therefore take the associated interesting Bell inequality (i.e. CGLMP[^1]) and see if we can construct an extension based on the structure identified in chapter 9. This is what we will do in the present chapter; we initially search by hand for a set of ingredients of which our proposed CGLMP-LF inequality will be made up, we then plot the projection of the LF polytope in the two dimensional subspace of these ingredients to read off the overall scale, and finally we find an explicit measurement scheme which achieves the maximum quantum violation of our new CGLMP-LF inequality.
 
 [^1]: See chapter $7$ for a description of the CGLMP inequality. Note that, using the grid notation, [Equation 7.8](#cglmp-equation) is analagous to CGLMP in the format used within this chapter.
 

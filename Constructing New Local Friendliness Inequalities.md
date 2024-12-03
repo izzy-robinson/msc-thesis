@@ -60,7 +60,9 @@ The next step is to see if quantum mechanics is able to violate the LF bound. Lu
 \frac{1}{\sqrt{2}}(|1\rangle |1\rangle + | 2 \rangle | 2 \rangle),
 \end{equation}
 
-alongside measurements with $3$ outcomes. The fact that we are able to find a method which achieves the bound proves that our fears were unfounded and there is no significant gap between the quantum set and the second level of the NPA hierarchy. It is interesting that this state is neither in the qubit basis nor is it the same as the state which maximally violates the CGLMP inequality.
+alongside measurements with $3$ outcomes. The fact that we are able to find a method which achieves the bound proves that our fears were unfounded and there is no significant gap between the quantum set and the second level of the NPA hierarchy. It is interesting that this state is neither in the qubit basis nor is it the same as the state which maximally violates the CGLMP inequality.[^4]
+
+[^4]: See chapter 7 for a discussion of this.
 
 Note also that, in [](#cglmp-graph-figure), the quantum boundary contains several straight sections. Although we will not explore this within the thesis, each of these presents a quantum CGLMP-LF inequality which could be characterised. It is interesting that there appears to be so much simplicity contained within the quantum set for LF when the geometry of quantum sets for nonlocality are frequently very complex [@Goh2018].
 

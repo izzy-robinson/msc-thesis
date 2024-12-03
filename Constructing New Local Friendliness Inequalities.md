@@ -42,7 +42,7 @@ Now we have a set of ingredients, we want to turn these into a concrete proposal
 A graph of the projection of the LF polytope in the two dimensional subspace of CGLMP and $\epsilon$. The dashed turqoise line represents the new CGLMP-LF inequality. The solid turqoise line denotes the boundary of the LF polytope. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set). See Appendix B.3 for the MATLAB code used to plot this graph.
 ```
 
-From [](#cglmp-graph-figure), we are able to read off the precise CGLMP-LF inequality. It is given by
+From [](#cglmp-graph-figure), we are able to read off the precise CGLMP-LF inequality using the equation of the dashed line. It is given by
 
 \begin{equation}
 \textrm{CGLMP} + 3(\delta+\gamma) \leq 5.

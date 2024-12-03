@@ -50,7 +50,9 @@ From [](#cglmp-graph-figure), we are able to read off the precise CGLMP-LF inequ
 
 Having obtained a concrete proposal for a CGLMP-LF inequality, we can carefully check all strategies to verify the LF bound. We do so numerically using MATLAB code found in Appendix B.3. It is discovered that the LF bound on our new inequality is $5$, as expected. 
 
-Using the rank method, we see the dimension of the face of our polytope is only $37$ (not $47$ which is the dimension of the entire LF polytope); therefore this inequality is not a facet of the LF polytope. Is there anything we can do to locate a related facet inequality? We have a point outside the CGLMP-LF polytope (i.e. the quantum violation of our new inequality). This brings up the possibility of using linear programming and various forms of robustness to rotate our non-facet inequality and find the facet inequality it lies above. We ideally want a facet inequality because it is the tightest representation of a polytope.
+Using the rank method,[^3] we see the dimension of the face of our polytope is only $37$ (not $47$ which is the dimension of the entire LF polytope); therefore this inequality is not a facet of the LF polytope. Is there anything we can do to locate a related facet inequality? We have a point outside the CGLMP-LF polytope (i.e. the quantum violation of our new inequality). This brings up the possibility of using linear programming and various forms of robustness to rotate our non-facet inequality and find the facet inequality it lies above. We ideally want a facet inequality because it is the tightest representation of a polytope.
+
+[^3]: In linear algebra, the rank of a matrix M is the dimension of the vector space spanned by its columns; this corresponds to the maximum number of linearly independent columns of M [@Axler2015].
 
 The next step is to see if quantum mechanics is able to violate the LF bound. Luckily it is - the quantum bound is $5.8971>5$. 
 

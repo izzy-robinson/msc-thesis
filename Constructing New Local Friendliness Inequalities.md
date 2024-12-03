@@ -25,7 +25,7 @@ We saw in chapter 9 that an LF inequality based on the simplest $3$ settings and
 
 # Searching for a CGLMP-LF Inequality
 
-The general strategy we will employ is as follows ... We initially focus on the strategies which saturate CGLMP; there are ... of these. We then add in a reward term with $\delta$; that is, we add a single positive term to CGLMP that will increase the value for a subset of LHV vertices which maximally violate CGLMP.[^2] This narrows down the search space to .... Finally we choose a $\gamma$ such that none of these optimal strategies are rewarded (i.e. they are either penalised or neutral); we start off with a symmetric $\gamma$ then edit it through trial and error. By this we mean that after adding terms which ... There is significant work left to do if we are to formalise this technique, however we are ultimately left with the following ingredients:
+The general strategy we will employ is as follows ... We initially focus on the strategies which saturate CGLMP; there are ... of these. We then add in a reward term with $\delta$; that is, we add a single positive term to CGLMP that will increase the value for a subset of LHV vertices which maximally violate CGLMP.[^2] This narrows down the search space to ... strategies. Finally we choose a $\gamma$ such that none of these optimal strategies are rewarded (i.e. they are either penalised or neutral); we start off with a symmetric $\gamma$ then edit it through trial and error. By this we mean that after adding terms which ... There is significant work left to do if we are to formalise this technique, however we are ultimately left with the following ingredients:
 
 [^2]: There is no unique choice for this but we pick a term without loss of generality.
 
@@ -34,7 +34,7 @@ The general strategy we will employ is as follows ... We initially focus on the 
 :align: center
 ```
 
-Now we have a set of ingredients, we want to turn these into a concrete proposal for a CGLMP-LF inequality. To achieve this we will plot a projection of the LF polytope in the two dimensional subspace taking CGLMP as one axis and $\epsilon = \delta + \gamma$ as the other axis. From this we should be able to read off the optimal coefficients for each part. Such an approach is analagous to how we discovered the quantum LF inequality in chapter 10. 
+Now we have a set of ingredients, we want to turn these into a concrete proposal for a CGLMP-LF inequality. To achieve this we will plot a projection of the LF polytope in the two dimensional subspace taking CGLMP as one axis and $\epsilon = \delta + \gamma$ as the other axis. From this we should be able to read off the optimal coefficients for each part. It is  Such an approach is analagous to how we discovered the quantum LF inequality in chapter 10. 
 
 ```{figure} cglmp-graph.JPG
 :name: cglmp-graph-figure
@@ -48,9 +48,11 @@ From [](#cglmp-graph-figure), we are able to read off the precise CGLMP-LF inequ
 \textrm{CGLMP} + 3(\delta+\gamma) \leq 5.
 \end{equation}
 
-Having obtained a concrete proposal for a CGLMP-LF inequality, we can carefully check all strategies to verify the LF bound. We do so numerically using MATLAB code found in Appendix B.3. It is discovered that the LF bound on our new inequality is $5$, as expected. The next step is to see if quantum mechanics is able to violate this bound. Luckily it is - the quantum bound is $5.8971>5$. 
+Having obtained a concrete proposal for a CGLMP-LF inequality, we can carefully check all strategies to verify the LF bound. We do so numerically using MATLAB code found in Appendix B.3. It is discovered that the LF bound on our new inequality is $5$, as expected. 
 
 Using the rank method, we see the dimension of the face of our polytope is only $37$ (not $47$ which is the dimension of the entire LF polytope); therefore this inequality is not a facet of the LF polytope. Is there anything we can do to locate a related facet inequality? We have a point outside the CGLMP-LF polytope (i.e. the quantum violation of our new inequality). This brings up the possibility of using linear programming and various forms of robustness to rotate our non-facet inequality and find the facet inequality it lies above. We ideally want a facet inequality because it is the tightest representation of a polytope.
+
+The next step is to see if quantum mechanics is able to violate the LF bound. Luckily it is - the quantum bound is $5.8971>5$. 
 
 One potential criticism of our work so far is that we have found the maximum quantum violation assuming the quantum set is equal to the second level of the NPA hierarchy [@Navascues2008]. This is not strictly true as the NPA hierarchy provides an outer bound for the quantum set - there could be a gap between the two. We are unlikely to run into problems as the second level of the NPA hierarchy is typically an extremely good approximation to the quantum set [@Navascues2008]. However, to be absolutely certain, we will find an explicit quantum measurement scheme which achieves the bound using a see-saw technique. This is implemented by code in Appendix B.3. Ultimately it is found that we can achieve the quantum bound $5.8971$ with a state that is locally unitarily equivalent to the maximally entangled state in a qubit subspace,
 

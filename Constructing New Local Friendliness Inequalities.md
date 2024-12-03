@@ -9,6 +9,7 @@ abbreviations:
     CHSH: Clauser, Horne, Shimony, Holt
     CGLMP: Collins, Gisin, Linden, Massar, Popescu
     NPA: Navascués, Pironio, Acin
+    LHV: Local Hidden Variable
 ---
 
 # Constructing New Local Friendliness Inequalities
@@ -24,7 +25,9 @@ We saw in chapter 9 that an LF inequality based on the simplest $3$ settings and
 
 # Searching for a CGLMP-LF Inequality
 
-We initially focus on the strategies which saturate CGLMP; there are a huge set of these. We then add in a reward term with $\delta$; this narrows down the search space somewhat. Finally we choose a $\gamma$ such that none of these optimal strategies are rewarded (i.e. they are either penalised or neutral); we start off with a symmetric $\gamma$ then edit it through trial and error. There is significant work left to do if we are to formalise this technique, however we are ultimately left with the following ingredients:
+The general strategy we will employ is as follows ... We initially focus on the strategies which saturate CGLMP; there are ... of these. We then add in a reward term with $\delta$; that is, we add a single positive term to CGLMP that will increase the value for a subset of LHV vertices which maximally violate CGLMP.[^2] This narrows down the search space to .... Finally we choose a $\gamma$ such that none of these optimal strategies are rewarded (i.e. they are either penalised or neutral); we start off with a symmetric $\gamma$ then edit it through trial and error. By this we mean that after adding terms which ... There is significant work left to do if we are to formalise this technique, however we are ultimately left with the following ingredients:
+
+[^2]: There is no unique choice for this but we pick a term without loss of generality.
 
 ```{figure} cglmp-proposal.JPG
 :name: cglmp-proposal-figure
@@ -36,7 +39,7 @@ Now we have a set of ingredients, we want to turn these into a concrete proposal
 ```{figure} cglmp-graph.JPG
 :name: cglmp-graph-figure
 :align: center
-The dashed turqoise line represents the new CGLMP-LF inequality. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set).
+A graph of the projection of the LF polytope in the two dimensional subspace of CGLMP and $\epsilon$. The dashed turqoise line represents the new CGLMP-LF inequality. The solid turqoise line denotes the boundary of the LF polytope. The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set).
 ```
 
 From [](#cglmp-graph-figure), we are able to read off the precise CGLMP-LF inequality. It is given by

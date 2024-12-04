@@ -36,7 +36,7 @@ The general strategy we will employ is to try and generalise this structure. We 
 :align: center
 ```
 
-Now we have a set of ingredients, we want to turn these into a concrete proposal for a CGLMP-LF inequality. To achieve this we will plot a projection of the LF polytope in the two dimensional subspace taking CGLMP as one axis and $\epsilon = \delta + \gamma$ as the other axis. From this we should be able to read off the optimal coefficients for each part. Such a graphical approach is analagous to how we discovered the quantum LF inequality in chapter 10. Note that the overall scale is irrelevant so it is just the relative scale of $\epsilon$ compared with CGLMP that we need to find. Note also that we have already fixed $\epsilon = \delta + \gamma$ as opposed to, for instance, $\epsilon = \delta + 2\gamma$; this was not necessary and editing it may be a possible avenue for future work. 
+Now we have a set of ingredients, we want to turn these into a concrete proposal for a CGLMP-LF inequality. To achieve this we will plot a projection of the LF polytope in the two dimensional subspace taking CGLMP as one axis and $\epsilon = \delta + \gamma$ as the other axis. From this we should be able to read off the optimal coefficients for each part. Such a graphical approach is analagous to how we discovered the quantum LF inequality in chapter 10. Note that we have already fixed $\epsilon = \delta + \gamma$ as opposed to, for instance, $\epsilon = \delta + 2\gamma$; this was not necessary and editing it may be a possible avenue for future work. 
 
 ```{figure} cglmp-graph.JPG
 :name: cglmp-graph-figure

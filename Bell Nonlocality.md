@@ -101,6 +101,7 @@ At this point, with much of the formalism under our belt, it is best to jump str
 In correlator form, the CHSH inequality is given by
 
 \begin{equation}
+\label{CHSH-equation}
 | \langle A_1B_1 \rangle + \langle A_1B_2 \rangle + \langle A_2B_1 \rangle - \langle A_2B_2 \rangle| \leq 2.
 \end{equation}
 

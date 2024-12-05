@@ -18,7 +18,9 @@ abbreviations:
 
 In their original paper [@Bong2020], Bong et al. introduced the notion of local friendliness (LF), as explained in chapter 8. Their key result is that, in the simplest scenario with $3$ inputs per player and $2$ outputs per input, they were able to derive all facets of the LF polytope using standard computational techniques (i.e. facet enumeration software). They found that there were a number of different inequalities and were able to group these into equivalence classes by relabelling the parties and the outcomes. However the structure of each equivalence class is largely left uninvestigated. Furthermore, because of the computational way the results were generated, Bong et al. do not offer any underlying guiding principles as to what is really going on. If we are to succeed in generalising LF inequalities from this particular scenario to others (which quickly become computationally intractable) then we will require a more conceptual understanding of the physical properties of LF inequalities; finding that deeper understanding is the goal of this chapter.
 
-A structural aspect we are able to notice immediately is that one LF inequality contains traces of the CHSH inequality. This presents the following question - are we able to decompose this LF inequality into a CHSH part and a novel part? If so, we inherit a space of two parameters as we are able to consider the trade-off between both parts. This proves to be the case, and from this perspective we see additional structure emerge. We are consequently able to identify the first quantum LF inequality (in chapter 10) and to generalise LF inequalities for a larger scenario (in chapter 11).
+A structural aspect we are able to notice immediately is that one LF inequality contains traces of the CHSH inequality.[^1] This presents the following question - are we able to decompose this LF inequality into a CHSH part and a novel part? If so, we inherit a space of two parameters as we are able to consider the trade-off between both parts. This proves to be the case, and from this perspective we see additional structure emerge. We are consequently able to identify the first quantum LF inequality (in chapter 10) and to generalise LF inequalities for a larger scenario (in chapter 11).
+
+[^1]: See [Equation 7.6](#CHSH-equation) for a description of the CHSH inequality.
 
 The LF inequality we have chosen to focus on, appearing 256 times among the 932 facets [@Bong2020], is given in correlator form by
 
@@ -56,9 +58,9 @@ where the lower bound of $-10$ was found by trialling all strategies. Here we ha
 :align: center
 ```
 
-In the next section we will use this grid form to decompose the inequality in a useful way.[^1] 
+In the next section we will use this grid form to decompose the inequality in a useful way.[^2] 
 
-[^1]: We could of course have done so directly from the correlator form of the inequality, however it is useful to have a visual aid.
+[^2]: We could of course have done so directly from the correlator form of the inequality, however it is useful to have a visual aid.
 
 ## Decomposition of the LF Inequality
 
@@ -124,9 +126,9 @@ Although it superficially looks completely different, this is fully analagous to
 
 - $ \textrm{LF} = 4\textrm{LF'} - 6 $
 
-Notice how $\delta'$ is easy to undestand as a 'reward' term and $\gamma'$ is now localised in the (3,3) setting. Another immediate benefit of decomposing our LF inequality as above is that we have identified a very natural two dimensional projection of the LF polytope in which we can investigate; plotting in this parameter space we get a graph of $\epsilon$' against CHSH'.[^2]
+Notice how $\delta'$ is easy to undestand as a 'reward' term and $\gamma'$ is now localised in the (3,3) setting. Another immediate benefit of decomposing our LF inequality as above is that we have identified a very natural two dimensional projection of the LF polytope in which we can investigate; plotting in this parameter space we get a graph of $\epsilon$' against CHSH'.[^3]
 
-[^2]: Note that, rather than amalgamating $\delta'$ and $\gamma'$ into a single $\epsilon'$, we could have produced a three dimensional representation of CHSH' against $\delta'$ against $\gamma'$. However we prefer the two dimensional representation as it is sufficient for our needs and easier to interpret.
+[^3]: Note that, rather than amalgamating $\delta'$ and $\gamma'$ into a single $\epsilon'$, we could have produced a three dimensional representation of CHSH' against $\delta'$ against $\gamma'$. However we prefer the two dimensional representation as it is sufficient for our needs and easier to interpret.
 
 ```{figure} LFgraph.JPG
 :name: LF-graph-figure

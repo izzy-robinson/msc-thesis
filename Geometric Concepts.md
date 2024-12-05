@@ -11,6 +11,9 @@ numbering:
 > $\mathbf{epi}\hspace{0.5mm}f = \set{(x,t)|x\in\mathbf{dom}\hspace{0.5mm}f,f(x)\leq{t}}$
 > - Stephen Boyd & Lieven Vandenberghe
 
+
+The following discussion closely follows chapter 2 of @Boyd2004. 
+
 (affine-geometry)=
 ## Affine Geometry
 

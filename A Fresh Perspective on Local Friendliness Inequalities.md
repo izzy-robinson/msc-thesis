@@ -84,7 +84,7 @@ P(+1,+1|1,1)+P(-1,+1|1,1) = P(+1,+1|2,1) + P(-1,+1|2,1).
 Moving all terms to the left hand side, we generate a sum which equals zero,
 
 \begin{equation}
-P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1) = 0.
+P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) - P(-1,+1|2,1) = 0.
 \end{equation}
 
 This can be written in grid format as
@@ -98,7 +98,7 @@ This can be written in grid format as
 If $LF \leq 6$ and we add this zero sum grid onto LF we get an equivalent inequality with the same bound,
 
 \begin{equation}
-\underbrace{LF + P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) + P(-1,+1|2,1)}_\text{LF'} \leq 6.
+\underbrace{LF + P(+1,+1|1,1)+P(-1,+1|1,1) - P(+1,+1|2,1) - P(-1,+1|2,1)}_\text{LF'} \leq 6.
 \end{equation}
 
 As has just been seen, we could perform this manipulation without ever using the grid notation - however it would be very messy and difficult to see which steps to take. We will now proceed with simplifying the LF inequality using freedom due to no-signalling in the grid notation. For instance, in the first step we are using no-signalling between Alice's settings $x=2$ and $x'=3$ where Bob inputs $y=2$ and outputs $b=1$.

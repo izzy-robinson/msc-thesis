@@ -195,7 +195,7 @@ where $\gamma_1=0$, $\gamma_2=-1/2$, $\delta_1=1/4$ and $\delta_2=-1/4$. The ave
 
 ### Loopholes
 
-Due to the revolutionary nature of their results, Bell tests have been subjected to intense scrutiny; this is only natural since 'extraordinary claims require extraordinary evidence'. Some of the weaknesses (commonly referred to as 'loopholes') in both the reasoning and the experimental implementation are conveyed in this section. However, so as not to confuse the reader, we note now that all known loopholes have been satisfactorily closed under reasonable assumptions (i.e. to the extent that rejecting these assumptions would constitute a more radical view than accepting the strangeness of Bell nonlocality itself).
+Due to the revolutionary nature of their results, Bell tests have been subjected to intense scrutiny; this is only natural since 'extraordinary claims require extraordinary evidence' [@Sagan1979]. Some of the weaknesses (commonly referred to as 'loopholes') in both the reasoning and the experimental implementation are conveyed in this section. However, so as not to confuse the reader, we note now that all known loopholes have been satisfactorily closed under reasonable assumptions (i.e. to the extent that rejecting these assumptions would constitute a more radical view than accepting the strangeness of Bell nonlocality itself).
 
 - **The Detection Loophole**
 

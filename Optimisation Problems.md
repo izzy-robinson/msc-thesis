@@ -21,7 +21,7 @@ Optimisation problems arise in a wide variety of disciplines, from advertising a
 3. **Constraints:** Restrictions that must be adhered to by the decision variables. These might appear as equalities (i.e. hyperplanes) or inequalities (i.e. halfspaces), whose intersection defines the *'feasible set'*.
 4. **Feasible set:** The region in which all constraints are satisfied (i.e. the set of possible values from which the decision variables can be chosen).
 
-Certain properties of these ingredients will determine which optimisation technique is most appropriate; we must therefore define a few more characteristics before going into detail about specific optimisation tools. 
+Certain properties of these ingredients will determine which optimisation technique is most appropriate; we must therefore define a few more characteristics before going into detail about specific optimisation tools. Where not otherwise referenced, the information is gathered from chapter 3 of @Boyd2004.
 
 :::{prf:definition} Linear Functions
 :label: linear-functions-definition

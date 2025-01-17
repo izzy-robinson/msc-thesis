@@ -33,6 +33,6 @@ Quantum Information Theory Group
 School of Physics  
 Faculty of Science
 
-17$^{\textrm{th}}$ Jauary $2025$
+17$^{\textrm{th}}$ January 2025
 
 ---

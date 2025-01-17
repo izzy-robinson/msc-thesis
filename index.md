@@ -33,6 +33,6 @@ Quantum Information Theory Group
 School of Physics  
 Faculty of Science
 
-Day Month Year
+$17^{th}$ January $2025$
 
 ---

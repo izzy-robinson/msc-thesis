@@ -1,3 +1,7 @@
+---
+export: docx
+---
+
 # How to MyST, without being mystified 🧙
 
 A tutorial to evolve markdown documents and notebooks into structured data

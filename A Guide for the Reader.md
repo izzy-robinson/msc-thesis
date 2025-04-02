@@ -7,7 +7,7 @@ numbering: false
 
 # A Guide for the Reader
 
-> I wisely started with a map.
+> I wisely started with a map [@Carpenter2023].
 > - J.R.R. Tolkein
 
 It can be easy to get lost within long documents such as a thesis. To help prevent this from happening, we issue the reader with a map summarising a route through the information. Our intention is to supplement the traditional table of contents (provided by the side navigation menu), which is necessarily limited in its ability to express connections.

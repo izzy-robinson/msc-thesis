@@ -17,6 +17,8 @@ by
 Izzy Robinson
 1730139
 
+Supervisor: Paul Skrzypczyk
+
 ```{figure} cover-art.png
 :name: cover-art-figure
 :width: 350px
@@ -33,8 +35,6 @@ in the
 Quantum Information Theory Group  
 School of Physics  
 Faculty of Science
-
-Supervisor: Paul Skrzypczyk
 
 17$^{\textrm{th}}$ January 2025
 

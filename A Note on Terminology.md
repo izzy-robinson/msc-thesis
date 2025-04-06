@@ -8,7 +8,7 @@ numbering:
 
 # A Note on Terminology
 
-> How wonderful that we have met with a paradox. Now we have some hope of making progress.
+> How wonderful that we have met with a paradox. Now we have some hope of making progress[@Moore1967].
 > - Neils Bohr
 
 Scattered throughout the following thesis are many references to 'paradoxes'.  This term can take on different meanings for different audiences within different contexts, so it is important to agree upon a definition if we are to avoid misinterpretations. Colloquially, the word `paradox' is used to describe surprising, counter-intuitive or ironic results. However, formally, paradoxes are defined as apparently unacceptable conclusions derived by seemingly logical steps from supposedly reasonable premises. When confronted with a formal paradox, there are only three possible responses: accept that the conclusion is true, reject the reasoning as flawed, or demonstrate that at least one premise is false. In order to decide which of these options is appropriate, we must first figure out exactly what has gone wrong. Luckily, the types of error typically encountered by physicists can be divided into three broad categories [@Aharonov2005].

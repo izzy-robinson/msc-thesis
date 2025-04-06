@@ -15,7 +15,7 @@ abbreviations:
 # Constructing New Local Friendliness Inequalities
 
 > Each truth discovered was a rule available in the discovery of subsequent ones.
-> - René Descartes
+> - René Descartes, [Descartes1637]
 
 # Introduction
 

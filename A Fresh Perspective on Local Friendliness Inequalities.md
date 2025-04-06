@@ -12,7 +12,7 @@ abbreviations:
 # A Fresh Perspective on Local Friendliness Inequalities
 
 > To arrive where we started and know the place for the first time.
-> - T.S. Eliot
+> - T.S. Eliot, [@Eliot1943]
 
 ## Introduction
 

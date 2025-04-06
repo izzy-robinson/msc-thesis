@@ -12,7 +12,7 @@ abbreviations:
 # Bell Nonlocality
 
 > Bell's Second Theorem: Misunderstandings of Bell's Theorem happen so fast that they violate locality.
-> - XKCD, [@XKCD]
+> - XKCD, [@XKCD2015]
 
 ## Bell Tests
 

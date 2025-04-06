@@ -16,7 +16,7 @@ abbreviations:
 # The First Quantum Local Friendliness Inequality
 
 > The purpose of visualisation is insight, not pictures.
-> - Ben Shneiderman
+> - Ben Shneiderman, [@Schneiderman1999]
 
 ## Introduction
 

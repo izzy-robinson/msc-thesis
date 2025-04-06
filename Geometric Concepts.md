@@ -9,7 +9,7 @@ numbering:
 # Geometric Concepts
 
 > $\mathbf{epi}\hspace{0.5mm}f = \set{(x,t)|x\in\mathbf{dom}\hspace{0.5mm}f,f(x)\leq{t}}$
-> - Stephen Boyd & Lieven Vandenberghe
+> - Stephen Boyd & Lieven Vandenberghe, [@Boyd2004]
 
 
 The following discussion closely follows chapter 2 of @Boyd2004. 

@@ -12,7 +12,7 @@ abbreviations:
 # Optimisation Problems
 
 > Premature optimisation is the root of all evil.
-> - Donald Knuth
+> - Donald Knuth, [@Hyde2009]
 
 Optimisation problems arise in a wide variety of disciplines, from advertising and economics to healthcare and education. Regardless of the context, however, they always consist of the same four primary ingredients.
 

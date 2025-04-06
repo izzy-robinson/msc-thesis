@@ -9,7 +9,7 @@ numbering:
 # Basic Wigner's Friend Scenarios
 
 > There were three determinate states the cat could be in: these being Alive, Dead, and Bloody Furious.
-> - Terry Pratchett
+> - Terry Pratchett, [@Pratchett1992]
 
 ## The Measurement Problem
 

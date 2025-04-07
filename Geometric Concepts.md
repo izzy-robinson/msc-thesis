@@ -64,7 +64,7 @@ Examples of affine hulls. *Left:* The affine hull of two points in $\mathbb{R}^n
 A hyperplane in $\mathbb{R}^n$ is an affine set of the form[^1]  
 ```{math}
 :label: hyperplanes-equation
-\set{\mathbf{x} | \mathbf{a} \cdot \mathbf{x} = b, \hspace{1mm} \mathbf{a} \neq \mathbf{0}, \hspace{1mm} \mathbf{a} \in \mathbb{R}^n, \hspace{1mm} b \in \mathbb{R}}.
+\set{\mathbf{x} | \mathbf{a} \cdot \mathbf{x} = b, \hspace{1mm} \mathbf{a} \neq \mathbf{0}} , \hspace{1mm} \mathbf{a} \in \mathbb{R}^n, \hspace{1mm} b \in \mathbb{R}.
 ```    
 The vector $\mathbf{a}$ is normal to the plane; as such it defines a direction.[^2] A hyperplane's dimension is always one less than that of the ambient space in which it lives (i.e. $n-1$).
 [^1]: Other sources may use the transpose notation 
@@ -143,7 +143,7 @@ The convex hull of a non-convex set from [](#convex-sets-figure) is the combined
 
 :::{prf:definition} Halfspaces
 :label: halfspaces-definition
-A hyperplane in $\mathbb{R}^n$ splits its ambient space into two convex sets called halfspaces. The *'lower'* halfspace takes a form $\set{\mathbf{x} | \mathbf{a} \cdot \mathbf{x} \leq b, \hspace{1mm} \mathbf{a} \neq 0, \hspace{1mm} \mathbf{a} \in \mathbb{R}^n, \hspace{1mm} b \in \mathbb{R}}$ and sits on the opposite side to the direction in which $\mathbf{a}$ points; the *'upper'* halfspace takes a form $\set{\mathbf{x} | \mathbf{a} \cdot \mathbf{x} \geq b, \hspace{1mm} \mathbf{a} \neq 0, \hspace{1mm} \mathbf{a} \in \mathbb{R}^n, \hspace{1mm} b \in \mathbb{R}}$ and sits on the same side as the direction in which $\mathbf{a}$ points. If the inequality is strict, the halfspace is said to be *'open'* as it excludes the hyperplane which defines it; if the inequality is not strict, the halfspace is said to be *'closed'* as it includes the associated hyperplane.
+A hyperplane in $\mathbb{R}^n$ splits its ambient space into two convex sets called halfspaces. The *'lower'* halfspace takes a form $\set{\mathbf{x} | \mathbf{a} \cdot \mathbf{x} \leq b, \hspace{1mm} \mathbf{a} \neq 0} , \hspace{1mm} \mathbf{a} \in \mathbb{R}^n, \hspace{1mm} b \in \mathbb{R}$ and sits on the opposite side to the direction in which $\mathbf{a}$ points; the *'upper'* halfspace takes a form $\set{\mathbf{x} | \mathbf{a} \cdot \mathbf{x} \geq b, \hspace{1mm} \mathbf{a} \neq 0} , \hspace{1mm} \mathbf{a} \in \mathbb{R}^n, \hspace{1mm} b \in \mathbb{R}$ and sits on the same side as the direction in which $\mathbf{a}$ points. If the inequality is strict, the halfspace is said to be *'open'* as it excludes the hyperplane which defines it; if the inequality is not strict, the halfspace is said to be *'closed'* as it includes the associated hyperplane.
 :::
 
 ```{figure} halfspaces.png

@@ -34,7 +34,7 @@ $\forall \hspace{0.5mm} \mu,\nu \in \mathbb{R}, \hspace{1mm} \forall \hspace{0.5
 :::
 
 
-:::{prf:lemma}
+:::{prf:lemma}Linear Functions
 This is the case if and only if there exists a matrix $M\in\mathbb{R}^{m \times n}$ such that $f(\mathbf{x})=M\mathbf{x}, \hspace{1mm}\forall\hspace{0.5mm}\mathbf{x}\in\mathbb{R}^n$.
 :::
 
@@ -48,7 +48,7 @@ f(\mu \mathbf{x_i} + (1-\mu) \mathbf{x_j}) = \mu f(\mathbf{x_i}) + (1-\mu) f(\ma
 $\forall \hspace{0.5mm} \mu \in [0,1], \hspace{1mm} \forall \hspace{0.5mm} \mathbf{x_i} , \mathbf{x_j} \in \mathbb{R}^n$. 
 :::
 
-:::{prf:lemma}
+:::{prf:lemma} Affine Functions
 This is the case if and only if there exists a matrix $M\in\mathbb{R}^{m \times n}$ and a vector $\mathbf{b}\in\mathbb{R}^m$ such that $f(\mathbf{x})=M\mathbf{x}+\mathbf{b}, \hspace{1mm}\forall\hspace{0.5mm}\mathbf{x}\in\mathbb{R}^n$.
 :::
 
@@ -68,7 +68,10 @@ A function $f:\mathbb{R}^n\rightarrow\mathbb{R}^m$ is convex if
 f(\mu \mathbf{x_i} + (1-\mu)\mathbf{x_j}) \leq \mu f(\mathbf{x_i}) + (1-\mu) f(\mathbf{x_j})
 ```
 $\forall \hspace{0.5mm} \mu \in [0,1], \hspace{1mm} \forall \hspace{0.5mm} \mathbf{x_i} , \mathbf{x_j} \in \mathbb{R}^n$.
-This is the case provided there exists an $\mathbf{a} \in \mathbb{R}^{m \times n}$ and a ${\mathbf{b}} \in \mathbb{R}^m$ such that $f({\mathbf{x}}) \leq \mathbf{a}{\mathbf{x}}+{\mathbf{b}}$.[^1]
+:::
+
+:::{prf:lemma} Convex Functions
+This is the case if and only if there exists an $\mathbf{a} \in \mathbb{R}^{m \times n}$ and a ${\mathbf{b}} \in \mathbb{R}^m$ such that $f({\mathbf{x}}) \leq \mathbf{a}{\mathbf{x}}+{\mathbf{b}}$.[^1]
 [^1]: Convex sets and convex functions are related via the epigraph (mathematical) which is defined in the epigraph (literary) at the start of chapter 4; a function is convex if and only if its epigraph is a convex set.
 :::
 

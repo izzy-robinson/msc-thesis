@@ -30,7 +30,12 @@ A function $f:\mathbb{R}^n\rightarrow\mathbb{R}^m$ is linear if
 :label: linear-functions-equation  
 f(\mu \mathbf{x_i} + \nu \mathbf{x_j}) = \mu f(\mathbf{x_i}) + \nu f(\mathbf{x_j})
 ```
-$\forall \hspace{0.5mm} \mu,\nu \in \mathbb{R}, \hspace{1mm} \forall \hspace{0.5mm} \mathbf{x_i} , \mathbf{x_j} \in \mathbb{R}^n$. This is the case provided there exists a matrix $M\in\mathbb{R}^{m \times n}$ such that $f(\mathbf{x})=M\mathbf{x}, \hspace{1mm}\forall\hspace{0.5mm}\mathbf{x}\in\mathbb{R}^n$.
+$\forall \hspace{0.5mm} \mu,\nu \in \mathbb{R}, \hspace{1mm} \forall \hspace{0.5mm} \mathbf{x_i} , \mathbf{x_j} \in \mathbb{R}^n$. 
+:::
+
+
+:::{prf:lemma}
+This is the case if and only if there exists a matrix $M\in\mathbb{R}^{m \times n}$ such that $f(\mathbf{x})=M\mathbf{x}, \hspace{1mm}\forall\hspace{0.5mm}\mathbf{x}\in\mathbb{R}^n$.
 :::
 
 :::{prf:definition} Affine Functions
@@ -40,7 +45,11 @@ A function $f:\mathbb{R}^n\rightarrow\mathbb{R}^m$ is affine if
 :label: linear-functions-equation 
 f(\mu \mathbf{x_i} + (1-\mu) \mathbf{x_j}) = \mu f(\mathbf{x_i}) + (1-\mu) f(\mathbf{x_j})
 ```
-$\forall \hspace{0.5mm} \mu \in [0,1], \hspace{1mm} \forall \hspace{0.5mm} \mathbf{x_i} , \mathbf{x_j} \in \mathbb{R}^n$. This is the case provided there exists a matrix $M\in\mathbb{R}^{m \times n}$ and a vector $\mathbf{b}\in\mathbb{R}^m$ such that $f(\mathbf{x})=M\mathbf{x}+\mathbf{b}, \hspace{1mm}\forall\hspace{0.5mm}\mathbf{x}\in\mathbb{R}^n$.
+$\forall \hspace{0.5mm} \mu \in [0,1], \hspace{1mm} \forall \hspace{0.5mm} \mathbf{x_i} , \mathbf{x_j} \in \mathbb{R}^n$. 
+:::
+
+:::{prf:lemma}
+This is the case if and only if there exists a matrix $M\in\mathbb{R}^{m \times n}$ and a vector $\mathbf{b}\in\mathbb{R}^m$ such that $f(\mathbf{x})=M\mathbf{x}+\mathbf{b}, \hspace{1mm}\forall\hspace{0.5mm}\mathbf{x}\in\mathbb{R}^n$.
 :::
 
 ```{figure} linear-affine-functions.png

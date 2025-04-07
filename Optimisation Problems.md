@@ -78,7 +78,7 @@ This is the case if and only if there exists an $\mathbf{a} \in \mathbb{R}^{m \t
 ```{figure} convex-functions.png
 :name: convex-functions-figure
 :align: center
-Two-dimensional depiction of a convex function (dark purple) and the chord between two points on it (pale purple). Axis values are labelled to motivate [Equation 5.3](#convex-functions-equation).
+Two-dimensional depiction of a convex function (dark purple) and the chord between two points on it (pale purple). A chord (from the Latin chorda, meaning "bowstring") of a circle is a straight line segment whose endpoints both lie on a circular arc.  Axis values are labelled to motivate [Equation 5.3](#convex-functions-equation).
 ```
 
 ## Linear Programming
@@ -96,7 +96,7 @@ A linear program (LP) is an optimisation problem involving a *linear* objective 
 \end{aligned}
 \end{equation}
 
-where $f(x_1,...,x_k)$ is the objective function, $g_i(x_1,...,x_k)$ denotes a system of $m$ equality constraints with associated values $b_i$, and $h_j(x_1,...,x_k)$ represents a set of $n$ inequality constraints each bounded by $c_j$. Note that maximising a function $f$ is equivalent to minimising its negation $-f$, so we are free to consider only maximisation problems without loss of generality (WLOG). Note also that we need not always *optimise* the objective function at all; sometimes it is sufficient to simply determine whether there exists a solution that simultaneously satisfies every constraint (i.e. to check if the feasible set is empty) - this is called a 'feasibility LP'.[^3]
+where $f(x_1,...,x_k)$ is the objective function, $g_i(x_1,...,x_k)$ denotes a system of $m$ equality constraints with associated values $b_i$, and $h_j(x_1,...,x_k)$ represents a set of $n$ inequality constraints each bounded by $c_j$. Each of $f$, $g$ and $h$ are themselves linear functions. Note that maximising a function $f$ is equivalent to minimising its negation $-f$, so we are free to consider only maximisation problems without loss of generality (WLOG). Note also that we need not always *optimise* the objective function at all; sometimes it is sufficient to simply determine whether there exists a solution that simultaneously satisfies every constraint (i.e. to check if the feasible set is empty) - this is called a 'feasibility LP'.[^3]
 
 [^3]: See @Skrzypczyk2023 for a discussion on recasting feasibility LPs as standard LPs.
 
@@ -267,7 +267,7 @@ Observe that the halfspaces (translucent purple regions) defined by each inequal
 :::
 
 
-Our (admittedly limited) selection of examples reveals an emerging pattern; for each solvable LP, at least one optimal solution is found at a vertex of its feasible region. This feature is not unique to the specific problems we have chosen to present - rather, it is true in general. Let us state this important result as a theorem whose proof we omit.
+Our (admittedly limited) selection of examples reveals an emerging pattern; for each solvable LP, at least one optimal solution is found at a vertex of its feasible region. This feature is not unique to the specific problems we have chosen to present - rather, it is true in general. Let us state this important result as a theorem whose proof we omit. See @Gass2003 for details.
 
 :::{prf:theorem} Vertex solutions of LPs.
 :label: vertex-solutions-theorem
@@ -445,7 +445,7 @@ Observe that, whenever the primal and dual variables satisfy $\mathbf{a}\cdot\ma
 
 Assuming a primal LP is both feasible and bounded (i.e. if there exists a finite optimal solution $\alpha$), its associated dual LP has a matching optimal value $\beta$; likewise, assuming a dual LP is both feasible and bounded (i.e. if there exists a finite optimal solution $\beta$), its associated primal LP has a matching optimal solution $\alpha$.[^10]
 
-[^10]: See @cite for a formal proof of strong duality.
+[^10]: See @Gass2003 for a formal proof of strong duality.
 
 :::
 

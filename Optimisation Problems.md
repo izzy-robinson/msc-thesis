@@ -311,19 +311,16 @@ How might we achieve this via Dantzig's simplex method?
 **Step 1: Transform the objective function and inequality constraints into a system of equations by introducing an *artificial
  variable* $\mathbf{Z}$ (which represents the value of the objective function) and *slack variables* $\mathbf{s}$ (which represent the difference between the LHS and RHS of each inequality).** 
 
-\begin{equation*}
-    \begin{split}
-        - 3x_1 - 5x_2 + Z &= 0 \\
-        x_1 + x_2 + s_1 &= 4 \\
-         x_1 + 3x_2 + s_2 &= 6    
-     \end{split}
-\end{equation*}
+```{figure} simplex-equations.jpeg
+:width: 350px
+:align: center
+```
 
 **Step 2: Write this system of equations in augmented matrix (or `simplex tableau') form, where each column is labelled according to the variable it contains coefficients for and each row is labelled by the basic variable it is initially associated with.**
 
 Note that each row corresponds to one of the equations, and we put the one for the objective function at the bottom by convention.
 
-```{figure} tableau-grid-1.png
+```{figure} simplex-grid-1.jpeg
 :name: tableau-grid-1-figure
 :width: 350px
 :align: center

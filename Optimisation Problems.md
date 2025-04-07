@@ -399,7 +399,7 @@ Duality is an extremely useful tool for linear programming because of the follow
 :::{prf:theorem} Weak Duality of LPs.
 :label: weak-duality-theorem
 
-The optimal value of a dual LP provides an upper bound for the optimal value of its associated primal, and the optimal value of a primal LP provides a lower bound for the optimal value of its associated dual (i.e. $\alpha \leq \beta$).
+The optimal value of a dual LP provides an upper bound for the optimal value of its associated primal, and the optimal value of a primal LP provides a lower bound for the optimal value of its associated dual (i.e. $\alpha \leq \beta$) [@Skrzypczyk2023].
 
 :::
 

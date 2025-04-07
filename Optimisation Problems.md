@@ -312,7 +312,7 @@ How might we achieve this via Dantzig's simplex method?
  variable* $\mathbf{Z}$ (which represents the value of the objective function) and *slack variables* $\mathbf{s}$ (which represent the difference between the LHS and RHS of each inequality).** 
 
 ```{figure} simplex-equations.jpeg
-:width: 300px
+:width: 250px
 :align: center
 ```
 

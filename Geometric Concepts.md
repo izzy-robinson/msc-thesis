@@ -35,7 +35,7 @@ Affine combinations of two points, $x_i$ and $x_j$, as parameterised by $\mu$ in
 A set $S$ is affine if, for any two elements $x_i$ and $x_j$, every affine combination is also contained within $S$. This condition is satisfied by all points of the form 
 ```{math}
 :label: affine-sets-equation
- \set{\mu x_i + (1 - \mu) x_j | x_i \neq x_j \in S, \mu \in \mathbb{R}},
+ \set{\mu x_i + (1 - \mu) x_j | x_i , x_j \in S, \mu \in \mathbb{R}},
 ```
 which lie on the infinite line passing through both $x_i$ and $x_j$. 
 :::

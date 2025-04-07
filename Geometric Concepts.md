@@ -46,7 +46,7 @@ which lie on the infinite line passing through both $x_i$ and $x_j$.
 The affine hull of a set $S$, denoted $\mathbf{aff}(S)$, is the set of all affine combinations for every point in $S$. Mathematically, this can be expressed as 
 ```{math}
 :label: affine-hulls-equation
-\mathbf{aff}(S) = \set{\sum_{i=1}^{k} \mu_i x_i | x_i \in S, \mu_i \in \mathbb{R}, \sum_{i=1}^{k} \mu_i = 1},
+\mathbf{aff}(S) = \set{\sum_{i=1}^{k} \mu_i x_i | x_i_{i=1}^k \in S, \mu_i \in \mathbb{R} \forall i \in {1,...,k}, \sum_{i=1}^{k} \mu_i = 1},
 ``````
 which describes the smallest possible affine set containing $S$ as a subset.
 :::
@@ -122,7 +122,7 @@ Distinguishing between convex and non-convex sets in $\mathbb{R}^2.$ *Left:* Thi
 The convex hull of a set $S$, denoted $\mathbf{conv}(S)$, is the set of all convex combinations for every point in $S$. Mathematically, this can be expressed as 
 ```{math}
 :label: convex-hulls-equation     
-\mathbf{conv}(S) = \set{\sum_{i=1}^{k} \mu_i x_i | x_i \in S,\mu_i \in [0,1], \sum_{i=1}^{k} \mu_i = 1},
+\mathbf{conv}(S) = \set{\sum_{i=1}^{k} \mu_i x_i | x_i_{i=1}^k \in S,\mu_i \in [0,1] \forall i \in {1,...,k}, \sum_{i=1}^{k} \mu_i = 1},
 ```
 which describes the smallest possible convex set containing $S$ as a subset.
 :::

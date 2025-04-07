@@ -36,7 +36,7 @@ Consider a bipartite Wigner's friend scenario involving two superobservers (Alic
 
 The observers both measure their half of the entangled pair along a single direction (i.e. there is no choice of measurement settings). Then the superobservers come into play. They each choose between three different measurement settings. If $x=1$ ($y=1$), Alice (Bob) simply opens Charlie's (Dani's) laboratory and directly asks them for their outcome $c$ ($d$), assigning its value to their own outcome $a=c$ ($b=d$). If $x\in\set{2,3}$ ($y\in\set{2,3}$) the superobservers restore their respective observers' laboratories to their previous state and proceed to measure the particle directly along an arbitrary direction. 
 
-What statistics are empircally accessible at the end of this process? Unless $x=1$ ($y=1$), the value for $c$ ($d$) is erased when Alice (Bob) performs their measurement, so in general this information is not available. Ultimately, the available values are $a$, $b$, $x$ and $y$; we can therefore measure (as frequencies) the empirical probabilities $\mathcal{P}(a,b|x,y)$.
+What statistics are empirically accessible at the end of this process? Unless $x=1$ ($y=1$), the value for $c$ ($d$) is erased when Alice (Bob) performs their measurement, so in general this information is not available. Ultimately, the available values are $a$, $b$, $x$ and $y$; we can therefore measure (as frequencies) the empirical probabilities $\mathcal{P}(a,b|x,y)$.
 
 ### Local Friendliness Assumptions
 

@@ -332,7 +332,7 @@ Setting both non-basic variables ($x_1$ and $x_2$) to zero, we can read off the 
 
 
 **Step 4: Exchange a basic variable with a non-basic variable (i.e. perform a *'pivot'*) using the following protocol.**
-- **First, choose a *'pivot column'* (ideally whichever column has the most negative number in the objective row); this determines the \textit{`entering variable'} that is going to become non-basic.**
+- **First, choose a *'pivot column'* (ideally whichever column has the most negative number in the objective row); this determines the *`entering variable'* that is going to become non-basic.**
 - **Then, choose a *'pivot row'* (ideally whichever row has the smallest non-negative ratio between its RHS and pivot column coefficient); this decides the *'departing variable'* that is going to become basic.**
 - **Finally, apply matrix row operations to make the *'pivot element'* (which sits at the intersection of the pivot column and pivot row) one and all other coefficients in the pivot column zero.**
 
@@ -431,7 +431,9 @@ The first line follows from [Equation 5.6](#linear-program-equation-2); the seco
 
 
 
-An immediate corollary is that an unbounded dual LP (i.e. one with $\beta = - \infty$) must be associated with an infeasible primal; similarly, if a primal LP is unbounded (i.e. $\alpha = + \infty$) then its dual is necessarily infeasible.\footnote{The converse implications do not hold; it is possible to construct primal-dual pairs which are both infeasible.} It is also evident that, by construction, any feasible primal variable $\mathbf{x}$ provides a lower bound on the optimal value $\alpha$ (i.e. $\mathbf{a} \cdot \mathbf{x} \leq \alpha$) and any feasible pair of dual variables $(\mathbf{y},\mathbf{z})$ provide an upper bound on the optimal value $\beta$ (i.e. $\mathbf{b}\cdot\mathbf{y} + \mathbf{c}\cdot\mathbf{z} \geq \beta$). Putting this information together with the weak duality theorem allows us to write
+An immediate corollary is that an unbounded dual LP (i.e. one with $\beta = - \infty$) must be associated with an infeasible primal; similarly, if a primal LP is unbounded (i.e. $\alpha = + \infty$) then its dual is necessarily infeasible.[^10] It is also evident that, by construction, any feasible primal variable $\mathbf{x}$ provides a lower bound on the optimal value $\alpha$ (i.e. $\mathbf{a} \cdot \mathbf{x} \leq \alpha$) and any feasible pair of dual variables $(\mathbf{y},\mathbf{z})$ provide an upper bound on the optimal value $\beta$ (i.e. $\mathbf{b}\cdot\mathbf{y} + \mathbf{c}\cdot\mathbf{z} \geq \beta$). Putting this information together with the weak duality theorem allows us to write
+
+[^10]: The converse implications do not hold; it is possible to construct primal-dual pairs which are both infeasible.
 
 \begin{equation}
  \mathbf{a} \cdot \mathbf{x} \leq \alpha \leq \beta \leq \mathbf{b}\cdot\mathbf{y} + \mathbf{c}\cdot\mathbf{z}.   
@@ -442,9 +444,9 @@ Observe that, whenever the primal and dual variables satisfy $\mathbf{a}\cdot\ma
 :::{prf:theorem} Strong Duality of LPs.
 :label: strong-duality-theorem
 
-Assuming a primal LP is both feasible and bounded (i.e. if there exists a finite optimal solution $\alpha$), its associated dual LP has a matching optimal value $\beta$; likewise, assuming a dual LP is both feasible and bounded (i.e. if there exists a finite optimal solution $\beta$), its associated primal LP has a matching optimal solution $\alpha$.[^10]
+Assuming a primal LP is both feasible and bounded (i.e. if there exists a finite optimal solution $\alpha$), its associated dual LP has a matching optimal value $\beta$; likewise, assuming a dual LP is both feasible and bounded (i.e. if there exists a finite optimal solution $\beta$), its associated primal LP has a matching optimal solution $\alpha$.[^11]
 
-[^10]: See @Gass2003 for a formal proof of strong duality.
+[^11]: See @Gass2003 for a formal proof of strong duality.
 
 :::
 
@@ -461,9 +463,9 @@ Strong duality is harnessed effectively by most computational solvers, which rep
 
 #### Construction of Dual LPs
 
-Having convinced ourselves that duality is a helpful notion, we are (hopefully) motivated to learn how the dual associated with a given primal might be derived.[^11] It is assumed WLOG that we begin with an LP in the standard form given by [Equation 5.5](#linear-program-equation-2).
+Having convinced ourselves that duality is a helpful notion, we are (hopefully) motivated to learn how the dual associated with a given primal might be derived.[^12] It is assumed WLOG that we begin with an LP in the standard form given by [Equation 5.5](#linear-program-equation-2).
 
-[^11]: Note that the method discussed here is only effective for linear problems (such as those we will encounter in Part 4). For non-linear problems, a more complicated protocol is necessary; see chapter 5 of [@Boyd2004] for details. 
+[^12]: Note that the method discussed here is only effective for linear problems (such as those we will encounter in Part 4). For non-linear problems, a more complicated protocol is necessary; see chapter 5 of [@Boyd2004] for details. 
 
 As a first step, we assign to each primal constraint a corresponding Lagrange multiplier or 'dual variable'; in this instance, let $y_i$ be the dual variable linked to the second line of [Equation 5.5](#linear-program-equation-2) and let $z_j$ be the dual variable linked to the third line of [Equation 5.5](#linear-program-equation-2). It is then possible to define the following Lagrangian, 
 
@@ -497,9 +499,9 @@ Recalling how we previously defined the matrices $B=(r_1^T \hspace{3mm} ... \hsp
 (semidefinite-programming)=
 ## Semidefinite Programming
 
-Semidefinite programming is a natural generalisation of linear programming; as such, many ideas from section [](#linear-programming) transfer in a trivial way.[^12] For example, both techniques entail optimising a *linear* objective function in accordance with *affine* constraints. One major difference is that semidefinite programs (SDPs) involve matrix equations which accept as arguments *Hermitian operators*: $X=X^\dagger$. Given that only real elements are permitted, these can be equivalently represented by *symmetric matrices*. Consequently, SDPs exhibit a standard form
+Semidefinite programming is a natural generalisation of linear programming; as such, many ideas from section [](#linear-programming) transfer in a trivial way.[^13] For example, both techniques entail optimising a *linear* objective function in accordance with *affine* constraints. One major difference is that semidefinite programs (SDPs) involve matrix equations which accept as arguments *Hermitian operators*: $X=X^\dagger$. Given that only real elements are permitted, these can be equivalently represented by *symmetric matrices*. Consequently, SDPs exhibit a standard form
 
- [^12]: We expect the reader to be familiar with content from section [](#linear-programming) so, to avoid unnecessary repetition, [](#semidefinite-programming) will move at a faster pace.
+ [^13]: We expect the reader to be familiar with content from section [](#linear-programming) so, to avoid unnecessary repetition, [](#semidefinite-programming) will move at a faster pace.
 
 \begin{equation} 
 \label{semidefinite-program-equation-1}
@@ -546,9 +548,9 @@ Notions of duality carry across fairly naturally from linear programming to semi
 
 #### Construction of Dual SDPs
 
-The process of constructing dual SDPs is essentially identical to the linear programming case. Nevertheless, for the sake of completeness, we will reproduce the necessary steps within our current context.[^13]
+The process of constructing dual SDPs is essentially identical to the linear programming case. Nevertheless, for the sake of completeness, we will reproduce the necessary steps within our current context.[^14]
 
-[^13]: Our derivation closely follows section $2.2$ of @Skrzypczyk2023.
+[^14]: Our derivation closely follows section $2.2$ of @Skrzypczyk2023.
 
 We first assign to each primal constraint a corresponding Lagrange multiplier or 'dual variable'; in this instance, let a Hermitian operator $Y_i$ be the dual variable linked to the second line of [Equation 5.14](#semidefinite-program-equation-2) and let a Hermitian operator $Z_j$ be the dual variable linked to the third line of [Equation 4.14](#semidefinite-program-equation-2). It is then possible to define the following Lagrangian, 
 
@@ -557,9 +559,9 @@ We first assign to each primal constraint a corresponding Lagrange multiplier or
     \mathcal{L} = \textrm{tr}(AX) + \sum\limits_{i=1}^{m}Y_i[B_i - G_i(X)] + \sum\limits_{j=1}^{n}Z_j[C_j - H_j(X)].
 \end{equation}
 
-Notice that the second line of [Equation 5.14](#semidefinite-program-equation-2) fixes the second term of [Equation 5.15](#semidefinite-program-lagrangian-equation-1) equal to zero. Observe also that, upon imposing an additional restriction $Z_j \succeq 0$, the third line of [Equation 5.14](#semidefinite-program-equation-2) forces the third term of [Equation 5.15](#semidefinite-program-lagrangian-equation-1) to be non-negative. We have now generated the inequality $\mathcal{L}\geq \textrm{tr}(AX)$; a tight upper bound on the objective value can therefore be obtained by simply minimising this Lagrangian. Before performing this optimisation, however, we must render our Lagrangian independent of the original primal variable; this can be achieved by using the definition of an adjoint map [^14] to rewrite [Equation 5.15](#semidefinite-program-lagrangian-equation-1) as
+Notice that the second line of [Equation 5.14](#semidefinite-program-equation-2) fixes the second term of [Equation 5.15](#semidefinite-program-lagrangian-equation-1) equal to zero. Observe also that, upon imposing an additional restriction $Z_j \succeq 0$, the third line of [Equation 5.14](#semidefinite-program-equation-2) forces the third term of [Equation 5.15](#semidefinite-program-lagrangian-equation-1) to be non-negative. We have now generated the inequality $\mathcal{L}\geq \textrm{tr}(AX)$; a tight upper bound on the objective value can therefore be obtained by simply minimising this Lagrangian. Before performing this optimisation, however, we must render our Lagrangian independent of the original primal variable; this can be achieved by using the definition of an adjoint map [^15] to rewrite [Equation 5.15](#semidefinite-program-lagrangian-equation-1) as
 
-[^14]: If $\Gamma^\dagger(\cdot)$ is the adjoint of a map $\Gamma(\cdot)$ then $\textrm{tr}[\Gamma(A)B]=\textrm{tr}[A\Gamma(B)] \hspace{2mm} \forall \hspace{1mm} A,B$.
+[^15]: If $\Gamma^\dagger(\cdot)$ is the adjoint of a map $\Gamma(\cdot)$ then $\textrm{tr}[\Gamma(A)B]=\textrm{tr}[A\Gamma(B)] \hspace{2mm} \forall \hspace{1mm} A,B$.
 
 \begin{equation}
 \label{semidefinite-program-lagrangian-equation-2}
@@ -595,9 +597,9 @@ A polynomial admits an SOS decomposition if it can be written as an SOS of other
     M(x,y) = x_1^4x_2^2 + x_1^2x_2^4 -3x_1^2x_1^2+1.
 \end{equation}
 
-Fortunately, despite being stricter, the conditions for an SOS decomposition are significantly more computationally tractable than the criterion for non-negativity; in fact, the former correspond exactly to an SDP [@Parrilo2000]. We will see this first in the notationally simple case of univariate polynomials, before generalising to the more cumbersome case of multivariate polynomials.[^15]
+Fortunately, despite being stricter, the conditions for an SOS decomposition are significantly more computationally tractable than the criterion for non-negativity; in fact, the former correspond exactly to an SDP [@Parrilo2000]. We will see this first in the notationally simple case of univariate polynomials, before generalising to the more cumbersome case of multivariate polynomials.[^16]
 
-[^15]: The following exposition is inspired by [@Parrilo2012], to which the interested reader is referred for further details.
+[^16]: The following exposition is inspired by [@Parrilo2012], to which the interested reader is referred for further details.
 
 #### Univariate Polynomials
 

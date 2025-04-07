@@ -80,14 +80,14 @@ where $\rho_{AB}$ denotes a quantum state in the joint Hilbert space $\mathcal{H
 
 \begin{equation}
 M_{a|x} \geq 0 \\
-\sum_a M_a|x = \mathbf{1}
+\sum_a M_{a|x} = \mathbf{1}
 \end{equation}
 
 and $M_{b|y}$ denotes the measurement operators on Bob's Hilbert space such that
 
 \begin{equation}
 M_{b|y} \geq 0 \\
-\sum_b M_b|y = \mathbf{1}.
+\sum_b M_{b|y} = \mathbf{1}.
 \end{equation}
 
 Quantum correlations can be stronger than those allowed by local hidden variable (LHV) theories, leading to the violation of Bell inequalities. These violations are a key feature that distinguishes quantum mechanics from classical physics.
@@ -174,7 +174,7 @@ There are $9$ possible deterministic processes which might be followed by Alice,
 8. The result is always given by $a=-(x+2)$.
 9. The result is always given by $a=-(x+1)$.
 
-Likewise, there are $9$ possible deterministic processes which might be followed by Bob. This means a total of $9 \times 9 = 81$ combinations of processes for both Alice and Bob. It would of course be possible to create a table of tables as we did in the CHSH case, however this would be a little unwieldy to actually produce given its $81$ elements; so we won't show it explicitlty. What is important is that none of these strategies achieves a score higher than $2$.
+Likewise, there are $9$ possible deterministic processes which might be followed by Bob. This means a total of $9 \times 9 = 81$ combinations of processes for both Alice and Bob. It would of course be possible to create a table of tables as we did in the CHSH case, however this would be a little unwieldy to actually produce given its $81$ elements; so we won't show it explicitly. What is important is that none of these strategies achieves a score higher than $2$.
 
 #### A quantum strategy
 

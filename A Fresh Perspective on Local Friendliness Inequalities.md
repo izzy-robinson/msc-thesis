@@ -126,7 +126,7 @@ Although it superficially looks completely different, this is fully analagous to
 
 - $ \textrm{LF} = 4\textrm{LF'} - 6 $
 
-Notice how $\delta'$ is easy to undestand as a 'reward' term and $\gamma'$ is now localised in the (3,3) setting. Another immediate benefit of decomposing our LF inequality as above is that we have identified a very natural two dimensional projection of the LF polytope in which we can investigate; plotting in this parameter space we get a graph of $\epsilon$' against CHSH'.[^3]
+Notice how $\delta'$ is easy to understand as a 'reward' term and $\gamma'$ is now localised in the (3,3) setting. Another immediate benefit of decomposing our LF inequality as above is that we have identified a very natural two dimensional projection of the LF polytope in which we can investigate; plotting in this parameter space we get a graph of $\epsilon$' against CHSH'.[^3]
 
 [^3]: Note that, rather than amalgamating $\delta'$ and $\gamma'$ into a single $\epsilon'$, we could have produced a three dimensional representation of CHSH' against $\delta'$ against $\gamma'$. However we prefer the two dimensional representation as it is sufficient for our needs and easier to interpret.
 

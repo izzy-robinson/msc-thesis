@@ -281,7 +281,7 @@ As a corollary, we have now stumbled across a brute force algorithm for solving 
 
 #### The Simplex Algorithm
 
-Dantzig's simplex algorithm [@Dantzig1963] is an iterative process which involves moving between adjacent vertices, each with improving values for the objective function, until an optimal solution is reached. Since this strategy evaluates vertices in an intelligent order rather than checking them randomly, it will (on average) be more efficient than the previous brute-force suggestion.[^6] The quickest way to gain intuition about the simplex method is through an example; to this end, please forgive a short diversion.[^7]
+Dantzig's simplex algorithm [@Dantzig1963] is an iterative process which involves moving between adjacent vertices, each with improving values for the objective function, until an optimal solution is reached. If a vertex is not optimal, there exists an edge containing it such that the value of the objective function is strictly increasing as you move away. Assuming the edge is finite, this edge connects to another vertex where the objective function has a greater value. The simplex algorithm walks along the edges of a polytope to vertices with greater and greater objective values. This continues until the maximum value is reached or an unbounded edge is visited (meaning the problem has no solution). Since this strategy evaluates vertices in an intelligent order rather than checking them randomly, it will (on average) be more efficient than the previous brute-force suggestion.[^6] The quickest way to gain intuition about the simplex method is through an example; to this end, please forgive a short diversion.[^7]
 
 [^6]: Although the worst case run-time (associated with the *exceedingly* unlikely event in which our intelligent ordering is entirely unhelpful and we end up evaluating every vertex anyway) remains exponential.
 [^7]: For simplicity, we guarantee termination of the simplex algorithm by applying it to a non-degenerate LP; in the case of degenerate LPs, where more than two constraint bounds pass through the same feasible vertex, precautions must be taken against cycling [@Bland1977].
@@ -321,6 +321,8 @@ How might we achieve this via Dantzig's simplex method?
 
 **Step 2: Write this system of equations in augmented matrix (or `simplex tableau') form, where each column is labelled according to the variable it contains coefficients for and each row is labelled by the basic variable it is initially associated with.**
 
+Note that each row corresponds to one of the equations, and we put the one for the objective function at the bottom by convention.
+
 ```{figure} tableau-grid-1.png
 :name: tableau-grid-1-figure
 :width: 350px
@@ -329,7 +331,7 @@ How might we achieve this via Dantzig's simplex method?
 
 **Step 3: Check the basic feasible solution corresponding to this tableau by setting the non-basic variables (whose columns contain more than one non-zero entry) to zero and solving for the basic variables (whose columns contain only one non-zero component). If the result is optimal, the process terminates; if the value of the objective function could still be improved, continue to step 4.**
 
-Setting both non-basic variables ($x_1$ and $x_2$) to zero, we can read off the following values for our basic variables: $s_1=4$, $s_2=6$, $Z=0$. This solution is not optimal, as indicated by the presence of negative values in the objective row which could generate a higher $Z$ if increased.
+Setting both non-basic variables ($x_1$ and $x_2$) to zero, we can read off the following values for our basic variables: $s_1=4$, $s_2=6$, $Z=0$. This solution is not optimal, as indicated by the presence of negative values in the objective row which could generate a higher $Z$ if increased. (If a value is less than zero, it means that the variable has not reached its optimal value.)
 
 
 **Step 4: Exchange a basic variable with a non-basic variable (i.e. perform a *'pivot'*) using the following protocol.**

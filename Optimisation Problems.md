@@ -52,7 +52,7 @@ $\forall \hspace{0.5mm} \mu \in [0,1], \hspace{1mm} \forall \hspace{0.5mm} \math
 This is the case if and only if there exists a matrix $M\in\mathbb{R}^{m \times n}$ and a vector $\mathbf{b}\in\mathbb{R}^m$ such that $f(\mathbf{x})=M\mathbf{x}+\mathbf{b}, \hspace{1mm}\forall\hspace{0.5mm}\mathbf{x}\in\mathbb{R}^n$.
 :::
 
-```{figure} linear-affine-functions.png
+```{figure} linear-affine-functions-figure.jpeg
 :name: linear-affine-functions-figure
 :width: 350px
 :align: center
@@ -75,7 +75,7 @@ This is the case if and only if there exists an $\mathbf{a} \in \mathbb{R}^{m \t
 [^1]: Convex sets and convex functions are related via the epigraph (mathematical) which is defined in the epigraph (literary) at the start of chapter 4; a function is convex if and only if its epigraph is a convex set.
 :::
 
-```{figure} convex-functions.png
+```{figure} convex-functions-figure.jpeg
 :name: convex-functions-figure
 :align: center
 Two-dimensional depiction of a convex function (dark purple) and the chord between two points on it (pale purple). A chord (from the Latin chorda, meaning "bowstring") of a circle is a straight line segment whose endpoints both lie on a circular arc.  Axis values are labelled to motivate [Equation 5.3](#convex-functions-equation).

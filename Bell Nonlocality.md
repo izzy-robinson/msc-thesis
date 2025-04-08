@@ -60,7 +60,7 @@ These can be interpreted as saying that Alice's local marginals are independent 
 
 #### Local correlations
 
-A more restrictive condition is locality. Formally, the set of local behaviours is given by
+A more restrictive condition is locality. Local correlations refer to the correlations that can be explained by classical physics, assuming no-signalling (explained above) and realism (i.e. the idea that systems have definite properties before they are measured). This is what I refer to when I later mention local hidden variable (LHV) models. Formally, the set of local behaviours is given by
 
 \begin{equation}
 P(a,b|x,y) = \int d\lambda Q(\lambda) P(a|x,\lambda) P(b|y,\lambda)
@@ -98,7 +98,7 @@ At this point, with much of the formalism under our belt, it is best to jump str
 
 ### The $(2,2,2,2)$ Scenario: CHSH
 
-In correlator form, the CHSH inequality is given by
+Recall that a Bell scenario is defined by the list of inputs per player, and the list of outputs per input; therefore the (2,2,2,2) scenario denotes the Bell scenario with two inputs per player and two outputs per input. The CHSH inequality is derived from the basic assumption of local hidden variables; See @Bell1987 for a full derivation. In correlator form, the CHSH inequality is given by
 
 \begin{equation}
 \label{CHSH-equation}
@@ -120,7 +120,7 @@ With a classical, or LHV, strategy the maximum probability of winning the game i
 3. The result is always identical to the choice for $x$ (i.e. $a=x$).
 4. The result is always different from the choice for $x$ (i.e. $a \neq x$).
 
-Likewise, there are $4$ deterministic processes which might be followed by Bob. This means a total of $4 \times 4 = 16$ combinations of processes for both Alice and Bob. All of these are listed in the table below, where it can be seen that none score more than $3$.
+Likewise, there are $4$ deterministic processes which might be followed by Bob. This means a total of $4 \times 4 = 16$ combinations of processes for both Alice and Bob. All of these are listed in the table below, where it can be seen that none score more than $3$. Probabilistic strategies are simply convex combinations of these deterministic strategies, and therefore cannot score higher than the deterministic strategies themselves.
 
 ```{figure} chsh-scores.JPG
 :name: chsh-scores-figure
@@ -129,7 +129,7 @@ Likewise, there are $4$ deterministic processes which might be followed by Bob. 
 
 #### A quantum strategy
 
-With a quantum strategy, the maximum probablility of winning the game is $\frac{2+\sqrt{2}}{4}$ or $85.4\%$. Violation of the CHSH inequality is achieved through a combination of a maximally entangled quantum state and carefully chosen measurement settings. A typical choice of measurement angles that leads to maximum violation of the CHSH inequality is
+With a quantum strategy, the maximum probablility of winning the game is $\frac{2+\sqrt{2}}{4}$ or $85.4\%$. The strategy for violation of the CHSH inequality is as follows: Alice and Bob prepare a joint maximally entangled state and take one qubit each to their space-like separated locations. They then perform carefully chosen measurements on their part of the state. A typical choice of measurement angles that leads to maximum violation of the CHSH inequality is
 
 
 - $A_1 = 0^\circ = \hat{X}$ 
@@ -147,7 +147,7 @@ The measurement directions used by Alice (x) and Bob (y) in a winning quantum st
 
 ### The $(2,2,d,d)$ Scenario: CGLMP
 
-In probability form, the CGLMP inequality (@Collins2002) is given by
+The CGLMP inequality is a generalisation of the CHSH inequality but for the scenario with two inputs per player and $d$ outputs per input. In probability form, the CGLMP inequality (@Collins2002) is given by
 
 \begin{equation}
 \label{cglmp-equation}
@@ -158,7 +158,7 @@ In probability form, the CGLMP inequality (@Collins2002) is given by
 
 where all subtractions are modulo $3$.[^3]
 
-[^3]: Here and hereafter we use the phrase 'modulo $3$' in the natural (rather than strictly mathematical) sense of circulating through the values $1,2,3$; $3$ modulo $3$ is taken to be $1$ rather than $0$.
+[^3]: Here and hereafter we use the phrase 'modulo $3$' in the natural (rather than strictly mathematical) sense of circulating through the values $1,2,3$; $3$ modulo $3$ is taken to be $1$ rather than $0$. This is not a convention common in the literature - it is simply to account for having chosen the $x$ and $y$ values $1,2,3$ as opposed to the usual $0,1,2$.
 
 #### LHV strategies
 
@@ -190,7 +190,7 @@ where $\ket{1},\ket{2},\ket{3}$ are the standard orthonormal basis states for $\
 p(a,b|x,y) = \frac{1}{54\sin^2[\pi(a-b+\gamma_x+\delta_y)\pi/3]}
 \end{equation}
 
-where $\gamma_1=0$, $\gamma_2=-1/2$, $\delta_1=1/4$ and $\delta_2=-1/4$. The average score that this quantum strategy achieves is $\frac{3+2\sqrt{3}}{9}$. Note that starting with this quantum state surprisingly does not produce the maximal quantum violation of the CGLMP inequality, which is anomalous given that most other tasks are performed optimally using the maximally entangled state.
+where $\gamma_1=0$, $\gamma_2=-1/2$, $\delta_1=1/4$ and $\delta_2=-1/4$. The average score that this quantum strategy achieves is $\frac{3+2\sqrt{3}}{9}$ or $72\%$. Note that starting with this quantum state surprisingly does not produce the maximal quantum violation of the CGLMP inequality, which is anomalous given that most other tasks are performed optimally using the maximally entangled state. The maximal violation is given by a shared qantum state between Alice and Bob that has non-equal weightings of $\ket{1}$, $\ket{2}$ and $\ket{3}$.
 
 ## Experimental Considerations
 
@@ -208,7 +208,7 @@ In real life photonic experiments (as opposed to the theoretical games we discus
 :align: center
 ```
 
-There are several ways to deal with this issue. The first is to simply ignore any rounds in which the photon is lost (i.e. postselect only on occasions in which a response is elicited); however this relies on a fair sampling assumption (i.e. the detected events must accurately represent the full set of statistics which would have been collected had the detectors been 100% efficient). This assumption is well motivated - after all, why should nature conspire against us to cheat on Bell tests? However it is still an assumption worth keeping in mind; to convincingly avoid falling foul of the detection loophole one must force the referee to provide an outcome in every single round of the experiment, even those in which no results are recieved from the players - in such cases the referree should simply make up an answer.
+There are several ways to deal with this issue. The first is to simply ignore any rounds in which the photon is lost (i.e. postselect only on occasions in which a response is elicited); however this relies on a fair sampling assumption (i.e. the detected events must accurately represent the full set of statistics which would have been collected had the detectors been 100% efficient). This assumption is well motivated - after all, why should nature conspire against us to cheat on Bell tests? However it is still an assumption worth keeping in mind because there could be physical factors within the experimental settings which bias the rate of photon loss (e.g. photons with a given polarization may be more likely to get lost in the optical fibre); to convincingly avoid falling foul of the detection loophole one must force the referee to provide an outcome in every single round of the experiment, even those in which no results are recieved from the players - in such cases the referree should simply make up an answer.
 
 - **The Locality Loophole**
 
@@ -222,7 +222,7 @@ P(a|x,y,b,\lambda) = P(a|x,\lambda) \hspace{3mm} , \hspace{3mm} P(b|x,y,a,\lambd
 ```{figure} locality-loophole.PNG
 :name: locality-loophole-figure
 :align: center
-Space-time diagram showing a regime in which the locality loophole (and the meaurement independence loophole) is closed.
+Space-time diagram showing a regime in which the locality loophole (and the meaurement independence loophole) is closed. The triangles stemming from each variable $\lambda$, $x$ and $y$ are their future light cones (i.e. the bounds of their causal futures).
 ```
 
 ```{figure} spaceships.jpg
@@ -242,8 +242,9 @@ A feature of [](#locality-loophole-figure) that we have not yet paid attention t
 q(\lambda|x,y) = q(\lambda).
 \end{equation}
 
- Various methods of choosing suitable inputs have been trialled, from quantum random number generators and fluctuations in radiation emitted by distant stellar objects to letters from the Geneva phone book and timestamps from a TV sitcom. It is impossible to close this loophole completely since superdeterminists could always claim the behaviour of our system is correlated with these sources of information; however such a viewpoint is so conspiratorial as to be ignored. Furthermore, measurement independence is not just an issue for Bell nonlocality - rejecting measurement independence would render most forms of scientific research impracticable; once reasonable precautions have been made, it is typically assumed and rarely questioned (other than in cases of deliberate tampering).
+ Various methods of choosing suitable inputs have been trialled to make it unlikely that the inputs be correlated with the strategy, from quantum random number generators (@Giustina2015) and fluctuations in radiation emitted by distant stellar objects (@Rauch2018) to timestamps from a TV sitcom (@Shalm2018). It is impossible to close this loophole completely since superdeterminists could always claim the behaviour of our system is correlated with these sources of information; however such a viewpoint is so conspiratorial as to be ignored. Furthermore, measurement independence is not just an issue for Bell nonlocality - rejecting measurement independence would render most forms of scientific research impracticable;[^4] once reasonable precautions have been made, it is typically assumed and rarely questioned (other than in cases of deliberate tampering).
  
+[^4]: Suppose you perform a randomized trial to measure the conditional probabilities of a person getting cancer if they do or don't smoke, and the probability of the smoking group becoming ill is high. A tobacco company could object to the obvious conclusion that smoking causes cancer by saying that the genetics of the subjects was correlated with whether or not you forced a person to smoke such that you put more people predisposed to having cancer in the smoking group.
 
 ### Loophole-free Bell Tests
 

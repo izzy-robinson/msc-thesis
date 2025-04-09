@@ -34,13 +34,13 @@ Consider a bipartite Wigner's friend scenario involving two superobservers (Alic
 **Schematic of Bong and Cavalcanti et al.'s EWFS.** Observers (Charlie and Dani) perform **fixed** measurements, the results of which remain inside their respective laboratories. Superobservers (Alice and Bob) choose between **three** different measurement options and their results are knowable outside of the laboratories.
 ```
 
-The observers both measure their half of the entangled pair along a single direction (i.e. there is no choice of measurement settings). Then the superobservers come into play. They each choose between three different measurement settings. If $x=1$ ($y=1$), Alice (Bob) simply opens Charlie's (Dani's) laboratory and directly asks them for their outcome $c$ ($d$), assigning its value to their own outcome $a=c$ ($b=d$). If $x\in\set{2,3}$ ($y\in\set{2,3}$) the superobservers restore their respective observers' laboratories to their previous state and proceed to measure the particle directly along an arbitrary direction. 
+The observers both measure their half of the entangled pair along a single direction (i.e. there is no choice of measurement settings). Then the superobservers come into play. They each choose between three different measurement settings. If $x=1$, Alice simply opens Charlie's laboratory and directly asks them for their outcome $c$, assigning its value to their own outcome $a=c$. Analagously, if $y=1$, Bob simply opens Dani's laboratory and directly asks them for their outcome $d$, assigning its value to their own outcome $b=d$. If $x\in\set{2,3}$ (respectively $y\in\set{2,3}$) the superobservers restore their respective observers' laboratories to their previous state; the observers' measurement is modelled as a CNOT and reversing it is therefore achieved by applying another CNOT. The superobservers proceed to measure the particle directly along an arbitrary direction. 
 
-What statistics are empirically accessible at the end of this process? Unless $x=1$ ($y=1$), the value for $c$ ($d$) is erased when Alice (Bob) performs their measurement, so in general this information is not available. Ultimately, the available values are $a$, $b$, $x$ and $y$; we can therefore measure (as frequencies) the empirical probabilities $\mathcal{P}(a,b|x,y)$.
+What statistics are empirically accessible to the superobservers at the end of this process? Unless $x=1$ ($y=1$), the value for $c$ ($d$) is erased when Alice (Bob) performs their measurement, so in general this information is not available. Ultimately, the available values are $a$, $b$, $x$ and $y$; we can therefore measure (as frequencies) the empirical probabilities $\mathcal{P}(a,b|x,y)$.
 
 ### Local Friendliness Assumptions
 
-Bong et al. listed the following four assumptions which one might reasonably expect a physical theory to obey.
+Bong et al. listed the following four assumptions which the authors believe a physical theory must intuitively obey.
 
 1. **Absoluteness of Observed Events (AOE):** *Observed events are real (i.e. not relative to anything or anyone). Therefore one can jointly assign truth values to propositions regarding the measurement outcomes of different (super)observers.* 
 
@@ -63,6 +63,8 @@ P(b|c,d,x,y=1)&=\delta_{b,d}.
 P(c,d|x,y)=P(cd).
 \end{equation}
 
+Note that this is analagous to the freedom of choice for measurements in Bell's theorem.
+
 3. **No Action at a Distance (NAD):** *Provided the agents are sufficiently space-like separated,[^2] the measurement settings used by one (super)observer do not influence the measurement outcomes obtained by another (super)observer.* In the context of this EWFS, the NAD assumption dictates that the local settings $x$ and $y$ are uncorrelated with the distant outcomes $b$ and $a$ (respectively):
 
 \begin{equation}
@@ -70,11 +72,14 @@ P(b|c,d,x,y)=P(b|c,d,y) \\
 P(a|c,d,x,y)=P(a|c,d,x).
 \end{equation}
 
+Note that this is equivalent to the no-signalling assumption just under a different name.
+
 4. **Universal Validity of Quantum Theory (UVQT):** *Quantum predictions hold true at any scale, regardless of the complexity of the system under consideration (i.e. quantum theory applies to observers).[^3]*
 
 Notice that the outcomes $c,d$ play the same role as the hidden variables $\lambda$ that go into the assumptions for Bell's theorem.
 
-Bong et al. then analysed the EWFS according to these assumptions. Subsequent generation of local friendliness inequalities violable by quantum theory indicates that the conjunction of assumptions $1-4$ is untenable and prompts the proposal of a no-go theorem: at least one of assumptions $1-4$ must be rejected as false. This no-go theorem is technically neutral in the sense that it does not dictate which particular assumption should be denied. However assumptions $2-4$ are extremely well motivated. Rejecting the NC assumption would render most forms of scientific research impracticable; if one cannot examine a system without changing its preparation, one cannot hope to find information about its true state. To permit action at a distance is to deny a key premise of Einstein's theory of special relativity. And quantum theory's domain of validity is widely believed to be unlimited due to its extraordinary success in accurately predicting the results of experiments. In summary, dismissing any of assumptions $2-4$ entails straying from the well-worn path and risking far reaching unattractive consequences. Therefore, quite naturally, Bong, et al. took their theorem to disprove the existence of assumption $1$ i.e. AOE.
+Bong et al. then analysed the EWFS according to these assumptions. Subsequent generation of local friendliness inequalities violable by quantum theory indicates that the conjunction of assumptions $1-4$ is untenable and prompts the proposal of a no-go theorem: at least one of assumptions $1-4$ must be rejected as false. This no-go theorem is technically neutral in the sense that it does not dictate which particular assumption should be denied. However assumptions $2-4$ are extremely well motivated. Rejecting the NC assumption would render most forms of scientific research impracticable; if one cannot examine a system without changing its preparation, one cannot hope to find information about its true state. To permit action at a distance is to deny a key premise of Einstein's theory of special relativity. And (up to its conflict with general relativity at an astronomic scale) quantum theory's domain of validity has not yet been found limited; indeed, it has had extraordinary success in accurately predicting the results of all experiments performed thus far. If we believe that quantum theory breaks down at the scale of a human obsever then this corresponds to accepting an objective collapse model which posits that quantum mechanics breaks down beyond a certain mass or complexity [@Bassi2012] - we do not have any good reason to believe this is the case, however it is in principle experimentally testable so one day it will be clarified. For now, dismissing any of assumptions $2-4$ entails straying from the well-worn path and risking far reaching unattractive consequences. Therefore, quite naturally, Bong, et al. took their theorem to disprove the existence of assumption $1$ i.e. AOE.
+
 
 ### Describing Correlations
 
@@ -92,17 +97,21 @@ Using Bayes' rule again, we can decompose $P(a,b|c,d,x,y)$ in two different ways
 
 \begin{equation}
 \mathcal{P}(a,b|x,y) \overset{Bayes'} =& \sum_{c,d} P(a|b,c,d,x,y) P(b|c,d,x,y) P(c,d) \\
-\overset{NS}=& \sum_{c,d} P(a|b,c,d,x,y) P(b|c,d,x,y) P(c,d) \\
-=& \sum_{c,d} \delta_{a,c} P(B|c,d,y) P(c,d) \textrm{ if x=1.}
+\overset{NS}=& \sum_{c,d} P(a|b,c,d,x) P(b|c,d,y) P(c,d) \\
+=& \sum_{c,d} \delta_{a,c} P(b|c,d,y) P(c,d) \textrm{ if x=1}
 \end{equation}
+
+where the final line is explained by the consistency condition of the AOE assumption when the superobserver simply opens the observer’s laboratory, asks what their outcome was and sets their own result to be equal.
 
 Adopting the other decomposition approach for the final line of Equation $8.5$, we find the following:
 
 \begin{equation}
 \mathcal{P}(a,b|x,y)\overset{Bayes'} =&\sum_{c,d} P(b|a,c,d,x,y) P(a|c,d,x,y) P(c,d) \\
 \overset{NS}=& \sum_{c,d}P(b|a,c,d,y)P(a|c,d,x) P(c,d) \\
-=& \sum_{c,d} \delta_{b,d} P(a|c,d,x) P(c,d) \textrm{ if y=1.}
+=& \sum_{c,d} \delta_{b,d} P(a|c,d,x) P(c,d) \textrm{ if y=1}
 \end{equation}
+
+where the final line is explained by the consistency condition of the AOE assumption when the superobserver simply opens the observer’s laboratory, asks what their outcome was and sets their own result to be equal.
 
 Combining all we have learnt, we obtain the following:
 
@@ -110,7 +119,7 @@ Combining all we have learnt, we obtain the following:
 \mathcal{P}(a,b|x,y) = 
 \begin{cases}
    \sum_{c,d} P(a,b|c,d,x,y) P(c,d)\textrm{ if x,y} \neq \textrm{1.} \\
-   \sum_{c,d} \delta_{a,c} P(B|c,d,y) P(c,d) \textrm{ if x=1.} \\
+   \sum_{c,d} \delta_{a,c} P(b|c,d,y) P(c,d) \textrm{ if x=1.} \\
    \sum_{c,d} \delta_{b,d} P(a|c,d,x) P(c,d) \textrm{ if y=1.}
 \end{cases}
 \end{equation}
@@ -120,6 +129,8 @@ Combining all we have learnt, we obtain the following:
 :align: center
 **Reproduced from [@Bong2020].** Two-dimensional slice of the space of correlations. The solid areas represent different polytopes of correlations. The local deterministic set (green) is a subset of the extended Wigner's friend scenario polytope (orange) which in turn is a subset of the no signalling polytope (purple). The red line represents the boundary of the quantum set which contains the local deterministic polytope and is contained within the no signalling polytope but neither contains nor is contained by the extended Wigner's friend scenario polytope.
 ```
+
+This experiment is interesting because its bounds are different from  the locality bounds of Bell’s inequalities, which means that there could be physical theories that violate Bell inequalities and yet satisfy local friendliness.
 
 ### Local Friendliness Inequalities
 

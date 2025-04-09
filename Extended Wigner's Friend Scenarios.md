@@ -28,7 +28,7 @@ Recall Deutsch's query regarding whether Wigner and his friend's contradictory a
 
 Consider a bipartite Wigner's friend scenario involving two superobservers (Alice and Bob) alongside their respective observers (Charlie and Dani).  The observer's are located inside sealed laboratories, each of which contains one particle from an entangled pair. The superobservers are located outside of these laboratories.
 
-```{figure} bong-cavalcanti-figure.JPG
+```{figure} bong-cavalcanti-figure2.JPG
 :name: bong-cavalcanti-figure
 :align: center
 **Schematic of Bong and Cavalcanti et al.'s EWFS.** Observers (Charlie and Dani) perform **fixed** measurements, the results of which remain inside their respective laboratories. Superobservers (Alice and Bob) choose between **three** different measurement options and their results are knowable outside of the laboratories.

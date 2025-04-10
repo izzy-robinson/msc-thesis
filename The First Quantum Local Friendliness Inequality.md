@@ -29,7 +29,7 @@ In chapter 9, we took a fresh perspective on LF inequalities in which we identif
 :name: QLF-graph-figure
 :width: 400px
 :align: center
-**A reproduction of figure 9.5 with additional information.** In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality).
+**A reproduction of figure 9.5 with additional information.** In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality). The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set) [@Navascues2008]. The hollow pink point represents the maximal quantum violation of LF (as found in the supplemental material of @Bong2020). The filled pink point represents the maximal quantum violation of LF which is not simply a hidden violation of the CHSH inequality between settings $1$ and $2$ (i.e. its nonlocality stems from violating other symmetries of CHSH); we propose this as a new point of interest due to its neat closed form nature. 
 ```
 
 The first step towards finding a bound is to define what precisely is the inequality QLF. It is given by
@@ -304,4 +304,14 @@ We now also require a larger number of constraints to set $Y$ equal to $X$; thes
 
 ## Summary
 
-In this chapter, we have found the first ever quantum LF inequality. We initially tried using the first level of the NPA hierarchy to find an upper bound on QLF, but the bound it provided was not tight. We then moved onto the 1+AB level of the NPA hierarchy which did result in a tight upper bound of $2+2\sqrt{2}$ for QLF. Our proof is based on SOS decompositions of the inequality. Although we won't explore this within the thesis, these SOS decompositions have the potential to be interesting in their own right. In the study of nonlocality, SOS decompositions have found application in the theory of self-testing; roughly speaking, this is questioning to what extent are the quantum state and measurements which maximally violate a Bell inequality unique. Our results raise the possibility that we could do some self testing based upon the theory of LF.
+In this chapter, we have found the first ever quantum LF inequality. Now we have a verified quantum LF inequality, we can begin to explore the tradeoff between LF and quantum - in particular, we can focus on the region which lies outside of the LF set but inside the quantum set without violating CHSH between settings 1 and 2; this marks an extension of the work carried out in the paper by @Bong2020.
+
+```{figure} QLFgraph.JPG
+:name: QLF-graph-figure
+:width: 400px
+:align: center
+**A reproduction of figure 10.1 for summary purposes.** In purple is the tangent to the quantum boundary within the region identified as 'of interest' (i.e. the first quantum LF inequality). The orange line denotes the second level of the NPA hierarchy (i.e. an outer bound for the quantum set) [@Navascues2008]. The opaque orange region denotes the area which liew outside of the LF set but inside the quantum set without violating CHSH between settings 1 and 2.
+```
+
+We initially tried using the first level of the NPA hierarchy to find an upper bound on QLF, but the bound it provided was not tight. We then moved onto the 1+AB level of the NPA hierarchy which did result in a tight upper bound of $2+2\sqrt{2}$ for QLF. Our proof is based on SOS decompositions of the inequality. Although we won't explore this within the thesis, these SOS decompositions have the potential to be interesting in their own right. In the study of nonlocality, SOS decompositions have found application in the theory of self-testing; roughly speaking, this is questioning to what extent are the quantum state and measurements which maximally violate a Bell inequality unique. Our results raise the possibility that we could do some self testing based upon the theory of LF.
+

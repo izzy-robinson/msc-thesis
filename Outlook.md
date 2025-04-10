@@ -25,7 +25,7 @@ Over the course of discovering the results conveyed within this thesis, several 
 
 
 
-- If we are to formalise the method for finding new LF inequalities based on different scenarios there is still work to be done, as the current approach relies non-trivially on trial and error. This may take the form of understanding what exactly is $\gamma$.
+- If we are to formalise the method for finding new LF inequalities based on different scenarios there is still work to be done, as the current approach relies non-trivially on trial and error. This may take the form of understanding what exactly is $\gamma$ (recall that $\gamma$ is the part of LF which is neither the CHSH inequality between settings 1 and 2, nor the reward term isolated in the $(1,1)$ setting).
 
 - It is unclear how we could move to larger more computationally intractable scenarios with our current toolkit as we still rely on being able to enumerate all vertices of the LF polytope. Finding a way to get around this would widen the range of scenarios our technique is applicable to.
 

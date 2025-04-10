@@ -21,4 +21,4 @@ As a result of the geometric approach, we were also able to propose the first ev
 
 Finally, we used our knowledge of the decomposed structure of LF inequalities to construct a new LF inequality based on CGLMP (i.e. for the 3 settings and 3 outcomes scenario). We evaluated the quantum bound on our CGLMP-LF inequality and found the state which achieves this, proving that it is genuinely violable by quantum mechanics.
 
-Overall we have obtained a much deeper understanding of what LF means.
+Overall we have obtained a much deeper understanding of what LF means; in particular, we have seen by observation (and confirmed via constructing a new LF inequality) how LF inequalities decompose into a Bell inequality part and a novel part which can then be investigated in its own right to check whether LF really is just Bell nonlocality in disguise or if it is a genuinely interesting idea. 
